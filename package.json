@@ -1,0 +1,32 @@
+{
+  "name": "iana-tz-data",
+  "version": "0.1.0",
+  "description": "JSON conversion of IANA data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "git-cz"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/decompress": "^4.2.0",
+    "@types/handlebars": "^4.0.36",
+    "@types/node-fetch": "^1.6.7",
+    "csv-string": "^3.1.2",
+    "decompress": "^4.2.0",
+    "decompress-targz": "^4.1.1",
+    "node-fetch": "^2.0.0",
+    "ts-node": "^5.0.1"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^2.1.0",
+    "handlebars": "^4.0.11",
+    "parse-tzdata-coordinate": "^1.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

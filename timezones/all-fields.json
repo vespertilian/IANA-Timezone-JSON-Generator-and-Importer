@@ -1,0 +1,4718 @@
+{
+    "IANAVersion": "2018c",
+    "numberOfZones": 424,
+    "zones": [
+        {
+            "countryCode": "AD",
+            "timezone": "Europe/Andorra",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 42,
+                    "minute": 30
+                }
+            }
+        },
+        {
+            "countryCode": "AE",
+            "timezone": "Asia/Dubai",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 25,
+                    "minute": 18
+                }
+            }
+        },
+        {
+            "countryCode": "AF",
+            "timezone": "Asia/Kabul",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 34,
+                    "minute": 31
+                }
+            }
+        },
+        {
+            "countryCode": "AG",
+            "timezone": "America/Antigua",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 17,
+                    "minute": 3
+                }
+            }
+        },
+        {
+            "countryCode": "AI",
+            "timezone": "America/Anguilla",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 18,
+                    "minute": 12
+                }
+            }
+        },
+        {
+            "countryCode": "AL",
+            "timezone": "Europe/Tirane",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 41,
+                    "minute": 20
+                }
+            }
+        },
+        {
+            "countryCode": "AM",
+            "timezone": "Asia/Yerevan",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 40,
+                    "minute": 11
+                }
+            }
+        },
+        {
+            "countryCode": "AO",
+            "timezone": "Africa/Luanda",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 8,
+                    "minute": 48
+                }
+            }
+        },
+        {
+            "countryCode": "AQ",
+            "timezone": "Antarctica/McMurdo",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 77,
+                    "minute": 50
+                }
+            }
+        },
+        {
+            "countryCode": "AQ",
+            "timezone": "Antarctica/Casey",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 66,
+                    "minute": 17
+                }
+            }
+        },
+        {
+            "countryCode": "AQ",
+            "timezone": "Antarctica/Davis",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 68,
+                    "minute": 35
+                }
+            }
+        },
+        {
+            "countryCode": "AQ",
+            "timezone": "Antarctica/DumontDUrville",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 66,
+                    "minute": 40
+                }
+            }
+        },
+        {
+            "countryCode": "AQ",
+            "timezone": "Antarctica/Mawson",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 67,
+                    "minute": 36
+                }
+            }
+        },
+        {
+            "countryCode": "AQ",
+            "timezone": "Antarctica/Palmer",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 64,
+                    "minute": 48
+                }
+            }
+        },
+        {
+            "countryCode": "AQ",
+            "timezone": "Antarctica/Rothera",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 67,
+                    "minute": 34
+                }
+            }
+        },
+        {
+            "countryCode": "AQ",
+            "timezone": "Antarctica/Syowa",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 69,
+                    "minute": 0,
+                    "second": 22
+                }
+            }
+        },
+        {
+            "countryCode": "AQ",
+            "timezone": "Antarctica/Troll",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 72,
+                    "minute": 0,
+                    "second": 41
+                }
+            }
+        },
+        {
+            "countryCode": "AQ",
+            "timezone": "Antarctica/Vostok",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 78,
+                    "minute": 24
+                }
+            }
+        },
+        {
+            "countryCode": "AR",
+            "timezone": "America/Argentina/Buenos_Aires",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 34,
+                    "minute": 36
+                }
+            }
+        },
+        {
+            "countryCode": "AR",
+            "timezone": "America/Argentina/Cordoba",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 31,
+                    "minute": 24
+                }
+            }
+        },
+        {
+            "countryCode": "AR",
+            "timezone": "America/Argentina/Salta",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 24,
+                    "minute": 47
+                }
+            }
+        },
+        {
+            "countryCode": "AR",
+            "timezone": "America/Argentina/Jujuy",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 24,
+                    "minute": 11
+                }
+            }
+        },
+        {
+            "countryCode": "AR",
+            "timezone": "America/Argentina/Tucuman",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 26,
+                    "minute": 49
+                }
+            }
+        },
+        {
+            "countryCode": "AR",
+            "timezone": "America/Argentina/Catamarca",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 28,
+                    "minute": 28
+                }
+            }
+        },
+        {
+            "countryCode": "AR",
+            "timezone": "America/Argentina/La_Rioja",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 29,
+                    "minute": 26
+                }
+            }
+        },
+        {
+            "countryCode": "AR",
+            "timezone": "America/Argentina/San_Juan",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 31,
+                    "minute": 32
+                }
+            }
+        },
+        {
+            "countryCode": "AR",
+            "timezone": "America/Argentina/Mendoza",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 32,
+                    "minute": 53
+                }
+            }
+        },
+        {
+            "countryCode": "AR",
+            "timezone": "America/Argentina/San_Luis",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 33,
+                    "minute": 19
+                }
+            }
+        },
+        {
+            "countryCode": "AR",
+            "timezone": "America/Argentina/Rio_Gallegos",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 51,
+                    "minute": 38
+                }
+            }
+        },
+        {
+            "countryCode": "AR",
+            "timezone": "America/Argentina/Ushuaia",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 54,
+                    "minute": 48
+                }
+            }
+        },
+        {
+            "countryCode": "AS",
+            "timezone": "Pacific/Pago_Pago",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 14,
+                    "minute": 16
+                }
+            }
+        },
+        {
+            "countryCode": "AT",
+            "timezone": "Europe/Vienna",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 48,
+                    "minute": 13
+                }
+            }
+        },
+        {
+            "countryCode": "AU",
+            "timezone": "Australia/Lord_Howe",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 31,
+                    "minute": 33
+                }
+            }
+        },
+        {
+            "countryCode": "AU",
+            "timezone": "Antarctica/Macquarie",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 54,
+                    "minute": 30
+                }
+            }
+        },
+        {
+            "countryCode": "AU",
+            "timezone": "Australia/Hobart",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 42,
+                    "minute": 53
+                }
+            }
+        },
+        {
+            "countryCode": "AU",
+            "timezone": "Australia/Currie",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 39,
+                    "minute": 56
+                }
+            }
+        },
+        {
+            "countryCode": "AU",
+            "timezone": "Australia/Melbourne",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 37,
+                    "minute": 49
+                }
+            }
+        },
+        {
+            "countryCode": "AU",
+            "timezone": "Australia/Sydney",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 33,
+                    "minute": 52
+                }
+            }
+        },
+        {
+            "countryCode": "AU",
+            "timezone": "Australia/Broken_Hill",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 31,
+                    "minute": 57
+                }
+            }
+        },
+        {
+            "countryCode": "AU",
+            "timezone": "Australia/Brisbane",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 27,
+                    "minute": 28
+                }
+            }
+        },
+        {
+            "countryCode": "AU",
+            "timezone": "Australia/Lindeman",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 20,
+                    "minute": 16
+                }
+            }
+        },
+        {
+            "countryCode": "AU",
+            "timezone": "Australia/Adelaide",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 34,
+                    "minute": 55
+                }
+            }
+        },
+        {
+            "countryCode": "AU",
+            "timezone": "Australia/Darwin",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 12,
+                    "minute": 28
+                }
+            }
+        },
+        {
+            "countryCode": "AU",
+            "timezone": "Australia/Perth",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 31,
+                    "minute": 57
+                }
+            }
+        },
+        {
+            "countryCode": "AU",
+            "timezone": "Australia/Eucla",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 31,
+                    "minute": 43
+                }
+            }
+        },
+        {
+            "countryCode": "AW",
+            "timezone": "America/Aruba",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 12,
+                    "minute": 30
+                }
+            }
+        },
+        {
+            "countryCode": "AX",
+            "timezone": "Europe/Mariehamn",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 60,
+                    "minute": 6
+                }
+            }
+        },
+        {
+            "countryCode": "AZ",
+            "timezone": "Asia/Baku",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 40,
+                    "minute": 23
+                }
+            }
+        },
+        {
+            "countryCode": "BA",
+            "timezone": "Europe/Sarajevo",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 43,
+                    "minute": 52
+                }
+            }
+        },
+        {
+            "countryCode": "BB",
+            "timezone": "America/Barbados",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 13,
+                    "minute": 6
+                }
+            }
+        },
+        {
+            "countryCode": "BD",
+            "timezone": "Asia/Dhaka",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 23,
+                    "minute": 43
+                }
+            }
+        },
+        {
+            "countryCode": "BE",
+            "timezone": "Europe/Brussels",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 50,
+                    "minute": 50
+                }
+            }
+        },
+        {
+            "countryCode": "BF",
+            "timezone": "Africa/Ouagadougou",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 12,
+                    "minute": 22
+                }
+            }
+        },
+        {
+            "countryCode": "BG",
+            "timezone": "Europe/Sofia",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 42,
+                    "minute": 41
+                }
+            }
+        },
+        {
+            "countryCode": "BH",
+            "timezone": "Asia/Bahrain",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 26,
+                    "minute": 23
+                }
+            }
+        },
+        {
+            "countryCode": "BI",
+            "timezone": "Africa/Bujumbura",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 3,
+                    "minute": 23
+                }
+            }
+        },
+        {
+            "countryCode": "BJ",
+            "timezone": "Africa/Porto-Novo",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 6,
+                    "minute": 29
+                }
+            }
+        },
+        {
+            "countryCode": "BL",
+            "timezone": "America/St_Barthelemy",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 17,
+                    "minute": 53
+                }
+            }
+        },
+        {
+            "countryCode": "BM",
+            "timezone": "Atlantic/Bermuda",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 32,
+                    "minute": 17
+                }
+            }
+        },
+        {
+            "countryCode": "BN",
+            "timezone": "Asia/Brunei",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 4,
+                    "minute": 56
+                }
+            }
+        },
+        {
+            "countryCode": "BO",
+            "timezone": "America/La_Paz",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 16,
+                    "minute": 30
+                }
+            }
+        },
+        {
+            "countryCode": "BQ",
+            "timezone": "America/Kralendijk",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 12,
+                    "minute": 9,
+                    "second": 3
+                }
+            }
+        },
+        {
+            "countryCode": "BR",
+            "timezone": "America/Noronha",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 3,
+                    "minute": 51
+                }
+            }
+        },
+        {
+            "countryCode": "BR",
+            "timezone": "America/Belem",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 1,
+                    "minute": 27
+                }
+            }
+        },
+        {
+            "countryCode": "BR",
+            "timezone": "America/Fortaleza",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 3,
+                    "minute": 43
+                }
+            }
+        },
+        {
+            "countryCode": "BR",
+            "timezone": "America/Recife",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 8,
+                    "minute": 3
+                }
+            }
+        },
+        {
+            "countryCode": "BR",
+            "timezone": "America/Araguaina",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 7,
+                    "minute": 12
+                }
+            }
+        },
+        {
+            "countryCode": "BR",
+            "timezone": "America/Maceio",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 9,
+                    "minute": 40
+                }
+            }
+        },
+        {
+            "countryCode": "BR",
+            "timezone": "America/Bahia",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 12,
+                    "minute": 59
+                }
+            }
+        },
+        {
+            "countryCode": "BR",
+            "timezone": "America/Sao_Paulo",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 23,
+                    "minute": 32
+                }
+            }
+        },
+        {
+            "countryCode": "BR",
+            "timezone": "America/Campo_Grande",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 20,
+                    "minute": 27
+                }
+            }
+        },
+        {
+            "countryCode": "BR",
+            "timezone": "America/Cuiaba",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 15,
+                    "minute": 35
+                }
+            }
+        },
+        {
+            "countryCode": "BR",
+            "timezone": "America/Santarem",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 2,
+                    "minute": 26
+                }
+            }
+        },
+        {
+            "countryCode": "BR",
+            "timezone": "America/Porto_Velho",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 8,
+                    "minute": 46
+                }
+            }
+        },
+        {
+            "countryCode": "BR",
+            "timezone": "America/Boa_Vista",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 2,
+                    "minute": 49
+                }
+            }
+        },
+        {
+            "countryCode": "BR",
+            "timezone": "America/Manaus",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 3,
+                    "minute": 8
+                }
+            }
+        },
+        {
+            "countryCode": "BR",
+            "timezone": "America/Eirunepe",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 6,
+                    "minute": 40
+                }
+            }
+        },
+        {
+            "countryCode": "BR",
+            "timezone": "America/Rio_Branco",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 9,
+                    "minute": 58
+                }
+            }
+        },
+        {
+            "countryCode": "BS",
+            "timezone": "America/Nassau",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 25,
+                    "minute": 5
+                }
+            }
+        },
+        {
+            "countryCode": "BT",
+            "timezone": "Asia/Thimphu",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 27,
+                    "minute": 28
+                }
+            }
+        },
+        {
+            "countryCode": "BW",
+            "timezone": "Africa/Gaborone",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 24,
+                    "minute": 39
+                }
+            }
+        },
+        {
+            "countryCode": "BY",
+            "timezone": "Europe/Minsk",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 53,
+                    "minute": 54
+                }
+            }
+        },
+        {
+            "countryCode": "BZ",
+            "timezone": "America/Belize",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 17,
+                    "minute": 30
+                }
+            }
+        },
+        {
+            "countryCode": "CA",
+            "timezone": "America/St_Johns",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 47,
+                    "minute": 34
+                }
+            }
+        },
+        {
+            "countryCode": "CA",
+            "timezone": "America/Halifax",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 44,
+                    "minute": 39
+                }
+            }
+        },
+        {
+            "countryCode": "CA",
+            "timezone": "America/Glace_Bay",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 46,
+                    "minute": 12
+                }
+            }
+        },
+        {
+            "countryCode": "CA",
+            "timezone": "America/Moncton",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 46,
+                    "minute": 6
+                }
+            }
+        },
+        {
+            "countryCode": "CA",
+            "timezone": "America/Goose_Bay",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 53,
+                    "minute": 20
+                }
+            }
+        },
+        {
+            "countryCode": "CA",
+            "timezone": "America/Blanc-Sablon",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 51,
+                    "minute": 25
+                }
+            }
+        },
+        {
+            "countryCode": "CA",
+            "timezone": "America/Toronto",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 43,
+                    "minute": 39
+                }
+            }
+        },
+        {
+            "countryCode": "CA",
+            "timezone": "America/Nipigon",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 49,
+                    "minute": 1
+                }
+            }
+        },
+        {
+            "countryCode": "CA",
+            "timezone": "America/Thunder_Bay",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 48,
+                    "minute": 23
+                }
+            }
+        },
+        {
+            "countryCode": "CA",
+            "timezone": "America/Iqaluit",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 63,
+                    "minute": 44
+                }
+            }
+        },
+        {
+            "countryCode": "CA",
+            "timezone": "America/Pangnirtung",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 66,
+                    "minute": 8
+                }
+            }
+        },
+        {
+            "countryCode": "CA",
+            "timezone": "America/Atikokan",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 48,
+                    "minute": 45,
+                    "second": 31
+                }
+            }
+        },
+        {
+            "countryCode": "CA",
+            "timezone": "America/Winnipeg",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 49,
+                    "minute": 53
+                }
+            }
+        },
+        {
+            "countryCode": "CA",
+            "timezone": "America/Rainy_River",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 48,
+                    "minute": 43
+                }
+            }
+        },
+        {
+            "countryCode": "CA",
+            "timezone": "America/Resolute",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 74,
+                    "minute": 41,
+                    "second": 44
+                }
+            }
+        },
+        {
+            "countryCode": "CA",
+            "timezone": "America/Rankin_Inlet",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 62,
+                    "minute": 49
+                }
+            }
+        },
+        {
+            "countryCode": "CA",
+            "timezone": "America/Regina",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 50,
+                    "minute": 24
+                }
+            }
+        },
+        {
+            "countryCode": "CA",
+            "timezone": "America/Swift_Current",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 50,
+                    "minute": 17
+                }
+            }
+        },
+        {
+            "countryCode": "CA",
+            "timezone": "America/Edmonton",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 53,
+                    "minute": 33
+                }
+            }
+        },
+        {
+            "countryCode": "CA",
+            "timezone": "America/Cambridge_Bay",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 69,
+                    "minute": 6,
+                    "second": 50
+                }
+            }
+        },
+        {
+            "countryCode": "CA",
+            "timezone": "America/Yellowknife",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 62,
+                    "minute": 27
+                }
+            }
+        },
+        {
+            "countryCode": "CA",
+            "timezone": "America/Inuvik",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 68,
+                    "minute": 20,
+                    "second": 59
+                }
+            }
+        },
+        {
+            "countryCode": "CA",
+            "timezone": "America/Creston",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 49,
+                    "minute": 6
+                }
+            }
+        },
+        {
+            "countryCode": "CA",
+            "timezone": "America/Dawson_Creek",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 59,
+                    "minute": 46
+                }
+            }
+        },
+        {
+            "countryCode": "CA",
+            "timezone": "America/Fort_Nelson",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 58,
+                    "minute": 48
+                }
+            }
+        },
+        {
+            "countryCode": "CA",
+            "timezone": "America/Vancouver",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 49,
+                    "minute": 16
+                }
+            }
+        },
+        {
+            "countryCode": "CA",
+            "timezone": "America/Whitehorse",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 60,
+                    "minute": 43
+                }
+            }
+        },
+        {
+            "countryCode": "CA",
+            "timezone": "America/Dawson",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 64,
+                    "minute": 4
+                }
+            }
+        },
+        {
+            "countryCode": "CC",
+            "timezone": "Indian/Cocos",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 12,
+                    "minute": 10
+                }
+            }
+        },
+        {
+            "countryCode": "CD",
+            "timezone": "Africa/Kinshasa",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 4,
+                    "minute": 18
+                }
+            }
+        },
+        {
+            "countryCode": "CD",
+            "timezone": "Africa/Lubumbashi",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 11,
+                    "minute": 40
+                }
+            }
+        },
+        {
+            "countryCode": "CF",
+            "timezone": "Africa/Bangui",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 4,
+                    "minute": 22
+                }
+            }
+        },
+        {
+            "countryCode": "CG",
+            "timezone": "Africa/Brazzaville",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 4,
+                    "minute": 16
+                }
+            }
+        },
+        {
+            "countryCode": "CH",
+            "timezone": "Europe/Zurich",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 47,
+                    "minute": 23
+                }
+            }
+        },
+        {
+            "countryCode": "CI",
+            "timezone": "Africa/Abidjan",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 5,
+                    "minute": 19
+                }
+            }
+        },
+        {
+            "countryCode": "CK",
+            "timezone": "Pacific/Rarotonga",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 21,
+                    "minute": 14
+                }
+            }
+        },
+        {
+            "countryCode": "CL",
+            "timezone": "America/Santiago",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 33,
+                    "minute": 27
+                }
+            }
+        },
+        {
+            "countryCode": "CL",
+            "timezone": "America/Punta_Arenas",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 53,
+                    "minute": 9
+                }
+            }
+        },
+        {
+            "countryCode": "CL",
+            "timezone": "Pacific/Easter",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 27,
+                    "minute": 9
+                }
+            }
+        },
+        {
+            "countryCode": "CM",
+            "timezone": "Africa/Douala",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 4,
+                    "minute": 3
+                }
+            }
+        },
+        {
+            "countryCode": "CN",
+            "timezone": "Asia/Shanghai",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 31,
+                    "minute": 14
+                }
+            }
+        },
+        {
+            "countryCode": "CN",
+            "timezone": "Asia/Urumqi",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 43,
+                    "minute": 48
+                }
+            }
+        },
+        {
+            "countryCode": "CO",
+            "timezone": "America/Bogota",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 4,
+                    "minute": 36
+                }
+            }
+        },
+        {
+            "countryCode": "CR",
+            "timezone": "America/Costa_Rica",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 9,
+                    "minute": 56
+                }
+            }
+        },
+        {
+            "countryCode": "CU",
+            "timezone": "America/Havana",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 23,
+                    "minute": 8
+                }
+            }
+        },
+        {
+            "countryCode": "CV",
+            "timezone": "Atlantic/Cape_Verde",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 14,
+                    "minute": 55
+                }
+            }
+        },
+        {
+            "countryCode": "CW",
+            "timezone": "America/Curacao",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 12,
+                    "minute": 11
+                }
+            }
+        },
+        {
+            "countryCode": "CX",
+            "timezone": "Indian/Christmas",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 10,
+                    "minute": 25
+                }
+            }
+        },
+        {
+            "countryCode": "CY",
+            "timezone": "Asia/Nicosia",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 35,
+                    "minute": 10
+                }
+            }
+        },
+        {
+            "countryCode": "CY",
+            "timezone": "Asia/Famagusta",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 35,
+                    "minute": 7
+                }
+            }
+        },
+        {
+            "countryCode": "CZ",
+            "timezone": "Europe/Prague",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 50,
+                    "minute": 5
+                }
+            }
+        },
+        {
+            "countryCode": "DE",
+            "timezone": "Europe/Berlin",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 52,
+                    "minute": 30
+                }
+            }
+        },
+        {
+            "countryCode": "DE",
+            "timezone": "Europe/Busingen",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 47,
+                    "minute": 42
+                }
+            }
+        },
+        {
+            "countryCode": "DJ",
+            "timezone": "Africa/Djibouti",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 11,
+                    "minute": 36
+                }
+            }
+        },
+        {
+            "countryCode": "DK",
+            "timezone": "Europe/Copenhagen",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 55,
+                    "minute": 40
+                }
+            }
+        },
+        {
+            "countryCode": "DM",
+            "timezone": "America/Dominica",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 15,
+                    "minute": 18
+                }
+            }
+        },
+        {
+            "countryCode": "DO",
+            "timezone": "America/Santo_Domingo",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 18,
+                    "minute": 28
+                }
+            }
+        },
+        {
+            "countryCode": "DZ",
+            "timezone": "Africa/Algiers",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 36,
+                    "minute": 47
+                }
+            }
+        },
+        {
+            "countryCode": "EC",
+            "timezone": "America/Guayaquil",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 2,
+                    "minute": 10
+                }
+            }
+        },
+        {
+            "countryCode": "EC",
+            "timezone": "Pacific/Galapagos",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 0,
+                    "minute": 54
+                }
+            }
+        },
+        {
+            "countryCode": "EE",
+            "timezone": "Europe/Tallinn",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 59,
+                    "minute": 25
+                }
+            }
+        },
+        {
+            "countryCode": "EG",
+            "timezone": "Africa/Cairo",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 30,
+                    "minute": 3
+                }
+            }
+        },
+        {
+            "countryCode": "EH",
+            "timezone": "Africa/El_Aaiun",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 27,
+                    "minute": 9
+                }
+            }
+        },
+        {
+            "countryCode": "ER",
+            "timezone": "Africa/Asmara",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 15,
+                    "minute": 20
+                }
+            }
+        },
+        {
+            "countryCode": "ES",
+            "timezone": "Europe/Madrid",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 40,
+                    "minute": 24
+                }
+            }
+        },
+        {
+            "countryCode": "ES",
+            "timezone": "Africa/Ceuta",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 35,
+                    "minute": 53
+                }
+            }
+        },
+        {
+            "countryCode": "ES",
+            "timezone": "Atlantic/Canary",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 28,
+                    "minute": 6
+                }
+            }
+        },
+        {
+            "countryCode": "ET",
+            "timezone": "Africa/Addis_Ababa",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 9,
+                    "minute": 2
+                }
+            }
+        },
+        {
+            "countryCode": "FI",
+            "timezone": "Europe/Helsinki",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 60,
+                    "minute": 10
+                }
+            }
+        },
+        {
+            "countryCode": "FJ",
+            "timezone": "Pacific/Fiji",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 18,
+                    "minute": 8
+                }
+            }
+        },
+        {
+            "countryCode": "FK",
+            "timezone": "Atlantic/Stanley",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 51,
+                    "minute": 42
+                }
+            }
+        },
+        {
+            "countryCode": "FM",
+            "timezone": "Pacific/Chuuk",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 7,
+                    "minute": 25
+                }
+            }
+        },
+        {
+            "countryCode": "FM",
+            "timezone": "Pacific/Pohnpei",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 6,
+                    "minute": 58
+                }
+            }
+        },
+        {
+            "countryCode": "FM",
+            "timezone": "Pacific/Kosrae",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 5,
+                    "minute": 19
+                }
+            }
+        },
+        {
+            "countryCode": "FO",
+            "timezone": "Atlantic/Faroe",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 62,
+                    "minute": 1
+                }
+            }
+        },
+        {
+            "countryCode": "FR",
+            "timezone": "Europe/Paris",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 48,
+                    "minute": 52
+                }
+            }
+        },
+        {
+            "countryCode": "GA",
+            "timezone": "Africa/Libreville",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 0,
+                    "minute": 23
+                }
+            }
+        },
+        {
+            "countryCode": "GB",
+            "timezone": "Europe/London",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 51,
+                    "minute": 30,
+                    "second": 30
+                }
+            }
+        },
+        {
+            "countryCode": "GD",
+            "timezone": "America/Grenada",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 12,
+                    "minute": 3
+                }
+            }
+        },
+        {
+            "countryCode": "GE",
+            "timezone": "Asia/Tbilisi",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 41,
+                    "minute": 43
+                }
+            }
+        },
+        {
+            "countryCode": "GF",
+            "timezone": "America/Cayenne",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 4,
+                    "minute": 56
+                }
+            }
+        },
+        {
+            "countryCode": "GG",
+            "timezone": "Europe/Guernsey",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 49,
+                    "minute": 27,
+                    "second": 17
+                }
+            }
+        },
+        {
+            "countryCode": "GH",
+            "timezone": "Africa/Accra",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 5,
+                    "minute": 33
+                }
+            }
+        },
+        {
+            "countryCode": "GI",
+            "timezone": "Europe/Gibraltar",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 36,
+                    "minute": 8
+                }
+            }
+        },
+        {
+            "countryCode": "GL",
+            "timezone": "America/Godthab",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 64,
+                    "minute": 11
+                }
+            }
+        },
+        {
+            "countryCode": "GL",
+            "timezone": "America/Danmarkshavn",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 76,
+                    "minute": 46
+                }
+            }
+        },
+        {
+            "countryCode": "GL",
+            "timezone": "America/Scoresbysund",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 70,
+                    "minute": 29
+                }
+            }
+        },
+        {
+            "countryCode": "GL",
+            "timezone": "America/Thule",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 76,
+                    "minute": 34
+                }
+            }
+        },
+        {
+            "countryCode": "GM",
+            "timezone": "Africa/Banjul",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 13,
+                    "minute": 28
+                }
+            }
+        },
+        {
+            "countryCode": "GN",
+            "timezone": "Africa/Conakry",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 9,
+                    "minute": 31
+                }
+            }
+        },
+        {
+            "countryCode": "GP",
+            "timezone": "America/Guadeloupe",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 16,
+                    "minute": 14
+                }
+            }
+        },
+        {
+            "countryCode": "GQ",
+            "timezone": "Africa/Malabo",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 3,
+                    "minute": 45
+                }
+            }
+        },
+        {
+            "countryCode": "GR",
+            "timezone": "Europe/Athens",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 37,
+                    "minute": 58
+                }
+            }
+        },
+        {
+            "countryCode": "GS",
+            "timezone": "Atlantic/South_Georgia",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 54,
+                    "minute": 16
+                }
+            }
+        },
+        {
+            "countryCode": "GT",
+            "timezone": "America/Guatemala",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 14,
+                    "minute": 38
+                }
+            }
+        },
+        {
+            "countryCode": "GU",
+            "timezone": "Pacific/Guam",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 13,
+                    "minute": 28
+                }
+            }
+        },
+        {
+            "countryCode": "GW",
+            "timezone": "Africa/Bissau",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 11,
+                    "minute": 51
+                }
+            }
+        },
+        {
+            "countryCode": "GY",
+            "timezone": "America/Guyana",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 6,
+                    "minute": 48
+                }
+            }
+        },
+        {
+            "countryCode": "HK",
+            "timezone": "Asia/Hong_Kong",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 22,
+                    "minute": 17
+                }
+            }
+        },
+        {
+            "countryCode": "HN",
+            "timezone": "America/Tegucigalpa",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 14,
+                    "minute": 6
+                }
+            }
+        },
+        {
+            "countryCode": "HR",
+            "timezone": "Europe/Zagreb",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 45,
+                    "minute": 48
+                }
+            }
+        },
+        {
+            "countryCode": "HT",
+            "timezone": "America/Port-au-Prince",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 18,
+                    "minute": 32
+                }
+            }
+        },
+        {
+            "countryCode": "HU",
+            "timezone": "Europe/Budapest",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 47,
+                    "minute": 30
+                }
+            }
+        },
+        {
+            "countryCode": "ID",
+            "timezone": "Asia/Jakarta",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 6,
+                    "minute": 10
+                }
+            }
+        },
+        {
+            "countryCode": "ID",
+            "timezone": "Asia/Pontianak",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 0,
+                    "minute": 2
+                }
+            }
+        },
+        {
+            "countryCode": "ID",
+            "timezone": "Asia/Makassar",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 5,
+                    "minute": 7
+                }
+            }
+        },
+        {
+            "countryCode": "ID",
+            "timezone": "Asia/Jayapura",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 2,
+                    "minute": 32
+                }
+            }
+        },
+        {
+            "countryCode": "IE",
+            "timezone": "Europe/Dublin",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 53,
+                    "minute": 20
+                }
+            }
+        },
+        {
+            "countryCode": "IL",
+            "timezone": "Asia/Jerusalem",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 31,
+                    "minute": 46,
+                    "second": 50
+                }
+            }
+        },
+        {
+            "countryCode": "IM",
+            "timezone": "Europe/Isle_of_Man",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 54,
+                    "minute": 9
+                }
+            }
+        },
+        {
+            "countryCode": "IN",
+            "timezone": "Asia/Kolkata",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 22,
+                    "minute": 32
+                }
+            }
+        },
+        {
+            "countryCode": "IO",
+            "timezone": "Indian/Chagos",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 7,
+                    "minute": 20
+                }
+            }
+        },
+        {
+            "countryCode": "IQ",
+            "timezone": "Asia/Baghdad",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 33,
+                    "minute": 21
+                }
+            }
+        },
+        {
+            "countryCode": "IR",
+            "timezone": "Asia/Tehran",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 35,
+                    "minute": 40
+                }
+            }
+        },
+        {
+            "countryCode": "IS",
+            "timezone": "Atlantic/Reykjavik",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 64,
+                    "minute": 9
+                }
+            }
+        },
+        {
+            "countryCode": "IT",
+            "timezone": "Europe/Rome",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 41,
+                    "minute": 54
+                }
+            }
+        },
+        {
+            "countryCode": "JE",
+            "timezone": "Europe/Jersey",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 49,
+                    "minute": 11,
+                    "second": 1
+                }
+            }
+        },
+        {
+            "countryCode": "JM",
+            "timezone": "America/Jamaica",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 17,
+                    "minute": 58,
+                    "second": 5
+                }
+            }
+        },
+        {
+            "countryCode": "JO",
+            "timezone": "Asia/Amman",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 31,
+                    "minute": 57
+                }
+            }
+        },
+        {
+            "countryCode": "JP",
+            "timezone": "Asia/Tokyo",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 35,
+                    "minute": 39,
+                    "second": 16
+                }
+            }
+        },
+        {
+            "countryCode": "KE",
+            "timezone": "Africa/Nairobi",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 1,
+                    "minute": 17
+                }
+            }
+        },
+        {
+            "countryCode": "KG",
+            "timezone": "Asia/Bishkek",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 42,
+                    "minute": 54
+                }
+            }
+        },
+        {
+            "countryCode": "KH",
+            "timezone": "Asia/Phnom_Penh",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 11,
+                    "minute": 33
+                }
+            }
+        },
+        {
+            "countryCode": "KI",
+            "timezone": "Pacific/Tarawa",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 1,
+                    "minute": 25
+                }
+            }
+        },
+        {
+            "countryCode": "KI",
+            "timezone": "Pacific/Enderbury",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 3,
+                    "minute": 8
+                }
+            }
+        },
+        {
+            "countryCode": "KI",
+            "timezone": "Pacific/Kiritimati",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 1,
+                    "minute": 52
+                }
+            }
+        },
+        {
+            "countryCode": "KM",
+            "timezone": "Indian/Comoro",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 11,
+                    "minute": 41
+                }
+            }
+        },
+        {
+            "countryCode": "KN",
+            "timezone": "America/St_Kitts",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 17,
+                    "minute": 18
+                }
+            }
+        },
+        {
+            "countryCode": "KP",
+            "timezone": "Asia/Pyongyang",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 39,
+                    "minute": 1
+                }
+            }
+        },
+        {
+            "countryCode": "KR",
+            "timezone": "Asia/Seoul",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 37,
+                    "minute": 33
+                }
+            }
+        },
+        {
+            "countryCode": "KW",
+            "timezone": "Asia/Kuwait",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 29,
+                    "minute": 20
+                }
+            }
+        },
+        {
+            "countryCode": "KY",
+            "timezone": "America/Cayman",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 19,
+                    "minute": 18
+                }
+            }
+        },
+        {
+            "countryCode": "KZ",
+            "timezone": "Asia/Almaty",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 43,
+                    "minute": 15
+                }
+            }
+        },
+        {
+            "countryCode": "KZ",
+            "timezone": "Asia/Qyzylorda",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 44,
+                    "minute": 48
+                }
+            }
+        },
+        {
+            "countryCode": "KZ",
+            "timezone": "Asia/Aqtobe",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 50,
+                    "minute": 17
+                }
+            }
+        },
+        {
+            "countryCode": "KZ",
+            "timezone": "Asia/Aqtau",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 44,
+                    "minute": 31
+                }
+            }
+        },
+        {
+            "countryCode": "KZ",
+            "timezone": "Asia/Atyrau",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 47,
+                    "minute": 7
+                }
+            }
+        },
+        {
+            "countryCode": "KZ",
+            "timezone": "Asia/Oral",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 51,
+                    "minute": 13
+                }
+            }
+        },
+        {
+            "countryCode": "LA",
+            "timezone": "Asia/Vientiane",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 17,
+                    "minute": 58
+                }
+            }
+        },
+        {
+            "countryCode": "LB",
+            "timezone": "Asia/Beirut",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 33,
+                    "minute": 53
+                }
+            }
+        },
+        {
+            "countryCode": "LC",
+            "timezone": "America/St_Lucia",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 14,
+                    "minute": 1
+                }
+            }
+        },
+        {
+            "countryCode": "LI",
+            "timezone": "Europe/Vaduz",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 47,
+                    "minute": 9
+                }
+            }
+        },
+        {
+            "countryCode": "LK",
+            "timezone": "Asia/Colombo",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 6,
+                    "minute": 56
+                }
+            }
+        },
+        {
+            "countryCode": "LR",
+            "timezone": "Africa/Monrovia",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 6,
+                    "minute": 18
+                }
+            }
+        },
+        {
+            "countryCode": "LS",
+            "timezone": "Africa/Maseru",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 29,
+                    "minute": 28
+                }
+            }
+        },
+        {
+            "countryCode": "LT",
+            "timezone": "Europe/Vilnius",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 54,
+                    "minute": 41
+                }
+            }
+        },
+        {
+            "countryCode": "LU",
+            "timezone": "Europe/Luxembourg",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 49,
+                    "minute": 36
+                }
+            }
+        },
+        {
+            "countryCode": "LV",
+            "timezone": "Europe/Riga",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 56,
+                    "minute": 57
+                }
+            }
+        },
+        {
+            "countryCode": "LY",
+            "timezone": "Africa/Tripoli",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 32,
+                    "minute": 54
+                }
+            }
+        },
+        {
+            "countryCode": "MA",
+            "timezone": "Africa/Casablanca",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 33,
+                    "minute": 39
+                }
+            }
+        },
+        {
+            "countryCode": "MC",
+            "timezone": "Europe/Monaco",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 43,
+                    "minute": 42
+                }
+            }
+        },
+        {
+            "countryCode": "MD",
+            "timezone": "Europe/Chisinau",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 47,
+                    "minute": 0
+                }
+            }
+        },
+        {
+            "countryCode": "ME",
+            "timezone": "Europe/Podgorica",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 42,
+                    "minute": 26
+                }
+            }
+        },
+        {
+            "countryCode": "MF",
+            "timezone": "America/Marigot",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 18,
+                    "minute": 4
+                }
+            }
+        },
+        {
+            "countryCode": "MG",
+            "timezone": "Indian/Antananarivo",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 18,
+                    "minute": 55
+                }
+            }
+        },
+        {
+            "countryCode": "MH",
+            "timezone": "Pacific/Majuro",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 7,
+                    "minute": 9
+                }
+            }
+        },
+        {
+            "countryCode": "MH",
+            "timezone": "Pacific/Kwajalein",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 9,
+                    "minute": 5
+                }
+            }
+        },
+        {
+            "countryCode": "MK",
+            "timezone": "Europe/Skopje",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 41,
+                    "minute": 59
+                }
+            }
+        },
+        {
+            "countryCode": "ML",
+            "timezone": "Africa/Bamako",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 12,
+                    "minute": 39
+                }
+            }
+        },
+        {
+            "countryCode": "MM",
+            "timezone": "Asia/Yangon",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 16,
+                    "minute": 47
+                }
+            }
+        },
+        {
+            "countryCode": "MN",
+            "timezone": "Asia/Ulaanbaatar",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 47,
+                    "minute": 55
+                }
+            }
+        },
+        {
+            "countryCode": "MN",
+            "timezone": "Asia/Hovd",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 48,
+                    "minute": 1
+                }
+            }
+        },
+        {
+            "countryCode": "MN",
+            "timezone": "Asia/Choibalsan",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 48,
+                    "minute": 4
+                }
+            }
+        },
+        {
+            "countryCode": "MO",
+            "timezone": "Asia/Macau",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 22,
+                    "minute": 14
+                }
+            }
+        },
+        {
+            "countryCode": "MP",
+            "timezone": "Pacific/Saipan",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 15,
+                    "minute": 12
+                }
+            }
+        },
+        {
+            "countryCode": "MQ",
+            "timezone": "America/Martinique",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 14,
+                    "minute": 36
+                }
+            }
+        },
+        {
+            "countryCode": "MR",
+            "timezone": "Africa/Nouakchott",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 18,
+                    "minute": 6
+                }
+            }
+        },
+        {
+            "countryCode": "MS",
+            "timezone": "America/Montserrat",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 16,
+                    "minute": 43
+                }
+            }
+        },
+        {
+            "countryCode": "MT",
+            "timezone": "Europe/Malta",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 35,
+                    "minute": 54
+                }
+            }
+        },
+        {
+            "countryCode": "MU",
+            "timezone": "Indian/Mauritius",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 20,
+                    "minute": 10
+                }
+            }
+        },
+        {
+            "countryCode": "MV",
+            "timezone": "Indian/Maldives",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 4,
+                    "minute": 10
+                }
+            }
+        },
+        {
+            "countryCode": "MW",
+            "timezone": "Africa/Blantyre",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 15,
+                    "minute": 47
+                }
+            }
+        },
+        {
+            "countryCode": "MX",
+            "timezone": "America/Mexico_City",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 19,
+                    "minute": 24
+                }
+            }
+        },
+        {
+            "countryCode": "MX",
+            "timezone": "America/Cancun",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 21,
+                    "minute": 5
+                }
+            }
+        },
+        {
+            "countryCode": "MX",
+            "timezone": "America/Merida",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 20,
+                    "minute": 58
+                }
+            }
+        },
+        {
+            "countryCode": "MX",
+            "timezone": "America/Monterrey",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 25,
+                    "minute": 40
+                }
+            }
+        },
+        {
+            "countryCode": "MX",
+            "timezone": "America/Matamoros",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 25,
+                    "minute": 50
+                }
+            }
+        },
+        {
+            "countryCode": "MX",
+            "timezone": "America/Mazatlan",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 23,
+                    "minute": 13
+                }
+            }
+        },
+        {
+            "countryCode": "MX",
+            "timezone": "America/Chihuahua",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 28,
+                    "minute": 38
+                }
+            }
+        },
+        {
+            "countryCode": "MX",
+            "timezone": "America/Ojinaga",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 29,
+                    "minute": 34
+                }
+            }
+        },
+        {
+            "countryCode": "MX",
+            "timezone": "America/Hermosillo",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 29,
+                    "minute": 4
+                }
+            }
+        },
+        {
+            "countryCode": "MX",
+            "timezone": "America/Tijuana",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 32,
+                    "minute": 32
+                }
+            }
+        },
+        {
+            "countryCode": "MX",
+            "timezone": "America/Bahia_Banderas",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 20,
+                    "minute": 48
+                }
+            }
+        },
+        {
+            "countryCode": "MY",
+            "timezone": "Asia/Kuala_Lumpur",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 3,
+                    "minute": 10
+                }
+            }
+        },
+        {
+            "countryCode": "MY",
+            "timezone": "Asia/Kuching",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 1,
+                    "minute": 33
+                }
+            }
+        },
+        {
+            "countryCode": "MZ",
+            "timezone": "Africa/Maputo",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 25,
+                    "minute": 58
+                }
+            }
+        },
+        {
+            "countryCode": "NA",
+            "timezone": "Africa/Windhoek",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 22,
+                    "minute": 34
+                }
+            }
+        },
+        {
+            "countryCode": "NC",
+            "timezone": "Pacific/Noumea",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 22,
+                    "minute": 16
+                }
+            }
+        },
+        {
+            "countryCode": "NE",
+            "timezone": "Africa/Niamey",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 13,
+                    "minute": 31
+                }
+            }
+        },
+        {
+            "countryCode": "NF",
+            "timezone": "Pacific/Norfolk",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 29,
+                    "minute": 3
+                }
+            }
+        },
+        {
+            "countryCode": "NG",
+            "timezone": "Africa/Lagos",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 6,
+                    "minute": 27
+                }
+            }
+        },
+        {
+            "countryCode": "NI",
+            "timezone": "America/Managua",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 12,
+                    "minute": 9
+                }
+            }
+        },
+        {
+            "countryCode": "NL",
+            "timezone": "Europe/Amsterdam",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 52,
+                    "minute": 22
+                }
+            }
+        },
+        {
+            "countryCode": "NO",
+            "timezone": "Europe/Oslo",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 59,
+                    "minute": 55
+                }
+            }
+        },
+        {
+            "countryCode": "NP",
+            "timezone": "Asia/Kathmandu",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 27,
+                    "minute": 43
+                }
+            }
+        },
+        {
+            "countryCode": "NR",
+            "timezone": "Pacific/Nauru",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 0,
+                    "minute": 31
+                }
+            }
+        },
+        {
+            "countryCode": "NU",
+            "timezone": "Pacific/Niue",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 19,
+                    "minute": 1
+                }
+            }
+        },
+        {
+            "countryCode": "NZ",
+            "timezone": "Pacific/Auckland",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 36,
+                    "minute": 52
+                }
+            }
+        },
+        {
+            "countryCode": "NZ",
+            "timezone": "Pacific/Chatham",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 43,
+                    "minute": 57
+                }
+            }
+        },
+        {
+            "countryCode": "OM",
+            "timezone": "Asia/Muscat",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 23,
+                    "minute": 36
+                }
+            }
+        },
+        {
+            "countryCode": "PA",
+            "timezone": "America/Panama",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 8,
+                    "minute": 58
+                }
+            }
+        },
+        {
+            "countryCode": "PE",
+            "timezone": "America/Lima",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 12,
+                    "minute": 3
+                }
+            }
+        },
+        {
+            "countryCode": "PF",
+            "timezone": "Pacific/Tahiti",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 17,
+                    "minute": 32
+                }
+            }
+        },
+        {
+            "countryCode": "PF",
+            "timezone": "Pacific/Marquesas",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 9,
+                    "minute": 0
+                }
+            }
+        },
+        {
+            "countryCode": "PF",
+            "timezone": "Pacific/Gambier",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 23,
+                    "minute": 8
+                }
+            }
+        },
+        {
+            "countryCode": "PG",
+            "timezone": "Pacific/Port_Moresby",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 9,
+                    "minute": 30
+                }
+            }
+        },
+        {
+            "countryCode": "PG",
+            "timezone": "Pacific/Bougainville",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 6,
+                    "minute": 13
+                }
+            }
+        },
+        {
+            "countryCode": "PH",
+            "timezone": "Asia/Manila",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 14,
+                    "minute": 35
+                }
+            }
+        },
+        {
+            "countryCode": "PK",
+            "timezone": "Asia/Karachi",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 24,
+                    "minute": 52
+                }
+            }
+        },
+        {
+            "countryCode": "PL",
+            "timezone": "Europe/Warsaw",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 52,
+                    "minute": 15
+                }
+            }
+        },
+        {
+            "countryCode": "PM",
+            "timezone": "America/Miquelon",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 47,
+                    "minute": 3
+                }
+            }
+        },
+        {
+            "countryCode": "PN",
+            "timezone": "Pacific/Pitcairn",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 25,
+                    "minute": 4
+                }
+            }
+        },
+        {
+            "countryCode": "PR",
+            "timezone": "America/Puerto_Rico",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 18,
+                    "minute": 28,
+                    "second": 6
+                }
+            }
+        },
+        {
+            "countryCode": "PS",
+            "timezone": "Asia/Gaza",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 31,
+                    "minute": 30
+                }
+            }
+        },
+        {
+            "countryCode": "PS",
+            "timezone": "Asia/Hebron",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 31,
+                    "minute": 32
+                }
+            }
+        },
+        {
+            "countryCode": "PT",
+            "timezone": "Europe/Lisbon",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 38,
+                    "minute": 43
+                }
+            }
+        },
+        {
+            "countryCode": "PT",
+            "timezone": "Atlantic/Madeira",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 32,
+                    "minute": 38
+                }
+            }
+        },
+        {
+            "countryCode": "PT",
+            "timezone": "Atlantic/Azores",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 37,
+                    "minute": 44
+                }
+            }
+        },
+        {
+            "countryCode": "PW",
+            "timezone": "Pacific/Palau",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 7,
+                    "minute": 20
+                }
+            }
+        },
+        {
+            "countryCode": "PY",
+            "timezone": "America/Asuncion",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 25,
+                    "minute": 16
+                }
+            }
+        },
+        {
+            "countryCode": "QA",
+            "timezone": "Asia/Qatar",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 25,
+                    "minute": 17
+                }
+            }
+        },
+        {
+            "countryCode": "RE",
+            "timezone": "Indian/Reunion",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 20,
+                    "minute": 52
+                }
+            }
+        },
+        {
+            "countryCode": "RO",
+            "timezone": "Europe/Bucharest",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 44,
+                    "minute": 26
+                }
+            }
+        },
+        {
+            "countryCode": "RS",
+            "timezone": "Europe/Belgrade",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 44,
+                    "minute": 50
+                }
+            }
+        },
+        {
+            "countryCode": "RU",
+            "timezone": "Europe/Kaliningrad",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 54,
+                    "minute": 43
+                }
+            }
+        },
+        {
+            "countryCode": "RU",
+            "timezone": "Europe/Moscow",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 55,
+                    "minute": 45,
+                    "second": 21
+                }
+            }
+        },
+        {
+            "countryCode": "RU",
+            "timezone": "Europe/Simferopol",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 44,
+                    "minute": 57
+                }
+            }
+        },
+        {
+            "countryCode": "RU",
+            "timezone": "Europe/Volgograd",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 48,
+                    "minute": 44
+                }
+            }
+        },
+        {
+            "countryCode": "RU",
+            "timezone": "Europe/Kirov",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 58,
+                    "minute": 36
+                }
+            }
+        },
+        {
+            "countryCode": "RU",
+            "timezone": "Europe/Astrakhan",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 46,
+                    "minute": 21
+                }
+            }
+        },
+        {
+            "countryCode": "RU",
+            "timezone": "Europe/Saratov",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 51,
+                    "minute": 34
+                }
+            }
+        },
+        {
+            "countryCode": "RU",
+            "timezone": "Europe/Ulyanovsk",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 54,
+                    "minute": 20
+                }
+            }
+        },
+        {
+            "countryCode": "RU",
+            "timezone": "Europe/Samara",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 53,
+                    "minute": 12
+                }
+            }
+        },
+        {
+            "countryCode": "RU",
+            "timezone": "Asia/Yekaterinburg",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 56,
+                    "minute": 51
+                }
+            }
+        },
+        {
+            "countryCode": "RU",
+            "timezone": "Asia/Omsk",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 55,
+                    "minute": 0
+                }
+            }
+        },
+        {
+            "countryCode": "RU",
+            "timezone": "Asia/Novosibirsk",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 55,
+                    "minute": 2
+                }
+            }
+        },
+        {
+            "countryCode": "RU",
+            "timezone": "Asia/Barnaul",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 53,
+                    "minute": 22
+                }
+            }
+        },
+        {
+            "countryCode": "RU",
+            "timezone": "Asia/Tomsk",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 56,
+                    "minute": 30
+                }
+            }
+        },
+        {
+            "countryCode": "RU",
+            "timezone": "Asia/Novokuznetsk",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 53,
+                    "minute": 45
+                }
+            }
+        },
+        {
+            "countryCode": "RU",
+            "timezone": "Asia/Krasnoyarsk",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 56,
+                    "minute": 1
+                }
+            }
+        },
+        {
+            "countryCode": "RU",
+            "timezone": "Asia/Irkutsk",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 52,
+                    "minute": 16
+                }
+            }
+        },
+        {
+            "countryCode": "RU",
+            "timezone": "Asia/Chita",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 52,
+                    "minute": 3
+                }
+            }
+        },
+        {
+            "countryCode": "RU",
+            "timezone": "Asia/Yakutsk",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 62,
+                    "minute": 0
+                }
+            }
+        },
+        {
+            "countryCode": "RU",
+            "timezone": "Asia/Khandyga",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 62,
+                    "minute": 39,
+                    "second": 23
+                }
+            }
+        },
+        {
+            "countryCode": "RU",
+            "timezone": "Asia/Vladivostok",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 43,
+                    "minute": 10
+                }
+            }
+        },
+        {
+            "countryCode": "RU",
+            "timezone": "Asia/Ust-Nera",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 64,
+                    "minute": 33,
+                    "second": 37
+                }
+            }
+        },
+        {
+            "countryCode": "RU",
+            "timezone": "Asia/Magadan",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 59,
+                    "minute": 34
+                }
+            }
+        },
+        {
+            "countryCode": "RU",
+            "timezone": "Asia/Sakhalin",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 46,
+                    "minute": 58
+                }
+            }
+        },
+        {
+            "countryCode": "RU",
+            "timezone": "Asia/Srednekolymsk",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 67,
+                    "minute": 28
+                }
+            }
+        },
+        {
+            "countryCode": "RU",
+            "timezone": "Asia/Kamchatka",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 53,
+                    "minute": 1
+                }
+            }
+        },
+        {
+            "countryCode": "RU",
+            "timezone": "Asia/Anadyr",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 64,
+                    "minute": 45
+                }
+            }
+        },
+        {
+            "countryCode": "RW",
+            "timezone": "Africa/Kigali",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 1,
+                    "minute": 57
+                }
+            }
+        },
+        {
+            "countryCode": "SA",
+            "timezone": "Asia/Riyadh",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 24,
+                    "minute": 38
+                }
+            }
+        },
+        {
+            "countryCode": "SB",
+            "timezone": "Pacific/Guadalcanal",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 9,
+                    "minute": 32
+                }
+            }
+        },
+        {
+            "countryCode": "SC",
+            "timezone": "Indian/Mahe",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 4,
+                    "minute": 40
+                }
+            }
+        },
+        {
+            "countryCode": "SD",
+            "timezone": "Africa/Khartoum",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 15,
+                    "minute": 36
+                }
+            }
+        },
+        {
+            "countryCode": "SE",
+            "timezone": "Europe/Stockholm",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 59,
+                    "minute": 20
+                }
+            }
+        },
+        {
+            "countryCode": "SG",
+            "timezone": "Asia/Singapore",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 1,
+                    "minute": 17
+                }
+            }
+        },
+        {
+            "countryCode": "SH",
+            "timezone": "Atlantic/St_Helena",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 15,
+                    "minute": 55
+                }
+            }
+        },
+        {
+            "countryCode": "SI",
+            "timezone": "Europe/Ljubljana",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 46,
+                    "minute": 3
+                }
+            }
+        },
+        {
+            "countryCode": "SJ",
+            "timezone": "Arctic/Longyearbyen",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 78,
+                    "minute": 0
+                }
+            }
+        },
+        {
+            "countryCode": "SK",
+            "timezone": "Europe/Bratislava",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 48,
+                    "minute": 9
+                }
+            }
+        },
+        {
+            "countryCode": "SL",
+            "timezone": "Africa/Freetown",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 8,
+                    "minute": 30
+                }
+            }
+        },
+        {
+            "countryCode": "SM",
+            "timezone": "Europe/San_Marino",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 43,
+                    "minute": 55
+                }
+            }
+        },
+        {
+            "countryCode": "SN",
+            "timezone": "Africa/Dakar",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 14,
+                    "minute": 40
+                }
+            }
+        },
+        {
+            "countryCode": "SO",
+            "timezone": "Africa/Mogadishu",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 2,
+                    "minute": 4
+                }
+            }
+        },
+        {
+            "countryCode": "SR",
+            "timezone": "America/Paramaribo",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 5,
+                    "minute": 50
+                }
+            }
+        },
+        {
+            "countryCode": "SS",
+            "timezone": "Africa/Juba",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 4,
+                    "minute": 51
+                }
+            }
+        },
+        {
+            "countryCode": "ST",
+            "timezone": "Africa/Sao_Tome",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 0,
+                    "minute": 20
+                }
+            }
+        },
+        {
+            "countryCode": "SV",
+            "timezone": "America/El_Salvador",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 13,
+                    "minute": 42
+                }
+            }
+        },
+        {
+            "countryCode": "SX",
+            "timezone": "America/Lower_Princes",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 18,
+                    "minute": 3,
+                    "second": 5
+                }
+            }
+        },
+        {
+            "countryCode": "SY",
+            "timezone": "Asia/Damascus",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 33,
+                    "minute": 30
+                }
+            }
+        },
+        {
+            "countryCode": "SZ",
+            "timezone": "Africa/Mbabane",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 26,
+                    "minute": 18
+                }
+            }
+        },
+        {
+            "countryCode": "TC",
+            "timezone": "America/Grand_Turk",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 21,
+                    "minute": 28
+                }
+            }
+        },
+        {
+            "countryCode": "TD",
+            "timezone": "Africa/Ndjamena",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 12,
+                    "minute": 7
+                }
+            }
+        },
+        {
+            "countryCode": "TF",
+            "timezone": "Indian/Kerguelen",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 49,
+                    "minute": 21,
+                    "second": 10
+                }
+            }
+        },
+        {
+            "countryCode": "TG",
+            "timezone": "Africa/Lome",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 6,
+                    "minute": 8
+                }
+            }
+        },
+        {
+            "countryCode": "TH",
+            "timezone": "Asia/Bangkok",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 13,
+                    "minute": 45
+                }
+            }
+        },
+        {
+            "countryCode": "TJ",
+            "timezone": "Asia/Dushanbe",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 38,
+                    "minute": 35
+                }
+            }
+        },
+        {
+            "countryCode": "TK",
+            "timezone": "Pacific/Fakaofo",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 9,
+                    "minute": 22
+                }
+            }
+        },
+        {
+            "countryCode": "TL",
+            "timezone": "Asia/Dili",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 8,
+                    "minute": 33
+                }
+            }
+        },
+        {
+            "countryCode": "TM",
+            "timezone": "Asia/Ashgabat",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 37,
+                    "minute": 57
+                }
+            }
+        },
+        {
+            "countryCode": "TN",
+            "timezone": "Africa/Tunis",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 36,
+                    "minute": 48
+                }
+            }
+        },
+        {
+            "countryCode": "TO",
+            "timezone": "Pacific/Tongatapu",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 21,
+                    "minute": 10
+                }
+            }
+        },
+        {
+            "countryCode": "TR",
+            "timezone": "Europe/Istanbul",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 41,
+                    "minute": 1
+                }
+            }
+        },
+        {
+            "countryCode": "TT",
+            "timezone": "America/Port_of_Spain",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 10,
+                    "minute": 39
+                }
+            }
+        },
+        {
+            "countryCode": "TV",
+            "timezone": "Pacific/Funafuti",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 8,
+                    "minute": 31
+                }
+            }
+        },
+        {
+            "countryCode": "TW",
+            "timezone": "Asia/Taipei",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 25,
+                    "minute": 3
+                }
+            }
+        },
+        {
+            "countryCode": "TZ",
+            "timezone": "Africa/Dar_es_Salaam",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 6,
+                    "minute": 48
+                }
+            }
+        },
+        {
+            "countryCode": "UA",
+            "timezone": "Europe/Kiev",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 50,
+                    "minute": 26
+                }
+            }
+        },
+        {
+            "countryCode": "UA",
+            "timezone": "Europe/Uzhgorod",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 48,
+                    "minute": 37
+                }
+            }
+        },
+        {
+            "countryCode": "UA",
+            "timezone": "Europe/Zaporozhye",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 47,
+                    "minute": 50
+                }
+            }
+        },
+        {
+            "countryCode": "UG",
+            "timezone": "Africa/Kampala",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 0,
+                    "minute": 19
+                }
+            }
+        },
+        {
+            "countryCode": "UM",
+            "timezone": "Pacific/Midway",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 28,
+                    "minute": 13
+                }
+            }
+        },
+        {
+            "countryCode": "UM",
+            "timezone": "Pacific/Wake",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 19,
+                    "minute": 17
+                }
+            }
+        },
+        {
+            "countryCode": "US",
+            "timezone": "America/New_York",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 40,
+                    "minute": 42,
+                    "second": 51
+                }
+            }
+        },
+        {
+            "countryCode": "US",
+            "timezone": "America/Detroit",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 42,
+                    "minute": 19,
+                    "second": 53
+                }
+            }
+        },
+        {
+            "countryCode": "US",
+            "timezone": "America/Kentucky/Louisville",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 38,
+                    "minute": 15,
+                    "second": 15
+                }
+            }
+        },
+        {
+            "countryCode": "US",
+            "timezone": "America/Kentucky/Monticello",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 36,
+                    "minute": 49,
+                    "second": 47
+                }
+            }
+        },
+        {
+            "countryCode": "US",
+            "timezone": "America/Indiana/Indianapolis",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 39,
+                    "minute": 46,
+                    "second": 6
+                }
+            }
+        },
+        {
+            "countryCode": "US",
+            "timezone": "America/Indiana/Vincennes",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 38,
+                    "minute": 40,
+                    "second": 38
+                }
+            }
+        },
+        {
+            "countryCode": "US",
+            "timezone": "America/Indiana/Winamac",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 41,
+                    "minute": 3,
+                    "second": 5
+                }
+            }
+        },
+        {
+            "countryCode": "US",
+            "timezone": "America/Indiana/Marengo",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 38,
+                    "minute": 22,
+                    "second": 32
+                }
+            }
+        },
+        {
+            "countryCode": "US",
+            "timezone": "America/Indiana/Petersburg",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 38,
+                    "minute": 29,
+                    "second": 31
+                }
+            }
+        },
+        {
+            "countryCode": "US",
+            "timezone": "America/Indiana/Vevay",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 38,
+                    "minute": 44,
+                    "second": 52
+                }
+            }
+        },
+        {
+            "countryCode": "US",
+            "timezone": "America/Chicago",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 41,
+                    "minute": 51
+                }
+            }
+        },
+        {
+            "countryCode": "US",
+            "timezone": "America/Indiana/Tell_City",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 37,
+                    "minute": 57,
+                    "second": 11
+                }
+            }
+        },
+        {
+            "countryCode": "US",
+            "timezone": "America/Indiana/Knox",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 41,
+                    "minute": 17,
+                    "second": 45
+                }
+            }
+        },
+        {
+            "countryCode": "US",
+            "timezone": "America/Menominee",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 45,
+                    "minute": 6,
+                    "second": 28
+                }
+            }
+        },
+        {
+            "countryCode": "US",
+            "timezone": "America/North_Dakota/Center",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 47,
+                    "minute": 6,
+                    "second": 59
+                }
+            }
+        },
+        {
+            "countryCode": "US",
+            "timezone": "America/North_Dakota/New_Salem",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 46,
+                    "minute": 50,
+                    "second": 42
+                }
+            }
+        },
+        {
+            "countryCode": "US",
+            "timezone": "America/North_Dakota/Beulah",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 47,
+                    "minute": 15,
+                    "second": 51
+                }
+            }
+        },
+        {
+            "countryCode": "US",
+            "timezone": "America/Denver",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 39,
+                    "minute": 44,
+                    "second": 21
+                }
+            }
+        },
+        {
+            "countryCode": "US",
+            "timezone": "America/Boise",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 43,
+                    "minute": 36,
+                    "second": 49
+                }
+            }
+        },
+        {
+            "countryCode": "US",
+            "timezone": "America/Phoenix",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 33,
+                    "minute": 26,
+                    "second": 54
+                }
+            }
+        },
+        {
+            "countryCode": "US",
+            "timezone": "America/Los_Angeles",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 34,
+                    "minute": 3,
+                    "second": 8
+                }
+            }
+        },
+        {
+            "countryCode": "US",
+            "timezone": "America/Anchorage",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 61,
+                    "minute": 13,
+                    "second": 5
+                }
+            }
+        },
+        {
+            "countryCode": "US",
+            "timezone": "America/Juneau",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 58,
+                    "minute": 18,
+                    "second": 7
+                }
+            }
+        },
+        {
+            "countryCode": "US",
+            "timezone": "America/Sitka",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 57,
+                    "minute": 10,
+                    "second": 35
+                }
+            }
+        },
+        {
+            "countryCode": "US",
+            "timezone": "America/Metlakatla",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 55,
+                    "minute": 7,
+                    "second": 37
+                }
+            }
+        },
+        {
+            "countryCode": "US",
+            "timezone": "America/Yakutat",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 59,
+                    "minute": 32,
+                    "second": 49
+                }
+            }
+        },
+        {
+            "countryCode": "US",
+            "timezone": "America/Nome",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 64,
+                    "minute": 30,
+                    "second": 4
+                }
+            }
+        },
+        {
+            "countryCode": "US",
+            "timezone": "America/Adak",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 51,
+                    "minute": 52,
+                    "second": 48
+                }
+            }
+        },
+        {
+            "countryCode": "US",
+            "timezone": "Pacific/Honolulu",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 21,
+                    "minute": 18,
+                    "second": 25
+                }
+            }
+        },
+        {
+            "countryCode": "UY",
+            "timezone": "America/Montevideo",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 34,
+                    "minute": 53
+                }
+            }
+        },
+        {
+            "countryCode": "UZ",
+            "timezone": "Asia/Samarkand",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 39,
+                    "minute": 40
+                }
+            }
+        },
+        {
+            "countryCode": "UZ",
+            "timezone": "Asia/Tashkent",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 41,
+                    "minute": 20
+                }
+            }
+        },
+        {
+            "countryCode": "VA",
+            "timezone": "Europe/Vatican",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 41,
+                    "minute": 54,
+                    "second": 8
+                }
+            }
+        },
+        {
+            "countryCode": "VC",
+            "timezone": "America/St_Vincent",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 13,
+                    "minute": 9
+                }
+            }
+        },
+        {
+            "countryCode": "VE",
+            "timezone": "America/Caracas",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 10,
+                    "minute": 30
+                }
+            }
+        },
+        {
+            "countryCode": "VG",
+            "timezone": "America/Tortola",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 18,
+                    "minute": 27
+                }
+            }
+        },
+        {
+            "countryCode": "VI",
+            "timezone": "America/St_Thomas",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 18,
+                    "minute": 21
+                }
+            }
+        },
+        {
+            "countryCode": "VN",
+            "timezone": "Asia/Ho_Chi_Minh",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 10,
+                    "minute": 45
+                }
+            }
+        },
+        {
+            "countryCode": "VU",
+            "timezone": "Pacific/Efate",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 17,
+                    "minute": 40
+                }
+            }
+        },
+        {
+            "countryCode": "WF",
+            "timezone": "Pacific/Wallis",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 13,
+                    "minute": 18
+                }
+            }
+        },
+        {
+            "countryCode": "WS",
+            "timezone": "Pacific/Apia",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 13,
+                    "minute": 50
+                }
+            }
+        },
+        {
+            "countryCode": "YE",
+            "timezone": "Asia/Aden",
+            "coordinates": {
+                "latitude": {
+                    "sign": "+",
+                    "degree": 12,
+                    "minute": 45
+                }
+            }
+        },
+        {
+            "countryCode": "YT",
+            "timezone": "Indian/Mayotte",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 12,
+                    "minute": 47
+                }
+            }
+        },
+        {
+            "countryCode": "ZA",
+            "timezone": "Africa/Johannesburg",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 26,
+                    "minute": 15
+                }
+            }
+        },
+        {
+            "countryCode": "ZM",
+            "timezone": "Africa/Lusaka",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 15,
+                    "minute": 25
+                }
+            }
+        },
+        {
+            "countryCode": "ZW",
+            "timezone": "Africa/Harare",
+            "coordinates": {
+                "latitude": {
+                    "sign": "-",
+                    "degree": 17,
+                    "minute": 50
+                }
+            }
+        }
+    ]
+}

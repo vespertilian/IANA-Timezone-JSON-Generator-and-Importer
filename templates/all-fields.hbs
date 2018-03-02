@@ -1,0 +1,26 @@
+{{#*inline "coordinates"}}
+{
+    "sign": "{{sign}}",
+    "degree": {{degree}},
+    "minute": {{minute}}{{#if second}},{{/if}}
+    {{#if second}}"second": {{second}}{{/if}}
+}
+{{/inline}}
+{
+    "IANAVersion": "{{ianaVersion}}",
+    "numberOfZones": {{numberOfZones}},
+    "zones": [
+        {{#each zones}}
+            {
+                "countryCode": "{{countryCode}}",
+                "timezone": "{{timezoneName}}",
+                "coordinates": {
+                    "latitude": {{> coordinates coordinates.latitude}}
+                }
+            }{{#unless @last}},{{/unless}}
+        {{/each}}
+    ]
+}
+
+
+
