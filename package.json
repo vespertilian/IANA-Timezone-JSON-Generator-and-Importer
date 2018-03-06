@@ -1,5 +1,5 @@
 {
-  "name": "iana-tz-data",
+  "name": "iana-tz-data-generator",
   "version": "0.1.0",
   "description": "JSON conversion of IANA data",
   "main": "index.js",
