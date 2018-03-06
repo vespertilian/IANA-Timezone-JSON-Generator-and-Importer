@@ -36,9 +36,8 @@ async function getAndExtractTzData() {
             const writeFileName = filename.replace('.hbs', '.json');
             const writePath = path.join(__dirname, '..', 'timezones', writeFileName);
 
-            console.log(writeFileName)
-
-            // turn json into pretty string and write file
+            // turn json into pretty string and write file,
+            // this formats it slightly better than handlebars
             const jsonString = JSON.stringify(parsedJSON, null, 4);
             await writeFileAsync(writePath, jsonString);
 
