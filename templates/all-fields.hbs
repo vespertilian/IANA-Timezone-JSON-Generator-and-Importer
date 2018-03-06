@@ -1,11 +1,16 @@
+{{!-- handlebars inline partial --}}
 {{#*inline "coordinates"}}
 {
     "sign": "{{sign}}",
-    "degree": {{degree}},
+    "degree": {{degree}}, {{!-- no commar here if second does not exist--}}
     "minute": {{minute}}{{#if second}},{{/if}}
+    {{!-- dont output second if it does not exist --}}
     {{#if second}}"second": {{second}}{{/if}}
 }
 {{/inline}}
+
+{{!-- create json file --}}
+{{!-- see project readme for data shape --}}
 {
     "IANAVersion": "{{ianaVersion}}",
     "numberOfZones": {{numberOfZones}},
@@ -15,7 +20,8 @@
                 "countryCode": "{{countryCode}}",
                 "timezone": "{{timezoneName}}",
                 "coordinates": {
-                    "latitude": {{> coordinates coordinates.latitude}}
+                    "latitude": {{> coordinates coordinates.latitude}},
+                    "longitude": {{> coordinates coordinates.longitude}}
                 }
             }{{#unless @last}},{{/unless}}
         {{/each}}

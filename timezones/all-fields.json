@@ -10,6 +10,11 @@
                     "sign": "+",
                     "degree": 42,
                     "minute": 30
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 1,
+                    "minute": 31
                 }
             }
         },
@@ -20,6 +25,11 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 25,
+                    "minute": 18
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 55,
                     "minute": 18
                 }
             }
@@ -32,6 +42,11 @@
                     "sign": "+",
                     "degree": 34,
                     "minute": 31
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 69,
+                    "minute": 12
                 }
             }
         },
@@ -43,6 +58,11 @@
                     "sign": "+",
                     "degree": 17,
                     "minute": 3
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 61,
+                    "minute": 48
                 }
             }
         },
@@ -54,6 +74,11 @@
                     "sign": "+",
                     "degree": 18,
                     "minute": 12
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 63,
+                    "minute": 4
                 }
             }
         },
@@ -65,6 +90,11 @@
                     "sign": "+",
                     "degree": 41,
                     "minute": 20
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 19,
+                    "minute": 50
                 }
             }
         },
@@ -76,6 +106,11 @@
                     "sign": "+",
                     "degree": 40,
                     "minute": 11
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 44,
+                    "minute": 30
                 }
             }
         },
@@ -87,6 +122,11 @@
                     "sign": "-",
                     "degree": 8,
                     "minute": 48
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 13,
+                    "minute": 14
                 }
             }
         },
@@ -98,6 +138,11 @@
                     "sign": "-",
                     "degree": 77,
                     "minute": 50
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 166,
+                    "minute": 36
                 }
             }
         },
@@ -109,6 +154,11 @@
                     "sign": "-",
                     "degree": 66,
                     "minute": 17
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 110,
+                    "minute": 31
                 }
             }
         },
@@ -120,6 +170,11 @@
                     "sign": "-",
                     "degree": 68,
                     "minute": 35
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 77,
+                    "minute": 58
                 }
             }
         },
@@ -131,6 +186,11 @@
                     "sign": "-",
                     "degree": 66,
                     "minute": 40
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 140,
+                    "minute": 1
                 }
             }
         },
@@ -142,6 +202,11 @@
                     "sign": "-",
                     "degree": 67,
                     "minute": 36
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 62,
+                    "minute": 53
                 }
             }
         },
@@ -153,6 +218,11 @@
                     "sign": "-",
                     "degree": 64,
                     "minute": 48
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 64,
+                    "minute": 6
                 }
             }
         },
@@ -164,6 +234,11 @@
                     "sign": "-",
                     "degree": 67,
                     "minute": 34
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 68,
+                    "minute": 8
                 }
             }
         },
@@ -176,6 +251,12 @@
                     "degree": 69,
                     "minute": 0,
                     "second": 22
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 39,
+                    "minute": 35,
+                    "second": 24
                 }
             }
         },
@@ -188,6 +269,12 @@
                     "degree": 72,
                     "minute": 0,
                     "second": 41
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 2,
+                    "minute": 32,
+                    "second": 6
                 }
             }
         },
@@ -199,6 +286,11 @@
                     "sign": "-",
                     "degree": 78,
                     "minute": 24
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 106,
+                    "minute": 54
                 }
             }
         },
@@ -210,6 +302,11 @@
                     "sign": "-",
                     "degree": 34,
                     "minute": 36
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 58,
+                    "minute": 27
                 }
             }
         },
@@ -221,6 +318,11 @@
                     "sign": "-",
                     "degree": 31,
                     "minute": 24
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 64,
+                    "minute": 11
                 }
             }
         },
@@ -232,6 +334,11 @@
                     "sign": "-",
                     "degree": 24,
                     "minute": 47
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 65,
+                    "minute": 25
                 }
             }
         },
@@ -243,6 +350,11 @@
                     "sign": "-",
                     "degree": 24,
                     "minute": 11
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 65,
+                    "minute": 18
                 }
             }
         },
@@ -254,6 +366,11 @@
                     "sign": "-",
                     "degree": 26,
                     "minute": 49
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 65,
+                    "minute": 13
                 }
             }
         },
@@ -265,6 +382,11 @@
                     "sign": "-",
                     "degree": 28,
                     "minute": 28
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 65,
+                    "minute": 47
                 }
             }
         },
@@ -276,6 +398,11 @@
                     "sign": "-",
                     "degree": 29,
                     "minute": 26
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 66,
+                    "minute": 51
                 }
             }
         },
@@ -287,6 +414,11 @@
                     "sign": "-",
                     "degree": 31,
                     "minute": 32
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 68,
+                    "minute": 31
                 }
             }
         },
@@ -298,6 +430,11 @@
                     "sign": "-",
                     "degree": 32,
                     "minute": 53
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 68,
+                    "minute": 49
                 }
             }
         },
@@ -309,6 +446,11 @@
                     "sign": "-",
                     "degree": 33,
                     "minute": 19
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 66,
+                    "minute": 21
                 }
             }
         },
@@ -320,6 +462,11 @@
                     "sign": "-",
                     "degree": 51,
                     "minute": 38
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 69,
+                    "minute": 13
                 }
             }
         },
@@ -331,6 +478,11 @@
                     "sign": "-",
                     "degree": 54,
                     "minute": 48
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 68,
+                    "minute": 18
                 }
             }
         },
@@ -342,6 +494,11 @@
                     "sign": "-",
                     "degree": 14,
                     "minute": 16
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 170,
+                    "minute": 42
                 }
             }
         },
@@ -353,6 +510,11 @@
                     "sign": "+",
                     "degree": 48,
                     "minute": 13
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 16,
+                    "minute": 20
                 }
             }
         },
@@ -364,6 +526,11 @@
                     "sign": "-",
                     "degree": 31,
                     "minute": 33
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 159,
+                    "minute": 5
                 }
             }
         },
@@ -375,6 +542,11 @@
                     "sign": "-",
                     "degree": 54,
                     "minute": 30
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 158,
+                    "minute": 57
                 }
             }
         },
@@ -386,6 +558,11 @@
                     "sign": "-",
                     "degree": 42,
                     "minute": 53
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 147,
+                    "minute": 19
                 }
             }
         },
@@ -397,6 +574,11 @@
                     "sign": "-",
                     "degree": 39,
                     "minute": 56
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 143,
+                    "minute": 52
                 }
             }
         },
@@ -408,6 +590,11 @@
                     "sign": "-",
                     "degree": 37,
                     "minute": 49
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 144,
+                    "minute": 58
                 }
             }
         },
@@ -419,6 +606,11 @@
                     "sign": "-",
                     "degree": 33,
                     "minute": 52
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 151,
+                    "minute": 13
                 }
             }
         },
@@ -430,6 +622,11 @@
                     "sign": "-",
                     "degree": 31,
                     "minute": 57
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 141,
+                    "minute": 27
                 }
             }
         },
@@ -441,6 +638,11 @@
                     "sign": "-",
                     "degree": 27,
                     "minute": 28
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 153,
+                    "minute": 2
                 }
             }
         },
@@ -452,6 +654,11 @@
                     "sign": "-",
                     "degree": 20,
                     "minute": 16
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 149,
+                    "minute": 0
                 }
             }
         },
@@ -463,6 +670,11 @@
                     "sign": "-",
                     "degree": 34,
                     "minute": 55
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 138,
+                    "minute": 35
                 }
             }
         },
@@ -474,6 +686,11 @@
                     "sign": "-",
                     "degree": 12,
                     "minute": 28
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 130,
+                    "minute": 50
                 }
             }
         },
@@ -485,6 +702,11 @@
                     "sign": "-",
                     "degree": 31,
                     "minute": 57
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 115,
+                    "minute": 51
                 }
             }
         },
@@ -496,6 +718,11 @@
                     "sign": "-",
                     "degree": 31,
                     "minute": 43
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 128,
+                    "minute": 52
                 }
             }
         },
@@ -507,6 +734,11 @@
                     "sign": "+",
                     "degree": 12,
                     "minute": 30
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 69,
+                    "minute": 58
                 }
             }
         },
@@ -518,6 +750,11 @@
                     "sign": "+",
                     "degree": 60,
                     "minute": 6
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 19,
+                    "minute": 57
                 }
             }
         },
@@ -529,6 +766,11 @@
                     "sign": "+",
                     "degree": 40,
                     "minute": 23
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 49,
+                    "minute": 51
                 }
             }
         },
@@ -540,6 +782,11 @@
                     "sign": "+",
                     "degree": 43,
                     "minute": 52
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 18,
+                    "minute": 25
                 }
             }
         },
@@ -551,6 +798,11 @@
                     "sign": "+",
                     "degree": 13,
                     "minute": 6
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 59,
+                    "minute": 37
                 }
             }
         },
@@ -562,6 +814,11 @@
                     "sign": "+",
                     "degree": 23,
                     "minute": 43
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 90,
+                    "minute": 25
                 }
             }
         },
@@ -573,6 +830,11 @@
                     "sign": "+",
                     "degree": 50,
                     "minute": 50
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 4,
+                    "minute": 20
                 }
             }
         },
@@ -584,6 +846,11 @@
                     "sign": "+",
                     "degree": 12,
                     "minute": 22
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 1,
+                    "minute": 31
                 }
             }
         },
@@ -595,6 +862,11 @@
                     "sign": "+",
                     "degree": 42,
                     "minute": 41
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 23,
+                    "minute": 19
                 }
             }
         },
@@ -606,6 +878,11 @@
                     "sign": "+",
                     "degree": 26,
                     "minute": 23
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 50,
+                    "minute": 35
                 }
             }
         },
@@ -617,6 +894,11 @@
                     "sign": "-",
                     "degree": 3,
                     "minute": 23
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 29,
+                    "minute": 22
                 }
             }
         },
@@ -628,6 +910,11 @@
                     "sign": "+",
                     "degree": 6,
                     "minute": 29
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 2,
+                    "minute": 37
                 }
             }
         },
@@ -639,6 +926,11 @@
                     "sign": "+",
                     "degree": 17,
                     "minute": 53
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 62,
+                    "minute": 51
                 }
             }
         },
@@ -650,6 +942,11 @@
                     "sign": "+",
                     "degree": 32,
                     "minute": 17
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 64,
+                    "minute": 46
                 }
             }
         },
@@ -661,6 +958,11 @@
                     "sign": "+",
                     "degree": 4,
                     "minute": 56
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 114,
+                    "minute": 55
                 }
             }
         },
@@ -672,6 +974,11 @@
                     "sign": "-",
                     "degree": 16,
                     "minute": 30
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 68,
+                    "minute": 9
                 }
             }
         },
@@ -684,6 +991,12 @@
                     "degree": 12,
                     "minute": 9,
                     "second": 3
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 68,
+                    "minute": 16,
+                    "second": 36
                 }
             }
         },
@@ -695,6 +1008,11 @@
                     "sign": "-",
                     "degree": 3,
                     "minute": 51
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 32,
+                    "minute": 25
                 }
             }
         },
@@ -706,6 +1024,11 @@
                     "sign": "-",
                     "degree": 1,
                     "minute": 27
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 48,
+                    "minute": 29
                 }
             }
         },
@@ -717,6 +1040,11 @@
                     "sign": "-",
                     "degree": 3,
                     "minute": 43
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 38,
+                    "minute": 30
                 }
             }
         },
@@ -728,6 +1056,11 @@
                     "sign": "-",
                     "degree": 8,
                     "minute": 3
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 34,
+                    "minute": 54
                 }
             }
         },
@@ -738,6 +1071,11 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 7,
+                    "minute": 12
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 48,
                     "minute": 12
                 }
             }
@@ -750,6 +1088,11 @@
                     "sign": "-",
                     "degree": 9,
                     "minute": 40
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 35,
+                    "minute": 43
                 }
             }
         },
@@ -761,6 +1104,11 @@
                     "sign": "-",
                     "degree": 12,
                     "minute": 59
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 38,
+                    "minute": 31
                 }
             }
         },
@@ -772,6 +1120,11 @@
                     "sign": "-",
                     "degree": 23,
                     "minute": 32
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 46,
+                    "minute": 37
                 }
             }
         },
@@ -783,6 +1136,11 @@
                     "sign": "-",
                     "degree": 20,
                     "minute": 27
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 54,
+                    "minute": 37
                 }
             }
         },
@@ -794,6 +1152,11 @@
                     "sign": "-",
                     "degree": 15,
                     "minute": 35
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 56,
+                    "minute": 5
                 }
             }
         },
@@ -805,6 +1168,11 @@
                     "sign": "-",
                     "degree": 2,
                     "minute": 26
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 54,
+                    "minute": 52
                 }
             }
         },
@@ -816,6 +1184,11 @@
                     "sign": "-",
                     "degree": 8,
                     "minute": 46
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 63,
+                    "minute": 54
                 }
             }
         },
@@ -827,6 +1200,11 @@
                     "sign": "+",
                     "degree": 2,
                     "minute": 49
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 60,
+                    "minute": 40
                 }
             }
         },
@@ -838,6 +1216,11 @@
                     "sign": "-",
                     "degree": 3,
                     "minute": 8
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 60,
+                    "minute": 1
                 }
             }
         },
@@ -849,6 +1232,11 @@
                     "sign": "-",
                     "degree": 6,
                     "minute": 40
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 69,
+                    "minute": 52
                 }
             }
         },
@@ -860,6 +1248,11 @@
                     "sign": "-",
                     "degree": 9,
                     "minute": 58
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 67,
+                    "minute": 48
                 }
             }
         },
@@ -871,6 +1264,11 @@
                     "sign": "+",
                     "degree": 25,
                     "minute": 5
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 77,
+                    "minute": 21
                 }
             }
         },
@@ -882,6 +1280,11 @@
                     "sign": "+",
                     "degree": 27,
                     "minute": 28
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 89,
+                    "minute": 39
                 }
             }
         },
@@ -893,6 +1296,11 @@
                     "sign": "-",
                     "degree": 24,
                     "minute": 39
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 25,
+                    "minute": 55
                 }
             }
         },
@@ -904,6 +1312,11 @@
                     "sign": "+",
                     "degree": 53,
                     "minute": 54
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 27,
+                    "minute": 34
                 }
             }
         },
@@ -915,6 +1328,11 @@
                     "sign": "+",
                     "degree": 17,
                     "minute": 30
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 88,
+                    "minute": 12
                 }
             }
         },
@@ -926,6 +1344,11 @@
                     "sign": "+",
                     "degree": 47,
                     "minute": 34
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 52,
+                    "minute": 43
                 }
             }
         },
@@ -937,6 +1360,11 @@
                     "sign": "+",
                     "degree": 44,
                     "minute": 39
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 63,
+                    "minute": 36
                 }
             }
         },
@@ -948,6 +1376,11 @@
                     "sign": "+",
                     "degree": 46,
                     "minute": 12
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 59,
+                    "minute": 57
                 }
             }
         },
@@ -959,6 +1392,11 @@
                     "sign": "+",
                     "degree": 46,
                     "minute": 6
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 64,
+                    "minute": 47
                 }
             }
         },
@@ -970,6 +1408,11 @@
                     "sign": "+",
                     "degree": 53,
                     "minute": 20
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 60,
+                    "minute": 25
                 }
             }
         },
@@ -981,6 +1424,11 @@
                     "sign": "+",
                     "degree": 51,
                     "minute": 25
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 57,
+                    "minute": 7
                 }
             }
         },
@@ -992,6 +1440,11 @@
                     "sign": "+",
                     "degree": 43,
                     "minute": 39
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 79,
+                    "minute": 23
                 }
             }
         },
@@ -1003,6 +1456,11 @@
                     "sign": "+",
                     "degree": 49,
                     "minute": 1
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 88,
+                    "minute": 16
                 }
             }
         },
@@ -1014,6 +1472,11 @@
                     "sign": "+",
                     "degree": 48,
                     "minute": 23
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 89,
+                    "minute": 15
                 }
             }
         },
@@ -1025,6 +1488,11 @@
                     "sign": "+",
                     "degree": 63,
                     "minute": 44
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 68,
+                    "minute": 28
                 }
             }
         },
@@ -1036,6 +1504,11 @@
                     "sign": "+",
                     "degree": 66,
                     "minute": 8
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 65,
+                    "minute": 44
                 }
             }
         },
@@ -1048,6 +1521,12 @@
                     "degree": 48,
                     "minute": 45,
                     "second": 31
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 91,
+                    "minute": 37,
+                    "second": 18
                 }
             }
         },
@@ -1059,6 +1538,11 @@
                     "sign": "+",
                     "degree": 49,
                     "minute": 53
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 97,
+                    "minute": 9
                 }
             }
         },
@@ -1070,6 +1554,11 @@
                     "sign": "+",
                     "degree": 48,
                     "minute": 43
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 94,
+                    "minute": 34
                 }
             }
         },
@@ -1082,6 +1571,12 @@
                     "degree": 74,
                     "minute": 41,
                     "second": 44
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 94,
+                    "minute": 49,
+                    "second": 45
                 }
             }
         },
@@ -1093,6 +1588,12 @@
                     "sign": "+",
                     "degree": 62,
                     "minute": 49
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 92,
+                    "minute": 4,
+                    "second": 59
                 }
             }
         },
@@ -1104,6 +1605,11 @@
                     "sign": "+",
                     "degree": 50,
                     "minute": 24
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 104,
+                    "minute": 39
                 }
             }
         },
@@ -1115,6 +1621,11 @@
                     "sign": "+",
                     "degree": 50,
                     "minute": 17
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 107,
+                    "minute": 50
                 }
             }
         },
@@ -1126,6 +1637,11 @@
                     "sign": "+",
                     "degree": 53,
                     "minute": 33
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 113,
+                    "minute": 28
                 }
             }
         },
@@ -1138,6 +1654,12 @@
                     "degree": 69,
                     "minute": 6,
                     "second": 50
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 105,
+                    "minute": 3,
+                    "second": 10
                 }
             }
         },
@@ -1149,6 +1671,11 @@
                     "sign": "+",
                     "degree": 62,
                     "minute": 27
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 114,
+                    "minute": 21
                 }
             }
         },
@@ -1161,6 +1688,11 @@
                     "degree": 68,
                     "minute": 20,
                     "second": 59
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 133,
+                    "minute": 43
                 }
             }
         },
@@ -1172,6 +1704,11 @@
                     "sign": "+",
                     "degree": 49,
                     "minute": 6
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 116,
+                    "minute": 31
                 }
             }
         },
@@ -1183,6 +1720,11 @@
                     "sign": "+",
                     "degree": 59,
                     "minute": 46
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 120,
+                    "minute": 14
                 }
             }
         },
@@ -1194,6 +1736,11 @@
                     "sign": "+",
                     "degree": 58,
                     "minute": 48
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 122,
+                    "minute": 42
                 }
             }
         },
@@ -1205,6 +1752,11 @@
                     "sign": "+",
                     "degree": 49,
                     "minute": 16
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 123,
+                    "minute": 7
                 }
             }
         },
@@ -1216,6 +1768,11 @@
                     "sign": "+",
                     "degree": 60,
                     "minute": 43
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 135,
+                    "minute": 3
                 }
             }
         },
@@ -1227,6 +1784,11 @@
                     "sign": "+",
                     "degree": 64,
                     "minute": 4
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 139,
+                    "minute": 25
                 }
             }
         },
@@ -1238,6 +1800,11 @@
                     "sign": "-",
                     "degree": 12,
                     "minute": 10
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 96,
+                    "minute": 55
                 }
             }
         },
@@ -1248,6 +1815,11 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 4,
+                    "minute": 18
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 15,
                     "minute": 18
                 }
             }
@@ -1260,6 +1832,11 @@
                     "sign": "-",
                     "degree": 11,
                     "minute": 40
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 27,
+                    "minute": 28
                 }
             }
         },
@@ -1271,6 +1848,11 @@
                     "sign": "+",
                     "degree": 4,
                     "minute": 22
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 18,
+                    "minute": 35
                 }
             }
         },
@@ -1282,6 +1864,11 @@
                     "sign": "-",
                     "degree": 4,
                     "minute": 16
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 15,
+                    "minute": 17
                 }
             }
         },
@@ -1293,6 +1880,11 @@
                     "sign": "+",
                     "degree": 47,
                     "minute": 23
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 8,
+                    "minute": 32
                 }
             }
         },
@@ -1304,6 +1896,11 @@
                     "sign": "+",
                     "degree": 5,
                     "minute": 19
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 4,
+                    "minute": 2
                 }
             }
         },
@@ -1315,6 +1912,11 @@
                     "sign": "-",
                     "degree": 21,
                     "minute": 14
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 159,
+                    "minute": 46
                 }
             }
         },
@@ -1326,6 +1928,11 @@
                     "sign": "-",
                     "degree": 33,
                     "minute": 27
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 70,
+                    "minute": 40
                 }
             }
         },
@@ -1337,6 +1944,11 @@
                     "sign": "-",
                     "degree": 53,
                     "minute": 9
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 70,
+                    "minute": 55
                 }
             }
         },
@@ -1348,6 +1960,11 @@
                     "sign": "-",
                     "degree": 27,
                     "minute": 9
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 109,
+                    "minute": 26
                 }
             }
         },
@@ -1359,6 +1976,11 @@
                     "sign": "+",
                     "degree": 4,
                     "minute": 3
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 9,
+                    "minute": 42
                 }
             }
         },
@@ -1370,6 +1992,11 @@
                     "sign": "+",
                     "degree": 31,
                     "minute": 14
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 121,
+                    "minute": 28
                 }
             }
         },
@@ -1381,6 +2008,11 @@
                     "sign": "+",
                     "degree": 43,
                     "minute": 48
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 87,
+                    "minute": 35
                 }
             }
         },
@@ -1392,6 +2024,11 @@
                     "sign": "+",
                     "degree": 4,
                     "minute": 36
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 74,
+                    "minute": 5
                 }
             }
         },
@@ -1403,6 +2040,11 @@
                     "sign": "+",
                     "degree": 9,
                     "minute": 56
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 84,
+                    "minute": 5
                 }
             }
         },
@@ -1414,6 +2056,11 @@
                     "sign": "+",
                     "degree": 23,
                     "minute": 8
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 82,
+                    "minute": 22
                 }
             }
         },
@@ -1425,6 +2072,11 @@
                     "sign": "+",
                     "degree": 14,
                     "minute": 55
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 23,
+                    "minute": 31
                 }
             }
         },
@@ -1436,6 +2088,11 @@
                     "sign": "+",
                     "degree": 12,
                     "minute": 11
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 69,
+                    "minute": 0
                 }
             }
         },
@@ -1447,6 +2104,11 @@
                     "sign": "-",
                     "degree": 10,
                     "minute": 25
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 105,
+                    "minute": 43
                 }
             }
         },
@@ -1458,6 +2120,11 @@
                     "sign": "+",
                     "degree": 35,
                     "minute": 10
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 33,
+                    "minute": 22
                 }
             }
         },
@@ -1469,6 +2136,11 @@
                     "sign": "+",
                     "degree": 35,
                     "minute": 7
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 33,
+                    "minute": 57
                 }
             }
         },
@@ -1480,6 +2152,11 @@
                     "sign": "+",
                     "degree": 50,
                     "minute": 5
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 14,
+                    "minute": 26
                 }
             }
         },
@@ -1491,6 +2168,11 @@
                     "sign": "+",
                     "degree": 52,
                     "minute": 30
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 13,
+                    "minute": 22
                 }
             }
         },
@@ -1502,6 +2184,11 @@
                     "sign": "+",
                     "degree": 47,
                     "minute": 42
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 8,
+                    "minute": 41
                 }
             }
         },
@@ -1513,6 +2200,11 @@
                     "sign": "+",
                     "degree": 11,
                     "minute": 36
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 43,
+                    "minute": 9
                 }
             }
         },
@@ -1524,6 +2216,11 @@
                     "sign": "+",
                     "degree": 55,
                     "minute": 40
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 12,
+                    "minute": 35
                 }
             }
         },
@@ -1535,6 +2232,11 @@
                     "sign": "+",
                     "degree": 15,
                     "minute": 18
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 61,
+                    "minute": 24
                 }
             }
         },
@@ -1546,6 +2248,11 @@
                     "sign": "+",
                     "degree": 18,
                     "minute": 28
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 69,
+                    "minute": 54
                 }
             }
         },
@@ -1557,6 +2264,11 @@
                     "sign": "+",
                     "degree": 36,
                     "minute": 47
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 3,
+                    "minute": 3
                 }
             }
         },
@@ -1568,6 +2280,11 @@
                     "sign": "-",
                     "degree": 2,
                     "minute": 10
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 79,
+                    "minute": 50
                 }
             }
         },
@@ -1579,6 +2296,11 @@
                     "sign": "-",
                     "degree": 0,
                     "minute": 54
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 89,
+                    "minute": 36
                 }
             }
         },
@@ -1590,6 +2312,11 @@
                     "sign": "+",
                     "degree": 59,
                     "minute": 25
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 24,
+                    "minute": 45
                 }
             }
         },
@@ -1601,6 +2328,11 @@
                     "sign": "+",
                     "degree": 30,
                     "minute": 3
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 31,
+                    "minute": 15
                 }
             }
         },
@@ -1612,6 +2344,11 @@
                     "sign": "+",
                     "degree": 27,
                     "minute": 9
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 13,
+                    "minute": 12
                 }
             }
         },
@@ -1623,6 +2360,11 @@
                     "sign": "+",
                     "degree": 15,
                     "minute": 20
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 38,
+                    "minute": 53
                 }
             }
         },
@@ -1634,6 +2376,11 @@
                     "sign": "+",
                     "degree": 40,
                     "minute": 24
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 3,
+                    "minute": 41
                 }
             }
         },
@@ -1645,6 +2392,11 @@
                     "sign": "+",
                     "degree": 35,
                     "minute": 53
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 5,
+                    "minute": 19
                 }
             }
         },
@@ -1656,6 +2408,11 @@
                     "sign": "+",
                     "degree": 28,
                     "minute": 6
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 15,
+                    "minute": 24
                 }
             }
         },
@@ -1667,6 +2424,11 @@
                     "sign": "+",
                     "degree": 9,
                     "minute": 2
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 38,
+                    "minute": 42
                 }
             }
         },
@@ -1678,6 +2440,11 @@
                     "sign": "+",
                     "degree": 60,
                     "minute": 10
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 24,
+                    "minute": 58
                 }
             }
         },
@@ -1689,6 +2456,11 @@
                     "sign": "-",
                     "degree": 18,
                     "minute": 8
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 178,
+                    "minute": 25
                 }
             }
         },
@@ -1700,6 +2472,11 @@
                     "sign": "-",
                     "degree": 51,
                     "minute": 42
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 57,
+                    "minute": 51
                 }
             }
         },
@@ -1711,6 +2488,11 @@
                     "sign": "+",
                     "degree": 7,
                     "minute": 25
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 151,
+                    "minute": 47
                 }
             }
         },
@@ -1722,6 +2504,11 @@
                     "sign": "+",
                     "degree": 6,
                     "minute": 58
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 158,
+                    "minute": 13
                 }
             }
         },
@@ -1733,6 +2520,11 @@
                     "sign": "+",
                     "degree": 5,
                     "minute": 19
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 162,
+                    "minute": 59
                 }
             }
         },
@@ -1744,6 +2536,11 @@
                     "sign": "+",
                     "degree": 62,
                     "minute": 1
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 6,
+                    "minute": 46
                 }
             }
         },
@@ -1755,6 +2552,11 @@
                     "sign": "+",
                     "degree": 48,
                     "minute": 52
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 2,
+                    "minute": 20
                 }
             }
         },
@@ -1766,6 +2568,11 @@
                     "sign": "+",
                     "degree": 0,
                     "minute": 23
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 9,
+                    "minute": 27
                 }
             }
         },
@@ -1778,6 +2585,12 @@
                     "degree": 51,
                     "minute": 30,
                     "second": 30
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 0,
+                    "minute": 7,
+                    "second": 31
                 }
             }
         },
@@ -1789,6 +2602,11 @@
                     "sign": "+",
                     "degree": 12,
                     "minute": 3
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 61,
+                    "minute": 45
                 }
             }
         },
@@ -1800,6 +2618,11 @@
                     "sign": "+",
                     "degree": 41,
                     "minute": 43
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 44,
+                    "minute": 49
                 }
             }
         },
@@ -1811,6 +2634,11 @@
                     "sign": "+",
                     "degree": 4,
                     "minute": 56
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 52,
+                    "minute": 20
                 }
             }
         },
@@ -1823,6 +2651,12 @@
                     "degree": 49,
                     "minute": 27,
                     "second": 17
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 2,
+                    "minute": 32,
+                    "second": 10
                 }
             }
         },
@@ -1834,6 +2668,11 @@
                     "sign": "+",
                     "degree": 5,
                     "minute": 33
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 0,
+                    "minute": 13
                 }
             }
         },
@@ -1845,6 +2684,11 @@
                     "sign": "+",
                     "degree": 36,
                     "minute": 8
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 5,
+                    "minute": 21
                 }
             }
         },
@@ -1856,6 +2700,11 @@
                     "sign": "+",
                     "degree": 64,
                     "minute": 11
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 51,
+                    "minute": 44
                 }
             }
         },
@@ -1867,6 +2716,11 @@
                     "sign": "+",
                     "degree": 76,
                     "minute": 46
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 18,
+                    "minute": 40
                 }
             }
         },
@@ -1878,6 +2732,11 @@
                     "sign": "+",
                     "degree": 70,
                     "minute": 29
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 21,
+                    "minute": 58
                 }
             }
         },
@@ -1889,6 +2748,11 @@
                     "sign": "+",
                     "degree": 76,
                     "minute": 34
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 68,
+                    "minute": 47
                 }
             }
         },
@@ -1900,6 +2764,11 @@
                     "sign": "+",
                     "degree": 13,
                     "minute": 28
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 16,
+                    "minute": 39
                 }
             }
         },
@@ -1911,6 +2780,11 @@
                     "sign": "+",
                     "degree": 9,
                     "minute": 31
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 13,
+                    "minute": 43
                 }
             }
         },
@@ -1922,6 +2796,11 @@
                     "sign": "+",
                     "degree": 16,
                     "minute": 14
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 61,
+                    "minute": 32
                 }
             }
         },
@@ -1933,6 +2812,11 @@
                     "sign": "+",
                     "degree": 3,
                     "minute": 45
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 8,
+                    "minute": 47
                 }
             }
         },
@@ -1944,6 +2828,11 @@
                     "sign": "+",
                     "degree": 37,
                     "minute": 58
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 23,
+                    "minute": 43
                 }
             }
         },
@@ -1955,6 +2844,11 @@
                     "sign": "-",
                     "degree": 54,
                     "minute": 16
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 36,
+                    "minute": 32
                 }
             }
         },
@@ -1966,6 +2860,11 @@
                     "sign": "+",
                     "degree": 14,
                     "minute": 38
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 90,
+                    "minute": 31
                 }
             }
         },
@@ -1977,6 +2876,11 @@
                     "sign": "+",
                     "degree": 13,
                     "minute": 28
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 144,
+                    "minute": 45
                 }
             }
         },
@@ -1988,6 +2892,11 @@
                     "sign": "+",
                     "degree": 11,
                     "minute": 51
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 15,
+                    "minute": 35
                 }
             }
         },
@@ -1999,6 +2908,11 @@
                     "sign": "+",
                     "degree": 6,
                     "minute": 48
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 58,
+                    "minute": 10
                 }
             }
         },
@@ -2010,6 +2924,11 @@
                     "sign": "+",
                     "degree": 22,
                     "minute": 17
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 114,
+                    "minute": 9
                 }
             }
         },
@@ -2021,6 +2940,11 @@
                     "sign": "+",
                     "degree": 14,
                     "minute": 6
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 87,
+                    "minute": 13
                 }
             }
         },
@@ -2032,6 +2956,11 @@
                     "sign": "+",
                     "degree": 45,
                     "minute": 48
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 15,
+                    "minute": 58
                 }
             }
         },
@@ -2043,6 +2972,11 @@
                     "sign": "+",
                     "degree": 18,
                     "minute": 32
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 72,
+                    "minute": 20
                 }
             }
         },
@@ -2054,6 +2988,11 @@
                     "sign": "+",
                     "degree": 47,
                     "minute": 30
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 19,
+                    "minute": 5
                 }
             }
         },
@@ -2065,6 +3004,11 @@
                     "sign": "-",
                     "degree": 6,
                     "minute": 10
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 106,
+                    "minute": 48
                 }
             }
         },
@@ -2076,6 +3020,11 @@
                     "sign": "-",
                     "degree": 0,
                     "minute": 2
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 109,
+                    "minute": 20
                 }
             }
         },
@@ -2087,6 +3036,11 @@
                     "sign": "-",
                     "degree": 5,
                     "minute": 7
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 119,
+                    "minute": 24
                 }
             }
         },
@@ -2098,6 +3052,11 @@
                     "sign": "-",
                     "degree": 2,
                     "minute": 32
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 140,
+                    "minute": 42
                 }
             }
         },
@@ -2109,6 +3068,11 @@
                     "sign": "+",
                     "degree": 53,
                     "minute": 20
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 6,
+                    "minute": 15
                 }
             }
         },
@@ -2121,6 +3085,12 @@
                     "degree": 31,
                     "minute": 46,
                     "second": 50
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 35,
+                    "minute": 13,
+                    "second": 26
                 }
             }
         },
@@ -2132,6 +3102,11 @@
                     "sign": "+",
                     "degree": 54,
                     "minute": 9
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 4,
+                    "minute": 28
                 }
             }
         },
@@ -2143,6 +3118,11 @@
                     "sign": "+",
                     "degree": 22,
                     "minute": 32
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 88,
+                    "minute": 22
                 }
             }
         },
@@ -2154,6 +3134,11 @@
                     "sign": "-",
                     "degree": 7,
                     "minute": 20
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 72,
+                    "minute": 25
                 }
             }
         },
@@ -2165,6 +3150,11 @@
                     "sign": "+",
                     "degree": 33,
                     "minute": 21
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 44,
+                    "minute": 25
                 }
             }
         },
@@ -2176,6 +3166,11 @@
                     "sign": "+",
                     "degree": 35,
                     "minute": 40
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 51,
+                    "minute": 26
                 }
             }
         },
@@ -2187,6 +3182,11 @@
                     "sign": "+",
                     "degree": 64,
                     "minute": 9
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 21,
+                    "minute": 51
                 }
             }
         },
@@ -2198,6 +3198,11 @@
                     "sign": "+",
                     "degree": 41,
                     "minute": 54
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 12,
+                    "minute": 29
                 }
             }
         },
@@ -2210,6 +3215,12 @@
                     "degree": 49,
                     "minute": 11,
                     "second": 1
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 2,
+                    "minute": 6,
+                    "second": 24
                 }
             }
         },
@@ -2222,6 +3233,12 @@
                     "degree": 17,
                     "minute": 58,
                     "second": 5
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 76,
+                    "minute": 47,
+                    "second": 36
                 }
             }
         },
@@ -2233,6 +3250,11 @@
                     "sign": "+",
                     "degree": 31,
                     "minute": 57
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 35,
+                    "minute": 56
                 }
             }
         },
@@ -2245,6 +3267,12 @@
                     "degree": 35,
                     "minute": 39,
                     "second": 16
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 139,
+                    "minute": 44,
+                    "second": 41
                 }
             }
         },
@@ -2256,6 +3284,11 @@
                     "sign": "-",
                     "degree": 1,
                     "minute": 17
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 36,
+                    "minute": 49
                 }
             }
         },
@@ -2267,6 +3300,11 @@
                     "sign": "+",
                     "degree": 42,
                     "minute": 54
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 74,
+                    "minute": 36
                 }
             }
         },
@@ -2278,6 +3316,11 @@
                     "sign": "+",
                     "degree": 11,
                     "minute": 33
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 104,
+                    "minute": 55
                 }
             }
         },
@@ -2289,6 +3332,11 @@
                     "sign": "+",
                     "degree": 1,
                     "minute": 25
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 173,
+                    "minute": 0
                 }
             }
         },
@@ -2300,6 +3348,11 @@
                     "sign": "-",
                     "degree": 3,
                     "minute": 8
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 171,
+                    "minute": 5
                 }
             }
         },
@@ -2311,6 +3364,11 @@
                     "sign": "+",
                     "degree": 1,
                     "minute": 52
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 157,
+                    "minute": 20
                 }
             }
         },
@@ -2322,6 +3380,11 @@
                     "sign": "-",
                     "degree": 11,
                     "minute": 41
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 43,
+                    "minute": 16
                 }
             }
         },
@@ -2333,6 +3396,11 @@
                     "sign": "+",
                     "degree": 17,
                     "minute": 18
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 62,
+                    "minute": 43
                 }
             }
         },
@@ -2344,6 +3412,11 @@
                     "sign": "+",
                     "degree": 39,
                     "minute": 1
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 125,
+                    "minute": 45
                 }
             }
         },
@@ -2355,6 +3428,11 @@
                     "sign": "+",
                     "degree": 37,
                     "minute": 33
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 126,
+                    "minute": 58
                 }
             }
         },
@@ -2366,6 +3444,11 @@
                     "sign": "+",
                     "degree": 29,
                     "minute": 20
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 47,
+                    "minute": 59
                 }
             }
         },
@@ -2377,6 +3460,11 @@
                     "sign": "+",
                     "degree": 19,
                     "minute": 18
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 81,
+                    "minute": 23
                 }
             }
         },
@@ -2388,6 +3476,11 @@
                     "sign": "+",
                     "degree": 43,
                     "minute": 15
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 76,
+                    "minute": 57
                 }
             }
         },
@@ -2399,6 +3492,11 @@
                     "sign": "+",
                     "degree": 44,
                     "minute": 48
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 65,
+                    "minute": 28
                 }
             }
         },
@@ -2410,6 +3508,11 @@
                     "sign": "+",
                     "degree": 50,
                     "minute": 17
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 57,
+                    "minute": 10
                 }
             }
         },
@@ -2421,6 +3524,11 @@
                     "sign": "+",
                     "degree": 44,
                     "minute": 31
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 50,
+                    "minute": 16
                 }
             }
         },
@@ -2432,6 +3540,11 @@
                     "sign": "+",
                     "degree": 47,
                     "minute": 7
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 51,
+                    "minute": 56
                 }
             }
         },
@@ -2443,6 +3556,11 @@
                     "sign": "+",
                     "degree": 51,
                     "minute": 13
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 51,
+                    "minute": 21
                 }
             }
         },
@@ -2454,6 +3572,11 @@
                     "sign": "+",
                     "degree": 17,
                     "minute": 58
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 102,
+                    "minute": 36
                 }
             }
         },
@@ -2465,6 +3588,11 @@
                     "sign": "+",
                     "degree": 33,
                     "minute": 53
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 35,
+                    "minute": 30
                 }
             }
         },
@@ -2476,6 +3604,11 @@
                     "sign": "+",
                     "degree": 14,
                     "minute": 1
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 61,
+                    "minute": 0
                 }
             }
         },
@@ -2487,6 +3620,11 @@
                     "sign": "+",
                     "degree": 47,
                     "minute": 9
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 9,
+                    "minute": 31
                 }
             }
         },
@@ -2498,6 +3636,11 @@
                     "sign": "+",
                     "degree": 6,
                     "minute": 56
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 79,
+                    "minute": 51
                 }
             }
         },
@@ -2509,6 +3652,11 @@
                     "sign": "+",
                     "degree": 6,
                     "minute": 18
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 10,
+                    "minute": 47
                 }
             }
         },
@@ -2520,6 +3668,11 @@
                     "sign": "-",
                     "degree": 29,
                     "minute": 28
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 27,
+                    "minute": 30
                 }
             }
         },
@@ -2531,6 +3684,11 @@
                     "sign": "+",
                     "degree": 54,
                     "minute": 41
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 25,
+                    "minute": 19
                 }
             }
         },
@@ -2542,6 +3700,11 @@
                     "sign": "+",
                     "degree": 49,
                     "minute": 36
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 6,
+                    "minute": 9
                 }
             }
         },
@@ -2553,6 +3716,11 @@
                     "sign": "+",
                     "degree": 56,
                     "minute": 57
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 24,
+                    "minute": 6
                 }
             }
         },
@@ -2564,6 +3732,11 @@
                     "sign": "+",
                     "degree": 32,
                     "minute": 54
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 13,
+                    "minute": 11
                 }
             }
         },
@@ -2575,6 +3748,11 @@
                     "sign": "+",
                     "degree": 33,
                     "minute": 39
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 7,
+                    "minute": 35
                 }
             }
         },
@@ -2586,6 +3764,11 @@
                     "sign": "+",
                     "degree": 43,
                     "minute": 42
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 7,
+                    "minute": 23
                 }
             }
         },
@@ -2597,6 +3780,11 @@
                     "sign": "+",
                     "degree": 47,
                     "minute": 0
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 28,
+                    "minute": 50
                 }
             }
         },
@@ -2608,6 +3796,11 @@
                     "sign": "+",
                     "degree": 42,
                     "minute": 26
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 19,
+                    "minute": 16
                 }
             }
         },
@@ -2619,6 +3812,11 @@
                     "sign": "+",
                     "degree": 18,
                     "minute": 4
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 63,
+                    "minute": 5
                 }
             }
         },
@@ -2630,6 +3828,11 @@
                     "sign": "-",
                     "degree": 18,
                     "minute": 55
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 47,
+                    "minute": 31
                 }
             }
         },
@@ -2641,6 +3844,11 @@
                     "sign": "+",
                     "degree": 7,
                     "minute": 9
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 171,
+                    "minute": 12
                 }
             }
         },
@@ -2652,6 +3860,11 @@
                     "sign": "+",
                     "degree": 9,
                     "minute": 5
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 167,
+                    "minute": 20
                 }
             }
         },
@@ -2663,6 +3876,11 @@
                     "sign": "+",
                     "degree": 41,
                     "minute": 59
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 21,
+                    "minute": 26
                 }
             }
         },
@@ -2674,6 +3892,11 @@
                     "sign": "+",
                     "degree": 12,
                     "minute": 39
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 8,
+                    "minute": 0
                 }
             }
         },
@@ -2685,6 +3908,11 @@
                     "sign": "+",
                     "degree": 16,
                     "minute": 47
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 96,
+                    "minute": 10
                 }
             }
         },
@@ -2696,6 +3924,11 @@
                     "sign": "+",
                     "degree": 47,
                     "minute": 55
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 106,
+                    "minute": 53
                 }
             }
         },
@@ -2707,6 +3940,11 @@
                     "sign": "+",
                     "degree": 48,
                     "minute": 1
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 91,
+                    "minute": 39
                 }
             }
         },
@@ -2718,6 +3956,11 @@
                     "sign": "+",
                     "degree": 48,
                     "minute": 4
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 114,
+                    "minute": 30
                 }
             }
         },
@@ -2729,6 +3972,11 @@
                     "sign": "+",
                     "degree": 22,
                     "minute": 14
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 113,
+                    "minute": 35
                 }
             }
         },
@@ -2740,6 +3988,11 @@
                     "sign": "+",
                     "degree": 15,
                     "minute": 12
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 145,
+                    "minute": 45
                 }
             }
         },
@@ -2751,6 +4004,11 @@
                     "sign": "+",
                     "degree": 14,
                     "minute": 36
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 61,
+                    "minute": 5
                 }
             }
         },
@@ -2762,6 +4020,11 @@
                     "sign": "+",
                     "degree": 18,
                     "minute": 6
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 15,
+                    "minute": 57
                 }
             }
         },
@@ -2773,6 +4036,11 @@
                     "sign": "+",
                     "degree": 16,
                     "minute": 43
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 62,
+                    "minute": 13
                 }
             }
         },
@@ -2784,6 +4052,11 @@
                     "sign": "+",
                     "degree": 35,
                     "minute": 54
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 14,
+                    "minute": 31
                 }
             }
         },
@@ -2795,6 +4068,11 @@
                     "sign": "-",
                     "degree": 20,
                     "minute": 10
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 57,
+                    "minute": 30
                 }
             }
         },
@@ -2806,6 +4084,11 @@
                     "sign": "+",
                     "degree": 4,
                     "minute": 10
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 73,
+                    "minute": 30
                 }
             }
         },
@@ -2817,6 +4100,11 @@
                     "sign": "-",
                     "degree": 15,
                     "minute": 47
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 35,
+                    "minute": 0
                 }
             }
         },
@@ -2828,6 +4116,11 @@
                     "sign": "+",
                     "degree": 19,
                     "minute": 24
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 99,
+                    "minute": 9
                 }
             }
         },
@@ -2839,6 +4132,11 @@
                     "sign": "+",
                     "degree": 21,
                     "minute": 5
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 86,
+                    "minute": 46
                 }
             }
         },
@@ -2850,6 +4148,11 @@
                     "sign": "+",
                     "degree": 20,
                     "minute": 58
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 89,
+                    "minute": 37
                 }
             }
         },
@@ -2861,6 +4164,11 @@
                     "sign": "+",
                     "degree": 25,
                     "minute": 40
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 100,
+                    "minute": 19
                 }
             }
         },
@@ -2872,6 +4180,11 @@
                     "sign": "+",
                     "degree": 25,
                     "minute": 50
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 97,
+                    "minute": 30
                 }
             }
         },
@@ -2883,6 +4196,11 @@
                     "sign": "+",
                     "degree": 23,
                     "minute": 13
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 106,
+                    "minute": 25
                 }
             }
         },
@@ -2894,6 +4212,11 @@
                     "sign": "+",
                     "degree": 28,
                     "minute": 38
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 106,
+                    "minute": 5
                 }
             }
         },
@@ -2905,6 +4228,11 @@
                     "sign": "+",
                     "degree": 29,
                     "minute": 34
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 104,
+                    "minute": 25
                 }
             }
         },
@@ -2916,6 +4244,11 @@
                     "sign": "+",
                     "degree": 29,
                     "minute": 4
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 110,
+                    "minute": 58
                 }
             }
         },
@@ -2927,6 +4260,11 @@
                     "sign": "+",
                     "degree": 32,
                     "minute": 32
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 117,
+                    "minute": 1
                 }
             }
         },
@@ -2938,6 +4276,11 @@
                     "sign": "+",
                     "degree": 20,
                     "minute": 48
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 105,
+                    "minute": 15
                 }
             }
         },
@@ -2949,6 +4292,11 @@
                     "sign": "+",
                     "degree": 3,
                     "minute": 10
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 101,
+                    "minute": 42
                 }
             }
         },
@@ -2960,6 +4308,11 @@
                     "sign": "+",
                     "degree": 1,
                     "minute": 33
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 110,
+                    "minute": 20
                 }
             }
         },
@@ -2971,6 +4324,11 @@
                     "sign": "-",
                     "degree": 25,
                     "minute": 58
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 32,
+                    "minute": 35
                 }
             }
         },
@@ -2982,6 +4340,11 @@
                     "sign": "-",
                     "degree": 22,
                     "minute": 34
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 17,
+                    "minute": 6
                 }
             }
         },
@@ -2993,6 +4356,11 @@
                     "sign": "-",
                     "degree": 22,
                     "minute": 16
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 166,
+                    "minute": 27
                 }
             }
         },
@@ -3004,6 +4372,11 @@
                     "sign": "+",
                     "degree": 13,
                     "minute": 31
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 2,
+                    "minute": 7
                 }
             }
         },
@@ -3015,6 +4388,11 @@
                     "sign": "-",
                     "degree": 29,
                     "minute": 3
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 167,
+                    "minute": 58
                 }
             }
         },
@@ -3026,6 +4404,11 @@
                     "sign": "+",
                     "degree": 6,
                     "minute": 27
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 3,
+                    "minute": 24
                 }
             }
         },
@@ -3037,6 +4420,11 @@
                     "sign": "+",
                     "degree": 12,
                     "minute": 9
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 86,
+                    "minute": 17
                 }
             }
         },
@@ -3048,6 +4436,11 @@
                     "sign": "+",
                     "degree": 52,
                     "minute": 22
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 4,
+                    "minute": 54
                 }
             }
         },
@@ -3059,6 +4452,11 @@
                     "sign": "+",
                     "degree": 59,
                     "minute": 55
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 10,
+                    "minute": 45
                 }
             }
         },
@@ -3070,6 +4468,11 @@
                     "sign": "+",
                     "degree": 27,
                     "minute": 43
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 85,
+                    "minute": 19
                 }
             }
         },
@@ -3081,6 +4484,11 @@
                     "sign": "-",
                     "degree": 0,
                     "minute": 31
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 166,
+                    "minute": 55
                 }
             }
         },
@@ -3092,6 +4500,11 @@
                     "sign": "-",
                     "degree": 19,
                     "minute": 1
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 169,
+                    "minute": 55
                 }
             }
         },
@@ -3103,6 +4516,11 @@
                     "sign": "-",
                     "degree": 36,
                     "minute": 52
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 174,
+                    "minute": 46
                 }
             }
         },
@@ -3114,6 +4532,11 @@
                     "sign": "-",
                     "degree": 43,
                     "minute": 57
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 176,
+                    "minute": 33
                 }
             }
         },
@@ -3125,6 +4548,11 @@
                     "sign": "+",
                     "degree": 23,
                     "minute": 36
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 58,
+                    "minute": 35
                 }
             }
         },
@@ -3136,6 +4564,11 @@
                     "sign": "+",
                     "degree": 8,
                     "minute": 58
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 79,
+                    "minute": 32
                 }
             }
         },
@@ -3146,6 +4579,11 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 12,
+                    "minute": 3
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 77,
                     "minute": 3
                 }
             }
@@ -3158,6 +4596,11 @@
                     "sign": "-",
                     "degree": 17,
                     "minute": 32
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 149,
+                    "minute": 34
                 }
             }
         },
@@ -3169,6 +4612,11 @@
                     "sign": "-",
                     "degree": 9,
                     "minute": 0
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 139,
+                    "minute": 30
                 }
             }
         },
@@ -3180,6 +4628,11 @@
                     "sign": "-",
                     "degree": 23,
                     "minute": 8
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 134,
+                    "minute": 57
                 }
             }
         },
@@ -3191,6 +4644,11 @@
                     "sign": "-",
                     "degree": 9,
                     "minute": 30
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 147,
+                    "minute": 10
                 }
             }
         },
@@ -3202,6 +4660,11 @@
                     "sign": "-",
                     "degree": 6,
                     "minute": 13
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 155,
+                    "minute": 34
                 }
             }
         },
@@ -3213,6 +4676,11 @@
                     "sign": "+",
                     "degree": 14,
                     "minute": 35
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 121,
+                    "minute": 0
                 }
             }
         },
@@ -3224,6 +4692,11 @@
                     "sign": "+",
                     "degree": 24,
                     "minute": 52
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 67,
+                    "minute": 3
                 }
             }
         },
@@ -3235,6 +4708,11 @@
                     "sign": "+",
                     "degree": 52,
                     "minute": 15
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 21,
+                    "minute": 0
                 }
             }
         },
@@ -3246,6 +4724,11 @@
                     "sign": "+",
                     "degree": 47,
                     "minute": 3
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 56,
+                    "minute": 20
                 }
             }
         },
@@ -3257,6 +4740,11 @@
                     "sign": "-",
                     "degree": 25,
                     "minute": 4
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 130,
+                    "minute": 5
                 }
             }
         },
@@ -3269,6 +4757,12 @@
                     "degree": 18,
                     "minute": 28,
                     "second": 6
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 66,
+                    "minute": 6,
+                    "second": 22
                 }
             }
         },
@@ -3280,6 +4774,11 @@
                     "sign": "+",
                     "degree": 31,
                     "minute": 30
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 34,
+                    "minute": 28
                 }
             }
         },
@@ -3291,6 +4790,12 @@
                     "sign": "+",
                     "degree": 31,
                     "minute": 32
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 35,
+                    "minute": 5,
+                    "second": 42
                 }
             }
         },
@@ -3302,6 +4807,11 @@
                     "sign": "+",
                     "degree": 38,
                     "minute": 43
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 9,
+                    "minute": 8
                 }
             }
         },
@@ -3313,6 +4823,11 @@
                     "sign": "+",
                     "degree": 32,
                     "minute": 38
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 16,
+                    "minute": 54
                 }
             }
         },
@@ -3324,6 +4839,11 @@
                     "sign": "+",
                     "degree": 37,
                     "minute": 44
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 25,
+                    "minute": 40
                 }
             }
         },
@@ -3335,6 +4855,11 @@
                     "sign": "+",
                     "degree": 7,
                     "minute": 20
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 134,
+                    "minute": 29
                 }
             }
         },
@@ -3346,6 +4871,11 @@
                     "sign": "-",
                     "degree": 25,
                     "minute": 16
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 57,
+                    "minute": 40
                 }
             }
         },
@@ -3357,6 +4887,11 @@
                     "sign": "+",
                     "degree": 25,
                     "minute": 17
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 51,
+                    "minute": 32
                 }
             }
         },
@@ -3368,6 +4903,11 @@
                     "sign": "-",
                     "degree": 20,
                     "minute": 52
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 55,
+                    "minute": 28
                 }
             }
         },
@@ -3379,6 +4919,11 @@
                     "sign": "+",
                     "degree": 44,
                     "minute": 26
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 26,
+                    "minute": 6
                 }
             }
         },
@@ -3390,6 +4935,11 @@
                     "sign": "+",
                     "degree": 44,
                     "minute": 50
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 20,
+                    "minute": 30
                 }
             }
         },
@@ -3401,6 +4951,11 @@
                     "sign": "+",
                     "degree": 54,
                     "minute": 43
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 20,
+                    "minute": 30
                 }
             }
         },
@@ -3413,6 +4968,12 @@
                     "degree": 55,
                     "minute": 45,
                     "second": 21
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 37,
+                    "minute": 37,
+                    "second": 4
                 }
             }
         },
@@ -3424,6 +4985,11 @@
                     "sign": "+",
                     "degree": 44,
                     "minute": 57
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 34,
+                    "minute": 6
                 }
             }
         },
@@ -3435,6 +5001,11 @@
                     "sign": "+",
                     "degree": 48,
                     "minute": 44
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 44,
+                    "minute": 25
                 }
             }
         },
@@ -3446,6 +5017,11 @@
                     "sign": "+",
                     "degree": 58,
                     "minute": 36
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 49,
+                    "minute": 39
                 }
             }
         },
@@ -3457,6 +5033,11 @@
                     "sign": "+",
                     "degree": 46,
                     "minute": 21
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 48,
+                    "minute": 3
                 }
             }
         },
@@ -3468,6 +5049,11 @@
                     "sign": "+",
                     "degree": 51,
                     "minute": 34
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 46,
+                    "minute": 2
                 }
             }
         },
@@ -3479,6 +5065,11 @@
                     "sign": "+",
                     "degree": 54,
                     "minute": 20
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 48,
+                    "minute": 24
                 }
             }
         },
@@ -3490,6 +5081,11 @@
                     "sign": "+",
                     "degree": 53,
                     "minute": 12
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 50,
+                    "minute": 9
                 }
             }
         },
@@ -3501,6 +5097,11 @@
                     "sign": "+",
                     "degree": 56,
                     "minute": 51
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 60,
+                    "minute": 36
                 }
             }
         },
@@ -3512,6 +5113,11 @@
                     "sign": "+",
                     "degree": 55,
                     "minute": 0
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 73,
+                    "minute": 24
                 }
             }
         },
@@ -3523,6 +5129,11 @@
                     "sign": "+",
                     "degree": 55,
                     "minute": 2
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 82,
+                    "minute": 55
                 }
             }
         },
@@ -3534,6 +5145,11 @@
                     "sign": "+",
                     "degree": 53,
                     "minute": 22
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 83,
+                    "minute": 45
                 }
             }
         },
@@ -3545,6 +5161,11 @@
                     "sign": "+",
                     "degree": 56,
                     "minute": 30
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 84,
+                    "minute": 58
                 }
             }
         },
@@ -3556,6 +5177,11 @@
                     "sign": "+",
                     "degree": 53,
                     "minute": 45
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 87,
+                    "minute": 7
                 }
             }
         },
@@ -3567,6 +5193,11 @@
                     "sign": "+",
                     "degree": 56,
                     "minute": 1
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 92,
+                    "minute": 50
                 }
             }
         },
@@ -3578,6 +5209,11 @@
                     "sign": "+",
                     "degree": 52,
                     "minute": 16
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 104,
+                    "minute": 20
                 }
             }
         },
@@ -3589,6 +5225,11 @@
                     "sign": "+",
                     "degree": 52,
                     "minute": 3
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 113,
+                    "minute": 28
                 }
             }
         },
@@ -3600,6 +5241,11 @@
                     "sign": "+",
                     "degree": 62,
                     "minute": 0
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 129,
+                    "minute": 40
                 }
             }
         },
@@ -3612,6 +5258,12 @@
                     "degree": 62,
                     "minute": 39,
                     "second": 23
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 135,
+                    "minute": 33,
+                    "second": 14
                 }
             }
         },
@@ -3623,6 +5275,11 @@
                     "sign": "+",
                     "degree": 43,
                     "minute": 10
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 131,
+                    "minute": 56
                 }
             }
         },
@@ -3635,6 +5292,12 @@
                     "degree": 64,
                     "minute": 33,
                     "second": 37
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 143,
+                    "minute": 13,
+                    "second": 36
                 }
             }
         },
@@ -3646,6 +5309,11 @@
                     "sign": "+",
                     "degree": 59,
                     "minute": 34
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 150,
+                    "minute": 48
                 }
             }
         },
@@ -3657,6 +5325,11 @@
                     "sign": "+",
                     "degree": 46,
                     "minute": 58
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 142,
+                    "minute": 42
                 }
             }
         },
@@ -3668,6 +5341,11 @@
                     "sign": "+",
                     "degree": 67,
                     "minute": 28
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 153,
+                    "minute": 43
                 }
             }
         },
@@ -3679,6 +5357,11 @@
                     "sign": "+",
                     "degree": 53,
                     "minute": 1
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 158,
+                    "minute": 39
                 }
             }
         },
@@ -3690,6 +5373,11 @@
                     "sign": "+",
                     "degree": 64,
                     "minute": 45
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 177,
+                    "minute": 29
                 }
             }
         },
@@ -3701,6 +5389,11 @@
                     "sign": "-",
                     "degree": 1,
                     "minute": 57
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 30,
+                    "minute": 4
                 }
             }
         },
@@ -3712,6 +5405,11 @@
                     "sign": "+",
                     "degree": 24,
                     "minute": 38
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 46,
+                    "minute": 43
                 }
             }
         },
@@ -3723,6 +5421,11 @@
                     "sign": "-",
                     "degree": 9,
                     "minute": 32
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 160,
+                    "minute": 12
                 }
             }
         },
@@ -3734,6 +5437,11 @@
                     "sign": "-",
                     "degree": 4,
                     "minute": 40
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 55,
+                    "minute": 28
                 }
             }
         },
@@ -3745,6 +5453,11 @@
                     "sign": "+",
                     "degree": 15,
                     "minute": 36
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 32,
+                    "minute": 32
                 }
             }
         },
@@ -3756,6 +5469,11 @@
                     "sign": "+",
                     "degree": 59,
                     "minute": 20
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 18,
+                    "minute": 3
                 }
             }
         },
@@ -3767,6 +5485,11 @@
                     "sign": "+",
                     "degree": 1,
                     "minute": 17
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 103,
+                    "minute": 51
                 }
             }
         },
@@ -3778,6 +5501,11 @@
                     "sign": "-",
                     "degree": 15,
                     "minute": 55
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 5,
+                    "minute": 42
                 }
             }
         },
@@ -3789,6 +5517,11 @@
                     "sign": "+",
                     "degree": 46,
                     "minute": 3
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 14,
+                    "minute": 31
                 }
             }
         },
@@ -3799,6 +5532,11 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 78,
+                    "minute": 0
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 16,
                     "minute": 0
                 }
             }
@@ -3811,6 +5549,11 @@
                     "sign": "+",
                     "degree": 48,
                     "minute": 9
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 17,
+                    "minute": 7
                 }
             }
         },
@@ -3822,6 +5565,11 @@
                     "sign": "+",
                     "degree": 8,
                     "minute": 30
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 13,
+                    "minute": 15
                 }
             }
         },
@@ -3833,6 +5581,11 @@
                     "sign": "+",
                     "degree": 43,
                     "minute": 55
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 12,
+                    "minute": 28
                 }
             }
         },
@@ -3844,6 +5597,11 @@
                     "sign": "+",
                     "degree": 14,
                     "minute": 40
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 17,
+                    "minute": 26
                 }
             }
         },
@@ -3855,6 +5613,11 @@
                     "sign": "+",
                     "degree": 2,
                     "minute": 4
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 45,
+                    "minute": 22
                 }
             }
         },
@@ -3866,6 +5629,11 @@
                     "sign": "+",
                     "degree": 5,
                     "minute": 50
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 55,
+                    "minute": 10
                 }
             }
         },
@@ -3877,6 +5645,11 @@
                     "sign": "+",
                     "degree": 4,
                     "minute": 51
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 31,
+                    "minute": 37
                 }
             }
         },
@@ -3888,6 +5661,11 @@
                     "sign": "+",
                     "degree": 0,
                     "minute": 20
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 6,
+                    "minute": 44
                 }
             }
         },
@@ -3899,6 +5677,11 @@
                     "sign": "+",
                     "degree": 13,
                     "minute": 42
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 89,
+                    "minute": 12
                 }
             }
         },
@@ -3911,6 +5694,12 @@
                     "degree": 18,
                     "minute": 3,
                     "second": 5
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 63,
+                    "minute": 2,
+                    "second": 50
                 }
             }
         },
@@ -3922,6 +5711,11 @@
                     "sign": "+",
                     "degree": 33,
                     "minute": 30
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 36,
+                    "minute": 18
                 }
             }
         },
@@ -3933,6 +5727,11 @@
                     "sign": "-",
                     "degree": 26,
                     "minute": 18
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 31,
+                    "minute": 6
                 }
             }
         },
@@ -3944,6 +5743,11 @@
                     "sign": "+",
                     "degree": 21,
                     "minute": 28
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 71,
+                    "minute": 8
                 }
             }
         },
@@ -3955,6 +5759,11 @@
                     "sign": "+",
                     "degree": 12,
                     "minute": 7
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 15,
+                    "minute": 3
                 }
             }
         },
@@ -3967,6 +5776,12 @@
                     "degree": 49,
                     "minute": 21,
                     "second": 10
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 70,
+                    "minute": 13,
+                    "second": 3
                 }
             }
         },
@@ -3978,6 +5793,11 @@
                     "sign": "+",
                     "degree": 6,
                     "minute": 8
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 1,
+                    "minute": 13
                 }
             }
         },
@@ -3989,6 +5809,11 @@
                     "sign": "+",
                     "degree": 13,
                     "minute": 45
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 100,
+                    "minute": 31
                 }
             }
         },
@@ -4000,6 +5825,11 @@
                     "sign": "+",
                     "degree": 38,
                     "minute": 35
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 68,
+                    "minute": 48
                 }
             }
         },
@@ -4011,6 +5841,11 @@
                     "sign": "-",
                     "degree": 9,
                     "minute": 22
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 171,
+                    "minute": 14
                 }
             }
         },
@@ -4022,6 +5857,11 @@
                     "sign": "-",
                     "degree": 8,
                     "minute": 33
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 125,
+                    "minute": 35
                 }
             }
         },
@@ -4033,6 +5873,11 @@
                     "sign": "+",
                     "degree": 37,
                     "minute": 57
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 58,
+                    "minute": 23
                 }
             }
         },
@@ -4044,6 +5889,11 @@
                     "sign": "+",
                     "degree": 36,
                     "minute": 48
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 10,
+                    "minute": 11
                 }
             }
         },
@@ -4054,6 +5904,11 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 21,
+                    "minute": 10
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 175,
                     "minute": 10
                 }
             }
@@ -4066,6 +5921,11 @@
                     "sign": "+",
                     "degree": 41,
                     "minute": 1
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 28,
+                    "minute": 58
                 }
             }
         },
@@ -4077,6 +5937,11 @@
                     "sign": "+",
                     "degree": 10,
                     "minute": 39
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 61,
+                    "minute": 31
                 }
             }
         },
@@ -4088,6 +5953,11 @@
                     "sign": "-",
                     "degree": 8,
                     "minute": 31
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 179,
+                    "minute": 13
                 }
             }
         },
@@ -4099,6 +5969,11 @@
                     "sign": "+",
                     "degree": 25,
                     "minute": 3
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 121,
+                    "minute": 30
                 }
             }
         },
@@ -4110,6 +5985,11 @@
                     "sign": "-",
                     "degree": 6,
                     "minute": 48
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 39,
+                    "minute": 17
                 }
             }
         },
@@ -4121,6 +6001,11 @@
                     "sign": "+",
                     "degree": 50,
                     "minute": 26
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 30,
+                    "minute": 31
                 }
             }
         },
@@ -4132,6 +6017,11 @@
                     "sign": "+",
                     "degree": 48,
                     "minute": 37
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 22,
+                    "minute": 18
                 }
             }
         },
@@ -4143,6 +6033,11 @@
                     "sign": "+",
                     "degree": 47,
                     "minute": 50
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 35,
+                    "minute": 10
                 }
             }
         },
@@ -4154,6 +6049,11 @@
                     "sign": "+",
                     "degree": 0,
                     "minute": 19
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 32,
+                    "minute": 25
                 }
             }
         },
@@ -4165,6 +6065,11 @@
                     "sign": "+",
                     "degree": 28,
                     "minute": 13
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 177,
+                    "minute": 22
                 }
             }
         },
@@ -4176,6 +6081,11 @@
                     "sign": "+",
                     "degree": 19,
                     "minute": 17
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 166,
+                    "minute": 37
                 }
             }
         },
@@ -4188,6 +6098,12 @@
                     "degree": 40,
                     "minute": 42,
                     "second": 51
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 74,
+                    "minute": 0,
+                    "second": 23
                 }
             }
         },
@@ -4200,6 +6116,12 @@
                     "degree": 42,
                     "minute": 19,
                     "second": 53
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 83,
+                    "minute": 2,
+                    "second": 45
                 }
             }
         },
@@ -4212,6 +6134,12 @@
                     "degree": 38,
                     "minute": 15,
                     "second": 15
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 85,
+                    "minute": 45,
+                    "second": 34
                 }
             }
         },
@@ -4224,6 +6152,12 @@
                     "degree": 36,
                     "minute": 49,
                     "second": 47
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 84,
+                    "minute": 50,
+                    "second": 57
                 }
             }
         },
@@ -4236,6 +6170,12 @@
                     "degree": 39,
                     "minute": 46,
                     "second": 6
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 86,
+                    "minute": 9,
+                    "second": 29
                 }
             }
         },
@@ -4248,6 +6188,12 @@
                     "degree": 38,
                     "minute": 40,
                     "second": 38
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 87,
+                    "minute": 31,
+                    "second": 43
                 }
             }
         },
@@ -4260,6 +6206,12 @@
                     "degree": 41,
                     "minute": 3,
                     "second": 5
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 86,
+                    "minute": 36,
+                    "second": 11
                 }
             }
         },
@@ -4272,6 +6224,12 @@
                     "degree": 38,
                     "minute": 22,
                     "second": 32
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 86,
+                    "minute": 20,
+                    "second": 41
                 }
             }
         },
@@ -4284,6 +6242,12 @@
                     "degree": 38,
                     "minute": 29,
                     "second": 31
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 87,
+                    "minute": 16,
+                    "second": 43
                 }
             }
         },
@@ -4296,6 +6260,12 @@
                     "degree": 38,
                     "minute": 44,
                     "second": 52
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 85,
+                    "minute": 4,
+                    "second": 2
                 }
             }
         },
@@ -4307,6 +6277,11 @@
                     "sign": "+",
                     "degree": 41,
                     "minute": 51
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 87,
+                    "minute": 39
                 }
             }
         },
@@ -4319,6 +6294,12 @@
                     "degree": 37,
                     "minute": 57,
                     "second": 11
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 86,
+                    "minute": 45,
+                    "second": 41
                 }
             }
         },
@@ -4331,6 +6312,12 @@
                     "degree": 41,
                     "minute": 17,
                     "second": 45
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 86,
+                    "minute": 37,
+                    "second": 30
                 }
             }
         },
@@ -4343,6 +6330,12 @@
                     "degree": 45,
                     "minute": 6,
                     "second": 28
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 87,
+                    "minute": 36,
+                    "second": 51
                 }
             }
         },
@@ -4355,6 +6348,12 @@
                     "degree": 47,
                     "minute": 6,
                     "second": 59
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 101,
+                    "minute": 17,
+                    "second": 57
                 }
             }
         },
@@ -4367,6 +6366,12 @@
                     "degree": 46,
                     "minute": 50,
                     "second": 42
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 101,
+                    "minute": 24,
+                    "second": 39
                 }
             }
         },
@@ -4379,6 +6384,12 @@
                     "degree": 47,
                     "minute": 15,
                     "second": 51
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 101,
+                    "minute": 46,
+                    "second": 40
                 }
             }
         },
@@ -4391,6 +6402,12 @@
                     "degree": 39,
                     "minute": 44,
                     "second": 21
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 104,
+                    "minute": 59,
+                    "second": 3
                 }
             }
         },
@@ -4403,6 +6420,12 @@
                     "degree": 43,
                     "minute": 36,
                     "second": 49
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 116,
+                    "minute": 12,
+                    "second": 9
                 }
             }
         },
@@ -4415,6 +6438,12 @@
                     "degree": 33,
                     "minute": 26,
                     "second": 54
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 112,
+                    "minute": 4,
+                    "second": 24
                 }
             }
         },
@@ -4427,6 +6456,12 @@
                     "degree": 34,
                     "minute": 3,
                     "second": 8
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 118,
+                    "minute": 14,
+                    "second": 34
                 }
             }
         },
@@ -4439,6 +6474,12 @@
                     "degree": 61,
                     "minute": 13,
                     "second": 5
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 149,
+                    "minute": 54,
+                    "second": 1
                 }
             }
         },
@@ -4451,6 +6492,12 @@
                     "degree": 58,
                     "minute": 18,
                     "second": 7
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 134,
+                    "minute": 25,
+                    "second": 11
                 }
             }
         },
@@ -4463,6 +6510,12 @@
                     "degree": 57,
                     "minute": 10,
                     "second": 35
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 135,
+                    "minute": 18,
+                    "second": 7
                 }
             }
         },
@@ -4475,6 +6528,12 @@
                     "degree": 55,
                     "minute": 7,
                     "second": 37
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 131,
+                    "minute": 34,
+                    "second": 35
                 }
             }
         },
@@ -4487,6 +6546,12 @@
                     "degree": 59,
                     "minute": 32,
                     "second": 49
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 139,
+                    "minute": 43,
+                    "second": 38
                 }
             }
         },
@@ -4499,6 +6564,12 @@
                     "degree": 64,
                     "minute": 30,
                     "second": 4
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 165,
+                    "minute": 24,
+                    "second": 23
                 }
             }
         },
@@ -4511,6 +6582,12 @@
                     "degree": 51,
                     "minute": 52,
                     "second": 48
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 176,
+                    "minute": 39,
+                    "second": 29
                 }
             }
         },
@@ -4523,6 +6600,12 @@
                     "degree": 21,
                     "minute": 18,
                     "second": 25
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 157,
+                    "minute": 51,
+                    "second": 30
                 }
             }
         },
@@ -4534,6 +6617,11 @@
                     "sign": "-",
                     "degree": 34,
                     "minute": 53
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 56,
+                    "minute": 11
                 }
             }
         },
@@ -4545,6 +6633,11 @@
                     "sign": "+",
                     "degree": 39,
                     "minute": 40
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 66,
+                    "minute": 48
                 }
             }
         },
@@ -4556,6 +6649,11 @@
                     "sign": "+",
                     "degree": 41,
                     "minute": 20
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 69,
+                    "minute": 18
                 }
             }
         },
@@ -4568,6 +6666,12 @@
                     "degree": 41,
                     "minute": 54,
                     "second": 8
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 12,
+                    "minute": 27,
+                    "second": 11
                 }
             }
         },
@@ -4579,6 +6683,11 @@
                     "sign": "+",
                     "degree": 13,
                     "minute": 9
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 61,
+                    "minute": 14
                 }
             }
         },
@@ -4590,6 +6699,11 @@
                     "sign": "+",
                     "degree": 10,
                     "minute": 30
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 66,
+                    "minute": 56
                 }
             }
         },
@@ -4601,6 +6715,11 @@
                     "sign": "+",
                     "degree": 18,
                     "minute": 27
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 64,
+                    "minute": 37
                 }
             }
         },
@@ -4612,6 +6731,11 @@
                     "sign": "+",
                     "degree": 18,
                     "minute": 21
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 64,
+                    "minute": 56
                 }
             }
         },
@@ -4623,6 +6747,11 @@
                     "sign": "+",
                     "degree": 10,
                     "minute": 45
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 106,
+                    "minute": 40
                 }
             }
         },
@@ -4634,6 +6763,11 @@
                     "sign": "-",
                     "degree": 17,
                     "minute": 40
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 168,
+                    "minute": 25
                 }
             }
         },
@@ -4645,6 +6779,11 @@
                     "sign": "-",
                     "degree": 13,
                     "minute": 18
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 176,
+                    "minute": 10
                 }
             }
         },
@@ -4656,6 +6795,11 @@
                     "sign": "-",
                     "degree": 13,
                     "minute": 50
+                },
+                "longitude": {
+                    "sign": "-",
+                    "degree": 171,
+                    "minute": 44
                 }
             }
         },
@@ -4667,6 +6811,11 @@
                     "sign": "+",
                     "degree": 12,
                     "minute": 45
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 45,
+                    "minute": 12
                 }
             }
         },
@@ -4678,6 +6827,11 @@
                     "sign": "-",
                     "degree": 12,
                     "minute": 47
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 45,
+                    "minute": 14
                 }
             }
         },
@@ -4689,6 +6843,11 @@
                     "sign": "-",
                     "degree": 26,
                     "minute": 15
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 28,
+                    "minute": 0
                 }
             }
         },
@@ -4700,6 +6859,11 @@
                     "sign": "-",
                     "degree": 15,
                     "minute": 25
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 28,
+                    "minute": 17
                 }
             }
         },
@@ -4711,6 +6875,11 @@
                     "sign": "-",
                     "degree": 17,
                     "minute": 50
+                },
+                "longitude": {
+                    "sign": "+",
+                    "degree": 31,
+                    "minute": 3
                 }
             }
         }
