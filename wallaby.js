@@ -4,6 +4,7 @@ module.exports = function () {
         files: [
             'src/**/*.ts',
             'test-helpers/**/*.ts',
+            'timezones/all-fields.json',
             { pattern: 'src/**/*.spec.ts', ignore: true }
         ],
 
