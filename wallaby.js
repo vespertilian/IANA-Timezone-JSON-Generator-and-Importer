@@ -5,6 +5,7 @@ module.exports = function () {
             'src/**/*.ts',
             'test-helpers/**/*.ts',
             'timezones/all-fields.json',
+            'src/get-iana-tz-data/tzdata.tar.gz',
             { pattern: 'src/**/*.spec.ts', ignore: true }
         ],
 

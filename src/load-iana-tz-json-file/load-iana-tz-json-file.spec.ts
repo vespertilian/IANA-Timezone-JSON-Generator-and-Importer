@@ -7,7 +7,6 @@ describe('loadIANATzJsonFile', () => {
     });
 
     it('should throw an error if the file does not exist', async() => {
-
         let error = null;
         try {
             const madeUpFooFile = await loadIANATzJsonFile('made-up-foo-file.json');
@@ -15,7 +14,7 @@ describe('loadIANATzJsonFile', () => {
             error = e;
         }
 
-        expect(error.toString().includes('File does not exist')).toBe(true)
-        expect(error.toString().includes('all-fields.json')).toBe(true)
+        expect(error.message.includes('File does not exist')).toBe(true)
+        expect(error.message.includes('all-fields.json')).toBe(true)
     });
 });

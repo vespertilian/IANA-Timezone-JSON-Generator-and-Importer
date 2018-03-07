@@ -1,4 +1,4 @@
-import {getIANATzData} from './get-iana-tz-data';
+import {getIANATzData} from './get-iana-tz-data/get-iana-tz-data';
 import {extractTzData} from './extract-tz-data';
 import * as path from 'path';
 import * as Handlebars from 'handlebars'

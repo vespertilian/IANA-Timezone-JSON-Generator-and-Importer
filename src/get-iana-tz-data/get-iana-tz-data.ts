@@ -1,7 +1,7 @@
 //@ts-ignore
 import * as decompressTargz from 'decompress-targz';
 import fetch from 'node-fetch';
-import {replaceLineBreaks} from './util/util';
+import {replaceLineBreaks} from '../util/util';
 
 export interface getIANATzDataParams {
     url: string
@@ -22,7 +22,7 @@ export interface IANATzDataFiles {
     [key: string]: string
 }
 
-export async function getIANATzData(params?: getIANATzDataParams): Promise<IANATzDataFiles> {
+export async function getIANATzData(params?: getIANATzDataParams, _fetch=fetch): Promise<IANATzDataFiles> {
     const defults: getIANATzDataParams =  {
         url: 'https://www.iana.org/time-zones/repository/tzdata-latest.tar.gz',
         filesToExtract: ['zone.tab', 'zone1970.tab'],
@@ -31,7 +31,7 @@ export async function getIANATzData(params?: getIANATzDataParams): Promise<IANAT
 
     const {url, filesToExtract, fileEncoding} = Object.assign(defults, params);
 
-    const result = await fetch(url);
+    const result = await _fetch(url);
     if(!result.ok) {
         throw new Error(`Fetch failed: ${result.status}`)
     }
@@ -48,7 +48,6 @@ export async function getIANATzData(params?: getIANATzDataParams): Promise<IANAT
     }, {version: 'no version file found'});
 
     IANATzDataFiles.version = replaceLineBreaks(IANATzDataFiles.version);
-
     return IANATzDataFiles
 }
 
