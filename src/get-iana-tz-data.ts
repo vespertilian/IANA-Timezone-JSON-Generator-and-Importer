@@ -1,6 +1,7 @@
 //@ts-ignore
 import * as decompressTargz from 'decompress-targz';
 import fetch from 'node-fetch';
+import {replaceLineBreaks} from './util/util.ts/util';
 
 export interface getIANATzDataParams {
     url: string
@@ -51,6 +52,3 @@ export async function getIANATzData(params?: getIANATzDataParams): Promise<IANAT
     return IANATzDataFiles
 }
 
-function replaceLineBreaks(value: string){
-    return value.replace(/\n/g, '')
-}

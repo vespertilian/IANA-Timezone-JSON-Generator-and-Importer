@@ -2,15 +2,18 @@
 import * as CSV from 'csv-string';
 //@ts-ignore
 import * as parseTzdataCoordinate from 'parse-tzdata-coordinate';
+import {replaceLineBreaks} from './util/util.ts/util';
 
 export interface ICoordinates {
     latitude: {
+        negativeSign: boolean,
         sign: string
         degree: number,
         minute: number,
         second: number | undefined
     },
     longitude: {
+        negativeSign: boolean,
         sign: string
         degree: number,
         minute: number,
@@ -35,9 +38,9 @@ export function extractTzData(zoneData: any, zoneFileName: string): {zones: IExt
         .map(zoneData => {
             const [countryCode , coordinates, timezoneName, comments] = zoneData;
             return {
-                countryCode: countryCode,
+                countryCode: replaceLineBreaks(countryCode),
                 coordinates: parseTzdataCoordinate(coordinates),
-                timezoneName: timezoneName,
+                timezoneName: replaceLineBreaks(timezoneName),
                 comments: comments || null
             }
         });
@@ -46,6 +49,11 @@ export function extractTzData(zoneData: any, zoneFileName: string): {zones: IExt
         zones: zones,
         numberOfZones: zones.length
     }
+}
+
+function parseTzdataCoordinates(coordinates: string) {
+    const coordinate = parseTzdataCoordinate(coordinates);
+    coordinate.negativeSign = Boolean(coordinate.sign === '-')
 }
 
 function isValidZoneTabRow(row: string[]) {
