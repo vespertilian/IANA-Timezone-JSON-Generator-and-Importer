@@ -1,4 +1,4 @@
-import {readdirAsync, readFileAsync} from './util/util.ts/util';
+import {readdirAsync, readFileAsync} from './util/util';
 import * as path from 'path';
 
 export async function loadIANATzJsonFile(filename: string) {

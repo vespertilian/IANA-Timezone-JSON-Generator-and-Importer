@@ -2,7 +2,7 @@
 import * as CSV from 'csv-string';
 //@ts-ignore
 import * as parseTzdataCoordinate from 'parse-tzdata-coordinate';
-import {replaceLineBreaks} from './util/util.ts/util';
+import {replaceLineBreaks} from './util/util';
 
 export interface ICoordinates {
     latitude: {

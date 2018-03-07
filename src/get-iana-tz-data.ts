@@ -1,7 +1,7 @@
 //@ts-ignore
 import * as decompressTargz from 'decompress-targz';
 import fetch from 'node-fetch';
-import {replaceLineBreaks} from './util/util.ts/util';
+import {replaceLineBreaks} from './util/util';
 
 export interface getIANATzDataParams {
     url: string

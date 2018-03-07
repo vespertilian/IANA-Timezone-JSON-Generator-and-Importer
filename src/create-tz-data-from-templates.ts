@@ -2,7 +2,7 @@ import {getIANATzData} from './get-iana-tz-data';
 import {extractTzData} from './extract-tz-data';
 import * as path from 'path';
 import * as Handlebars from 'handlebars'
-import {readdirAsync, readFileAsync, writeFileAsync} from './util/util.ts/util';
+import {readdirAsync, readFileAsync, writeFileAsync} from './util/util';
 
 export async function getAndExtractTzData() {
     const zoneData = await getIANATzData();
@@ -13,7 +13,7 @@ export async function getAndExtractTzData() {
 
     files
         .filter(isHandleBarsFile)
-        .forEach(async (filename) => {
+        .forEach(async (filename: string) => {
 
         console.log('Creating JSON for: ', filename);
 
