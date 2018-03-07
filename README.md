@@ -6,13 +6,15 @@ Quickly get data from the IANA website into your application.
 
 Generate timezone JSON files using Handlebar templates.
 
-This allows you to quickly and easily format the data to look exactly how you want it to.
+This allows you to quickly and easily format the data exactly how you want it to.
 
 Please feel free to share your TZ shape by adding your own template via a pull request.
 
 *Run: `ts-node src/create-tz-data-from-templates.ts`*
 
 #### From this
+
+*./templates/all-fields.hbs*
 
 ```handlebars
 {{!-- handlebars inline partial --}}
@@ -45,6 +47,33 @@ Please feel free to share your TZ shape by adding your own template via a pull r
     ]
 }
 ```
+
+*./templates/all-fields.ts* typings for the JSON shape.
+
+```typescript
+export interface IAllFields {
+    IANAVersion: string
+    numberOfZones: number
+    zones: IZones[]
+}
+
+export interface IZones {
+    countryCode: string
+    timezone: string
+    coordinates: {
+        latitude: ICoordinate,
+        longitude: ICoordinate
+    }
+}
+
+export interface ICoordinate {
+    sign: string
+    degree: number
+    minute: number
+    second?: number
+}
+```
+
 #### To this
 
 ```JSON
@@ -69,6 +98,17 @@ Please feel free to share your TZ shape by adding your own template via a pull r
             }
         }
     ]
+}
+```
+
+#### Quickly load into your project with Typescript typings
+
+```typescript
+import {loadIANATzJsonFile} from 'iana-tz-data-generator';
+import {IAllFields} from 'iana-tz-data-generator/timezones/all-fields';
+async function loadAllFields() {
+  const allFields = await loadIANATzJsonFile('all-fields.json');
+  const values: IAllFields = JSON.parse(allFields);
 }
 ```
 
