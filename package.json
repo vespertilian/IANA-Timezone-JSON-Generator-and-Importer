@@ -2,12 +2,20 @@
   "name": "iana-tz-data-generator",
   "version": "0.1.0",
   "description": "JSON conversion of IANA data",
-  "main": "index.js",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "files": [
+    "./timezones/*",
+    "./lib/*"
+  ],
   "scripts": {
+    "build": "rm -rf ./lib && ./node_modules/.bin/tsc -p build.tsconfig.json && npm run generate-json-files",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "generate-json-files": "ts-node ./src/create-tz-data-from-templates && npm run build-timezone-types",
+    "build-timezone-types": "ts-node ./node_modules/.bin/tsc -p build-timezone-types.tsconfig.json",
     "commit": "git-cz"
   },
-  "author": "",
+  "author": "Cameron Batt",
   "license": "MIT",
   "dependencies": {
     "@types/decompress": "^4.2.0",
@@ -17,7 +25,8 @@
     "decompress": "^4.2.0",
     "decompress-targz": "^4.1.1",
     "node-fetch": "^2.0.0",
-    "ts-node": "^5.0.1"
+    "ts-node": "^5.0.1",
+    "typescript": "^2.7.2"
   },
   "devDependencies": {
     "cz-conventional-changelog": "^2.1.0",

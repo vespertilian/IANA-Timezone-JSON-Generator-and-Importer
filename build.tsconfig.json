@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "sourceMap": true,
+    "inlineSourceMap": false
+  },
+  "exclude": [
+    "node_modules",
+    "templates",
+    "timezones"
+  ]
+}

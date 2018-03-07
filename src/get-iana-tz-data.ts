@@ -16,7 +16,7 @@ interface IANAFileResult {
     type: string
 }
 
-interface IANATzDataFiles {
+export interface IANATzDataFiles {
     version: string
     [key: string]: string
 }

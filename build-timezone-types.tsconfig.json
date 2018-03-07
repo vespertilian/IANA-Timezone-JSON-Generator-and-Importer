@@ -1,0 +1,16 @@
+{
+  "extends": "./build.tsconfig.json",
+  "compilerOptions": {
+    "sourceMap": false,
+    "inlineSourceMap": false,
+    "rootDirs": ["./templates"],
+    "outDir": "timezones",
+    "emitDeclarationOnly": true
+  },
+  "exclude": [
+    "node_modules",
+    "src",
+    "timezones",
+    "dist"
+  ]
+}

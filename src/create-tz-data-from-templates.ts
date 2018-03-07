@@ -1,22 +1,19 @@
 import {getIANATzData} from './get-iana-tz-data';
 import {extractTzData} from './extract-tz-data';
-import * as fs from 'fs';
 import * as path from 'path';
 import * as Handlebars from 'handlebars'
-import {promisify} from 'util';
+import {readdirAsync, readFileAsync, writeFileAsync} from './fs-async';
 
-async function getAndExtractTzData() {
-    const readdirAsync =  promisify(fs.readdir);
-    const readFileAsync = promisify(fs.readFile);
-    const writeFileAsync = promisify(fs.writeFile);
-
+export async function getAndExtractTzData() {
     const zoneData = await getIANATzData();
     const extractedZoneData = extractTzData(zoneData, 'zone.tab');
 
     const templatePath = path.join(__dirname, '..', 'templates');
     const files = await readdirAsync(templatePath);
 
-    files.forEach(async (filename) => {
+    files
+        .filter(isJSONFile)
+        .forEach(async (filename) => {
         const filePath = `${templatePath}/${filename}`;
         const hbsFile = await readFileAsync(filePath, 'utf-8');
 
@@ -59,6 +56,10 @@ async function getAndExtractTzData() {
             `)
         }
     })
+}
+
+function isJSONFile(filename: string) {
+    filename.includes('.json')
 }
 
 try {
