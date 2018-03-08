@@ -1,4 +1,4 @@
-export interface IAllFields {
+export interface IDecimalLatLong {
     IANAVersion: string;
     originalFileName: string;
     numberOfZones: number;
