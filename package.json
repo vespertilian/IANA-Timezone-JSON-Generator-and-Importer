@@ -9,10 +9,11 @@
     "./lib/*"
   ],
   "scripts": {
-    "build": "rm -rf ./lib && ./node_modules/.bin/tsc -p build.tsconfig.json && npm run generate-json-files",
+    "build": "rm -rf ./lib && ./node_modules/.bin/tsc -p build.tsconfig.json && npm run generate-json-files-and-typescript-types",
     "test": "ts-node node_modules/.bin/jasmine JASMINE_CONFIG_PATH=jasmine.json",
-    "generate-json-files": "ts-node ./src/create-tz-data-from-templates && npm run build-timezone-types",
-    "build-timezone-types": "ts-node ./node_modules/.bin/tsc -p build-timezone-types.tsconfig.json",
+    "generate-json-files-and-typescript-types": "npm run generate-json-files && npm run generate-timezone-types",
+    "generate-json-files": "ts-node -e 'require(\"./src/index.ts\").createJSONFromHandlebarsTemplatesAndZoneData()'",
+    "generate-typescript-types": "ts-node ./node_modules/.bin/tsc -p build-timezone-types.tsconfig.json",
     "commit": "git-cz"
   },
   "author": "Cameron Batt",
@@ -26,14 +27,14 @@
     "decompress-targz": "^4.1.1",
     "node-fetch": "^2.0.0",
     "ts-node": "^5.0.1",
-    "typescript": "^2.7.2"
+    "handlebars": "^4.0.11",
+    "parse-tzdata-coordinate": "^1.0.0"
   },
   "devDependencies": {
     "@types/jasmine": "^2.8.6",
     "cz-conventional-changelog": "^2.1.0",
-    "handlebars": "^4.0.11",
     "jasmine": "^3.1.0",
-    "parse-tzdata-coordinate": "^1.0.0"
+    "typescript": "^2.7.2"
   },
   "config": {
     "commitizen": {
