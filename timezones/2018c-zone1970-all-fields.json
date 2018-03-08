@@ -1,5 +1,6 @@
 {
     "IANAVersion": "2018c",
+    "originalFileName": "zone1970.tab",
     "numberOfZones": 323,
     "zones": [
         {
@@ -9,14 +10,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 42,
-                    "minute": 30
+                    "minute": 30,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 1,
-                    "minute": 31
+                    "minute": 31,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "AF",
@@ -25,14 +29,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 34,
-                    "minute": 31
+                    "minute": 31,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 69,
-                    "minute": 12
+                    "minute": 12,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "AL",
@@ -41,14 +48,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 41,
-                    "minute": 20
+                    "minute": 20,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 19,
-                    "minute": 50
+                    "minute": 50,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "AM",
@@ -57,14 +67,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 40,
-                    "minute": 11
+                    "minute": 11,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 44,
-                    "minute": 30
+                    "minute": 30,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "AQ",
@@ -73,14 +86,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 66,
-                    "minute": 17
+                    "minute": 17,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 110,
-                    "minute": 31
+                    "minute": 31,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Casey"
         },
         {
             "countryCode": "AQ",
@@ -89,14 +105,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 68,
-                    "minute": 35
+                    "minute": 35,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 77,
-                    "minute": 58
+                    "minute": 58,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Davis"
         },
         {
             "countryCode": "AQ",
@@ -105,14 +124,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 66,
-                    "minute": 40
+                    "minute": 40,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 140,
-                    "minute": 1
+                    "minute": 1,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Dumont-d&#x27;Urville"
         },
         {
             "countryCode": "AQ",
@@ -121,14 +143,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 67,
-                    "minute": 36
+                    "minute": 36,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 62,
-                    "minute": 53
+                    "minute": 53,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Mawson"
         },
         {
             "countryCode": "AQ",
@@ -137,14 +162,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 64,
-                    "minute": 48
+                    "minute": 48,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 64,
-                    "minute": 6
+                    "minute": 6,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Palmer"
         },
         {
             "countryCode": "AQ",
@@ -153,14 +181,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 67,
-                    "minute": 34
+                    "minute": 34,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 68,
-                    "minute": 8
+                    "minute": 8,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Rothera"
         },
         {
             "countryCode": "AQ",
@@ -178,7 +209,8 @@
                     "minute": 35,
                     "second": 24
                 }
-            }
+            },
+            "comments": "Syowa"
         },
         {
             "countryCode": "AQ",
@@ -196,7 +228,8 @@
                     "minute": 32,
                     "second": 6
                 }
-            }
+            },
+            "comments": "Troll"
         },
         {
             "countryCode": "AQ",
@@ -205,14 +238,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 78,
-                    "minute": 24
+                    "minute": 24,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 106,
-                    "minute": 54
+                    "minute": 54,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Vostok"
         },
         {
             "countryCode": "AR",
@@ -221,14 +257,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 34,
-                    "minute": 36
+                    "minute": 36,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 58,
-                    "minute": 27
+                    "minute": 27,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Buenos Aires (BA, CF)"
         },
         {
             "countryCode": "AR",
@@ -237,14 +276,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 31,
-                    "minute": 24
+                    "minute": 24,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 64,
-                    "minute": 11
+                    "minute": 11,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Argentina (most areas: CB, CC, CN, ER, FM, MN, SE, SF)"
         },
         {
             "countryCode": "AR",
@@ -253,14 +295,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 24,
-                    "minute": 47
+                    "minute": 47,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 65,
-                    "minute": 25
+                    "minute": 25,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Salta (SA, LP, NQ, RN)"
         },
         {
             "countryCode": "AR",
@@ -269,14 +314,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 24,
-                    "minute": 11
+                    "minute": 11,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 65,
-                    "minute": 18
+                    "minute": 18,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Jujuy (JY)"
         },
         {
             "countryCode": "AR",
@@ -285,14 +333,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 26,
-                    "minute": 49
+                    "minute": 49,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 65,
-                    "minute": 13
+                    "minute": 13,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Tucumán (TM)"
         },
         {
             "countryCode": "AR",
@@ -301,14 +352,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 28,
-                    "minute": 28
+                    "minute": 28,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 65,
-                    "minute": 47
+                    "minute": 47,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Catamarca (CT); Chubut (CH)"
         },
         {
             "countryCode": "AR",
@@ -317,14 +371,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 29,
-                    "minute": 26
+                    "minute": 26,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 66,
-                    "minute": 51
+                    "minute": 51,
+                    "second": null
                 }
-            }
+            },
+            "comments": "La Rioja (LR)"
         },
         {
             "countryCode": "AR",
@@ -333,14 +390,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 31,
-                    "minute": 32
+                    "minute": 32,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 68,
-                    "minute": 31
+                    "minute": 31,
+                    "second": null
                 }
-            }
+            },
+            "comments": "San Juan (SJ)"
         },
         {
             "countryCode": "AR",
@@ -349,14 +409,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 32,
-                    "minute": 53
+                    "minute": 53,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 68,
-                    "minute": 49
+                    "minute": 49,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Mendoza (MZ)"
         },
         {
             "countryCode": "AR",
@@ -365,14 +428,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 33,
-                    "minute": 19
+                    "minute": 19,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 66,
-                    "minute": 21
+                    "minute": 21,
+                    "second": null
                 }
-            }
+            },
+            "comments": "San Luis (SL)"
         },
         {
             "countryCode": "AR",
@@ -381,14 +447,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 51,
-                    "minute": 38
+                    "minute": 38,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 69,
-                    "minute": 13
+                    "minute": 13,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Santa Cruz (SC)"
         },
         {
             "countryCode": "AR",
@@ -397,14 +466,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 54,
-                    "minute": 48
+                    "minute": 48,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 68,
-                    "minute": 18
+                    "minute": 18,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Tierra del Fuego (TF)"
         },
         {
             "countryCode": "AT",
@@ -413,14 +485,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 48,
-                    "minute": 13
+                    "minute": 13,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 16,
-                    "minute": 20
+                    "minute": 20,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "AU",
@@ -429,14 +504,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 31,
-                    "minute": 33
+                    "minute": 33,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 159,
-                    "minute": 5
+                    "minute": 5,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Lord Howe Island"
         },
         {
             "countryCode": "AU",
@@ -445,14 +523,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 54,
-                    "minute": 30
+                    "minute": 30,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 158,
-                    "minute": 57
+                    "minute": 57,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Macquarie Island"
         },
         {
             "countryCode": "AU",
@@ -461,14 +542,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 42,
-                    "minute": 53
+                    "minute": 53,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 147,
-                    "minute": 19
+                    "minute": 19,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Tasmania (most areas)"
         },
         {
             "countryCode": "AU",
@@ -477,14 +561,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 39,
-                    "minute": 56
+                    "minute": 56,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 143,
-                    "minute": 52
+                    "minute": 52,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Tasmania (King Island)"
         },
         {
             "countryCode": "AU",
@@ -493,14 +580,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 37,
-                    "minute": 49
+                    "minute": 49,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 144,
-                    "minute": 58
+                    "minute": 58,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Victoria"
         },
         {
             "countryCode": "AU",
@@ -509,14 +599,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 33,
-                    "minute": 52
+                    "minute": 52,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 151,
-                    "minute": 13
+                    "minute": 13,
+                    "second": null
                 }
-            }
+            },
+            "comments": "New South Wales (most areas)"
         },
         {
             "countryCode": "AU",
@@ -525,14 +618,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 31,
-                    "minute": 57
+                    "minute": 57,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 141,
-                    "minute": 27
+                    "minute": 27,
+                    "second": null
                 }
-            }
+            },
+            "comments": "New South Wales (Yancowinna)"
         },
         {
             "countryCode": "AU",
@@ -541,14 +637,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 27,
-                    "minute": 28
+                    "minute": 28,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 153,
-                    "minute": 2
+                    "minute": 2,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Queensland (most areas)"
         },
         {
             "countryCode": "AU",
@@ -557,14 +656,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 20,
-                    "minute": 16
+                    "minute": 16,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 149,
-                    "minute": 0
+                    "minute": 0,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Queensland (Whitsunday Islands)"
         },
         {
             "countryCode": "AU",
@@ -573,14 +675,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 34,
-                    "minute": 55
+                    "minute": 55,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 138,
-                    "minute": 35
+                    "minute": 35,
+                    "second": null
                 }
-            }
+            },
+            "comments": "South Australia"
         },
         {
             "countryCode": "AU",
@@ -589,14 +694,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 12,
-                    "minute": 28
+                    "minute": 28,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 130,
-                    "minute": 50
+                    "minute": 50,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Northern Territory"
         },
         {
             "countryCode": "AU",
@@ -605,14 +713,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 31,
-                    "minute": 57
+                    "minute": 57,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 115,
-                    "minute": 51
+                    "minute": 51,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Western Australia (most areas)"
         },
         {
             "countryCode": "AU",
@@ -621,14 +732,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 31,
-                    "minute": 43
+                    "minute": 43,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 128,
-                    "minute": 52
+                    "minute": 52,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Western Australia (Eucla)"
         },
         {
             "countryCode": "AZ",
@@ -637,14 +751,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 40,
-                    "minute": 23
+                    "minute": 23,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 49,
-                    "minute": 51
+                    "minute": 51,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "BB",
@@ -653,14 +770,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 13,
-                    "minute": 6
+                    "minute": 6,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 59,
-                    "minute": 37
+                    "minute": 37,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "BD",
@@ -669,14 +789,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 23,
-                    "minute": 43
+                    "minute": 43,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 90,
-                    "minute": 25
+                    "minute": 25,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "BE",
@@ -685,14 +808,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 50,
-                    "minute": 50
+                    "minute": 50,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 4,
-                    "minute": 20
+                    "minute": 20,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "BG",
@@ -701,14 +827,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 42,
-                    "minute": 41
+                    "minute": 41,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 23,
-                    "minute": 19
+                    "minute": 19,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "BM",
@@ -717,14 +846,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 32,
-                    "minute": 17
+                    "minute": 17,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 64,
-                    "minute": 46
+                    "minute": 46,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "BN",
@@ -733,14 +865,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 4,
-                    "minute": 56
+                    "minute": 56,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 114,
-                    "minute": 55
+                    "minute": 55,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "BO",
@@ -749,14 +884,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 16,
-                    "minute": 30
+                    "minute": 30,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 68,
-                    "minute": 9
+                    "minute": 9,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "BR",
@@ -765,14 +903,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 3,
-                    "minute": 51
+                    "minute": 51,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 32,
-                    "minute": 25
+                    "minute": 25,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Atlantic islands"
         },
         {
             "countryCode": "BR",
@@ -781,14 +922,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 1,
-                    "minute": 27
+                    "minute": 27,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 48,
-                    "minute": 29
+                    "minute": 29,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Pará (east); Amapá"
         },
         {
             "countryCode": "BR",
@@ -797,14 +941,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 3,
-                    "minute": 43
+                    "minute": 43,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 38,
-                    "minute": 30
+                    "minute": 30,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Brazil (northeast: MA, PI, CE, RN, PB)"
         },
         {
             "countryCode": "BR",
@@ -813,14 +960,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 8,
-                    "minute": 3
+                    "minute": 3,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 34,
-                    "minute": 54
+                    "minute": 54,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Pernambuco"
         },
         {
             "countryCode": "BR",
@@ -829,14 +979,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 7,
-                    "minute": 12
+                    "minute": 12,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 48,
-                    "minute": 12
+                    "minute": 12,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Tocantins"
         },
         {
             "countryCode": "BR",
@@ -845,14 +998,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 9,
-                    "minute": 40
+                    "minute": 40,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 35,
-                    "minute": 43
+                    "minute": 43,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Alagoas, Sergipe"
         },
         {
             "countryCode": "BR",
@@ -861,14 +1017,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 12,
-                    "minute": 59
+                    "minute": 59,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 38,
-                    "minute": 31
+                    "minute": 31,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Bahia"
         },
         {
             "countryCode": "BR",
@@ -877,14 +1036,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 23,
-                    "minute": 32
+                    "minute": 32,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 46,
-                    "minute": 37
+                    "minute": 37,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Brazil (southeast: GO, DF, MG, ES, RJ, SP, PR, SC, RS)"
         },
         {
             "countryCode": "BR",
@@ -893,14 +1055,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 20,
-                    "minute": 27
+                    "minute": 27,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 54,
-                    "minute": 37
+                    "minute": 37,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Mato Grosso do Sul"
         },
         {
             "countryCode": "BR",
@@ -909,14 +1074,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 15,
-                    "minute": 35
+                    "minute": 35,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 56,
-                    "minute": 5
+                    "minute": 5,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Mato Grosso"
         },
         {
             "countryCode": "BR",
@@ -925,14 +1093,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 2,
-                    "minute": 26
+                    "minute": 26,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 54,
-                    "minute": 52
+                    "minute": 52,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Pará (west)"
         },
         {
             "countryCode": "BR",
@@ -941,14 +1112,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 8,
-                    "minute": 46
+                    "minute": 46,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 63,
-                    "minute": 54
+                    "minute": 54,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Rondônia"
         },
         {
             "countryCode": "BR",
@@ -957,14 +1131,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 2,
-                    "minute": 49
+                    "minute": 49,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 60,
-                    "minute": 40
+                    "minute": 40,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Roraima"
         },
         {
             "countryCode": "BR",
@@ -973,14 +1150,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 3,
-                    "minute": 8
+                    "minute": 8,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 60,
-                    "minute": 1
+                    "minute": 1,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Amazonas (east)"
         },
         {
             "countryCode": "BR",
@@ -989,14 +1169,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 6,
-                    "minute": 40
+                    "minute": 40,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 69,
-                    "minute": 52
+                    "minute": 52,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Amazonas (west)"
         },
         {
             "countryCode": "BR",
@@ -1005,14 +1188,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 9,
-                    "minute": 58
+                    "minute": 58,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 67,
-                    "minute": 48
+                    "minute": 48,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Acre"
         },
         {
             "countryCode": "BS",
@@ -1021,14 +1207,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 25,
-                    "minute": 5
+                    "minute": 5,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 77,
-                    "minute": 21
+                    "minute": 21,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "BT",
@@ -1037,14 +1226,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 27,
-                    "minute": 28
+                    "minute": 28,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 89,
-                    "minute": 39
+                    "minute": 39,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "BY",
@@ -1053,14 +1245,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 53,
-                    "minute": 54
+                    "minute": 54,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 27,
-                    "minute": 34
+                    "minute": 34,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "BZ",
@@ -1069,14 +1264,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 17,
-                    "minute": 30
+                    "minute": 30,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 88,
-                    "minute": 12
+                    "minute": 12,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "CA",
@@ -1085,14 +1283,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 47,
-                    "minute": 34
+                    "minute": 34,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 52,
-                    "minute": 43
+                    "minute": 43,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Newfoundland; Labrador (southeast)"
         },
         {
             "countryCode": "CA",
@@ -1101,14 +1302,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 44,
-                    "minute": 39
+                    "minute": 39,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 63,
-                    "minute": 36
+                    "minute": 36,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Atlantic - NS (most areas); PE"
         },
         {
             "countryCode": "CA",
@@ -1117,14 +1321,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 46,
-                    "minute": 12
+                    "minute": 12,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 59,
-                    "minute": 57
+                    "minute": 57,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Atlantic - NS (Cape Breton)"
         },
         {
             "countryCode": "CA",
@@ -1133,14 +1340,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 46,
-                    "minute": 6
+                    "minute": 6,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 64,
-                    "minute": 47
+                    "minute": 47,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Atlantic - New Brunswick"
         },
         {
             "countryCode": "CA",
@@ -1149,14 +1359,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 53,
-                    "minute": 20
+                    "minute": 20,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 60,
-                    "minute": 25
+                    "minute": 25,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Atlantic - Labrador (most areas)"
         },
         {
             "countryCode": "CA",
@@ -1165,14 +1378,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 51,
-                    "minute": 25
+                    "minute": 25,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 57,
-                    "minute": 7
+                    "minute": 7,
+                    "second": null
                 }
-            }
+            },
+            "comments": "AST - QC (Lower North Shore)"
         },
         {
             "countryCode": "CA",
@@ -1181,14 +1397,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 43,
-                    "minute": 39
+                    "minute": 39,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 79,
-                    "minute": 23
+                    "minute": 23,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Eastern - ON, QC (most areas)"
         },
         {
             "countryCode": "CA",
@@ -1197,14 +1416,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 49,
-                    "minute": 1
+                    "minute": 1,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 88,
-                    "minute": 16
+                    "minute": 16,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Eastern - ON, QC (no DST 1967-73)"
         },
         {
             "countryCode": "CA",
@@ -1213,14 +1435,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 48,
-                    "minute": 23
+                    "minute": 23,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 89,
-                    "minute": 15
+                    "minute": 15,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Eastern - ON (Thunder Bay)"
         },
         {
             "countryCode": "CA",
@@ -1229,14 +1454,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 63,
-                    "minute": 44
+                    "minute": 44,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 68,
-                    "minute": 28
+                    "minute": 28,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Eastern - NU (most east areas)"
         },
         {
             "countryCode": "CA",
@@ -1245,14 +1473,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 66,
-                    "minute": 8
+                    "minute": 8,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 65,
-                    "minute": 44
+                    "minute": 44,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Eastern - NU (Pangnirtung)"
         },
         {
             "countryCode": "CA",
@@ -1270,7 +1501,8 @@
                     "minute": 37,
                     "second": 18
                 }
-            }
+            },
+            "comments": "EST - ON (Atikokan); NU (Coral H)"
         },
         {
             "countryCode": "CA",
@@ -1279,14 +1511,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 49,
-                    "minute": 53
+                    "minute": 53,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 97,
-                    "minute": 9
+                    "minute": 9,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Central - ON (west); Manitoba"
         },
         {
             "countryCode": "CA",
@@ -1295,14 +1530,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 48,
-                    "minute": 43
+                    "minute": 43,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 94,
-                    "minute": 34
+                    "minute": 34,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Central - ON (Rainy R, Ft Frances)"
         },
         {
             "countryCode": "CA",
@@ -1320,7 +1558,8 @@
                     "minute": 49,
                     "second": 45
                 }
-            }
+            },
+            "comments": "Central - NU (Resolute)"
         },
         {
             "countryCode": "CA",
@@ -1329,7 +1568,8 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 62,
-                    "minute": 49
+                    "minute": 49,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
@@ -1337,7 +1577,8 @@
                     "minute": 4,
                     "second": 59
                 }
-            }
+            },
+            "comments": "Central - NU (central)"
         },
         {
             "countryCode": "CA",
@@ -1346,14 +1587,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 50,
-                    "minute": 24
+                    "minute": 24,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 104,
-                    "minute": 39
+                    "minute": 39,
+                    "second": null
                 }
-            }
+            },
+            "comments": "CST - SK (most areas)"
         },
         {
             "countryCode": "CA",
@@ -1362,14 +1606,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 50,
-                    "minute": 17
+                    "minute": 17,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 107,
-                    "minute": 50
+                    "minute": 50,
+                    "second": null
                 }
-            }
+            },
+            "comments": "CST - SK (midwest)"
         },
         {
             "countryCode": "CA",
@@ -1378,14 +1625,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 53,
-                    "minute": 33
+                    "minute": 33,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 113,
-                    "minute": 28
+                    "minute": 28,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Mountain - AB; BC (E); SK (W)"
         },
         {
             "countryCode": "CA",
@@ -1403,7 +1653,8 @@
                     "minute": 3,
                     "second": 10
                 }
-            }
+            },
+            "comments": "Mountain - NU (west)"
         },
         {
             "countryCode": "CA",
@@ -1412,14 +1663,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 62,
-                    "minute": 27
+                    "minute": 27,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 114,
-                    "minute": 21
+                    "minute": 21,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Mountain - NT (central)"
         },
         {
             "countryCode": "CA",
@@ -1434,9 +1688,11 @@
                 "longitude": {
                     "sign": "-",
                     "degree": 133,
-                    "minute": 43
+                    "minute": 43,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Mountain - NT (west)"
         },
         {
             "countryCode": "CA",
@@ -1445,14 +1701,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 49,
-                    "minute": 6
+                    "minute": 6,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 116,
-                    "minute": 31
+                    "minute": 31,
+                    "second": null
                 }
-            }
+            },
+            "comments": "MST - BC (Creston)"
         },
         {
             "countryCode": "CA",
@@ -1461,14 +1720,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 59,
-                    "minute": 46
+                    "minute": 46,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 120,
-                    "minute": 14
+                    "minute": 14,
+                    "second": null
                 }
-            }
+            },
+            "comments": "MST - BC (Dawson Cr, Ft St John)"
         },
         {
             "countryCode": "CA",
@@ -1477,14 +1739,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 58,
-                    "minute": 48
+                    "minute": 48,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 122,
-                    "minute": 42
+                    "minute": 42,
+                    "second": null
                 }
-            }
+            },
+            "comments": "MST - BC (Ft Nelson)"
         },
         {
             "countryCode": "CA",
@@ -1493,14 +1758,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 49,
-                    "minute": 16
+                    "minute": 16,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 123,
-                    "minute": 7
+                    "minute": 7,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Pacific - BC (most areas)"
         },
         {
             "countryCode": "CA",
@@ -1509,14 +1777,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 60,
-                    "minute": 43
+                    "minute": 43,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 135,
-                    "minute": 3
+                    "minute": 3,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Pacific - Yukon (south)"
         },
         {
             "countryCode": "CA",
@@ -1525,14 +1796,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 64,
-                    "minute": 4
+                    "minute": 4,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 139,
-                    "minute": 25
+                    "minute": 25,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Pacific - Yukon (north)"
         },
         {
             "countryCode": "CC",
@@ -1541,14 +1815,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 12,
-                    "minute": 10
+                    "minute": 10,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 96,
-                    "minute": 55
+                    "minute": 55,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "CK",
@@ -1557,14 +1834,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 21,
-                    "minute": 14
+                    "minute": 14,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 159,
-                    "minute": 46
+                    "minute": 46,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "CL",
@@ -1573,14 +1853,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 33,
-                    "minute": 27
+                    "minute": 27,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 70,
-                    "minute": 40
+                    "minute": 40,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Chile (most areas)"
         },
         {
             "countryCode": "CL",
@@ -1589,14 +1872,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 53,
-                    "minute": 9
+                    "minute": 9,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 70,
-                    "minute": 55
+                    "minute": 55,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Region of Magallanes"
         },
         {
             "countryCode": "CL",
@@ -1605,14 +1891,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 27,
-                    "minute": 9
+                    "minute": 9,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 109,
-                    "minute": 26
+                    "minute": 26,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Easter Island"
         },
         {
             "countryCode": "CN",
@@ -1621,14 +1910,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 31,
-                    "minute": 14
+                    "minute": 14,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 121,
-                    "minute": 28
+                    "minute": 28,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Beijing Time"
         },
         {
             "countryCode": "CN",
@@ -1637,14 +1929,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 43,
-                    "minute": 48
+                    "minute": 48,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 87,
-                    "minute": 35
+                    "minute": 35,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Xinjiang Time"
         },
         {
             "countryCode": "CO",
@@ -1653,14 +1948,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 4,
-                    "minute": 36
+                    "minute": 36,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 74,
-                    "minute": 5
+                    "minute": 5,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "CR",
@@ -1669,14 +1967,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 9,
-                    "minute": 56
+                    "minute": 56,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 84,
-                    "minute": 5
+                    "minute": 5,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "CU",
@@ -1685,14 +1986,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 23,
-                    "minute": 8
+                    "minute": 8,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 82,
-                    "minute": 22
+                    "minute": 22,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "CV",
@@ -1701,14 +2005,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 14,
-                    "minute": 55
+                    "minute": 55,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 23,
-                    "minute": 31
+                    "minute": 31,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "CX",
@@ -1717,14 +2024,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 10,
-                    "minute": 25
+                    "minute": 25,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 105,
-                    "minute": 43
+                    "minute": 43,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "CY",
@@ -1733,14 +2043,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 35,
-                    "minute": 10
+                    "minute": 10,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 33,
-                    "minute": 22
+                    "minute": 22,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Cyprus (most areas)"
         },
         {
             "countryCode": "CY",
@@ -1749,14 +2062,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 35,
-                    "minute": 7
+                    "minute": 7,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 33,
-                    "minute": 57
+                    "minute": 57,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Northern Cyprus"
         },
         {
             "countryCode": "DE",
@@ -1765,14 +2081,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 52,
-                    "minute": 30
+                    "minute": 30,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 13,
-                    "minute": 22
+                    "minute": 22,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Germany (most areas)"
         },
         {
             "countryCode": "DK",
@@ -1781,14 +2100,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 55,
-                    "minute": 40
+                    "minute": 40,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 12,
-                    "minute": 35
+                    "minute": 35,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "DO",
@@ -1797,14 +2119,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 18,
-                    "minute": 28
+                    "minute": 28,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 69,
-                    "minute": 54
+                    "minute": 54,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "DZ",
@@ -1813,14 +2138,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 36,
-                    "minute": 47
+                    "minute": 47,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 3,
-                    "minute": 3
+                    "minute": 3,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "EC",
@@ -1829,14 +2157,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 2,
-                    "minute": 10
+                    "minute": 10,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 79,
-                    "minute": 50
+                    "minute": 50,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Ecuador (mainland)"
         },
         {
             "countryCode": "EC",
@@ -1845,14 +2176,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 0,
-                    "minute": 54
+                    "minute": 54,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 89,
-                    "minute": 36
+                    "minute": 36,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Galápagos Islands"
         },
         {
             "countryCode": "EE",
@@ -1861,14 +2195,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 59,
-                    "minute": 25
+                    "minute": 25,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 24,
-                    "minute": 45
+                    "minute": 45,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "EG",
@@ -1877,14 +2214,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 30,
-                    "minute": 3
+                    "minute": 3,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 31,
-                    "minute": 15
+                    "minute": 15,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "EH",
@@ -1893,14 +2233,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 27,
-                    "minute": 9
+                    "minute": 9,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 13,
-                    "minute": 12
+                    "minute": 12,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "ES",
@@ -1909,14 +2252,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 40,
-                    "minute": 24
+                    "minute": 24,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 3,
-                    "minute": 41
+                    "minute": 41,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Spain (mainland)"
         },
         {
             "countryCode": "ES",
@@ -1925,14 +2271,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 35,
-                    "minute": 53
+                    "minute": 53,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 5,
-                    "minute": 19
+                    "minute": 19,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Ceuta, Melilla"
         },
         {
             "countryCode": "ES",
@@ -1941,14 +2290,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 28,
-                    "minute": 6
+                    "minute": 6,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 15,
-                    "minute": 24
+                    "minute": 24,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Canary Islands"
         },
         {
             "countryCode": "FJ",
@@ -1957,14 +2309,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 18,
-                    "minute": 8
+                    "minute": 8,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 178,
-                    "minute": 25
+                    "minute": 25,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "FK",
@@ -1973,14 +2328,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 51,
-                    "minute": 42
+                    "minute": 42,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 57,
-                    "minute": 51
+                    "minute": 51,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "FM",
@@ -1989,14 +2347,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 7,
-                    "minute": 25
+                    "minute": 25,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 151,
-                    "minute": 47
+                    "minute": 47,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Chuuk/Truk, Yap"
         },
         {
             "countryCode": "FM",
@@ -2005,14 +2366,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 6,
-                    "minute": 58
+                    "minute": 58,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 158,
-                    "minute": 13
+                    "minute": 13,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Pohnpei/Ponape"
         },
         {
             "countryCode": "FM",
@@ -2021,14 +2385,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 5,
-                    "minute": 19
+                    "minute": 19,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 162,
-                    "minute": 59
+                    "minute": 59,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Kosrae"
         },
         {
             "countryCode": "FO",
@@ -2037,14 +2404,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 62,
-                    "minute": 1
+                    "minute": 1,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 6,
-                    "minute": 46
+                    "minute": 46,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "FR",
@@ -2053,14 +2423,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 48,
-                    "minute": 52
+                    "minute": 52,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 2,
-                    "minute": 20
+                    "minute": 20,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "GE",
@@ -2069,14 +2442,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 41,
-                    "minute": 43
+                    "minute": 43,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 44,
-                    "minute": 49
+                    "minute": 49,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "GF",
@@ -2085,14 +2461,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 4,
-                    "minute": 56
+                    "minute": 56,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 52,
-                    "minute": 20
+                    "minute": 20,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "GH",
@@ -2101,14 +2480,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 5,
-                    "minute": 33
+                    "minute": 33,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 0,
-                    "minute": 13
+                    "minute": 13,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "GI",
@@ -2117,14 +2499,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 36,
-                    "minute": 8
+                    "minute": 8,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 5,
-                    "minute": 21
+                    "minute": 21,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "GL",
@@ -2133,14 +2518,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 64,
-                    "minute": 11
+                    "minute": 11,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 51,
-                    "minute": 44
+                    "minute": 44,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Greenland (most areas)"
         },
         {
             "countryCode": "GL",
@@ -2149,14 +2537,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 76,
-                    "minute": 46
+                    "minute": 46,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 18,
-                    "minute": 40
+                    "minute": 40,
+                    "second": null
                 }
-            }
+            },
+            "comments": "National Park (east coast)"
         },
         {
             "countryCode": "GL",
@@ -2165,14 +2556,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 70,
-                    "minute": 29
+                    "minute": 29,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 21,
-                    "minute": 58
+                    "minute": 58,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Scoresbysund/Ittoqqortoormiit"
         },
         {
             "countryCode": "GL",
@@ -2181,14 +2575,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 76,
-                    "minute": 34
+                    "minute": 34,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 68,
-                    "minute": 47
+                    "minute": 47,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Thule/Pituffik"
         },
         {
             "countryCode": "GR",
@@ -2197,14 +2594,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 37,
-                    "minute": 58
+                    "minute": 58,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 23,
-                    "minute": 43
+                    "minute": 43,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "GS",
@@ -2213,14 +2613,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 54,
-                    "minute": 16
+                    "minute": 16,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 36,
-                    "minute": 32
+                    "minute": 32,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "GT",
@@ -2229,14 +2632,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 14,
-                    "minute": 38
+                    "minute": 38,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 90,
-                    "minute": 31
+                    "minute": 31,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "GW",
@@ -2245,14 +2651,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 11,
-                    "minute": 51
+                    "minute": 51,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 15,
-                    "minute": 35
+                    "minute": 35,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "GY",
@@ -2261,14 +2670,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 6,
-                    "minute": 48
+                    "minute": 48,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 58,
-                    "minute": 10
+                    "minute": 10,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "HK",
@@ -2277,14 +2689,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 22,
-                    "minute": 17
+                    "minute": 17,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 114,
-                    "minute": 9
+                    "minute": 9,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "HN",
@@ -2293,14 +2708,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 14,
-                    "minute": 6
+                    "minute": 6,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 87,
-                    "minute": 13
+                    "minute": 13,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "HT",
@@ -2309,14 +2727,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 18,
-                    "minute": 32
+                    "minute": 32,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 72,
-                    "minute": 20
+                    "minute": 20,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "HU",
@@ -2325,14 +2746,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 47,
-                    "minute": 30
+                    "minute": 30,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 19,
-                    "minute": 5
+                    "minute": 5,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "ID",
@@ -2341,14 +2765,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 6,
-                    "minute": 10
+                    "minute": 10,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 106,
-                    "minute": 48
+                    "minute": 48,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Java, Sumatra"
         },
         {
             "countryCode": "ID",
@@ -2357,14 +2784,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 0,
-                    "minute": 2
+                    "minute": 2,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 109,
-                    "minute": 20
+                    "minute": 20,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Borneo (west, central)"
         },
         {
             "countryCode": "ID",
@@ -2373,14 +2803,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 5,
-                    "minute": 7
+                    "minute": 7,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 119,
-                    "minute": 24
+                    "minute": 24,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Borneo (east, south); Sulawesi/Celebes, Bali, Nusa Tengarra; Timor (west)"
         },
         {
             "countryCode": "ID",
@@ -2389,14 +2822,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 2,
-                    "minute": 32
+                    "minute": 32,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 140,
-                    "minute": 42
+                    "minute": 42,
+                    "second": null
                 }
-            }
+            },
+            "comments": "New Guinea (West Papua / Irian Jaya); Malukus/Moluccas"
         },
         {
             "countryCode": "IE",
@@ -2405,14 +2841,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 53,
-                    "minute": 20
+                    "minute": 20,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 6,
-                    "minute": 15
+                    "minute": 15,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "IL",
@@ -2430,7 +2869,8 @@
                     "minute": 13,
                     "second": 26
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "IN",
@@ -2439,14 +2879,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 22,
-                    "minute": 32
+                    "minute": 32,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 88,
-                    "minute": 22
+                    "minute": 22,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "IO",
@@ -2455,14 +2898,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 7,
-                    "minute": 20
+                    "minute": 20,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 72,
-                    "minute": 25
+                    "minute": 25,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "IQ",
@@ -2471,14 +2917,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 33,
-                    "minute": 21
+                    "minute": 21,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 44,
-                    "minute": 25
+                    "minute": 25,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "IR",
@@ -2487,14 +2936,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 35,
-                    "minute": 40
+                    "minute": 40,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 51,
-                    "minute": 26
+                    "minute": 26,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "IS",
@@ -2503,14 +2955,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 64,
-                    "minute": 9
+                    "minute": 9,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 21,
-                    "minute": 51
+                    "minute": 51,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "JM",
@@ -2528,7 +2983,8 @@
                     "minute": 47,
                     "second": 36
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "JO",
@@ -2537,14 +2993,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 31,
-                    "minute": 57
+                    "minute": 57,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 35,
-                    "minute": 56
+                    "minute": 56,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "JP",
@@ -2562,7 +3021,8 @@
                     "minute": 44,
                     "second": 41
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "KG",
@@ -2571,14 +3031,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 42,
-                    "minute": 54
+                    "minute": 54,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 74,
-                    "minute": 36
+                    "minute": 36,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "KI",
@@ -2587,14 +3050,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 1,
-                    "minute": 25
+                    "minute": 25,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 173,
-                    "minute": 0
+                    "minute": 0,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Gilbert Islands"
         },
         {
             "countryCode": "KI",
@@ -2603,14 +3069,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 3,
-                    "minute": 8
+                    "minute": 8,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 171,
-                    "minute": 5
+                    "minute": 5,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Phoenix Islands"
         },
         {
             "countryCode": "KI",
@@ -2619,14 +3088,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 1,
-                    "minute": 52
+                    "minute": 52,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 157,
-                    "minute": 20
+                    "minute": 20,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Line Islands"
         },
         {
             "countryCode": "KP",
@@ -2635,14 +3107,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 39,
-                    "minute": 1
+                    "minute": 1,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 125,
-                    "minute": 45
+                    "minute": 45,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "KR",
@@ -2651,14 +3126,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 37,
-                    "minute": 33
+                    "minute": 33,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 126,
-                    "minute": 58
+                    "minute": 58,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "KZ",
@@ -2667,14 +3145,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 43,
-                    "minute": 15
+                    "minute": 15,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 76,
-                    "minute": 57
+                    "minute": 57,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Kazakhstan (most areas)"
         },
         {
             "countryCode": "KZ",
@@ -2683,14 +3164,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 44,
-                    "minute": 48
+                    "minute": 48,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 65,
-                    "minute": 28
+                    "minute": 28,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Qyzylorda/Kyzylorda/Kzyl-Orda"
         },
         {
             "countryCode": "KZ",
@@ -2699,14 +3183,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 50,
-                    "minute": 17
+                    "minute": 17,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 57,
-                    "minute": 10
+                    "minute": 10,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Aqtöbe/Aktobe"
         },
         {
             "countryCode": "KZ",
@@ -2715,14 +3202,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 44,
-                    "minute": 31
+                    "minute": 31,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 50,
-                    "minute": 16
+                    "minute": 16,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Mangghystaū/Mankistau"
         },
         {
             "countryCode": "KZ",
@@ -2731,14 +3221,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 47,
-                    "minute": 7
+                    "minute": 7,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 51,
-                    "minute": 56
+                    "minute": 56,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Atyraū/Atirau/Gur&#x27;yev"
         },
         {
             "countryCode": "KZ",
@@ -2747,14 +3240,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 51,
-                    "minute": 13
+                    "minute": 13,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 51,
-                    "minute": 21
+                    "minute": 21,
+                    "second": null
                 }
-            }
+            },
+            "comments": "West Kazakhstan"
         },
         {
             "countryCode": "LB",
@@ -2763,14 +3259,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 33,
-                    "minute": 53
+                    "minute": 53,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 35,
-                    "minute": 30
+                    "minute": 30,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "LK",
@@ -2779,14 +3278,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 6,
-                    "minute": 56
+                    "minute": 56,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 79,
-                    "minute": 51
+                    "minute": 51,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "LR",
@@ -2795,14 +3297,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 6,
-                    "minute": 18
+                    "minute": 18,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 10,
-                    "minute": 47
+                    "minute": 47,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "LT",
@@ -2811,14 +3316,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 54,
-                    "minute": 41
+                    "minute": 41,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 25,
-                    "minute": 19
+                    "minute": 19,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "LU",
@@ -2827,14 +3335,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 49,
-                    "minute": 36
+                    "minute": 36,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 6,
-                    "minute": 9
+                    "minute": 9,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "LV",
@@ -2843,14 +3354,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 56,
-                    "minute": 57
+                    "minute": 57,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 24,
-                    "minute": 6
+                    "minute": 6,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "LY",
@@ -2859,14 +3373,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 32,
-                    "minute": 54
+                    "minute": 54,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 13,
-                    "minute": 11
+                    "minute": 11,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "MA",
@@ -2875,14 +3392,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 33,
-                    "minute": 39
+                    "minute": 39,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 7,
-                    "minute": 35
+                    "minute": 35,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "MC",
@@ -2891,14 +3411,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 43,
-                    "minute": 42
+                    "minute": 42,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 7,
-                    "minute": 23
+                    "minute": 23,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "MD",
@@ -2907,14 +3430,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 47,
-                    "minute": 0
+                    "minute": 0,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 28,
-                    "minute": 50
+                    "minute": 50,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "MH",
@@ -2923,14 +3449,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 7,
-                    "minute": 9
+                    "minute": 9,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 171,
-                    "minute": 12
+                    "minute": 12,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Marshall Islands (most areas)"
         },
         {
             "countryCode": "MH",
@@ -2939,14 +3468,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 9,
-                    "minute": 5
+                    "minute": 5,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 167,
-                    "minute": 20
+                    "minute": 20,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Kwajalein"
         },
         {
             "countryCode": "MM",
@@ -2955,14 +3487,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 16,
-                    "minute": 47
+                    "minute": 47,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 96,
-                    "minute": 10
+                    "minute": 10,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "MN",
@@ -2971,14 +3506,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 47,
-                    "minute": 55
+                    "minute": 55,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 106,
-                    "minute": 53
+                    "minute": 53,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Mongolia (most areas)"
         },
         {
             "countryCode": "MN",
@@ -2987,14 +3525,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 48,
-                    "minute": 1
+                    "minute": 1,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 91,
-                    "minute": 39
+                    "minute": 39,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Bayan-Ölgii, Govi-Altai, Hovd, Uvs, Zavkhan"
         },
         {
             "countryCode": "MN",
@@ -3003,14 +3544,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 48,
-                    "minute": 4
+                    "minute": 4,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 114,
-                    "minute": 30
+                    "minute": 30,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Dornod, Sükhbaatar"
         },
         {
             "countryCode": "MO",
@@ -3019,14 +3563,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 22,
-                    "minute": 14
+                    "minute": 14,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 113,
-                    "minute": 35
+                    "minute": 35,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "MQ",
@@ -3035,14 +3582,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 14,
-                    "minute": 36
+                    "minute": 36,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 61,
-                    "minute": 5
+                    "minute": 5,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "MT",
@@ -3051,14 +3601,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 35,
-                    "minute": 54
+                    "minute": 54,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 14,
-                    "minute": 31
+                    "minute": 31,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "MU",
@@ -3067,14 +3620,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 20,
-                    "minute": 10
+                    "minute": 10,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 57,
-                    "minute": 30
+                    "minute": 30,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "MV",
@@ -3083,14 +3639,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 4,
-                    "minute": 10
+                    "minute": 10,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 73,
-                    "minute": 30
+                    "minute": 30,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "MX",
@@ -3099,14 +3658,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 19,
-                    "minute": 24
+                    "minute": 24,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 99,
-                    "minute": 9
+                    "minute": 9,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Central Time"
         },
         {
             "countryCode": "MX",
@@ -3115,14 +3677,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 21,
-                    "minute": 5
+                    "minute": 5,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 86,
-                    "minute": 46
+                    "minute": 46,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Eastern Standard Time - Quintana Roo"
         },
         {
             "countryCode": "MX",
@@ -3131,14 +3696,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 20,
-                    "minute": 58
+                    "minute": 58,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 89,
-                    "minute": 37
+                    "minute": 37,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Central Time - Campeche, Yucatán"
         },
         {
             "countryCode": "MX",
@@ -3147,14 +3715,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 25,
-                    "minute": 40
+                    "minute": 40,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 100,
-                    "minute": 19
+                    "minute": 19,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Central Time - Durango; Coahuila, Nuevo León, Tamaulipas (most areas)"
         },
         {
             "countryCode": "MX",
@@ -3163,14 +3734,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 25,
-                    "minute": 50
+                    "minute": 50,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 97,
-                    "minute": 30
+                    "minute": 30,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Central Time US - Coahuila, Nuevo León, Tamaulipas (US border)"
         },
         {
             "countryCode": "MX",
@@ -3179,14 +3753,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 23,
-                    "minute": 13
+                    "minute": 13,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 106,
-                    "minute": 25
+                    "minute": 25,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Mountain Time - Baja California Sur, Nayarit, Sinaloa"
         },
         {
             "countryCode": "MX",
@@ -3195,14 +3772,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 28,
-                    "minute": 38
+                    "minute": 38,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 106,
-                    "minute": 5
+                    "minute": 5,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Mountain Time - Chihuahua (most areas)"
         },
         {
             "countryCode": "MX",
@@ -3211,14 +3791,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 29,
-                    "minute": 34
+                    "minute": 34,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 104,
-                    "minute": 25
+                    "minute": 25,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Mountain Time US - Chihuahua (US border)"
         },
         {
             "countryCode": "MX",
@@ -3227,14 +3810,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 29,
-                    "minute": 4
+                    "minute": 4,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 110,
-                    "minute": 58
+                    "minute": 58,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Mountain Standard Time - Sonora"
         },
         {
             "countryCode": "MX",
@@ -3243,14 +3829,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 32,
-                    "minute": 32
+                    "minute": 32,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 117,
-                    "minute": 1
+                    "minute": 1,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Pacific Time US - Baja California"
         },
         {
             "countryCode": "MX",
@@ -3259,14 +3848,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 20,
-                    "minute": 48
+                    "minute": 48,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 105,
-                    "minute": 15
+                    "minute": 15,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Central Time - Bahía de Banderas"
         },
         {
             "countryCode": "MY",
@@ -3275,14 +3867,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 3,
-                    "minute": 10
+                    "minute": 10,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 101,
-                    "minute": 42
+                    "minute": 42,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Malaysia (peninsula)"
         },
         {
             "countryCode": "MY",
@@ -3291,14 +3886,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 1,
-                    "minute": 33
+                    "minute": 33,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 110,
-                    "minute": 20
+                    "minute": 20,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Sabah, Sarawak"
         },
         {
             "countryCode": "NA",
@@ -3307,14 +3905,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 22,
-                    "minute": 34
+                    "minute": 34,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 17,
-                    "minute": 6
+                    "minute": 6,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "NC",
@@ -3323,14 +3924,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 22,
-                    "minute": 16
+                    "minute": 16,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 166,
-                    "minute": 27
+                    "minute": 27,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "NF",
@@ -3339,14 +3943,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 29,
-                    "minute": 3
+                    "minute": 3,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 167,
-                    "minute": 58
+                    "minute": 58,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "NI",
@@ -3355,14 +3962,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 12,
-                    "minute": 9
+                    "minute": 9,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 86,
-                    "minute": 17
+                    "minute": 17,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "NL",
@@ -3371,14 +3981,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 52,
-                    "minute": 22
+                    "minute": 22,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 4,
-                    "minute": 54
+                    "minute": 54,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "NP",
@@ -3387,14 +4000,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 27,
-                    "minute": 43
+                    "minute": 43,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 85,
-                    "minute": 19
+                    "minute": 19,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "NR",
@@ -3403,14 +4019,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 0,
-                    "minute": 31
+                    "minute": 31,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 166,
-                    "minute": 55
+                    "minute": 55,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "NU",
@@ -3419,14 +4038,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 19,
-                    "minute": 1
+                    "minute": 1,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 169,
-                    "minute": 55
+                    "minute": 55,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "NZ",
@@ -3435,14 +4057,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 43,
-                    "minute": 57
+                    "minute": 57,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 176,
-                    "minute": 33
+                    "minute": 33,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Chatham Islands"
         },
         {
             "countryCode": "PE",
@@ -3451,14 +4076,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 12,
-                    "minute": 3
+                    "minute": 3,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 77,
-                    "minute": 3
+                    "minute": 3,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "PF",
@@ -3467,14 +4095,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 17,
-                    "minute": 32
+                    "minute": 32,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 149,
-                    "minute": 34
+                    "minute": 34,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Society Islands"
         },
         {
             "countryCode": "PF",
@@ -3483,14 +4114,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 9,
-                    "minute": 0
+                    "minute": 0,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 139,
-                    "minute": 30
+                    "minute": 30,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Marquesas Islands"
         },
         {
             "countryCode": "PF",
@@ -3499,14 +4133,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 23,
-                    "minute": 8
+                    "minute": 8,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 134,
-                    "minute": 57
+                    "minute": 57,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Gambier Islands"
         },
         {
             "countryCode": "PG",
@@ -3515,14 +4152,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 9,
-                    "minute": 30
+                    "minute": 30,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 147,
-                    "minute": 10
+                    "minute": 10,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Papua New Guinea (most areas)"
         },
         {
             "countryCode": "PG",
@@ -3531,14 +4171,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 6,
-                    "minute": 13
+                    "minute": 13,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 155,
-                    "minute": 34
+                    "minute": 34,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Bougainville"
         },
         {
             "countryCode": "PH",
@@ -3547,14 +4190,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 14,
-                    "minute": 35
+                    "minute": 35,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 121,
-                    "minute": 0
+                    "minute": 0,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "PK",
@@ -3563,14 +4209,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 24,
-                    "minute": 52
+                    "minute": 52,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 67,
-                    "minute": 3
+                    "minute": 3,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "PL",
@@ -3579,14 +4228,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 52,
-                    "minute": 15
+                    "minute": 15,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 21,
-                    "minute": 0
+                    "minute": 0,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "PM",
@@ -3595,14 +4247,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 47,
-                    "minute": 3
+                    "minute": 3,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 56,
-                    "minute": 20
+                    "minute": 20,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "PN",
@@ -3611,14 +4266,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 25,
-                    "minute": 4
+                    "minute": 4,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 130,
-                    "minute": 5
+                    "minute": 5,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "PR",
@@ -3636,7 +4294,8 @@
                     "minute": 6,
                     "second": 22
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "PS",
@@ -3645,14 +4304,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 31,
-                    "minute": 30
+                    "minute": 30,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 34,
-                    "minute": 28
+                    "minute": 28,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Gaza Strip"
         },
         {
             "countryCode": "PS",
@@ -3661,7 +4323,8 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 31,
-                    "minute": 32
+                    "minute": 32,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
@@ -3669,7 +4332,8 @@
                     "minute": 5,
                     "second": 42
                 }
-            }
+            },
+            "comments": "West Bank"
         },
         {
             "countryCode": "PT",
@@ -3678,14 +4342,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 38,
-                    "minute": 43
+                    "minute": 43,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 9,
-                    "minute": 8
+                    "minute": 8,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Portugal (mainland)"
         },
         {
             "countryCode": "PT",
@@ -3694,14 +4361,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 32,
-                    "minute": 38
+                    "minute": 38,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 16,
-                    "minute": 54
+                    "minute": 54,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Madeira Islands"
         },
         {
             "countryCode": "PT",
@@ -3710,14 +4380,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 37,
-                    "minute": 44
+                    "minute": 44,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 25,
-                    "minute": 40
+                    "minute": 40,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Azores"
         },
         {
             "countryCode": "PW",
@@ -3726,14 +4399,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 7,
-                    "minute": 20
+                    "minute": 20,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 134,
-                    "minute": 29
+                    "minute": 29,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "PY",
@@ -3742,14 +4418,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 25,
-                    "minute": 16
+                    "minute": 16,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 57,
-                    "minute": 40
+                    "minute": 40,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "RO",
@@ -3758,14 +4437,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 44,
-                    "minute": 26
+                    "minute": 26,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 26,
-                    "minute": 6
+                    "minute": 6,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "RU",
@@ -3774,14 +4456,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 54,
-                    "minute": 43
+                    "minute": 43,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 20,
-                    "minute": 30
+                    "minute": 30,
+                    "second": null
                 }
-            }
+            },
+            "comments": "MSK-01 - Kaliningrad"
         },
         {
             "countryCode": "RU",
@@ -3799,7 +4484,8 @@
                     "minute": 37,
                     "second": 4
                 }
-            }
+            },
+            "comments": "MSK+00 - Moscow area"
         },
         {
             "countryCode": "RU",
@@ -3808,14 +4494,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 44,
-                    "minute": 57
+                    "minute": 57,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 34,
-                    "minute": 6
+                    "minute": 6,
+                    "second": null
                 }
-            }
+            },
+            "comments": "MSK+00 - Crimea"
         },
         {
             "countryCode": "RU",
@@ -3824,14 +4513,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 48,
-                    "minute": 44
+                    "minute": 44,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 44,
-                    "minute": 25
+                    "minute": 25,
+                    "second": null
                 }
-            }
+            },
+            "comments": "MSK+00 - Volgograd"
         },
         {
             "countryCode": "RU",
@@ -3840,14 +4532,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 58,
-                    "minute": 36
+                    "minute": 36,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 49,
-                    "minute": 39
+                    "minute": 39,
+                    "second": null
                 }
-            }
+            },
+            "comments": "MSK+00 - Kirov"
         },
         {
             "countryCode": "RU",
@@ -3856,14 +4551,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 46,
-                    "minute": 21
+                    "minute": 21,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 48,
-                    "minute": 3
+                    "minute": 3,
+                    "second": null
                 }
-            }
+            },
+            "comments": "MSK+01 - Astrakhan"
         },
         {
             "countryCode": "RU",
@@ -3872,14 +4570,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 51,
-                    "minute": 34
+                    "minute": 34,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 46,
-                    "minute": 2
+                    "minute": 2,
+                    "second": null
                 }
-            }
+            },
+            "comments": "MSK+01 - Saratov"
         },
         {
             "countryCode": "RU",
@@ -3888,14 +4589,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 54,
-                    "minute": 20
+                    "minute": 20,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 48,
-                    "minute": 24
+                    "minute": 24,
+                    "second": null
                 }
-            }
+            },
+            "comments": "MSK+01 - Ulyanovsk"
         },
         {
             "countryCode": "RU",
@@ -3904,14 +4608,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 53,
-                    "minute": 12
+                    "minute": 12,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 50,
-                    "minute": 9
+                    "minute": 9,
+                    "second": null
                 }
-            }
+            },
+            "comments": "MSK+01 - Samara, Udmurtia"
         },
         {
             "countryCode": "RU",
@@ -3920,14 +4627,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 56,
-                    "minute": 51
+                    "minute": 51,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 60,
-                    "minute": 36
+                    "minute": 36,
+                    "second": null
                 }
-            }
+            },
+            "comments": "MSK+02 - Urals"
         },
         {
             "countryCode": "RU",
@@ -3936,14 +4646,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 55,
-                    "minute": 0
+                    "minute": 0,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 73,
-                    "minute": 24
+                    "minute": 24,
+                    "second": null
                 }
-            }
+            },
+            "comments": "MSK+03 - Omsk"
         },
         {
             "countryCode": "RU",
@@ -3952,14 +4665,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 55,
-                    "minute": 2
+                    "minute": 2,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 82,
-                    "minute": 55
+                    "minute": 55,
+                    "second": null
                 }
-            }
+            },
+            "comments": "MSK+04 - Novosibirsk"
         },
         {
             "countryCode": "RU",
@@ -3968,14 +4684,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 53,
-                    "minute": 22
+                    "minute": 22,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 83,
-                    "minute": 45
+                    "minute": 45,
+                    "second": null
                 }
-            }
+            },
+            "comments": "MSK+04 - Altai"
         },
         {
             "countryCode": "RU",
@@ -3984,14 +4703,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 56,
-                    "minute": 30
+                    "minute": 30,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 84,
-                    "minute": 58
+                    "minute": 58,
+                    "second": null
                 }
-            }
+            },
+            "comments": "MSK+04 - Tomsk"
         },
         {
             "countryCode": "RU",
@@ -4000,14 +4722,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 53,
-                    "minute": 45
+                    "minute": 45,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 87,
-                    "minute": 7
+                    "minute": 7,
+                    "second": null
                 }
-            }
+            },
+            "comments": "MSK+04 - Kemerovo"
         },
         {
             "countryCode": "RU",
@@ -4016,14 +4741,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 56,
-                    "minute": 1
+                    "minute": 1,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 92,
-                    "minute": 50
+                    "minute": 50,
+                    "second": null
                 }
-            }
+            },
+            "comments": "MSK+04 - Krasnoyarsk area"
         },
         {
             "countryCode": "RU",
@@ -4032,14 +4760,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 52,
-                    "minute": 16
+                    "minute": 16,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 104,
-                    "minute": 20
+                    "minute": 20,
+                    "second": null
                 }
-            }
+            },
+            "comments": "MSK+05 - Irkutsk, Buryatia"
         },
         {
             "countryCode": "RU",
@@ -4048,14 +4779,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 52,
-                    "minute": 3
+                    "minute": 3,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 113,
-                    "minute": 28
+                    "minute": 28,
+                    "second": null
                 }
-            }
+            },
+            "comments": "MSK+06 - Zabaykalsky"
         },
         {
             "countryCode": "RU",
@@ -4064,14 +4798,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 62,
-                    "minute": 0
+                    "minute": 0,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 129,
-                    "minute": 40
+                    "minute": 40,
+                    "second": null
                 }
-            }
+            },
+            "comments": "MSK+06 - Lena River"
         },
         {
             "countryCode": "RU",
@@ -4089,7 +4826,8 @@
                     "minute": 33,
                     "second": 14
                 }
-            }
+            },
+            "comments": "MSK+06 - Tomponsky, Ust-Maysky"
         },
         {
             "countryCode": "RU",
@@ -4098,14 +4836,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 43,
-                    "minute": 10
+                    "minute": 10,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 131,
-                    "minute": 56
+                    "minute": 56,
+                    "second": null
                 }
-            }
+            },
+            "comments": "MSK+07 - Amur River"
         },
         {
             "countryCode": "RU",
@@ -4123,7 +4864,8 @@
                     "minute": 13,
                     "second": 36
                 }
-            }
+            },
+            "comments": "MSK+07 - Oymyakonsky"
         },
         {
             "countryCode": "RU",
@@ -4132,14 +4874,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 59,
-                    "minute": 34
+                    "minute": 34,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 150,
-                    "minute": 48
+                    "minute": 48,
+                    "second": null
                 }
-            }
+            },
+            "comments": "MSK+08 - Magadan"
         },
         {
             "countryCode": "RU",
@@ -4148,14 +4893,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 46,
-                    "minute": 58
+                    "minute": 58,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 142,
-                    "minute": 42
+                    "minute": 42,
+                    "second": null
                 }
-            }
+            },
+            "comments": "MSK+08 - Sakhalin Island"
         },
         {
             "countryCode": "RU",
@@ -4164,14 +4912,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 67,
-                    "minute": 28
+                    "minute": 28,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 153,
-                    "minute": 43
+                    "minute": 43,
+                    "second": null
                 }
-            }
+            },
+            "comments": "MSK+08 - Sakha (E); North Kuril Is"
         },
         {
             "countryCode": "RU",
@@ -4180,14 +4931,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 53,
-                    "minute": 1
+                    "minute": 1,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 158,
-                    "minute": 39
+                    "minute": 39,
+                    "second": null
                 }
-            }
+            },
+            "comments": "MSK+09 - Kamchatka"
         },
         {
             "countryCode": "RU",
@@ -4196,14 +4950,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 64,
-                    "minute": 45
+                    "minute": 45,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 177,
-                    "minute": 29
+                    "minute": 29,
+                    "second": null
                 }
-            }
+            },
+            "comments": "MSK+09 - Bering Sea"
         },
         {
             "countryCode": "SB",
@@ -4212,14 +4969,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 9,
-                    "minute": 32
+                    "minute": 32,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 160,
-                    "minute": 12
+                    "minute": 12,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "SC",
@@ -4228,14 +4988,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 4,
-                    "minute": 40
+                    "minute": 40,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 55,
-                    "minute": 28
+                    "minute": 28,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "SD",
@@ -4244,14 +5007,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 15,
-                    "minute": 36
+                    "minute": 36,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 32,
-                    "minute": 32
+                    "minute": 32,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "SE",
@@ -4260,14 +5026,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 59,
-                    "minute": 20
+                    "minute": 20,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 18,
-                    "minute": 3
+                    "minute": 3,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "SG",
@@ -4276,14 +5045,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 1,
-                    "minute": 17
+                    "minute": 17,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 103,
-                    "minute": 51
+                    "minute": 51,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "SR",
@@ -4292,14 +5064,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 5,
-                    "minute": 50
+                    "minute": 50,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 55,
-                    "minute": 10
+                    "minute": 10,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "SS",
@@ -4308,14 +5083,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 4,
-                    "minute": 51
+                    "minute": 51,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 31,
-                    "minute": 37
+                    "minute": 37,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "ST",
@@ -4324,14 +5102,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 0,
-                    "minute": 20
+                    "minute": 20,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 6,
-                    "minute": 44
+                    "minute": 44,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "SV",
@@ -4340,14 +5121,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 13,
-                    "minute": 42
+                    "minute": 42,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 89,
-                    "minute": 12
+                    "minute": 12,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "SY",
@@ -4356,14 +5140,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 33,
-                    "minute": 30
+                    "minute": 30,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 36,
-                    "minute": 18
+                    "minute": 18,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "TC",
@@ -4372,14 +5159,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 21,
-                    "minute": 28
+                    "minute": 28,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 71,
-                    "minute": 8
+                    "minute": 8,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "TD",
@@ -4388,14 +5178,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 12,
-                    "minute": 7
+                    "minute": 7,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 15,
-                    "minute": 3
+                    "minute": 3,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "TF",
@@ -4413,7 +5206,8 @@
                     "minute": 13,
                     "second": 3
                 }
-            }
+            },
+            "comments": "Kerguelen, St Paul Island, Amsterdam Island"
         },
         {
             "countryCode": "TJ",
@@ -4422,14 +5216,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 38,
-                    "minute": 35
+                    "minute": 35,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 68,
-                    "minute": 48
+                    "minute": 48,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "TK",
@@ -4438,14 +5235,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 9,
-                    "minute": 22
+                    "minute": 22,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 171,
-                    "minute": 14
+                    "minute": 14,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "TL",
@@ -4454,14 +5254,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 8,
-                    "minute": 33
+                    "minute": 33,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 125,
-                    "minute": 35
+                    "minute": 35,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "TM",
@@ -4470,14 +5273,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 37,
-                    "minute": 57
+                    "minute": 57,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 58,
-                    "minute": 23
+                    "minute": 23,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "TN",
@@ -4486,14 +5292,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 36,
-                    "minute": 48
+                    "minute": 48,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 10,
-                    "minute": 11
+                    "minute": 11,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "TO",
@@ -4502,14 +5311,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 21,
-                    "minute": 10
+                    "minute": 10,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 175,
-                    "minute": 10
+                    "minute": 10,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "TR",
@@ -4518,14 +5330,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 41,
-                    "minute": 1
+                    "minute": 1,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 28,
-                    "minute": 58
+                    "minute": 58,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "TV",
@@ -4534,14 +5349,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 8,
-                    "minute": 31
+                    "minute": 31,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 179,
-                    "minute": 13
+                    "minute": 13,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "TW",
@@ -4550,14 +5368,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 25,
-                    "minute": 3
+                    "minute": 3,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 121,
-                    "minute": 30
+                    "minute": 30,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "UA",
@@ -4566,14 +5387,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 50,
-                    "minute": 26
+                    "minute": 26,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 30,
-                    "minute": 31
+                    "minute": 31,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Ukraine (most areas)"
         },
         {
             "countryCode": "UA",
@@ -4582,14 +5406,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 48,
-                    "minute": 37
+                    "minute": 37,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 22,
-                    "minute": 18
+                    "minute": 18,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Ruthenia"
         },
         {
             "countryCode": "UA",
@@ -4598,14 +5425,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 47,
-                    "minute": 50
+                    "minute": 50,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 35,
-                    "minute": 10
+                    "minute": 10,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Zaporozh&#x27;ye/Zaporizhia; Lugansk/Luhansk (east)"
         },
         {
             "countryCode": "UM",
@@ -4614,14 +5444,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 19,
-                    "minute": 17
+                    "minute": 17,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 166,
-                    "minute": 37
+                    "minute": 37,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Wake Island"
         },
         {
             "countryCode": "US",
@@ -4639,7 +5472,8 @@
                     "minute": 0,
                     "second": 23
                 }
-            }
+            },
+            "comments": "Eastern (most areas)"
         },
         {
             "countryCode": "US",
@@ -4657,7 +5491,8 @@
                     "minute": 2,
                     "second": 45
                 }
-            }
+            },
+            "comments": "Eastern - MI (most areas)"
         },
         {
             "countryCode": "US",
@@ -4675,7 +5510,8 @@
                     "minute": 45,
                     "second": 34
                 }
-            }
+            },
+            "comments": "Eastern - KY (Louisville area)"
         },
         {
             "countryCode": "US",
@@ -4693,7 +5529,8 @@
                     "minute": 50,
                     "second": 57
                 }
-            }
+            },
+            "comments": "Eastern - KY (Wayne)"
         },
         {
             "countryCode": "US",
@@ -4711,7 +5548,8 @@
                     "minute": 9,
                     "second": 29
                 }
-            }
+            },
+            "comments": "Eastern - IN (most areas)"
         },
         {
             "countryCode": "US",
@@ -4729,7 +5567,8 @@
                     "minute": 31,
                     "second": 43
                 }
-            }
+            },
+            "comments": "Eastern - IN (Da, Du, K, Mn)"
         },
         {
             "countryCode": "US",
@@ -4747,7 +5586,8 @@
                     "minute": 36,
                     "second": 11
                 }
-            }
+            },
+            "comments": "Eastern - IN (Pulaski)"
         },
         {
             "countryCode": "US",
@@ -4765,7 +5605,8 @@
                     "minute": 20,
                     "second": 41
                 }
-            }
+            },
+            "comments": "Eastern - IN (Crawford)"
         },
         {
             "countryCode": "US",
@@ -4783,7 +5624,8 @@
                     "minute": 16,
                     "second": 43
                 }
-            }
+            },
+            "comments": "Eastern - IN (Pike)"
         },
         {
             "countryCode": "US",
@@ -4801,7 +5643,8 @@
                     "minute": 4,
                     "second": 2
                 }
-            }
+            },
+            "comments": "Eastern - IN (Switzerland)"
         },
         {
             "countryCode": "US",
@@ -4810,14 +5653,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 41,
-                    "minute": 51
+                    "minute": 51,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 87,
-                    "minute": 39
+                    "minute": 39,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Central (most areas)"
         },
         {
             "countryCode": "US",
@@ -4835,7 +5681,8 @@
                     "minute": 45,
                     "second": 41
                 }
-            }
+            },
+            "comments": "Central - IN (Perry)"
         },
         {
             "countryCode": "US",
@@ -4853,7 +5700,8 @@
                     "minute": 37,
                     "second": 30
                 }
-            }
+            },
+            "comments": "Central - IN (Starke)"
         },
         {
             "countryCode": "US",
@@ -4871,7 +5719,8 @@
                     "minute": 36,
                     "second": 51
                 }
-            }
+            },
+            "comments": "Central - MI (Wisconsin border)"
         },
         {
             "countryCode": "US",
@@ -4889,7 +5738,8 @@
                     "minute": 17,
                     "second": 57
                 }
-            }
+            },
+            "comments": "Central - ND (Oliver)"
         },
         {
             "countryCode": "US",
@@ -4907,7 +5757,8 @@
                     "minute": 24,
                     "second": 39
                 }
-            }
+            },
+            "comments": "Central - ND (Morton rural)"
         },
         {
             "countryCode": "US",
@@ -4925,7 +5776,8 @@
                     "minute": 46,
                     "second": 40
                 }
-            }
+            },
+            "comments": "Central - ND (Mercer)"
         },
         {
             "countryCode": "US",
@@ -4943,7 +5795,8 @@
                     "minute": 59,
                     "second": 3
                 }
-            }
+            },
+            "comments": "Mountain (most areas)"
         },
         {
             "countryCode": "US",
@@ -4961,7 +5814,8 @@
                     "minute": 12,
                     "second": 9
                 }
-            }
+            },
+            "comments": "Mountain - ID (south); OR (east)"
         },
         {
             "countryCode": "US",
@@ -4979,7 +5833,8 @@
                     "minute": 4,
                     "second": 24
                 }
-            }
+            },
+            "comments": "MST - Arizona (except Navajo)"
         },
         {
             "countryCode": "US",
@@ -4997,7 +5852,8 @@
                     "minute": 14,
                     "second": 34
                 }
-            }
+            },
+            "comments": "Pacific"
         },
         {
             "countryCode": "US",
@@ -5015,7 +5871,8 @@
                     "minute": 54,
                     "second": 1
                 }
-            }
+            },
+            "comments": "Alaska (most areas)"
         },
         {
             "countryCode": "US",
@@ -5033,7 +5890,8 @@
                     "minute": 25,
                     "second": 11
                 }
-            }
+            },
+            "comments": "Alaska - Juneau area"
         },
         {
             "countryCode": "US",
@@ -5051,7 +5909,8 @@
                     "minute": 18,
                     "second": 7
                 }
-            }
+            },
+            "comments": "Alaska - Sitka area"
         },
         {
             "countryCode": "US",
@@ -5069,7 +5928,8 @@
                     "minute": 34,
                     "second": 35
                 }
-            }
+            },
+            "comments": "Alaska - Annette Island"
         },
         {
             "countryCode": "US",
@@ -5087,7 +5947,8 @@
                     "minute": 43,
                     "second": 38
                 }
-            }
+            },
+            "comments": "Alaska - Yakutat"
         },
         {
             "countryCode": "US",
@@ -5105,7 +5966,8 @@
                     "minute": 24,
                     "second": 23
                 }
-            }
+            },
+            "comments": "Alaska (west)"
         },
         {
             "countryCode": "US",
@@ -5123,7 +5985,8 @@
                     "minute": 39,
                     "second": 29
                 }
-            }
+            },
+            "comments": "Aleutian Islands"
         },
         {
             "countryCode": "UY",
@@ -5132,14 +5995,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 34,
-                    "minute": 53
+                    "minute": 53,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 56,
-                    "minute": 11
+                    "minute": 11,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "UZ",
@@ -5148,14 +6014,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 39,
-                    "minute": 40
+                    "minute": 40,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 66,
-                    "minute": 48
+                    "minute": 48,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Uzbekistan (west)"
         },
         {
             "countryCode": "UZ",
@@ -5164,14 +6033,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 41,
-                    "minute": 20
+                    "minute": 20,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 69,
-                    "minute": 18
+                    "minute": 18,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Uzbekistan (east)"
         },
         {
             "countryCode": "VE",
@@ -5180,14 +6052,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 10,
-                    "minute": 30
+                    "minute": 30,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 66,
-                    "minute": 56
+                    "minute": 56,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "VN",
@@ -5196,14 +6071,17 @@
                 "latitude": {
                     "sign": "+",
                     "degree": 10,
-                    "minute": 45
+                    "minute": 45,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 106,
-                    "minute": 40
+                    "minute": 40,
+                    "second": null
                 }
-            }
+            },
+            "comments": "Vietnam (south)"
         },
         {
             "countryCode": "VU",
@@ -5212,14 +6090,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 17,
-                    "minute": 40
+                    "minute": 40,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "+",
                     "degree": 168,
-                    "minute": 25
+                    "minute": 25,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "WF",
@@ -5228,14 +6109,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 13,
-                    "minute": 18
+                    "minute": 18,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 176,
-                    "minute": 10
+                    "minute": 10,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         },
         {
             "countryCode": "WS",
@@ -5244,14 +6128,17 @@
                 "latitude": {
                     "sign": "-",
                     "degree": 13,
-                    "minute": 50
+                    "minute": 50,
+                    "second": null
                 },
                 "longitude": {
                     "sign": "-",
                     "degree": 171,
-                    "minute": 44
+                    "minute": 44,
+                    "second": null
                 }
-            }
+            },
+            "comments": null
         }
     ]
 }

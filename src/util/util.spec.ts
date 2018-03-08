@@ -1,4 +1,4 @@
-import {readdirAsync, readFileAsync, replaceLineBreaks, unlinkAsync, writeFileAsync} from './util';
+import {readdirAsync, readFileAsync, removeLineBreaks, unlinkAsync, writeFileAsync} from './util';
 import * as path from 'path';
 
 describe('util', () => {
@@ -34,10 +34,10 @@ describe('util', () => {
         })
     });
 
-    describe('replaceLineBreaks', () => {
+    describe('removeLineBreaks', () => {
         it('should remove the linebreaks from a string', () => {
             const stringWithLinebreaks = "Foo \nbar";
-            const result = replaceLineBreaks(stringWithLinebreaks);
+            const result = removeLineBreaks(stringWithLinebreaks);
             expect(result).toEqual("Foo bar");
         })
     })

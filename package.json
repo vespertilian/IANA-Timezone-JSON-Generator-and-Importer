@@ -11,7 +11,7 @@
   "scripts": {
     "build": "rm -rf ./lib && ./node_modules/.bin/tsc -p build.tsconfig.json && npm run generate-json-files-and-typescript-types",
     "test": "ts-node node_modules/.bin/jasmine JASMINE_CONFIG_PATH=jasmine.json",
-    "generate-json-files-and-typescript-types": "npm run generate-json-files && npm run generate-timezone-types",
+    "generate-json-files-and-typescript-types": "npm run generate-json-files && npm run generate-typescript-types",
     "generate-json-files": "ts-node -e 'require(\"./src/index.ts\").createJSONFromHandlebarsTemplatesAndZoneData()'",
     "generate-typescript-types": "ts-node ./node_modules/.bin/tsc -p build-timezone-types.tsconfig.json",
     "commit": "git-cz"
@@ -21,14 +21,16 @@
   "dependencies": {
     "@types/decompress": "^4.2.0",
     "@types/handlebars": "^4.0.36",
+    "@types/mathjs": "0.0.38",
     "@types/node-fetch": "^1.6.7",
     "csv-string": "^3.1.2",
     "decompress": "^4.2.0",
     "decompress-targz": "^4.1.1",
-    "node-fetch": "^2.0.0",
-    "ts-node": "^5.0.1",
     "handlebars": "^4.0.11",
-    "parse-tzdata-coordinate": "^1.0.0"
+    "mathjs": "^4.0.0",
+    "node-fetch": "^2.0.0",
+    "parse-tzdata-coordinate": "^1.0.0",
+    "ts-node": "^5.0.1"
   },
   "devDependencies": {
     "@types/jasmine": "^2.8.6",

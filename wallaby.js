@@ -6,6 +6,7 @@ module.exports = function () {
             'test-helpers/**/*.ts',
             'timezones/2018c-zone-all-fields.json',
             'src/get-iana-tz-data/tzdata.tar.gz',
+            'src/extract-tz-data/zone1970-test-file.tab',
             { pattern: 'src/**/*.spec.ts', ignore: true }
         ],
 

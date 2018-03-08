@@ -9,15 +9,8 @@ export interface IZones {
     countryCode: string
     timezone: string
     coordinates: {
-        latitude: ICoordinate,
-        longitude: ICoordinate
+        latitude: number
+        longitude: number
     }
-    comments: string | null
 }
 
-export interface ICoordinate {
-    sign: string
-    degree: number
-    minute: number
-    second: number | null
-}

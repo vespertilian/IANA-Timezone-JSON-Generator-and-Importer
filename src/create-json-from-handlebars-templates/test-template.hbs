@@ -2,16 +2,17 @@
 {{#*inline "coordinates"}}
 {
     "sign": "{{sign}}",
-    "degree": {{degree}},
-    "minute": {{minute}},
-    "second": {{#if second}}{{second}}{{else}}null{{/if}}
+    "degree": {{degree}}, {{!-- no commar here if second does not exist--}}
+    "minute": {{minute}}{{#if second}},{{/if}}
+    {{!-- dont output second if it does not exist --}}
+    {{#if second}}"second": {{second}}{{/if}}
 }
 {{/inline}}
 
 {{!-- create json file --}}
+{{!-- see project readme for data shape --}}
 {
     "IANAVersion": "{{version}}",
-    "originalFileName": "{{originalFileName}}",
     "numberOfZones": {{numberOfZones}},
     "zones": [
         {{#each zones}}
@@ -21,8 +22,7 @@
                 "coordinates": {
                     "latitude": {{> coordinates coordinates.latitude}},
                     "longitude": {{> coordinates coordinates.longitude}}
-                },
-                "comments": {{#if comments}}"{{comments}}"{{else}}null{{/if}}
+                }
             }{{#unless @last}},{{/unless}}
         {{/each}}
     ]

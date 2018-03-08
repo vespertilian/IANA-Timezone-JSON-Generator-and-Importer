@@ -1,5 +1,5 @@
 import {getIANATzData} from '../get-iana-tz-data/get-iana-tz-data';
-import {extractTzData, IExtractedTimezoneData} from '../extract-tz-data';
+import {extractTzData, IExtractedTimezoneData} from '../extract-tz-data/extract-tz-data';
 import * as path from 'path';
 import * as Handlebars from 'handlebars'
 import {readdirAsync, readFileAsync, writeFileAsync} from '../util/util';
@@ -13,18 +13,23 @@ export interface ICreateJSONSettings {
 const defaultSettings: ICreateJSONSettings = {
     templatesPath: path.join(__dirname, '..', '..', 'templates'),
     saveDirectory: path.join(__dirname, '..', '..', 'timezones'),
-    zoneFileNames: ['zone.tab', 'zone1970.tab']
+    zoneFileNames: ['zone1970.tab', 'zone.tab']
 };
 
-export async function createJSONFromHandlebarsTemplatesAndZoneData(_settings: ICreateJSONSettings = {} as any) {
+export async function createJSONFromHandlebarsTemplatesAndZoneData(
+    _settings: ICreateJSONSettings = {} as any,
+    _getIANATzData=getIANATzData,
+    _createJSONFromHandlebarsTemplates=createJSONFromHandlebarsTemplates,
+    _readdirAsync=readdirAsync as any
+) {
     const settings: ICreateJSONSettings = {...defaultSettings, ..._settings};
 
-    const zoneData = await getIANATzData();
-    const files = await readdirAsync(settings.templatesPath);
+    const zoneData = await _getIANATzData();
+    const files = await _readdirAsync(settings.templatesPath);
 
-    settings.zoneFileNames.forEach((name) => {
+    settings.zoneFileNames.forEach(async(name) => {
         const extractedZoneData = extractTzData(zoneData, name);
-        createJSONFromHandlebarsTemplates(
+        await _createJSONFromHandlebarsTemplates(
             files,
             extractedZoneData,
             settings.templatesPath,
@@ -34,7 +39,7 @@ export async function createJSONFromHandlebarsTemplatesAndZoneData(_settings: IC
     })
 }
 
-function createJSONFromHandlebarsTemplates(files: string[], extractedZoneData: IExtractedTimezoneData, templatesPath: string, zoneFileName: string, saveDirectory: string) {
+export async function createJSONFromHandlebarsTemplates(files: string[], extractedZoneData: IExtractedTimezoneData, templatesPath: string, zoneFileName: string, saveDirectory: string) {
     files
         .filter(isHandleBarsFile)
         .forEach(async (filename: string) => {
@@ -63,7 +68,7 @@ function createJSONFromHandlebarsTemplates(files: string[], extractedZoneData: I
                 await writeFileAsync(writePath, jsonString);
 
             } catch(e) {
-                const errorPath = path.join(__dirname, '..', 'timezones', 'error.txt');
+                const errorPath = path.join(saveDirectory, 'error.txt');
 
                 try {
                     await writeFileAsync(errorPath, output);
@@ -85,9 +90,4 @@ function createJSONFromHandlebarsTemplates(files: string[], extractedZoneData: I
 function isHandleBarsFile(filename: string) {
     return filename.includes('.hbs')
 }
-
-createJSONFromHandlebarsTemplatesAndZoneData()
-    .then(() => { console.log('created json')})
-    .catch(e => console.log(e));
-
 

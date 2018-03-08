@@ -6,6 +6,6 @@ export const readFileAsync = promisify(fs.readFile);
 export const writeFileAsync = promisify(fs.writeFile);
 export const unlinkAsync = promisify(fs.unlink);
 
-export function replaceLineBreaks(value: string): string {
+export function removeLineBreaks(value: string): string {
     return value.replace(/\n/g, '')
 }

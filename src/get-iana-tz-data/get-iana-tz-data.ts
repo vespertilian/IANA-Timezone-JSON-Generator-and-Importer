@@ -1,7 +1,7 @@
 //@ts-ignore
 import * as decompressTargz from 'decompress-targz';
 import fetch from 'node-fetch';
-import {replaceLineBreaks} from '../util/util';
+import {removeLineBreaks} from '../util/util';
 
 export interface getIANATzDataParams {
     url: string
@@ -48,7 +48,7 @@ export async function getIANATzData(params?: getIANATzDataParams, _fetch=fetch):
     }, {version: 'no version file found'});
 
     // replace line break so they don't show up in the handlebars template and break JSON parsing
-    IANATzDataFiles.version = replaceLineBreaks(IANATzDataFiles.version);
+    IANATzDataFiles.version = removeLineBreaks(IANATzDataFiles.version);
     return IANATzDataFiles
 }
 
