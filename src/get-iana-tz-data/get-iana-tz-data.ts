@@ -47,6 +47,7 @@ export async function getIANATzData(params?: getIANATzDataParams, _fetch=fetch):
         return acc
     }, {version: 'no version file found'});
 
+    // replace line break so they don't show up in the handlebars template and break JSON parsing
     IANATzDataFiles.version = replaceLineBreaks(IANATzDataFiles.version);
     return IANATzDataFiles
 }

@@ -21,14 +21,20 @@ export interface ICoordinates {
     }
 }
 
-export interface IExtractedTimezoneData {
+export interface IExtractedTimezone {
     countryCode: string,
     coordinates: ICoordinates
     timezoneName: string
     comments: string | null
 }
 
-export function extractTzData(zoneData: any, zoneFileName: string): {zones: IExtractedTimezoneData[], numberOfZones: number} {
+export interface IExtractedTimezoneData {
+    zones: IExtractedTimezone[]
+    numberOfZones: number
+    version: string
+}
+
+export function extractTzData(zoneData: any, zoneFileName: string): IExtractedTimezoneData {
     const separator = '\t';
     const parsedCSV: string[][] = CSV.parse(zoneData[zoneFileName], separator);
 
@@ -47,7 +53,8 @@ export function extractTzData(zoneData: any, zoneFileName: string): {zones: IExt
 
     return {
         zones: zones,
-        numberOfZones: zones.length
+        numberOfZones: zones.length,
+        version: zoneData.version
     }
 }
 
