@@ -1,16 +1,45 @@
-# IANA Timezone Generator
+# IANA Timezone JSON Generator and Importer
 
-Quickly get data from the IANA website into your application.
+Quickly get timezone names and metadata from the IANA into your application.
 
-### Generate JSON files from IANA data
+## Quickly load an existing json file into your application
+
+#### NPM Install
+
+`npm install iana-tz-json-generator-and-importer`
+
+#### Find the JSON file you want to import
+
+See ./timezones for currently available timezones
+Timezones are named after the IANA version and file used in generation
+
+`{version}-{IANAFileName}-{handlebarsTemplateName}.json`
+
+#### Import into your app
+
+```typescript
+import {loadIANATzJsonFile} from 'iana-tz-json-generator-and-importer';
+import {IAllFields} from 'iana-tz-json-generator-and-importer/timezones/all-fields';
+async function loadAllFields() {
+  const allFields = await loadIANATzJsonFile('2018c-zone1970-all-fields.json');
+  const values: IAllFields = JSON.parse(allFields);
+}
+```
+
+## Generate your own custom JSON files from IANA data
 
 Generate timezone JSON files using Handlebar templates.
 
 This allows you to quickly and easily format the data exactly how you want it to.
 
-Please feel free to share your TZ shape by adding your own template via a pull request.
+#### Steps
 
-*Run: `ts-node src/create-tz-data-from-templates.ts`*
+- `clone the package`
+- `npm install`
+- Add your own custom handlebars template to the `./template` folder
+- Add typescript typings in the `./template` folder
+- npm run generate-json-files-and-typescript-types
+- submit pull request
 
 #### From this
 
@@ -99,18 +128,19 @@ export interface ICoordinate {
         }
     ]
 }
+...
 ```
 
-#### Quickly load into your project with Typescript typings
+#### You can also call the function from your app
 
-```typescript
-import {loadIANATzJsonFile} from 'iana-tz-data-generator';
-import {IAllFields} from 'iana-tz-data-generator/timezones/all-fields';
-async function loadAllFields() {
-  const allFields = await loadIANATzJsonFile('all-fields.json');
-  const values: IAllFields = JSON.parse(allFields);
-}
-```
+- `npm install iana-tz-json-generator-and-importer`
+- call: `createJSONFromHandlebarsTemplatesAndZoneData({
+       templatesPath: string,
+       saveDirectory: string,
+       zoneFileNames: string[]
+   })`
+
+## Other functions
 
 ### Get IANA timezone data
 
