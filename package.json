@@ -1,13 +1,9 @@
 {
   "name": "iana-tz-json-generator-and-importer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "JSON conversion of IANA data",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
-  "files": [
-    "./timezones/*",
-    "./lib/*"
-  ],
   "keywords": ["IANA", "JSON", "Typescript", "Timezone", "TZ", "Handlebars", "Template", "Import", "Generator"],
   "scripts": {
     "build": "rm -rf ./lib && ./node_modules/.bin/tsc -p build.tsconfig.json && npm run generate-json-files-and-typescript-types",
