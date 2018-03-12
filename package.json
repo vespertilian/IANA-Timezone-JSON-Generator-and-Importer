@@ -8,6 +8,7 @@
     "./timezones/*",
     "./lib/*"
   ],
+  "keywords": ["IANA", "JSON", "Typescript", "Timezone", "TZ", "Handlebars", "Template", "Import", "Generator"],
   "scripts": {
     "build": "rm -rf ./lib && ./node_modules/.bin/tsc -p build.tsconfig.json && npm run generate-json-files-and-typescript-types",
     "test": "ts-node node_modules/.bin/jasmine JASMINE_CONFIG_PATH=jasmine.json",

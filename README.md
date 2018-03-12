@@ -2,6 +2,12 @@
 
 Quickly get timezone names and metadata from the IANA into your application in the format you want.
 
+Written in Typescript so you can import the shape of the data and get awesome type completion.
+
+100% test coverage using [Jasmine](https://github.com/jasmine/jasmine) and [WallabyJS](https://wallabyjs.com/)
+
+A large part of this codebase is using or was inspired by packages created by [shinnn](https://www.npmjs.com/~shinnn). Using handlebars templates to quickly create custom JSON shapes inspired by this project [Graphql Code Generator](https://medium.com/@dotansimha/graphql-code-generator-a34e3785e6fb)
+
 ## Quickly load an existing json file into your application
 
 #### NPM Install
