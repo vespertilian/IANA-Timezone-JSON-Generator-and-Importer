@@ -20,71 +20,87 @@ export async function createJSONFromHandlebarsTemplatesAndZoneData(
     _settings: ICreateJSONSettings = {} as any,
     _getIANATzData=getIANATzData,
     _createJSONFromHandlebarsTemplates=createJSONFromHandlebarsTemplates,
-    _readdirAsync=readdirAsync as any
+    _extractTzData=extractTzData,
+    _readdirAsync=readdirAsync as any,
 ) {
-    const settings: ICreateJSONSettings = {...defaultSettings, ..._settings};
+    const {zoneFileNames, saveDirectory, templatesPath} = {...defaultSettings, ..._settings};
 
-    const zoneData = await _getIANATzData();
-    const files = await _readdirAsync(settings.templatesPath);
+    const zoneData = await _getIANATzData({filesToExtract: zoneFileNames});
+    const handlebarsTemplateFileNames = await _readdirAsync(templatesPath).then((allFiles: string[]) => allFiles.filter(isHandleBarsFile));
 
-    settings.zoneFileNames.forEach(async(name) => {
-        const extractedZoneData = extractTzData(zoneData, name);
-        await _createJSONFromHandlebarsTemplates(
-            files,
+    zoneFileNames.forEach(async(zoneFileName) => {
+        const extractedZoneData = await _extractTzData(zoneData, zoneFileName);
+        await _createJSONFromHandlebarsTemplates({
+            handlebarsTemplateFileNames,
             extractedZoneData,
-            settings.templatesPath,
-            name,
-            settings.saveDirectory
-        );
+            templatesPath,
+            zoneFileName,
+            saveDirectory
+        });
     })
 }
 
-export async function createJSONFromHandlebarsTemplates(files: string[], extractedZoneData: IExtractedTimezoneData, templatesPath: string, zoneFileName: string, saveDirectory: string) {
-    files
-        .filter(isHandleBarsFile)
-        .forEach(async (filename: string) => {
+export interface ICreateJSONFromHandlebarsTemplatesParams{
+    handlebarsTemplateFileNames: string [],
+    extractedZoneData: IExtractedTimezoneData,
+    templatesPath: string
+    zoneFileName: string
+    saveDirectory: string
+}
 
-            console.log(`Creating JSON for: ${filename} with ${zoneFileName}`);
+export async function createJSONFromHandlebarsTemplates(
+    params: ICreateJSONFromHandlebarsTemplatesParams,
+    _writeFileAsync=writeFileAsync as any,
+    _readFileAsync=readFileAsync as any,
+    _log= console.log
+) {
+    const {handlebarsTemplateFileNames, extractedZoneData, templatesPath, zoneFileName, saveDirectory} = params;
 
-            const filePath = `${templatesPath}/${filename}`;
-            const hbsFile = await readFileAsync(filePath, 'utf-8');
+    for(let filename of handlebarsTemplateFileNames) {
+        await createJSONFile(filename)
+    }
 
-            const hbsTemplate = Handlebars.compile(hbsFile);
+    async function createJSONFile(filename: string) {
+        _log(`Creating JSON for: ${filename} with ${zoneFileName}`);
 
-            const output = hbsTemplate(extractedZoneData);
+        const filePath = `${templatesPath}/${filename}`;
+        const hbsFile = await _readFileAsync(filePath, 'utf-8');
+        const hbsTemplate = Handlebars.compile(hbsFile);
+
+        const output = hbsTemplate(extractedZoneData);
+
+        try {
+            // parseJSON to make sure it is valid!
+            const parsedJSON = JSON.parse(output);
+
+            // create filename and path
+            const filenameSansTab = zoneFileName.replace('.tab', '');
+            const writeFileName = `${extractedZoneData.version}-${filenameSansTab}-${filename.replace('.hbs', '.json')}`;
+            const writePath = path.join(saveDirectory, writeFileName);
+
+            // turn json into pretty string and write file,
+            // this conversion formats it slightly better than handlebars
+            const jsonString = JSON.stringify(parsedJSON, null, 4);
+            await _writeFileAsync(writePath, jsonString);
+        } catch(e) {
+            const errorPath = path.join(saveDirectory, 'error.txt');
 
             try {
-                // parseJSON to make sure it is valid!
-                const parsedJSON = JSON.parse(output);
-
-                // create filename and path
-                const filenameSansTab = zoneFileName.replace('.tab', '');
-                const writeFileName = `${extractedZoneData.version}-${filenameSansTab}-${filename.replace('.hbs', '.json')}`;
-                const writePath = path.join(saveDirectory, writeFileName);
-
-                // turn json into pretty string and write file,
-                // this formats it slightly better than handlebars
-                const jsonString = JSON.stringify(parsedJSON, null, 4);
-                await writeFileAsync(writePath, jsonString);
-
+                await _writeFileAsync(errorPath, output);
             } catch(e) {
-                const errorPath = path.join(saveDirectory, 'error.txt');
-
-                try {
-                    await writeFileAsync(errorPath, output);
-                } catch(e) {
-                    throw new Error(`
-                Could not write error file: ${e}
-               `)
-                }
-
                 throw new Error(`
+                Could not write error file: ${e}
+                Trying to write to path: ${errorPath}
+               `)
+            }
+
+            throw new Error(`
                 Could not parse JSON please check your templates.
                 See timezones/error.txt 
                 Error: ${e}
             `)
-            }
-        })
+        }
+    }
 }
 
 function isHandleBarsFile(filename: string) {

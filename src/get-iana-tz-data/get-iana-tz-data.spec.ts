@@ -4,24 +4,24 @@ import * as path from 'path';
 
 describe('get-iana-tz-data.spec.ts', () => {
     it('should call fetch with default params when none are passed in', async() => {
-        const fetchMock = createFetchMock();
-        const result = await getIANATzData({} as getIANATzDataParams, fetchMock);
+        const fetchStub = createFetchStub();
+        const result = await getIANATzData({} as getIANATzDataParams, fetchStub);
 
-        expect(fetchMock).toHaveBeenCalledWith('https://www.iana.org/time-zones/repository/tzdata-latest.tar.gz');
+        expect(fetchStub).toHaveBeenCalledWith('https://www.iana.org/time-zones/repository/tzdata-latest.tar.gz');
         expect(result.version).toEqual('2018c');
         expect(result['zone.tab']).toBeTruthy();
         expect(result['zone1970.tab']).toBeTruthy();
     });
 
     it('should allow you to request other files and set a different url', async() => {
-        const fetchMock = createFetchMock();
+        const fetchStub = createFetchStub();
         const result = await getIANATzData({
             url: 'http://foo.com',
             filesToExtract: ['zone.tab'],
             fileEncoding: 'utf8'
-        }, fetchMock);
+        }, fetchStub);
 
-        expect(fetchMock).toHaveBeenCalledWith('http://foo.com');
+        expect(fetchStub).toHaveBeenCalledWith('http://foo.com');
         expect(result.version).toEqual('2018c');
         expect(result['zone.tab']).toBeTruthy();
         expect(result['zone1970.tab']).toBeFalsy();
@@ -46,7 +46,7 @@ describe('get-iana-tz-data.spec.ts', () => {
     })
 });
 
-function createFetchMock() {
+function createFetchStub() {
     const fetchMock = jasmine.createSpy('fetch');
 
     fetchMock.and.returnValue({

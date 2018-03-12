@@ -1,6 +1,6 @@
 # IANA Timezone JSON Generator and Importer
 
-Quickly get timezone names and metadata from the IANA into your application.
+Quickly get timezone names and metadata from the IANA into your application in the format you want.
 
 ## Quickly load an existing json file into your application
 
@@ -15,7 +15,7 @@ Timezones are named after the IANA version and file used in generation
 
 `{version}-{IANAFileName}-{handlebarsTemplateName}.json`
 
-#### Import into your app
+#### Import into your app (with typings if you use Typescript)
 
 ```typescript
 import {loadIANATzJsonFile} from 'iana-tz-json-generator-and-importer';
@@ -58,7 +58,6 @@ This allows you to quickly and easily format the data exactly how you want it to
 {{/inline}}
 
 {{!-- create json file --}}
-{{!-- see project readme for data shape --}}
 {
     "IANAVersion": "{{ianaVersion}}",
     "numberOfZones": {{numberOfZones}},
@@ -125,13 +124,13 @@ export interface ICoordinate {
                     "minute": 31
                 }
             }
-        }
+        },
+        ...
     ]
 }
-...
 ```
 
-#### You can also call the function from your app
+#### You can also call the function and output the json to a directory you choose
 
 - `npm install iana-tz-json-generator-and-importer`
 - call: `createJSONFromHandlebarsTemplatesAndZoneData({

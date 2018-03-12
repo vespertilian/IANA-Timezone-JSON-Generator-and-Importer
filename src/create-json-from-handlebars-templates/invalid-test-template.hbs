@@ -1,11 +1,11 @@
-{{!-- create json file --}}
+{{!-- there is a comma after timezone that should not be present--}}
 {
     "numberOfZones": {{numberOfZones}},
     "zones": [
         {{#each zones}}
             {
                 "countryCode": "{{countryCode}}",
-                "timezone": "{{timezoneName}}"
+                "timezone": "{{timezoneName}}",
             }{{#unless @last}},{{/unless}}
         {{/each}}
     ]

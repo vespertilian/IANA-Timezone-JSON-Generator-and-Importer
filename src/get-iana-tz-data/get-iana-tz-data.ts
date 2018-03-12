@@ -4,9 +4,9 @@ import fetch from 'node-fetch';
 import {removeLineBreaks} from '../util/util';
 
 export interface getIANATzDataParams {
-    url: string
-    filesToExtract: string[]
-    fileEncoding: string
+    url?: string
+    filesToExtract?: string[]
+    fileEncoding?: string
 }
 
 interface IANAFileResult {
@@ -23,13 +23,13 @@ export interface IANATzDataFiles {
 }
 
 export async function getIANATzData(params?: getIANATzDataParams, _fetch=fetch): Promise<IANATzDataFiles> {
-    const defults: getIANATzDataParams =  {
+    const defaults =  {
         url: 'https://www.iana.org/time-zones/repository/tzdata-latest.tar.gz',
         filesToExtract: ['zone.tab', 'zone1970.tab'],
         fileEncoding: 'utf8'
     };
 
-    const {url, filesToExtract, fileEncoding} = Object.assign(defults, params);
+    const {url, filesToExtract, fileEncoding} = Object.assign(defaults, params);
 
     const result = await _fetch(url);
     if(!result.ok) {

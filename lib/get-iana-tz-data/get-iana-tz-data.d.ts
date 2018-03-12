@@ -1,8 +1,8 @@
 import fetch from 'node-fetch';
 export interface getIANATzDataParams {
-    url: string;
-    filesToExtract: string[];
-    fileEncoding: string;
+    url?: string;
+    filesToExtract?: string[];
+    fileEncoding?: string;
 }
 export interface IANATzDataFiles {
     version: string;
