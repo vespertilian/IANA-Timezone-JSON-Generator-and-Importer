@@ -1,6 +1,6 @@
 {
   "name": "iana-tz-json-generator-and-importer",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Quickly get timezone names and metadata from the IANA into your application in the format you want.",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -23,21 +23,21 @@
   "author": "Cameron Batt",
   "license": "MIT",
   "dependencies": {
-    "@types/decompress": "^4.2.0",
-    "@types/handlebars": "^4.0.36",
-    "@types/mathjs": "0.0.38",
-    "@types/node-fetch": "^1.6.7",
     "csv-string": "^3.1.2",
     "decompress": "^4.2.0",
     "decompress-targz": "^4.1.1",
     "handlebars": "^4.0.11",
     "mathjs": "^4.0.0",
     "node-fetch": "^2.0.0",
-    "parse-tzdata-coordinate": "^1.0.0",
-    "ts-node": "^5.0.1"
+    "parse-tzdata-coordinate": "^1.0.0"
   },
   "devDependencies": {
+    "@types/decompress": "^4.2.0",
+    "@types/handlebars": "^4.0.36",
+    "@types/mathjs": "0.0.38",
+    "@types/node-fetch": "^1.6.7",
     "@types/jasmine": "^2.8.6",
+    "ts-node": "^5.0.1",
     "cz-conventional-changelog": "^2.1.0",
     "jasmine": "^3.1.0",
     "typescript": "^2.7.2"
