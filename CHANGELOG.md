@@ -1,20 +1,10 @@
 <a name="0.1.4"></a>
-## [0.1.4](https://github.com/vespertilian/IANA-Timezone-JSON-Generator-and-Importer/compare/v0.1.3...v0.1.4) (2018-03-14)
+## [0.1.4](https://github.com/vespertilian/IANA-Timezone-JSON-Generator-and-Importer/compare/v0.1.1...v0.1.4) (2018-03-14)
 
 
 ### Bug Fixes
 
-* **CHANGELOG.md:** have conventional-changelog append not overwrite ([4fb4d93](https://github.com/vespertilian/IANA-Timezone-JSON-Generator-and-Importer/commit/4fb4d93))
-
-
-
-<a name="0.1.3"></a>
-## [0.1.3](https://github.com/vespertilian/IANA-Timezone-JSON-Generator-and-Importer/compare/v0.1.2...v0.1.3) (2018-03-14)
-
-
-
-<a name="0.1.2"></a>
-## [0.1.2](https://github.com/vespertilian/IANA-Timezone-JSON-Generator-and-Importer/compare/v0.1.1...v0.1.2) (2018-03-12)
+* **CHANGELOG.md:** have conventional-changelog append not overwrite ([71fcd3a](https://github.com/vespertilian/IANA-Timezone-JSON-Generator-and-Importer/commit/71fcd3a))
 
 
 
