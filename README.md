@@ -155,6 +155,13 @@ Load a string version of any IANA timezone data file from the IANA website with 
 
 Extract the latest IANA timezone data from the IANA website using `extract-timezone-data` return as a JS object with Typescript typings.
 
+## Workflow
 
-
-
+1. Make changes
+1. Commit those changes `npm run commit`
+1. Test `npm run test`
+1. Bump version in `package.json`
+1. Generate changelog `npm run generate-changelog`
+1. Commit `package.json` and `CHANGELOG.md` files
+1. Git tag - needed by changelog to know what version to attribute the commits to
+1. Push
