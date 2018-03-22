@@ -1,3 +1,13 @@
+<a name="0.1.5"></a>
+## [0.1.5](https://github.com/vespertilian/IANA-Timezone-JSON-Generator-and-Importer/compare/v0.1.4...v0.1.5) (2018-03-22)
+
+
+### Bug Fixes
+
+* **get-iana-tz-data:** change fetch type to any so the fetch type does not get exported in the libra ([ab1dcb6](https://github.com/vespertilian/IANA-Timezone-JSON-Generator-and-Importer/commit/ab1dcb6))
+
+
+
 <a name="0.1.4"></a>
 ## [0.1.4](https://github.com/vespertilian/IANA-Timezone-JSON-Generator-and-Importer/compare/v0.1.1...v0.1.4) (2018-03-14)
 

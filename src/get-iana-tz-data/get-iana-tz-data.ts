@@ -22,7 +22,7 @@ export interface IANATzDataFiles {
     [key: string]: string
 }
 
-export async function getIANATzData(params?: getIANATzDataParams, _fetch=fetch): Promise<IANATzDataFiles> {
+export async function getIANATzData(params?: getIANATzDataParams, _fetch: any=fetch): Promise<IANATzDataFiles> {
     const defaults =  {
         url: 'https://www.iana.org/time-zones/repository/tzdata-latest.tar.gz',
         filesToExtract: ['zone.tab', 'zone1970.tab'],

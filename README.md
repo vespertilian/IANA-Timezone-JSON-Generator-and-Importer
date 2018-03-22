@@ -158,10 +158,11 @@ Extract the latest IANA timezone data from the IANA website using `extract-timez
 ## Workflow
 
 1. Make changes
-1. Commit those changes `npm run commit`
-1. Test `npm run test`
-1. Bump version in `package.json`
-1. Generate changelog `npm run generate-changelog`
-1. Commit `package.json` and `CHANGELOG.md` files
-1. Git tag - needed by changelog to know what version to attribute the commits to
-1. Push
+2. Commit those changes `npm run commit`
+3. Test `npm run test`
+4. Bump version in `package.json`
+5. Generate changelog `npm run generate-changelog`
+6. Commit `package.json` and `CHANGELOG.md` files
+7. Run npm `publish`
+8. Git tag - needed by changelog to know what version to attribute the commits to
+9. Push
