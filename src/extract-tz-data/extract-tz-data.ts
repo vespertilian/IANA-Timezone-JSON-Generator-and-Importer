@@ -4,6 +4,7 @@ import * as CSV from 'csv-string';
 import * as parseTzdataCoordinate from 'parse-tzdata-coordinate';
 import {removeLineBreaks} from '../util/util';
 import * as math from 'mathjs'
+import {isValidZoneTabRow} from './is-valid-zone-tab-row';
 
 export interface ICoordinates {
     latitude: {
@@ -46,9 +47,11 @@ export function extractTzData(zoneData: any, zoneFileName: string): IExtractedTi
 
     const zones = filteredZoneData
         .map(zoneData => {
-            const [countryCode , coordinates, timezoneName, comments] = zoneData;
+            const [countryCodes , coordinates, timezoneName, comments] = zoneData;
+            const allCodes = countryCodes.split(',');
+            const firstCode = allCodes[0];
             return {
-                countryCode: removeLineBreaks(countryCode),
+                countryCode: removeLineBreaks(firstCode),
                 coordinates: parseCoordinates(coordinates),
                 timezoneName: removeLineBreaks(timezoneName),
                 comments: comments || null
@@ -81,13 +84,6 @@ function parseCoordinates(coordinates: string): ICoordinates {
     return _coordinates
 }
 
-function isValidZoneTabRow(row: string[]) {
-    // A valid row looks like:
-    // [ 'AU', '-3157+14127', 'Australia/Broken_Hill', 'New South Wales (Yancowinna)' ],
-
-    const countryCodeValid = /^[A-Z]{2}$/.test(row[0]);
-    return countryCodeValid
-}
 
 function convertToDecimal(coordinate: {sign: string, degree: string, minute: string, second: string | null}) {
     // use the math library for more accurate calculations with floating point numbers

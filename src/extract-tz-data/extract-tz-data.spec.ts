@@ -17,7 +17,7 @@ describe('extractTzData', () => {
         const result = extractTzData(zoneData, zoneFileName);
 
         expect(result.version).toEqual('2018c');
-        expect(result.numberOfZones).toEqual(266);
+        expect(result.numberOfZones).toEqual(9);
 
         const extractedTimezone: IExtractedTimezone = {
             countryCode: 'BR',
@@ -45,7 +45,7 @@ describe('extractTzData', () => {
         const result = extractTzData(zoneData, zoneFileName);
 
         expect(result.version).toEqual('2018c');
-        expect(result.numberOfZones).toEqual(266);
+        expect(result.numberOfZones).toEqual(9);
 
         const extractedTimezone: IExtractedTimezone = {
             countryCode: 'JM',

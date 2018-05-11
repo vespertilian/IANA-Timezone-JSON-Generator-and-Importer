@@ -13,7 +13,8 @@
     "Handlebars",
     "Template",
     "Import",
-    "Generator"
+    "Generator",
+    "IANA data"
   ],
   "scripts": {
     "build": "rm -rf ./lib && ./node_modules/.bin/tsc -p build.tsconfig.json && npm run generate-json-files-and-typescript-types",
