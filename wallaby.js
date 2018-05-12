@@ -3,6 +3,7 @@ module.exports = function () {
     return {
         files: [
             'src/**/*.ts',
+            'src/**/*.hbs',
             'templates/*',
             'test-helpers/**/*.ts',
             'timezones/2018c-zone-all-fields.json',

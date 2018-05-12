@@ -1,5 +1,14 @@
-import {readdirAsync, readFileAsync, removeLineBreaks, unlinkAsync, writeFileAsync} from './util';
+import {
+    ensureExistsAsync, ensureExistsFactory,
+    readdirAsync,
+    readFileAsync,
+    removeLineBreaks,
+    statAsync,
+    unlinkAsync,
+    writeFileAsync
+} from './util';
 import * as path from 'path';
+import {promisify} from 'util';
 
 describe('util', () => {
     describe('readdirAsync', () => {
@@ -39,6 +48,47 @@ describe('util', () => {
             const stringWithLinebreaks = "Foo \nbar";
             const result = removeLineBreaks(stringWithLinebreaks);
             expect(result).toEqual("Foo bar");
+        })
+    });
+
+    describe('statAsync', () => {
+        it('should return the fs.stat in an async fasion', async() => {
+            const dir = path.join(__dirname, './', 'test-dir');
+            const stat = await statAsync(dir);
+            expect(stat.isDirectory()).toBe(true)
+        })
+    });
+
+    describe('ensure exists', () => {
+        it('should do nothing if a folder exists error is reported', async() => {
+            const dir = path.join(__dirname, './', 'test-dir');
+            await ensureExistsAsync(dir)
+        });
+
+        it('should rethrow valid errors', async() => {
+            const dir = path.join(__dirname, './', 'test-dir');
+            const fakeFs = {
+                mkdir: (path: any, mask: any, cb: any) => {
+                    cb('some error') // fake error
+                }
+            };
+            const ensureExistsAsync = promisify(ensureExistsFactory(fakeFs.mkdir as any))
+
+            await ensureExistsAsync(dir)
+                .catch(err => {
+                    expect(err).toEqual('some error');
+                });
+        });
+
+        it('should succesfully create a new folder', async() => {
+            const dir = path.join(__dirname, './', 'test-dir');
+            const fakeFs = {
+                mkdir: (path: any, mask: any, cb: any) => {
+                    cb(null) // fake error
+                }
+            };
+            const ensureExistsAsync = promisify(ensureExistsFactory(fakeFs.mkdir as any));
+            await ensureExistsAsync(dir)
         })
     })
 });
