@@ -26,6 +26,8 @@ describe('extractTzData', () => {
                 longitude: { sign: '-', degree: 60, minute: 40, negative: true, second: null, decimal: -60.666667}
             },
             timezoneName: 'Cameron/Test',
+            geographicArea: 'Cameron',
+            location: 'Test',
             comments: 'Foo'
         };
 
@@ -53,10 +55,11 @@ describe('extractTzData', () => {
                 latitude: { sign: '+', degree: 17, minute: 58, second: 5, negative: false, decimal: 17.968056 },
                 longitude: { sign: '-', degree: 76, minute: 47, second: 36, negative: true, decimal: -76.793333 } },
             timezoneName: 'Cameron/TestA',
+            geographicArea: 'Cameron',
+            location: 'TestA',
             comments: null
         };
 
         expect(result.zones[2]).toEqual(extractedTimezone)
     })
-
 });

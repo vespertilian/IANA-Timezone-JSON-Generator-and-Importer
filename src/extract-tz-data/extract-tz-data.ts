@@ -5,6 +5,7 @@ import * as parseTzdataCoordinate from 'parse-tzdata-coordinate';
 import {removeLineBreaks} from '../util/util';
 import * as math from 'mathjs'
 import {isValidZoneTabRow} from './is-valid-zone-tab-row';
+import {extractGeographicAreaAndLocation} from './extract-geographic-area-and-location';
 
 export interface ICoordinates {
     latitude: {
@@ -29,6 +30,8 @@ export interface IExtractedTimezone {
     countryCodes: string[],
     coordinates: ICoordinates
     timezoneName: string
+    geographicArea: string
+    location: string
     comments: string | null
 }
 
@@ -49,10 +52,14 @@ export function extractTzData(zoneData: any, zoneFileName: string): IExtractedTi
         .map(zoneData => {
             const [countryCodes , coordinates, timezoneName, comments] = zoneData;
             const allCodes = countryCodes.split(',');
+            const {geographicArea, location} = extractGeographicAreaAndLocation(timezoneName);
+
             return {
                 countryCodes: allCodes,
                 coordinates: parseCoordinates(coordinates),
                 timezoneName: removeLineBreaks(timezoneName),
+                geographicArea: geographicArea,
+                location: location,
                 comments: comments || null
             }
         });
