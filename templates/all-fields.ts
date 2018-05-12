@@ -6,10 +6,10 @@ export interface IAllFields {
 }
 
 export interface IZones {
-    countryCode: string
+    countryCodes: string[]
     timezone: string
     coordinates: {
-        latitude: ICoordinate,
+        latitude: ICoordinate
         longitude: ICoordinate
     }
     comments: string | null

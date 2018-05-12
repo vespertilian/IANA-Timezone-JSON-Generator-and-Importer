@@ -1,4 +1,4 @@
-{{!-- handlebars inline partial --}}
+{{!-- handlebars inline partials --}}
 {{#*inline "coordinates"}}
 {
     "sign": "{{sign}}",
@@ -8,6 +8,16 @@
 }
 {{/inline}}
 
+{{!-- handlebars inline partials --}}
+{{#*inline "countryCodesPartial"}}
+    [
+    {{#each this}}
+        "{{this}}"{{#unless @last}},{{/unless}}
+    {{/each}}
+    ]
+{{/inline}}
+
+
 {{!-- create json file --}}
 {
     "IANAVersion": "{{version}}",
@@ -16,7 +26,7 @@
     "zones": [
         {{#each zones}}
             {
-                "countryCode": "{{countryCode}}",
+                "countryCodes": {{> countryCodesPartial countryCodes}},
                 "timezone": "{{timezoneName}}",
                 "coordinates": {
                     "latitude": {{> coordinates coordinates.latitude}},

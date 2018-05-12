@@ -6,7 +6,7 @@ export interface IDecimalLatLong {
 }
 
 export interface IZones {
-    countryCode: string
+    countryCodes: string[]
     timezone: string
     coordinates: {
         latitude: number

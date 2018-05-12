@@ -20,7 +20,7 @@ describe('extractTzData', () => {
         expect(result.numberOfZones).toEqual(9);
 
         const extractedTimezone: IExtractedTimezone = {
-            countryCode: 'BR',
+            countryCodes: ['BR'],
             coordinates: {
                 latitude: { sign: '+', degree: 2, minute: 49, negative: false, second: null, decimal: 2.816667 },
                 longitude: { sign: '-', degree: 60, minute: 40, negative: true, second: null, decimal: -60.666667}
@@ -48,7 +48,7 @@ describe('extractTzData', () => {
         expect(result.numberOfZones).toEqual(9);
 
         const extractedTimezone: IExtractedTimezone = {
-            countryCode: 'JM',
+            countryCodes: ['JM'],
             coordinates: {
                 latitude: { sign: '+', degree: 17, minute: 58, second: 5, negative: false, decimal: 17.968056 },
                 longitude: { sign: '-', degree: 76, minute: 47, second: 36, negative: true, decimal: -76.793333 } },

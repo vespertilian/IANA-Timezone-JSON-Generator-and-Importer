@@ -29,7 +29,7 @@ describe('create-json-from-handlebars-template', () => {
                 createJSONFromHandlebarsTemplatesSpy.calls.argsFor(0)[0];
 
             expect(firstCallParams.handlebarsTemplateFileNames).toContain('all-fields.hbs');
-            expect(firstCallParams.extractedZoneData.zones[0].countryCode).toEqual('AD');
+            expect(firstCallParams.extractedZoneData.zones[0].countryCodes[0]).toEqual('AD');
             expect(firstCallParams.templatesPath).toContain('templates');
             expect(firstCallParams.zoneFileName).toContain('zone1970.tab');
             expect(firstCallParams.saveDirectory).toContain('timezones');
@@ -141,7 +141,7 @@ describe('create-json-from-handlebars-template', () => {
                     numberOfZones: 1,
                     zones: [
                         {
-                            countryCode: "AU",
+                            countryCodes: ["AU", "EU"],
                             timezone: "Australia/Sydney"
                         }
                     ]
@@ -176,7 +176,7 @@ describe('create-json-from-handlebars-template', () => {
             expect(error!.message).toContain(`
                 Could not parse JSON please check your templates.
                 See timezones/error.txt 
-                Error: SyntaxError: Unexpected token } in JSON at position 152`)
+                Error: SyntaxError: Unexpected token } in JSON at position 157`);
 
             // writes bade json file to correct error file path
             const fileWritePath = writeFileAsyncStub.calls.first().args[0];
@@ -186,7 +186,7 @@ describe('create-json-from-handlebars-template', () => {
 
             // the comma on timezone should not be there
             const expectedErrorText = `{
-                "countryCode": "AU",
+                "firstCountryCode": "AU",
                 "timezone": "Australia/Sydney",
             }`;
 

@@ -5,7 +5,7 @@ export const sampleExtractedData: IExtractedTimezoneData = {
     numberOfZones: 1,
     zones: [
         {
-            countryCode: 'AU',
+            countryCodes: ['AU', 'EU'],
             coordinates: {
                 latitude: {
                     negative: true,

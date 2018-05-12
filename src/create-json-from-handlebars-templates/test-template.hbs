@@ -1,10 +1,19 @@
+{{!-- handlebars inline partials --}}
+{{#*inline "countryCodesPartial"}}
+    [
+    {{#each this}}
+        "{{this}}"{{#unless @last}},{{/unless}}
+    {{/each}}
+    ]
+{{/inline}}
+
 {{!-- create json file --}}
 {
     "numberOfZones": {{numberOfZones}},
     "zones": [
         {{#each zones}}
             {
-                "countryCode": "{{countryCode}}",
+                "countryCodes": {{> countryCodesPartial countryCodes}},
                 "timezone": "{{timezoneName}}"
             }{{#unless @last}},{{/unless}}
         {{/each}}

@@ -1,3 +1,12 @@
+{{!-- handlebars inline partials --}}
+{{#*inline "countryCodesPartial"}}
+    [
+    {{#each this}}
+        "{{this}}"{{#unless @last}},{{/unless}}
+    {{/each}}
+    ]
+{{/inline}}
+
 {
     "IANAVersion": "{{version}}",
     "originalFileName": "{{originalFileName}}",
@@ -5,7 +14,7 @@
     "zones": [
     {{#each zones}}
         {
-            "countryCode": "{{countryCode}}",
+            "countryCodes": {{> countryCodesPartial countryCodes}},
             "timezone": "{{timezoneName}}",
             "coordinates": {
                 "latitude": {{coordinates.latitude.decimal}},

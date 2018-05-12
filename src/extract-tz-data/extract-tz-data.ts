@@ -26,7 +26,7 @@ export interface ICoordinates {
 }
 
 export interface IExtractedTimezone {
-    countryCode: string,
+    countryCodes: string[],
     coordinates: ICoordinates
     timezoneName: string
     comments: string | null
@@ -49,9 +49,8 @@ export function extractTzData(zoneData: any, zoneFileName: string): IExtractedTi
         .map(zoneData => {
             const [countryCodes , coordinates, timezoneName, comments] = zoneData;
             const allCodes = countryCodes.split(',');
-            const firstCode = allCodes[0];
             return {
-                countryCode: removeLineBreaks(firstCode),
+                countryCodes: allCodes,
                 coordinates: parseCoordinates(coordinates),
                 timezoneName: removeLineBreaks(timezoneName),
                 comments: comments || null
@@ -70,7 +69,7 @@ function parseCoordinates(coordinates: string): ICoordinates {
     const _coordinates = parseTzdataCoordinate(coordinates);
     ['longitude', 'latitude'].forEach((latlong) => {
         // add a negative variable for use with the handlebars templates
-        const coordinate = _coordinates[latlong]
+        const coordinate = _coordinates[latlong];
         coordinate.negative = Boolean(coordinate.sign === '-');
 
         // always return seconds .. just return null when they are not present
@@ -83,7 +82,6 @@ function parseCoordinates(coordinates: string): ICoordinates {
     });
     return _coordinates
 }
-
 
 function convertToDecimal(coordinate: {sign: string, degree: string, minute: string, second: string | null}) {
     // use the math library for more accurate calculations with floating point numbers
