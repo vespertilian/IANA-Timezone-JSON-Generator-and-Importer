@@ -28,7 +28,7 @@ describe('create-json-from-handlebars-template', () => {
             const firstCallParams: ICreateJSONFromHandlebarsTemplatesParams =
                 createJSONFromHandlebarsTemplatesSpy.calls.argsFor(0)[0];
 
-            expect(firstCallParams.handlebarsTemplateFileNames).toContain('all-fields.hbs');
+            expect(firstCallParams.handlebarsTemplateFileNames).toContain('all-fields-v2.hbs');
             expect(firstCallParams.extractedZoneData.zones[0].countryCodes[0]).toEqual('AD');
             expect(firstCallParams.templatesPath).toContain('templates');
             expect(firstCallParams.zoneFileName).toContain('zone1970.tab');
