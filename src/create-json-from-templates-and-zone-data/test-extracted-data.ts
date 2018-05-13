@@ -1,4 +1,4 @@
-import {IExtractedTimezoneData} from '../extract-tz-data/extract-tz-data';
+import {IExtractedTimezoneData} from '../types-for-ts-templates';
 
 export const sampleExtractedData: IExtractedTimezoneData = {
     version: 'sample-data-1',

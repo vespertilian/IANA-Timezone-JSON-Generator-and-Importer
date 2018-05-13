@@ -7,6 +7,9 @@
     "outDir": "timezones",
     "emitDeclarationOnly": true
   },
+  "include": [
+    "templates/**/*.type.ts"
+  ],
   "exclude": [
     "node_modules",
     "src",

@@ -12,6 +12,9 @@ describe('.createJSONFromTemplatesAndZoneData', () => {
         const createJSONFromHandlebarsTemplatesSpy = jasmine
             .createSpy('createJSONFromHandlebarsTemplates');
 
+        const createJSONFromTsFunctionSpy = jasmine
+            .createSpy('createJSONFromHandlebarsTemplates');
+
         const getIANATzDataStub = jasmine.createSpy('getIANATzDataSpy')
             .and.returnValue(fakeIANAData());
 
@@ -19,8 +22,10 @@ describe('.createJSONFromTemplatesAndZoneData', () => {
             {} as any, // will use default settings
             getIANATzDataStub,
             createJSONFromHandlebarsTemplatesSpy,
+            createJSONFromTsFunctionSpy
         );
 
+        // TODO update test to check createJSONFromTsFunctionSpy
         // check default params
         expect(createJSONFromHandlebarsTemplatesSpy).toHaveBeenCalledTimes(1);
         const firstCallParams: ICreateJSONFromTemplatesParams =
@@ -35,6 +40,8 @@ describe('.createJSONFromTemplatesAndZoneData', () => {
 
     it('should call .createJSONFromHandlebarsTemplates with custom parameters and get files and zone data', async() => {
         const createJSONFromHandlebarsTemplatesSpy = jasmine
+            .createSpy('createJSONFromHandlebarsTemplates');
+        const createJSONFromTsFunctionSpy = jasmine
             .createSpy('createJSONFromHandlebarsTemplates');
 
         const getIANATzDataStub = jasmine.createSpy('getIANATzDataSpy');
@@ -56,6 +63,7 @@ describe('.createJSONFromTemplatesAndZoneData', () => {
             } as any, // settings
             getIANATzDataStub,
             createJSONFromHandlebarsTemplatesSpy,
+            createJSONFromTsFunctionSpy,
             extractTzDataSpy,
             walkAsyncSpy
         );
@@ -75,7 +83,10 @@ describe('.createJSONFromTemplatesAndZoneData', () => {
     });
 
     it('should filter the templates path to only use .hbs (handlebars) files', async() => {
-        const createJSONFromHandlebarsTemplatesSpy = jasmine.createSpy('createJSONFromHandlebarsTemplates');
+        const createJSONFromHandlebarsTemplatesSpy = jasmine
+            .createSpy('createJSONFromHandlebarsTemplates');
+        const createJSONFromTsFunctionSpy = jasmine
+            .createSpy('createJSONFromHandlebarsTemplates');
         const getIANATzDataStub = jasmine.createSpy('getIANATzDataSpy');
         const extractTzDataSpy = jasmine.createSpy('extractTzData');
 
@@ -87,6 +98,7 @@ describe('.createJSONFromTemplatesAndZoneData', () => {
             {} as any, // settings
             getIANATzDataStub,
             createJSONFromHandlebarsTemplatesSpy,
+            createJSONFromTsFunctionSpy,
             extractTzDataSpy,
             walkAsyncSpy
         );

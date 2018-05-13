@@ -28,9 +28,9 @@ export async function createJSONFromTemplatesAndZoneData(
     _settings: ICreateJSONSettings = {} as any,
     _getIANATzData=getIANATzData,
     _createJSONFromHandlebarsTemplates=createJSONFromHandlebarsTemplates,
+    _createJSONFromTsFunctions = createJsonFromTsFunctions,
     _extractTzData=extractTzData,
     _walk=walk as any,
-    _createJSONFromTsFunctions = createJsonFromTsFunctions,
 ) {
     const {zoneFileNames, saveDirectory, templatesPath} = {...defaultSettings, ..._settings};
 

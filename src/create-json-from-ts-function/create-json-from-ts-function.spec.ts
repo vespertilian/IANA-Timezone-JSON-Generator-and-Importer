@@ -23,7 +23,7 @@ describe('.createJSONFromTsFunctions', () => {
         const fileWritePath = writeFileAsyncStub.calls.first().args[0];
         const jsonString = writeFileAsyncStub.calls.first().args[1].toString();
 
-        expect(fileWritePath).toEqual('dira/dirb/saveDirFoo/sample-data-1-foo-zone-file-a.json')
+        expect(fileWritePath).toEqual('dira/dirb/saveDirFoo/sample-data-1-foo-zone-file-a.json');
         expect(JSON.parse(jsonString)).toEqual({a: 1});
 
         expect(ensureExistsAsync).toHaveBeenCalledWith('dira/dirb/saveDirFoo')
