@@ -6,13 +6,12 @@ module.exports = function () {
             'src/**/*.hbs',
             'templates/**/*',
             'test-helpers/**/*.ts',
-            { pattern: 'timezones/**/*', load: false},
             'src/get-iana-tz-data/tzdata.tar.gz',
             'src/extract-tz-data/zone1970-test-file.tab',
-            'src/create-json-from-handlebars-templates/test-zone1970.tab',
-            'src/create-json-from-handlebars-templates/test-zone.tab',
+            'src/create-json-from-templates-and-zone-data/test-zone1970.tab',
             'src/create-json-from-handlebars-templates/test-template.hbs',
             'src/create-json-from-handlebars-templates/invalid-test-template.hbs',
+            { pattern: 'timezones/**/*', load: false},
             { pattern: 'src/**/*.spec.ts', ignore: true }
         ],
 

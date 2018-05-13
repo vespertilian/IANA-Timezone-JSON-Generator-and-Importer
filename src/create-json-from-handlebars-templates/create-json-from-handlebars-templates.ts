@@ -1,9 +1,7 @@
-import {getIANATzData} from '../get-iana-tz-data/get-iana-tz-data';
-import {extractTzData, IExtractedTimezoneData} from '../extract-tz-data/extract-tz-data';
+import {IExtractedTimezoneData} from '../extract-tz-data/extract-tz-data';
 import * as path from 'path';
 import * as Handlebars from 'handlebars'
-import {ensureExistsAsync, readdirAsync, readFileAsync, writeFileAsync} from '../util/util';
-import {walk} from '../util/walk';
+import {ensureExistsAsync, readFileAsync, writeFileAsync} from '../util/util';
 
 export interface ICreateJSONSettings {
     templatesPath: string,
@@ -11,37 +9,8 @@ export interface ICreateJSONSettings {
     zoneFileNames: string[]
 }
 
-const defaultSettings: ICreateJSONSettings = {
-    templatesPath: path.join(__dirname, '..', '..', 'templates'),
-    saveDirectory: path.join(__dirname, '..', '..', 'timezones'),
-    zoneFileNames: ['zone1970.tab']
-};
 
-export async function createJSONFromHandlebarsTemplatesAndZoneData(
-    _settings: ICreateJSONSettings = {} as any,
-    _getIANATzData=getIANATzData,
-    _createJSONFromHandlebarsTemplates=createJSONFromHandlebarsTemplates,
-    _extractTzData=extractTzData,
-    _walk=walk as any,
-) {
-    const {zoneFileNames, saveDirectory, templatesPath} = {...defaultSettings, ..._settings};
 
-    const zoneData = await _getIANATzData({filesToExtract: zoneFileNames});
-    const handlebarsTemplateFileNames = await _walk(templatesPath).then((allFiles: string[]) => allFiles.filter(isHandleBarsFile));
-
-    templatesPath //?
-    handlebarsTemplateFileNames //?
-    zoneFileNames.forEach(async(zoneFileName) => {
-        const extractedZoneData = await _extractTzData(zoneData, zoneFileName);
-        await _createJSONFromHandlebarsTemplates({
-            handlebarsTemplateFileNames,
-            extractedZoneData,
-            templatesPath,
-            zoneFileName,
-            saveDirectory
-        });
-    })
-}
 
 export interface ICreateJSONFromHandlebarsTemplatesParams{
     handlebarsTemplateFileNames: string [],
@@ -120,7 +89,4 @@ export async function createJSONFromHandlebarsTemplates(
     }
 }
 
-function isHandleBarsFile(filename: string) {
-    return filename.includes('.hbs')
-}
 
