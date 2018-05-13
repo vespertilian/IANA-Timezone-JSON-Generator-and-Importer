@@ -14,7 +14,7 @@ export interface ICreateJSONSettings {
 const defaultSettings: ICreateJSONSettings = {
     templatesPath: path.join(__dirname, '..', '..', 'templates'),
     saveDirectory: path.join(__dirname, '..', '..', 'timezones'),
-    zoneFileNames: ['zone1970.tab', 'zone.tab']
+    zoneFileNames: ['zone1970.tab']
 };
 
 export async function createJSONFromHandlebarsTemplatesAndZoneData(
@@ -29,6 +29,8 @@ export async function createJSONFromHandlebarsTemplatesAndZoneData(
     const zoneData = await _getIANATzData({filesToExtract: zoneFileNames});
     const handlebarsTemplateFileNames = await _walk(templatesPath).then((allFiles: string[]) => allFiles.filter(isHandleBarsFile));
 
+    templatesPath //?
+    handlebarsTemplateFileNames //?
     zoneFileNames.forEach(async(zoneFileName) => {
         const extractedZoneData = await _extractTzData(zoneData, zoneFileName);
         await _createJSONFromHandlebarsTemplates({

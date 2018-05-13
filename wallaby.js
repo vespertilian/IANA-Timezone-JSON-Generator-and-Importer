@@ -4,7 +4,7 @@ module.exports = function () {
         files: [
             'src/**/*.ts',
             'src/**/*.hbs',
-            'templates/*',
+            'templates/**/*',
             'test-helpers/**/*.ts',
             'timezones/2018c-zone-all-fields.json',
             'src/get-iana-tz-data/tzdata.tar.gz',

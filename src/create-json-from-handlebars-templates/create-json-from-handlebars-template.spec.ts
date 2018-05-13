@@ -4,7 +4,7 @@ import {
     ICreateJSONFromHandlebarsTemplatesParams
 } from './create-json-from-handlebars-templates';
 import * as path from 'path';
-import {ensureExistsAsync, readFileAsync} from '../util/util';
+import {readFileAsync} from '../util/util';
 import {IANATzDataFiles} from '../get-iana-tz-data/get-iana-tz-data';
 import {sampleExtractedData} from './test-extracted-data';
 
@@ -24,11 +24,11 @@ describe('create-json-from-handlebars-template', () => {
             );
 
             // check default params
-            expect(createJSONFromHandlebarsTemplatesSpy).toHaveBeenCalledTimes(2);
+            expect(createJSONFromHandlebarsTemplatesSpy).toHaveBeenCalledTimes(1);
             const firstCallParams: ICreateJSONFromHandlebarsTemplatesParams =
                 createJSONFromHandlebarsTemplatesSpy.calls.argsFor(0)[0];
 
-            expect(firstCallParams.handlebarsTemplateFileNames).toContain('all-fields-v2.hbs');
+            expect(firstCallParams.handlebarsTemplateFileNames).toContain('all-fields/all-fields-v2.hbs');
             expect(firstCallParams.extractedZoneData.zones[0].countryCodes[0]).toEqual('AD');
             expect(firstCallParams.templatesPath).toContain('templates');
             expect(firstCallParams.zoneFileName).toContain('zone1970.tab');
@@ -283,12 +283,10 @@ async function fakeIANAData(): Promise<IANATzDataFiles> {
     const zone1970path = path.join(__dirname, 'test-zone1970.tab');
     const zone1970tab = await readFileAsync(zone1970path);
     const zonePath = path.join(__dirname, 'test-zone.tab');
-    const zoneTab = await readFileAsync(zonePath);
 
     return {
         version: 'TEST',
         ['zone1970.tab']: zone1970tab.toString(),
-        ['zone.tab']: zoneTab.toString()
     }
 }
 
