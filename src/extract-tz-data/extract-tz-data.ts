@@ -7,40 +7,7 @@ import * as math from 'mathjs'
 import {isValidZoneTabRow} from './is-valid-zone-tab-row';
 import {extractGeographicAreaAndLocation} from './extract-geographic-area-and-location';
 
-export interface ICoordinates {
-    latitude: {
-        negative: boolean,
-        sign: string
-        degree: number,
-        minute: number,
-        second: number | null
-        decimal: number
-    },
-    longitude: {
-        negative: boolean,
-        sign: string
-        degree: number,
-        minute: number,
-        second: number | null
-        decimal: number
-    }
-}
 
-export interface IExtractedTimezone {
-    countryCodes: string[],
-    coordinates: ICoordinates
-    timezoneName: string
-    geographicArea: string
-    location: string
-    comments: string | null
-}
-
-export interface IExtractedTimezoneData {
-    zones: IExtractedTimezone[]
-    numberOfZones: number
-    version: string
-    originalFileName: string
-}
 
 export function extractTzData(zoneData: any, zoneFileName: string): IExtractedTimezoneData {
     const separator = '\t';

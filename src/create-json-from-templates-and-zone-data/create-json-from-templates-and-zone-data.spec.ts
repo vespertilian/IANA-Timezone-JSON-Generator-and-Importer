@@ -1,8 +1,10 @@
 import {IANATzDataFiles} from '../get-iana-tz-data/get-iana-tz-data';
 import * as path from 'path';
 import {readFileAsync} from '../util/util';
-import {ICreateJSONFromHandlebarsTemplatesParams} from '../create-json-from-handlebars-templates/create-json-from-handlebars-templates';
-import {createJSONFromTemplatesAndZoneData} from './create-json-from-templates-and-zone-data';
+import {
+    createJSONFromTemplatesAndZoneData,
+    ICreateJSONFromTemplatesParams
+} from './create-json-from-templates-and-zone-data';
 
 
 describe('.createJSONFromTemplatesAndZoneData', () => {
@@ -21,10 +23,10 @@ describe('.createJSONFromTemplatesAndZoneData', () => {
 
         // check default params
         expect(createJSONFromHandlebarsTemplatesSpy).toHaveBeenCalledTimes(1);
-        const firstCallParams: ICreateJSONFromHandlebarsTemplatesParams =
+        const firstCallParams: ICreateJSONFromTemplatesParams =
             createJSONFromHandlebarsTemplatesSpy.calls.argsFor(0)[0];
 
-        expect(firstCallParams.handlebarsTemplateFileNames).toContain('all-fields/all-fields-v2.hbs');
+        expect(firstCallParams.templateFileNames).toContain('all-fields/all-fields-v2.hbs');
         expect(firstCallParams.extractedZoneData.zones[0].countryCodes[0]).toEqual('AD');
         expect(firstCallParams.templatesPath).toContain('templates');
         expect(firstCallParams.zoneFileName).toContain('zone1970.tab');
@@ -62,10 +64,10 @@ describe('.createJSONFromTemplatesAndZoneData', () => {
 
         // check default params
         expect(createJSONFromHandlebarsTemplatesSpy).toHaveBeenCalledTimes(1);
-        const firstCallParams: ICreateJSONFromHandlebarsTemplatesParams =
+        const firstCallParams: ICreateJSONFromTemplatesParams =
             createJSONFromHandlebarsTemplatesSpy.calls.argsFor(0)[0];
 
-        expect(firstCallParams.handlebarsTemplateFileNames).toEqual(['foo.hbs']);
+        expect(firstCallParams.templateFileNames).toEqual(['foo.hbs']);
         expect(firstCallParams.extractedZoneData).toEqual({foo: 'bar'} as any);
         expect(firstCallParams.templatesPath).toEqual('fooTemplates');
         expect(firstCallParams.zoneFileName).toEqual('foo.bar');
@@ -89,10 +91,10 @@ describe('.createJSONFromTemplatesAndZoneData', () => {
             walkAsyncSpy
         );
 
-        const firstCallParams: ICreateJSONFromHandlebarsTemplatesParams =
+        const firstCallParams: ICreateJSONFromTemplatesParams =
             createJSONFromHandlebarsTemplatesSpy.calls.argsFor(0)[0];
 
-        expect(firstCallParams.handlebarsTemplateFileNames).toEqual(['foo.hbs', 'baz.hbs']);
+        expect(firstCallParams.templateFileNames).toEqual(['foo.hbs', 'baz.hbs']);
     })
 });
 
