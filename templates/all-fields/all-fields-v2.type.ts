@@ -7,7 +7,9 @@ export interface IAllFields {
 
 export interface IZones {
     countryCodes: string[]
-    timezone: string
+    timezoneName: string
+    geographicArea: string
+    location: string
     coordinates: {
         latitude: ICoordinate
         longitude: ICoordinate

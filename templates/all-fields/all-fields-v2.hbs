@@ -27,7 +27,9 @@
         {{#each zones}}
             {
                 "countryCodes": {{> countryCodesPartial countryCodes}},
-                "timezone": "{{timezoneName}}",
+                "timezoneName": "{{timezoneName}}",
+                "geographicArea": "{{ geographicArea }}",
+                "location": "{{ location }}",
                 "coordinates": {
                     "latitude": {{> coordinates coordinates.latitude}},
                     "longitude": {{> coordinates coordinates.longitude}}

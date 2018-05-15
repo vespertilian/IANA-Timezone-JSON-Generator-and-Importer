@@ -35,16 +35,43 @@ export function createFiles(extractedTimezoneData: IExtractedTimezoneData): File
         return acc;
     }, {} as GeographicAreaMap);
 
-    const areaList = Object.keys(geographicAreas);
-    const files = areaList.map(key => {
+    const areaList = Object.keys(geographicAreas)
+        .map(area => {
+            switch(area) {
+                case 'Indian':
+                    return {
+                        geographicAreaName: area,
+                        displayName: 'Indian Ocean'
+                    };
+                case 'Atlantic':
+                    return {
+                        geographicAreaName: area,
+                        displayName: 'Atlantic Ocean'
+                    };
+                case 'Pacific':
+                    return {
+                        geographicAreaName: area,
+                        displayName: 'Pacific Ocean'
+                    };
+                default:
+                    return {
+                        geographicAreaName: area,
+                        displayName: area
+                    }
+            }
+        });
+
+    const files = areaList.map(({geographicAreaName}) => {
         return {
-            fileName: key,
-            json: JSON.stringify(geographicAreas[key])
+            fileName: geographicAreaName,
+            json: JSON.stringify(geographicAreas[geographicAreaName])
         }
     });
+
     files.push({
-        fileName: 'geographic-area-map',
+        fileName: 'geographic-area-list',
         json: JSON.stringify(areaList)
     });
+
     return files;
 }

@@ -6,6 +6,7 @@ import {removeLineBreaks} from '../util/util';
 import * as math from 'mathjs'
 import {isValidZoneTabRow} from './is-valid-zone-tab-row';
 import {extractGeographicAreaAndLocation} from './extract-geographic-area-and-location';
+import {ICoordinates, IExtractedTimezoneData} from '../types-for-ts-templates';
 
 
 
