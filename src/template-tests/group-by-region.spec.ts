@@ -2,7 +2,7 @@ import {createFiles as groupByRegionCreateFiles} from '../../templates/group-by-
 
 describe('group-by-region template', () => {
     it('should convert the data into the correct files', () => {
-        const [australia, america, europe, indian, atlantic, pacific, geographicList] = groupByRegionCreateFiles(groupByRegionSampleExtractedData as any)
+        const [america, atlantic, australia, europe, indian, pacific, geographicList] = groupByRegionCreateFiles(groupByRegionSampleExtractedData as any)
 
         const australiaValues = JSON.parse(australia.json);
         const americaValues = JSON.parse(america.json);
@@ -11,11 +11,11 @@ describe('group-by-region template', () => {
         expect(americaValues.locationList).toEqual(['Argentina/Tucuman']);
 
         const expectedGeographicList = [
-            {"geographicAreaName":"Australia","displayName":"Australia"},
             {"geographicAreaName":"America","displayName":"America"},
+            {"geographicAreaName":"Atlantic","displayName":"Atlantic Ocean"},
+            {"geographicAreaName":"Australia","displayName":"Australia"},
             {"geographicAreaName":"Europe","displayName":"Europe"},
             {"geographicAreaName":"Indian","displayName":"Indian Ocean"},
-            {"geographicAreaName":"Atlantic","displayName":"Atlantic Ocean"},
             {"geographicAreaName":"Pacific","displayName":"Pacific Ocean"}
         ];
 

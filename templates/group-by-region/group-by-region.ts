@@ -10,6 +10,11 @@ interface GeographicAreaMap {
     }
 }
 
+interface GeographicAreaListValue {
+    geographicAreaName: string,
+    displayName: string
+}
+
 export function createFiles(extractedTimezoneData: IExtractedTimezoneData): FileToBeCreated[] {
     const geographicAreas = extractedTimezoneData.zones.reduce((acc, zone) => {
 
@@ -35,7 +40,7 @@ export function createFiles(extractedTimezoneData: IExtractedTimezoneData): File
         return acc;
     }, {} as GeographicAreaMap);
 
-    const areaList = Object.keys(geographicAreas)
+    const areaList: GeographicAreaListValue[] = Object.keys(geographicAreas)
         .map(area => {
             switch(area) {
                 case 'Indian':
@@ -59,9 +64,11 @@ export function createFiles(extractedTimezoneData: IExtractedTimezoneData): File
                         displayName: area
                     }
             }
-        });
+        })
+        .sort(alphabeticGeographicAreaNameSort);
 
-    const files = areaList.map(({geographicAreaName}) => {
+    const files = areaList
+        .map(({geographicAreaName}) => {
         return {
             fileName: geographicAreaName,
             json: JSON.stringify(geographicAreas[geographicAreaName])
@@ -74,4 +81,19 @@ export function createFiles(extractedTimezoneData: IExtractedTimezoneData): File
     });
 
     return files;
+}
+
+function alphabeticGeographicAreaNameSort(a: GeographicAreaListValue, b: GeographicAreaListValue) {
+    const nameA = a.displayName.toUpperCase();
+    const nameB = b.displayName.toUpperCase();
+
+    if(nameA < nameB) {
+        return -1;
+    }
+
+    if(nameA > nameB) {
+        return 1;
+    }
+
+    return 0;
 }
