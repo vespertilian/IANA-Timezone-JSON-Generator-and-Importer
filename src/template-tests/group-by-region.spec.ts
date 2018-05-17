@@ -1,4 +1,17 @@
-import {createFiles as groupByRegionCreateFiles} from '../../templates/group-by-region/group-by-region'
+import {createFiles as groupByRegionCreateFiles, formatLocation} from '../../templates/group-by-region/group-by-region'
+
+describe('formatLocation', () => {
+    it('should turn a location string into a location object', () => {
+        expect(formatLocation('Sydney'))
+            .toEqual({location: 'Sydney', displayName: 'Sydney'});
+
+        expect(formatLocation('Argentina/Tucuman'))
+            .toEqual({location: 'Argentina/Tucuman', displayName: 'Argentina - Tucuman'});
+
+        expect(formatLocation('Cape_Verde'))
+            .toEqual({location: 'Cape_Verde', displayName: 'Cape Verde'});
+    })
+});
 
 describe('group-by-region template', () => {
     it('should convert the data into the correct files', () => {
@@ -6,9 +19,20 @@ describe('group-by-region template', () => {
 
         const australiaValues = JSON.parse(australia.json);
         const americaValues = JSON.parse(america.json);
+        const atlanticValues = JSON.parse(atlantic.json);
 
-        expect(australiaValues.locationList).toEqual(['Sydney', 'Melbourne']);
-        expect(americaValues.locationList).toEqual(['Argentina/Tucuman']);
+        expect(americaValues.locationList).toEqual([
+            {"location": 'Argentina/Tucuman', "displayName": "Argentina - Tucuman"}
+        ]);
+
+        expect(atlanticValues.locationList).toEqual([
+            {"location": 'Cape_Verde', "displayName": "Cape Verde"}
+        ]);
+
+        expect(australiaValues.locationList).toEqual([
+            {"location": 'Sydney', "displayName": "Sydney"},
+            {"location": 'Melbourne', "displayName": "Melbourne"}
+        ]);
 
         const expectedGeographicList = [
             {"geographicAreaName":"America","displayName":"America"},

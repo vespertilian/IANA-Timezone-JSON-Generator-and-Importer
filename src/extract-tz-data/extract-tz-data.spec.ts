@@ -1,7 +1,8 @@
 import {readFileAsync} from '../util/util';
 import * as path from 'path';
-import {extractTzData, IExtractedTimezone} from './extract-tz-data';
+import {extractTzData} from './extract-tz-data';
 import {IANATzDataFiles} from '../get-iana-tz-data/get-iana-tz-data';
+import {IExtractedTimezone} from '../types-for-ts-templates';
 
 describe('extractTzData', () => {
     it('should extract data from the IANA .tab files', async() => {

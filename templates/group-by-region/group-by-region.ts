@@ -3,11 +3,13 @@ import {FileToBeCreated, IExtractedTimezoneData} from '../../src/types-for-ts-te
 interface GeographicAreaMap {
     [geographicAreaName: string]: {
         geographicAreaName: string;
-        locationList: string[]
-        locationMap: {
-            [location: string]: string
-        }
+        locationList: LocationListValue[]
     }
+}
+
+interface LocationListValue {
+    location: string,
+    displayName: string
 }
 
 interface GeographicAreaListValue {
@@ -18,23 +20,18 @@ interface GeographicAreaListValue {
 export function createFiles(extractedTimezoneData: IExtractedTimezoneData): FileToBeCreated[] {
     const geographicAreas = extractedTimezoneData.zones.reduce((acc, zone) => {
 
-        const {geographicArea, location, timezoneName} = zone;
+        const {geographicArea, location} = zone;
+
+        const _location = formatLocation(location);
 
         if(!acc[geographicArea]) {
             acc[geographicArea] = {
                 geographicAreaName: geographicArea,
-                locationList: [location],
-                locationMap: {
-                    [location]: timezoneName
-                },
+                locationList: [_location],
             }
         } else {
             const geoArea = acc[geographicArea];
-            geoArea.locationList.push(location);
-            const newLocation = {
-                [location]: timezoneName
-            };
-            geoArea.locationMap = {...geoArea.locationMap, ...newLocation}
+            geoArea.locationList.push(_location);
         }
 
         return acc;
@@ -96,4 +93,11 @@ function alphabeticGeographicAreaNameSort(a: GeographicAreaListValue, b: Geograp
     }
 
     return 0;
+}
+
+export function formatLocation(location: string) {
+    const displayName = location
+        .replace('/', ' - ')
+        .replace('_', ' ');
+    return {location, displayName}
 }
