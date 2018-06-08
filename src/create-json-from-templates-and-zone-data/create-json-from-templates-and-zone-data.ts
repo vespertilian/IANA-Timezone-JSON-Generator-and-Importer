@@ -15,7 +15,6 @@ const defaultSettings: ICreateJSONSettings = {
     zoneFileNames: ['zone1970.tab']
 };
 
-
 export interface ICreateJSONFromTemplatesParams{
     templateFileNames: string [],
     extractedZoneData: IExtractedTimezoneData,
@@ -50,7 +49,6 @@ export async function createJSONFromTemplatesAndZoneData(
             saveDirectory
         });
 
-        // TODO test
         await _createJSONFromTsFunctions({
             templateFileNames: typescriptFiles,
             extractedZoneData,

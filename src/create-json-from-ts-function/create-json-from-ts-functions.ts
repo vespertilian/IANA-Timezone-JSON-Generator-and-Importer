@@ -13,9 +13,8 @@ export async function createJsonFromTsFunctions(
 ) {
     const {templateFileNames, extractedZoneData, templatesPath, zoneFileName, saveDirectory} = params;
 
-
-    // TODO log the files we are creating
     for(const filenamePath of params.templateFileNames) {
+        _log(`Creating JSON for: ${filenamePath} with ${zoneFileName}`);
         const fullFilePath = `${params.templatesPath}/${filenamePath}`;
         const fullFilePathWithoutExtension = fullFilePath.slice(0, fullFilePath.lastIndexOf('.'));
 

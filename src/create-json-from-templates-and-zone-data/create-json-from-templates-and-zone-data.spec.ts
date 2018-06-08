@@ -13,7 +13,7 @@ describe('.createJSONFromTemplatesAndZoneData', () => {
             .createSpy('createJSONFromHandlebarsTemplates');
 
         const createJSONFromTsFunctionSpy = jasmine
-            .createSpy('createJSONFromHandlebarsTemplates');
+            .createSpy('createJSONFromTsFunction');
 
         const getIANATzDataStub = jasmine.createSpy('getIANATzDataSpy')
             .and.returnValue(fakeIANAData());
@@ -25,9 +25,9 @@ describe('.createJSONFromTemplatesAndZoneData', () => {
             createJSONFromTsFunctionSpy
         );
 
-        // TODO update test to check createJSONFromTsFunctionSpy
-        // check default params
         expect(createJSONFromHandlebarsTemplatesSpy).toHaveBeenCalledTimes(1);
+        expect(createJSONFromTsFunctionSpy).toHaveBeenCalledTimes(1);
+
         const firstCallParams: ICreateJSONFromTemplatesParams =
             createJSONFromHandlebarsTemplatesSpy.calls.argsFor(0)[0];
 

@@ -17,11 +17,20 @@ describe('.createJSONFromTsFunctions', () => {
             .createSpy('writeFileAsyncSpy');
 
         const ensureExistsAsync = jasmine.createSpy('ensureExists');
+        const logSpy = jasmine.createSpy('console.log');
 
-        await createJsonFromTsFunctions(params, writeFileAsyncStub, ensureExistsAsync);
+        await createJsonFromTsFunctions(
+            params,
+            writeFileAsyncStub,
+            ensureExistsAsync,
+            logSpy
+        );
 
         const fileWritePath = writeFileAsyncStub.calls.first().args[0];
         const jsonString = writeFileAsyncStub.calls.first().args[1].toString();
+
+        // logs file creation
+        expect(logSpy).toHaveBeenCalledWith('Creating JSON for: test.ts with foo-zone.tab');
 
         expect(fileWritePath).toEqual('dira/dirb/saveDirFoo/sample-data-1-foo-zone-file-a.json');
         expect(JSON.parse(jsonString)).toEqual({a: 1});
