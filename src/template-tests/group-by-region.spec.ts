@@ -39,12 +39,12 @@ describe('group-by-region template', () => {
         ]);
 
         const expectedGeographicList = [
-            {"geographicAreaName":"America","displayName":"America"},
-            {"geographicAreaName":"Atlantic","displayName":"Atlantic Ocean"},
-            {"geographicAreaName":"Australia","displayName":"Australia"},
-            {"geographicAreaName":"Europe","displayName":"Europe"},
-            {"geographicAreaName":"Indian","displayName":"Indian Ocean"},
-            {"geographicAreaName":"Pacific","displayName":"Pacific Ocean"}
+            {"geographicAreaName":"America","geographicAreaDisplayName":"America"},
+            {"geographicAreaName":"Atlantic","geographicAreaDisplayName":"Atlantic Ocean"},
+            {"geographicAreaName":"Australia","geographicAreaDisplayName":"Australia"},
+            {"geographicAreaName":"Europe","geographicAreaDisplayName":"Europe"},
+            {"geographicAreaName":"Indian","geographicAreaDisplayName":"Indian Ocean"},
+            {"geographicAreaName":"Pacific","geographicAreaDisplayName":"Pacific Ocean"}
         ];
 
         const geographicValues = JSON.parse(geographicList.json);
@@ -54,20 +54,20 @@ describe('group-by-region template', () => {
 
 describe('alphabeticGeographicAreaNameSort', () => {
     it('should return -1 when name a is before name b', () => {
-        const a = {displayName: 'a'} as any;
-        const b = {displayName: 'b'} as any;
+        const a = {geographicAreaDisplayName: 'a'} as any;
+        const b = {geographicAreaDisplayName: 'b'} as any;
         expect(alphabeticGeographicAreaNameSort(a, b)).toEqual(-1)
     });
 
     it('should return 1 when name b is before name a', () => {
-        const a = {displayName: 'd'} as any;
-        const b = {displayName: 'c'} as any;
+        const a = {geographicAreaDisplayName: 'd'} as any;
+        const b = {geographicAreaDisplayName: 'c'} as any;
         expect(alphabeticGeographicAreaNameSort(a, b)).toEqual(1)
     });
 
     it('should return 0 when the names are equal', () => {
-        const a = {displayName: 'e'} as any;
-        const b = {displayName: 'e'} as any;
+        const a = {geographicAreaDisplayName: 'e'} as any;
+        const b = {geographicAreaDisplayName: 'e'} as any;
         expect(alphabeticGeographicAreaNameSort(a, b)).toEqual(0)
     })
 });
@@ -80,6 +80,7 @@ const groupByRegionSampleExtractedData = {
             countryCodes: ['AU'],
             timezoneName: 'Australia/Sydney',
             geographicArea: 'Australia',
+            geographicAreaDisplayName: 'Australia',
             location: 'Sydney',
             comments: 'New South Wales (most areas)'
         },
@@ -87,8 +88,9 @@ const groupByRegionSampleExtractedData = {
             countryCodes: [
                 'AU'
             ],
-            timezoneName: 'Australia/Melbourne',
             geographicArea: 'Australia',
+            timezoneName: 'Australia/Melbourne',
+            geographicAreaDisplayName: 'Australia',
             location: 'Melbourne',
             comments: 'Victoria'
         },
@@ -98,6 +100,7 @@ const groupByRegionSampleExtractedData = {
             ],
             timezoneName: 'America/Argentina/Tucuman',
             geographicArea: 'America',
+            geographicAreaDisplayName: 'America',
             location: 'Argentina/Tucuman',
             comments: 'Tucumán (TM)'
         },
@@ -110,6 +113,7 @@ const groupByRegionSampleExtractedData = {
             ],
             timezoneName: 'Europe/London',
             geographicArea: 'Europe',
+            geographicAreaDisplayName: 'Europe',
             location: 'London',
             comments: null
         },
@@ -119,6 +123,7 @@ const groupByRegionSampleExtractedData = {
             ],
             timezoneName: "Indian/Cocos",
             geographicArea: "Indian",
+            geographicAreaDisplayName: "Indian Ocean",
             location: "Cocos",
             comments: null
         },
@@ -128,6 +133,7 @@ const groupByRegionSampleExtractedData = {
             ],
             timezoneName: "Atlantic/Cape_Verde",
             geographicArea: "Atlantic",
+            geographicAreaDisplayName: "Atlantic Ocean",
             location: "Cape_Verde",
             comments: null
         },
@@ -137,6 +143,7 @@ const groupByRegionSampleExtractedData = {
             ],
             timezoneName: "Pacific/Galapagos",
             geographicArea: "Pacific",
+            geographicAreaDisplayName: "Pacific Ocean",
             location: "Galapagos",
             comments: "Galápagos Islands"
         },

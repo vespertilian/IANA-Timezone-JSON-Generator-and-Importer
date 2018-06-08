@@ -9,6 +9,7 @@ export interface IZones {
     countryCodes: string[]
     timezoneName: string
     geographicArea: string
+    geographicAreaDisplayName: string
     location: string
     coordinates: {
         latitude: ICoordinate

@@ -24,6 +24,7 @@ export interface IExtractedTimezone {
     coordinates: ICoordinates
     timezoneName: string
     geographicArea: string
+    geographicAreaDisplayName: string,
     location: string
     comments: string | null
 }

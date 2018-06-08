@@ -8,8 +8,6 @@ import {isValidZoneTabRow} from './is-valid-zone-tab-row';
 import {extractGeographicAreaAndLocation} from './extract-geographic-area-and-location';
 import {ICoordinates, IExtractedTimezoneData} from '../types-for-ts-templates';
 
-
-
 export function extractTzData(zoneData: any, zoneFileName: string): IExtractedTimezoneData {
     const separator = '\t';
     const parsedCSV: string[][] = CSV.parse(zoneData[zoneFileName], separator);
@@ -27,6 +25,7 @@ export function extractTzData(zoneData: any, zoneFileName: string): IExtractedTi
                 coordinates: parseCoordinates(coordinates),
                 timezoneName: removeLineBreaks(timezoneName),
                 geographicArea: geographicArea,
+                geographicAreaDisplayName: geographicAreaDisplayName(geographicArea),
                 location: location,
                 comments: comments || null
             }
@@ -70,5 +69,19 @@ function convertToDecimal(coordinate: {sign: string, degree: string, minute: str
         return result.toNumber()
     } else {
         return -result.toNumber()
+    }
+}
+
+// add Ocean to the geographicArea for extra context
+function geographicAreaDisplayName(area: string) {
+    switch(area) {
+        case 'Indian':
+            return 'Indian Ocean';
+        case 'Atlantic':
+            return 'Atlantic Ocean';
+        case 'Pacific':
+            return 'Pacific Ocean';
+        default:
+            return area;
     }
 }

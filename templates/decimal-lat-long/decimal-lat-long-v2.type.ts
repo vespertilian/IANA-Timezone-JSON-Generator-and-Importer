@@ -8,6 +8,8 @@ export interface IDecimalLatLong {
 export interface IZones {
     countryCodes: string[]
     timezone: string
+    geographicArea: string
+    geographicAreaDisplayName: string
     coordinates: {
         latitude: number
         longitude: number

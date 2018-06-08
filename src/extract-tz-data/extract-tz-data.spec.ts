@@ -26,8 +26,9 @@ describe('extractTzData', () => {
                 latitude: { sign: '+', degree: 2, minute: 49, negative: false, second: null, decimal: 2.816667 },
                 longitude: { sign: '-', degree: 60, minute: 40, negative: true, second: null, decimal: -60.666667}
             },
-            timezoneName: 'Cameron/Test',
-            geographicArea: 'Cameron',
+            timezoneName: 'Indian/Test',
+            geographicAreaDisplayName: 'Indian Ocean',
+            geographicArea: 'Indian',
             location: 'Test',
             comments: 'Foo'
         };
@@ -57,6 +58,7 @@ describe('extractTzData', () => {
                 longitude: { sign: '-', degree: 76, minute: 47, second: 36, negative: true, decimal: -76.793333 } },
             timezoneName: 'Cameron/TestA',
             geographicArea: 'Cameron',
+            geographicAreaDisplayName: 'Cameron',
             location: 'TestA',
             comments: null
         };

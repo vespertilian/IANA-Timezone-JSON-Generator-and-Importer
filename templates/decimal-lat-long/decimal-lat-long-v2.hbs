@@ -14,6 +14,8 @@
     "zones": [
     {{#each zones}}
         {
+            "geographicArea": "{{ geographicArea }}",
+            "geographicAreaDisplayName": "{{ geographicAreaDisplayName }}",
             "countryCodes": {{> countryCodesPartial countryCodes}},
             "timezone": "{{timezoneName}}",
             "coordinates": {

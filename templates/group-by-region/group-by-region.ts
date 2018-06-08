@@ -2,6 +2,7 @@ import {FileToBeCreated, IExtractedTimezoneData} from '../../src/types-for-ts-te
 
 interface GeographicAreaMap {
     [geographicAreaName: string]: {
+        geographicAreaDisplayName: string,
         geographicAreaName: string;
         locationList: LocationListValue[]
     }
@@ -14,19 +15,19 @@ interface LocationListValue {
 
 export interface GeographicAreaListValue {
     geographicAreaName: string,
-    displayName: string
+    geographicAreaDisplayName: string
 }
 
 export function createFiles(extractedTimezoneData: IExtractedTimezoneData): FileToBeCreated[] {
     const geographicAreas = extractedTimezoneData.zones.reduce((acc, zone) => {
-
-        const {geographicArea, location} = zone;
+        const {geographicArea, location, geographicAreaDisplayName} = zone;
 
         const _location = formatLocation(location);
 
         if(!acc[geographicArea]) {
             acc[geographicArea] = {
                 geographicAreaName: geographicArea,
+                geographicAreaDisplayName,
                 locationList: [_location],
             }
         } else {
@@ -38,29 +39,13 @@ export function createFiles(extractedTimezoneData: IExtractedTimezoneData): File
     }, {} as GeographicAreaMap);
 
     const areaList: GeographicAreaListValue[] = Object.keys(geographicAreas)
-        .map(area => {
-            switch(area) {
-                case 'Indian':
-                    return {
-                        geographicAreaName: area,
-                        displayName: 'Indian Ocean'
-                    };
-                case 'Atlantic':
-                    return {
-                        geographicAreaName: area,
-                        displayName: 'Atlantic Ocean'
-                    };
-                case 'Pacific':
-                    return {
-                        geographicAreaName: area,
-                        displayName: 'Pacific Ocean'
-                    };
-                default:
-                    return {
-                        geographicAreaName: area,
-                        displayName: area
-                    }
-            }
+        .map(areaKey => {
+            const {geographicAreaDisplayName, geographicAreaName} = geographicAreas[areaKey];
+            const result = {
+                geographicAreaName,
+                geographicAreaDisplayName
+            };
+            return result
         })
         .sort(alphabeticGeographicAreaNameSort);
 
@@ -81,8 +66,8 @@ export function createFiles(extractedTimezoneData: IExtractedTimezoneData): File
 }
 
 export function alphabeticGeographicAreaNameSort(a: GeographicAreaListValue, b: GeographicAreaListValue) {
-    const nameA = a.displayName.toUpperCase();
-    const nameB = b.displayName.toUpperCase();
+    const nameA = a.geographicAreaDisplayName.toUpperCase();
+    const nameB = b.geographicAreaDisplayName.toUpperCase();
 
     if(nameA < nameB) {
         return -1;
