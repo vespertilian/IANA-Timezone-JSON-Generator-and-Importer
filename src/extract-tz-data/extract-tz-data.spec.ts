@@ -1,7 +1,8 @@
 import {readFileAsync} from '../util/util';
 import * as path from 'path';
-import {extractTzData, IExtractedTimezone} from './extract-tz-data';
+import {extractTzData} from './extract-tz-data';
 import {IANATzDataFiles} from '../get-iana-tz-data/get-iana-tz-data';
+import {IExtractedTimezone} from '../types-for-ts-templates';
 
 describe('extractTzData', () => {
     it('should extract data from the IANA .tab files', async() => {
@@ -17,15 +18,19 @@ describe('extractTzData', () => {
         const result = extractTzData(zoneData, zoneFileName);
 
         expect(result.version).toEqual('2018c');
-        expect(result.numberOfZones).toEqual(266);
+        expect(result.numberOfZones).toEqual(9);
 
         const extractedTimezone: IExtractedTimezone = {
-            countryCode: 'BR',
+            countryCodes: ['BR'],
             coordinates: {
                 latitude: { sign: '+', degree: 2, minute: 49, negative: false, second: null, decimal: 2.816667 },
                 longitude: { sign: '-', degree: 60, minute: 40, negative: true, second: null, decimal: -60.666667}
             },
-            timezoneName: 'Cameron/Test',
+            timezoneName: 'Indian/Test',
+            geographicAreaDisplayName: 'Indian Ocean',
+            geographicArea: 'Indian',
+            location: 'Test',
+            locationDisplayName: 'Test',
             comments: 'Foo'
         };
 
@@ -45,18 +50,21 @@ describe('extractTzData', () => {
         const result = extractTzData(zoneData, zoneFileName);
 
         expect(result.version).toEqual('2018c');
-        expect(result.numberOfZones).toEqual(266);
+        expect(result.numberOfZones).toEqual(9);
 
         const extractedTimezone: IExtractedTimezone = {
-            countryCode: 'JM',
+            countryCodes: ['JM'],
             coordinates: {
                 latitude: { sign: '+', degree: 17, minute: 58, second: 5, negative: false, decimal: 17.968056 },
                 longitude: { sign: '-', degree: 76, minute: 47, second: 36, negative: true, decimal: -76.793333 } },
             timezoneName: 'Cameron/TestA',
+            geographicArea: 'Cameron',
+            geographicAreaDisplayName: 'Cameron',
+            location: 'TestA',
+            locationDisplayName: 'TestA',
             comments: null
         };
 
         expect(result.zones[2]).toEqual(extractedTimezone)
     })
-
 });

@@ -1,9 +1,10 @@
-import {readdirAsync, readFileAsync} from '../util/util';
+import {readFileAsync} from '../util/util';
 import * as path from 'path';
+import {walk} from '../util/walk';
 
 export async function loadIANATzJsonFile(filename: string) {
     const timezonesPath = path.join(__dirname, '../..', 'timezones');
-    const files: string[] = await readdirAsync(timezonesPath);
+    const files: string[] = await walk(timezonesPath);
 
     if(!files.includes(filename)) {
         throw new Error(`

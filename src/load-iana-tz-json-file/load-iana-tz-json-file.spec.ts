@@ -2,7 +2,7 @@ import {loadIANATzJsonFile} from './load-iana-tz-json-file';
 
 describe('loadIANATzJsonFile', () => {
     it('should load the specified json file from timezones', async() => {
-        const allFieldsJSON = await loadIANATzJsonFile('2018c-zone-all-fields.json');
+        const allFieldsJSON = await loadIANATzJsonFile('all-fields/2018e-zone1970-all-fields-v2.json');
         expect(JSON.parse(allFieldsJSON).numberOfZones).toBeDefined();
     });
 
@@ -15,6 +15,6 @@ describe('loadIANATzJsonFile', () => {
         }
 
         expect(error.message.includes('File does not exist')).toBe(true);
-        expect(error.message.includes('all-fields.json')).toBe(true)
+        expect(error.message.includes('all-fields/2018e-zone1970-all-fields-v2.json')).toBe(true)
     });
 });

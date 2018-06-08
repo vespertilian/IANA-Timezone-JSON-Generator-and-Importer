@@ -1,0 +1,30 @@
+{{!-- handlebars inline partials --}}
+{{#*inline "countryCodesPartial"}}
+    [
+    {{#each this}}
+        "{{this}}"{{#unless @last}},{{/unless}}
+    {{/each}}
+    ]
+{{/inline}}
+
+{
+    "IANAVersion": "{{version}}",
+    "originalFileName": "{{originalFileName}}",
+    "numberOfZones": {{numberOfZones}},
+    "zones": [
+    {{#each zones}}
+        {
+        "countryCodes": {{> countryCodesPartial countryCodes}},
+        "timezone": "{{timezoneName}}",
+        "geographicArea": "{{ geographicArea }}",
+        "geographicAreaDisplayName": "{{ geographicAreaDisplayName }}",
+        "location": "{{ location }}",
+        "locationDisplayName": "{{ locationDisplayName }}",
+            "coordinates": {
+                "latitude": {{coordinates.latitude.decimal}},
+                "longitude": {{coordinates.longitude.decimal}}
+            }
+        }{{#unless @last}},{{/unless}}
+    {{/each}}
+    ]
+}

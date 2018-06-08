@@ -139,7 +139,7 @@ export interface ICoordinate {
 #### You can also call the function and output the json to a directory you choose
 
 - `npm install iana-tz-json-generator-and-importer`
-- call: `createJSONFromHandlebarsTemplatesAndZoneData({
+- call: `createJSONFromTemplatesAndZoneData({
        templatesPath: string,
        saveDirectory: string,
        zoneFileNames: string[]

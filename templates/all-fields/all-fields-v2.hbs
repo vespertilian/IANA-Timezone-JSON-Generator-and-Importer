@@ -1,0 +1,46 @@
+{{!-- handlebars inline partials --}}
+{{#*inline "coordinates"}}
+{
+    "sign": "{{sign}}",
+    "degree": {{degree}},
+    "minute": {{minute}},
+    "second": {{#if second}}{{second}}{{else}}null{{/if}}
+}
+{{/inline}}
+
+{{!-- handlebars inline partials --}}
+{{#*inline "countryCodesPartial"}}
+    [
+    {{#each this}}
+        "{{this}}"{{#unless @last}},{{/unless}}
+    {{/each}}
+    ]
+{{/inline}}
+
+
+{{!-- create json file --}}
+{
+    "IANAVersion": "{{version}}",
+    "originalFileName": "{{originalFileName}}",
+    "numberOfZones": {{numberOfZones}},
+    "zones": [
+        {{#each zones}}
+            {
+                "countryCodes": {{> countryCodesPartial countryCodes}},
+                "timezoneName": "{{timezoneName}}",
+                "geographicArea": "{{ geographicArea }}",
+                "geographicAreaDisplayName": "{{ geographicAreaDisplayName }}",
+                "location": "{{ location }}",
+                "locationDisplayName": "{{ locationDisplayName }}",
+                "coordinates": {
+                    "latitude": {{> coordinates coordinates.latitude}},
+                    "longitude": {{> coordinates coordinates.longitude}}
+                },
+                "comments": {{#if comments}}"{{comments}}"{{else}}null{{/if}}
+            }{{#unless @last}},{{/unless}}
+        {{/each}}
+    ]
+}
+
+
+

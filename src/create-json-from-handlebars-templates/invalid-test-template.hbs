@@ -4,12 +4,9 @@
     "zones": [
         {{#each zones}}
             {
-                "countryCode": "{{countryCode}}",
+                "firstCountryCode": "{{countryCodes.[0]}}",
                 "timezone": "{{timezoneName}}",
             }{{#unless @last}},{{/unless}}
         {{/each}}
     ]
 }
-
-
-

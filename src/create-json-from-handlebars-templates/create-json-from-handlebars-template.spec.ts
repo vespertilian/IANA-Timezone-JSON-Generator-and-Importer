@@ -1,243 +1,187 @@
 import {
     createJSONFromHandlebarsTemplates,
-    createJSONFromHandlebarsTemplatesAndZoneData,
-    ICreateJSONFromHandlebarsTemplatesParams
 } from './create-json-from-handlebars-templates';
 import * as path from 'path';
 import {readFileAsync} from '../util/util';
-import {IANATzDataFiles} from '../get-iana-tz-data/get-iana-tz-data';
-import {sampleExtractedData} from './test-extracted-data';
+import {sampleExtractedData} from '../create-json-from-templates-and-zone-data/test-extracted-data';
+import {ICreateJSONFromTemplatesParams} from '../create-json-from-templates-and-zone-data/create-json-from-templates-and-zone-data';
 
-describe('create-json-from-handlebars-template', () => {
-    describe('.createJSONFromHandlebarsTemplatesAndZoneData', () => {
-        it('should call .createJSONFromHandlebarsTemplates with default parameters and get files and zone data', async() => {
-            const createJSONFromHandlebarsTemplatesSpy = jasmine
-                .createSpy('createJSONFromHandlebarsTemplates');
+describe('.createJSONFromHandlebarsTemplates', () => {
+    const params: ICreateJSONFromTemplatesParams = {
+        templateFileNames: ['aaa.hbs'],
+        extractedZoneData: sampleExtractedData,
+        templatesPath: 'some-template-path',
+        zoneFileName: 'foo-zone.tab',
+        saveDirectory: 'saveDirFoo'
+    };
 
-            const getIANATzDataStub = jasmine.createSpy('getIANATzDataSpy')
-                .and.returnValue(fakeIANAData());
+    it('should create a file for each handlebarTemplate', async() => {
 
-            await createJSONFromHandlebarsTemplatesAndZoneData(
-                {} as any, // will use default settings
-                getIANATzDataStub,
-                createJSONFromHandlebarsTemplatesSpy,
-            );
+        const writeFileAsyncStub = jasmine
+            .createSpy('writeFileAsyncSpy');
 
-            // check default params
-            expect(createJSONFromHandlebarsTemplatesSpy).toHaveBeenCalledTimes(2);
-            const firstCallParams: ICreateJSONFromHandlebarsTemplatesParams =
-                createJSONFromHandlebarsTemplatesSpy.calls.argsFor(0)[0];
+        const readFileAsyncStub = jasmine
+            .createSpy('readFileAsyncSpy')
+            .and.returnValue(readFileAsync(path.join(__dirname, './test-template.hbs'), 'utf-8'));
 
-            expect(firstCallParams.handlebarsTemplateFileNames).toContain('all-fields.hbs');
-            expect(firstCallParams.extractedZoneData.zones[0].countryCode).toEqual('AD');
-            expect(firstCallParams.templatesPath).toContain('templates');
-            expect(firstCallParams.zoneFileName).toContain('zone1970.tab');
-            expect(firstCallParams.saveDirectory).toContain('timezones');
-        });
+        const logSpy = jasmine.createSpy('console.log');
+        const ensureExistsAsync = jasmine.createSpy('ensureExists');
 
-        it('should call .createJSONFromHandlebarsTemplates with custom parameters and get files and zone data', async() => {
-            const createJSONFromHandlebarsTemplatesSpy = jasmine
-                .createSpy('createJSONFromHandlebarsTemplates');
+        await createJSONFromHandlebarsTemplates(
+            params,
+            writeFileAsyncStub,
+            readFileAsyncStub,
+            ensureExistsAsync,
+            logSpy
+        );
 
-            const getIANATzDataStub = jasmine.createSpy('getIANATzDataSpy');
+        // logs file creation
+        expect(logSpy).toHaveBeenCalledWith('Creating JSON for: aaa.hbs with foo-zone.tab');
 
-            const extractTzDataSpy = jasmine.createSpy('extractTzData')
-                .and.returnValue(new Promise((resolve, reject) => {
-                    resolve({foo: 'bar'})
-                }));
+        // reads handlebars template
+        expect(readFileAsyncStub).toHaveBeenCalledWith(`some-template-path/aaa.hbs`, 'utf-8');
 
-            const readDirAsyncSpy = jasmine
-                .createSpy('readDirAsyncSpy')
-                .and.returnValue(new Promise((resolve, reject) => { resolve(['foo.hbs']) }));
+        // converts and writes to correct file path
+        const fileWritePath = writeFileAsyncStub.calls.first().args[0];
+        const jsonString = writeFileAsyncStub.calls.first().args[1].toString();
 
-            await createJSONFromHandlebarsTemplatesAndZoneData(
+        const expectedJSON = {
+            numberOfZones: 1,
+            zones: [
                 {
-                    templatesPath: 'fooTemplates',
-                    saveDirectory: 'fooSaveDirectory',
-                    zoneFileNames: ['foo.bar']
-                } as any, // settings
-                getIANATzDataStub,
-                createJSONFromHandlebarsTemplatesSpy,
-                extractTzDataSpy,
-                readDirAsyncSpy
-            );
-
-            expect(getIANATzDataStub).toHaveBeenCalledWith({filesToExtract: ['foo.bar']});
-
-            // check default params
-            expect(createJSONFromHandlebarsTemplatesSpy).toHaveBeenCalledTimes(1);
-            const firstCallParams: ICreateJSONFromHandlebarsTemplatesParams =
-                createJSONFromHandlebarsTemplatesSpy.calls.argsFor(0)[0];
-
-            expect(firstCallParams.handlebarsTemplateFileNames).toEqual(['foo.hbs']);
-            expect(firstCallParams.extractedZoneData).toEqual({foo: 'bar'} as any);
-            expect(firstCallParams.templatesPath).toEqual('fooTemplates');
-            expect(firstCallParams.zoneFileName).toEqual('foo.bar');
-            expect(firstCallParams.saveDirectory).toEqual('fooSaveDirectory');
-        });
-
-        it('should filter the templates path to only use .hbs (handlebars) files', async() => {
-            const createJSONFromHandlebarsTemplatesSpy = jasmine.createSpy('createJSONFromHandlebarsTemplates');
-            const getIANATzDataStub = jasmine.createSpy('getIANATzDataSpy');
-            const extractTzDataSpy = jasmine.createSpy('extractTzData');
-
-            const readDirAsyncSpy = jasmine
-                .createSpy('readDirAsyncSpy')
-                .and.returnValue(new Promise((resolve, reject) => { resolve(['foo.hbs', 'bar.json', 'baz.hbs']) }));
-
-            await createJSONFromHandlebarsTemplatesAndZoneData(
-                {} as any, // settings
-                getIANATzDataStub,
-                createJSONFromHandlebarsTemplatesSpy,
-                extractTzDataSpy,
-                readDirAsyncSpy
-            );
-
-            const firstCallParams: ICreateJSONFromHandlebarsTemplatesParams =
-                createJSONFromHandlebarsTemplatesSpy.calls.argsFor(0)[0];
-
-            expect(firstCallParams.handlebarsTemplateFileNames).toEqual(['foo.hbs', 'baz.hbs']);
-        })
+                    countryCodes: ["AU", "EU"],
+                    timezone: "Australia/Sydney"
+                }
+            ]
+        };
+        expect(fileWritePath).toEqual('saveDirFoo/sample-data-1-foo-zone-aaa.json');
+        expect(JSON.parse(jsonString)).toEqual(expectedJSON);
     });
 
-    describe('.createJSONFromHandlebarsTemplates', () => {
-        const params: ICreateJSONFromHandlebarsTemplatesParams = {
-            handlebarsTemplateFileNames: ['aaa.hbs'],
+    it('should create a file for each handlebarTemplate in subdirectories', async() => {
+        const multiFileParams: ICreateJSONFromTemplatesParams = {
+            templateFileNames: ['test-dir/aaa.hbs'],
             extractedZoneData: sampleExtractedData,
             templatesPath: 'some-template-path',
             zoneFileName: 'foo-zone.tab',
             saveDirectory: 'saveDirFoo'
         };
 
-        it('should create a file for each handlebarTemplate', async() => {
+        const writeFileAsyncStub = jasmine
+            .createSpy('writeFileAsyncSpy');
 
-            const writeFileAsyncStub = jasmine
-                .createSpy('writeFileAsyncSpy');
+        const readFileAsyncStub = jasmine
+            .createSpy('readFileAsyncSpy')
+            .and.returnValue(readFileAsync(path.join(__dirname, './test-template.hbs'), 'utf-8'));
 
-            const readFileAsyncStub = jasmine
-                .createSpy('readFileAsyncSpy')
-                .and.returnValue(readFileAsync(path.join(__dirname, './test-template.hbs'), 'utf-8'));
+        const logSpy = jasmine.createSpy('console.log');
+        const ensureExistsAsync = jasmine.createSpy('ensureExists');
 
-            const logSpy = jasmine.createSpy('console.log');
+        await createJSONFromHandlebarsTemplates(
+            multiFileParams,
+            writeFileAsyncStub,
+            readFileAsyncStub,
+            ensureExistsAsync,
+            logSpy
+        );
 
+        // logs file creation
+        expect(logSpy).toHaveBeenCalledWith('Creating JSON for: test-dir/aaa.hbs with foo-zone.tab');
+
+        // reads handlebars template
+        expect(readFileAsyncStub).toHaveBeenCalledWith(`some-template-path/test-dir/aaa.hbs`, 'utf-8');
+
+        // converts and writes to correct file path
+        const fileWritePath = writeFileAsyncStub.calls.first().args[0];
+        const jsonString = writeFileAsyncStub.calls.first().args[1].toString();
+
+        const expectedJSON = {
+            numberOfZones: 1,
+            zones: [
+                {
+                    countryCodes: ["AU", "EU"],
+                    timezone: "Australia/Sydney"
+                }
+            ]
+        };
+        expect(ensureExistsAsync).toHaveBeenCalled();
+        expect(fileWritePath).toEqual('saveDirFoo/test-dir/sample-data-1-foo-zone-aaa.json');
+        expect(JSON.parse(jsonString)).toEqual(expectedJSON);
+    });
+
+    it('should throw an error and write an error file when the JSON created by the handlebars template is invalid', async() => {
+
+        const writeFileAsyncStub = jasmine
+            .createSpy('writeFileAsyncSpy');
+
+        const readFileAsyncStub = jasmine
+            .createSpy('readFileAsyncSpy')
+            .and.returnValue(readFileAsync(path.join(__dirname, './invalid-test-template.hbs'), 'utf-8'));
+
+        const logSpy = jasmine.createSpy('console.log');
+
+        let error: Error | null = null;
+        try {
             await createJSONFromHandlebarsTemplates(
                 params,
                 writeFileAsyncStub,
                 readFileAsyncStub,
                 logSpy
             );
+        } catch(e){
+            error = e;
+        }
 
-            // logs file creation
-            expect(logSpy).toHaveBeenCalledWith('Creating JSON for: aaa.hbs with foo-zone.tab');
-
-            // reads handlebars template
-            expect(readFileAsyncStub).toHaveBeenCalledWith(`some-template-path/aaa.hbs`, 'utf-8');
-
-            // converts and writes to correct file path
-            const fileWritePath = writeFileAsyncStub.calls.first().args[0];
-            const jsonString = writeFileAsyncStub.calls.first().args[1].toString();
-
-            const expectedJSON = {
-                    numberOfZones: 1,
-                    zones: [
-                        {
-                            countryCode: "AU",
-                            timezone: "Australia/Sydney"
-                        }
-                    ]
-                };
-            expect(fileWritePath).toEqual('saveDirFoo/sample-data-1-foo-zone-aaa.json');
-            expect(JSON.parse(jsonString)).toEqual(expectedJSON);
-        });
-
-        it('should throw an error and write an error file when the JSON created by the handlebars template is invalid', async() => {
-
-            const writeFileAsyncStub = jasmine
-                .createSpy('writeFileAsyncSpy');
-
-            const readFileAsyncStub = jasmine
-                .createSpy('readFileAsyncSpy')
-                .and.returnValue(readFileAsync(path.join(__dirname, './invalid-test-template.hbs'), 'utf-8'));
-
-            const logSpy = jasmine.createSpy('console.log');
-
-            let error: Error | null = null;
-            try {
-                await createJSONFromHandlebarsTemplates(
-                    params,
-                    writeFileAsyncStub,
-                    readFileAsyncStub,
-                    logSpy
-                );
-            } catch(e){
-                error = e;
-            }
-
-            expect(error!.message).toContain(`
+        expect(error!.message).toContain(`
                 Could not parse JSON please check your templates.
                 See timezones/error.txt 
-                Error: SyntaxError: Unexpected token } in JSON at position 152`)
+                Error: SyntaxError: Unexpected token } in JSON at position 157`);
 
-            // writes bade json file to correct error file path
-            const fileWritePath = writeFileAsyncStub.calls.first().args[0];
-            const jsonString = writeFileAsyncStub.calls.first().args[1].toString();
+        // writes bade json file to correct error file path
+        const fileWritePath = writeFileAsyncStub.calls.first().args[0];
+        const jsonString = writeFileAsyncStub.calls.first().args[1].toString();
 
-            expect(fileWritePath).toEqual('saveDirFoo/error.txt');
+        expect(fileWritePath).toEqual('saveDirFoo/error.txt');
 
-            // the comma on timezone should not be there
-            const expectedErrorText = `{
-                "countryCode": "AU",
+        // the comma on timezone should not be there
+        const expectedErrorText = `{
+                "firstCountryCode": "AU",
                 "timezone": "Australia/Sydney",
             }`;
 
-            expect(jsonString).toContain(expectedErrorText);
-        });
+        expect(jsonString).toContain(expectedErrorText);
+    });
 
-        it('should throw an error if it cannot write the error file', async() => {
+    it('should throw an error if it cannot write the error file', async() => {
 
-            const writeFileAsyncStub = jasmine
-                .createSpy('writeFileAsyncSpy')
-                .and.callFake(() => {
-                    return new Promise((resolve, reject) =>  reject(new Error("cannot write foo")))
-                });
+        const writeFileAsyncStub = jasmine
+            .createSpy('writeFileAsyncSpy')
+            .and.callFake(() => {
+                return new Promise((resolve, reject) =>  reject(new Error("cannot write foo")))
+            });
 
 
-            const readFileAsyncStub = jasmine
-                .createSpy('readFileAsyncSpy')
-                .and.returnValue(readFileAsync(path.join(__dirname, './invalid-test-template.hbs'), 'utf-8'));
+        const readFileAsyncStub = jasmine
+            .createSpy('readFileAsyncSpy')
+            .and.returnValue(readFileAsync(path.join(__dirname, './invalid-test-template.hbs'), 'utf-8'));
 
-            const logSpy = jasmine.createSpy('console.log');
+        const logSpy = jasmine.createSpy('console.log');
 
-            let error: Error | null = null;
-            try {
-                await createJSONFromHandlebarsTemplates(
-                    params,
-                    writeFileAsyncStub,
-                    readFileAsyncStub,
-                    logSpy
-                );
-            } catch(e){
-                error = e; //?
-            }
+        let error: Error | null = null;
+        try {
+            await createJSONFromHandlebarsTemplates(
+                params,
+                writeFileAsyncStub,
+                readFileAsyncStub,
+                logSpy
+            );
+        } catch(e){
+            error = e;
+        }
 
-            expect(error!.message.toString()).toContain('Could not write error file:');
-            expect(error!.message.toString()).toContain('Trying to write to path: saveDirFoo/error.txt');
-
-        })
+        expect(error!.message.toString()).toContain('Could not write error file:');
+        expect(error!.message.toString()).toContain('Trying to write to path: saveDirFoo/error.txt');
     })
 });
 
-
-async function fakeIANAData(): Promise<IANATzDataFiles> {
-    const zone1970path = path.join(__dirname, 'test-zone1970.tab');
-    const zone1970tab = await readFileAsync(zone1970path);
-    const zonePath = path.join(__dirname, 'test-zone.tab');
-    const zoneTab = await readFileAsync(zonePath);
-
-    return {
-        version: 'TEST',
-        ['zone1970.tab']: zone1970tab.toString(),
-        ['zone.tab']: zoneTab.toString()
-    }
-}
 

@@ -1,6 +1,6 @@
 {
   "name": "iana-tz-json-generator-and-importer",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "Quickly get timezone names and metadata from the IANA into your application in the format you want.",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -13,13 +13,14 @@
     "Handlebars",
     "Template",
     "Import",
-    "Generator"
+    "Generator",
+    "IANA data"
   ],
   "scripts": {
     "build": "rm -rf ./lib && ./node_modules/.bin/tsc -p build.tsconfig.json && npm run generate-json-files-and-typescript-types",
     "test": "ts-node node_modules/.bin/jasmine JASMINE_CONFIG_PATH=jasmine.json",
     "generate-json-files-and-typescript-types": "npm run generate-json-files && npm run generate-typescript-types",
-    "generate-json-files": "ts-node -e 'require(\"./src/index.ts\").createJSONFromHandlebarsTemplatesAndZoneData()'",
+    "generate-json-files": "ts-node -e 'require(\"./src/index.ts\").createJSONFromTemplatesAndZoneData()'",
     "generate-typescript-types": "ts-node ./node_modules/.bin/tsc -p build-timezone-types.tsconfig.json",
     "generate-changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
     "commit": "git-cz"

@@ -4,39 +4,10 @@ import * as CSV from 'csv-string';
 import * as parseTzdataCoordinate from 'parse-tzdata-coordinate';
 import {removeLineBreaks} from '../util/util';
 import * as math from 'mathjs'
-
-export interface ICoordinates {
-    latitude: {
-        negative: boolean,
-        sign: string
-        degree: number,
-        minute: number,
-        second: number | null
-        decimal: number
-    },
-    longitude: {
-        negative: boolean,
-        sign: string
-        degree: number,
-        minute: number,
-        second: number | null
-        decimal: number
-    }
-}
-
-export interface IExtractedTimezone {
-    countryCode: string,
-    coordinates: ICoordinates
-    timezoneName: string
-    comments: string | null
-}
-
-export interface IExtractedTimezoneData {
-    zones: IExtractedTimezone[]
-    numberOfZones: number
-    version: string
-    originalFileName: string
-}
+import {isValidZoneTabRow} from './is-valid-zone-tab-row';
+import {extractGeographicAreaAndLocation} from './extract-geographic-area-and-location';
+import {ICoordinates, IExtractedTimezone, IExtractedTimezoneData} from '../types-for-ts-templates';
+import {formatLocation} from './format-location';
 
 export function extractTzData(zoneData: any, zoneFileName: string): IExtractedTimezoneData {
     const separator = '\t';
@@ -44,15 +15,23 @@ export function extractTzData(zoneData: any, zoneFileName: string): IExtractedTi
 
     const filteredZoneData = parsedCSV.filter(isValidZoneTabRow);
 
-    const zones = filteredZoneData
+    const zones: IExtractedTimezone[] = filteredZoneData
         .map(zoneData => {
-            const [countryCode , coordinates, timezoneName, comments] = zoneData;
-            return {
-                countryCode: removeLineBreaks(countryCode),
+            const [countryCodes , coordinates, timezoneName, comments] = zoneData;
+            const allCodes = countryCodes.split(',');
+            const {geographicArea, location} = extractGeographicAreaAndLocation(timezoneName);
+
+            const extractedTimezone: IExtractedTimezone = {
+                countryCodes: allCodes,
                 coordinates: parseCoordinates(coordinates),
                 timezoneName: removeLineBreaks(timezoneName),
+                geographicArea: geographicArea,
+                geographicAreaDisplayName: geographicAreaDisplayName(geographicArea),
+                location,
+                locationDisplayName: formatLocation(location),
                 comments: comments || null
-            }
+            };
+            return extractedTimezone
         });
 
     return {
@@ -67,7 +46,7 @@ function parseCoordinates(coordinates: string): ICoordinates {
     const _coordinates = parseTzdataCoordinate(coordinates);
     ['longitude', 'latitude'].forEach((latlong) => {
         // add a negative variable for use with the handlebars templates
-        const coordinate = _coordinates[latlong]
+        const coordinate = _coordinates[latlong];
         coordinate.negative = Boolean(coordinate.sign === '-');
 
         // always return seconds .. just return null when they are not present
@@ -79,14 +58,6 @@ function parseCoordinates(coordinates: string): ICoordinates {
         coordinate.decimal = convertToDecimal(coordinate)
     });
     return _coordinates
-}
-
-function isValidZoneTabRow(row: string[]) {
-    // A valid row looks like:
-    // [ 'AU', '-3157+14127', 'Australia/Broken_Hill', 'New South Wales (Yancowinna)' ],
-
-    const countryCodeValid = /^[A-Z]{2}$/.test(row[0]);
-    return countryCodeValid
 }
 
 function convertToDecimal(coordinate: {sign: string, degree: string, minute: string, second: string | null}) {
@@ -101,5 +72,19 @@ function convertToDecimal(coordinate: {sign: string, degree: string, minute: str
         return result.toNumber()
     } else {
         return -result.toNumber()
+    }
+}
+
+// add Ocean to the geographicArea for extra context
+function geographicAreaDisplayName(area: string) {
+    switch(area) {
+        case 'Indian':
+            return 'Indian Ocean';
+        case 'Atlantic':
+            return 'Atlantic Ocean';
+        case 'Pacific':
+            return 'Pacific Ocean';
+        default:
+            return area;
     }
 }
