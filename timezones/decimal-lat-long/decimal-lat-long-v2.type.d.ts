@@ -2,11 +2,15 @@ export interface IDecimalLatLong {
     IANAVersion: string;
     originalFileName: string;
     numberOfZones: number;
-    zones: IZones[];
+    zones: IZone[];
 }
-export interface IZones {
+export interface IZone {
     countryCodes: string[];
     timezone: string;
+    geographicArea: string;
+    geographicAreaDisplayName: string;
+    location: string;
+    locationDisplayName: string;
     coordinates: {
         latitude: number;
         longitude: number;

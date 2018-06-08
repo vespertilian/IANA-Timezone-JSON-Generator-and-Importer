@@ -14,10 +14,12 @@
     "zones": [
     {{#each zones}}
         {
-            "geographicArea": "{{ geographicArea }}",
-            "geographicAreaDisplayName": "{{ geographicAreaDisplayName }}",
-            "countryCodes": {{> countryCodesPartial countryCodes}},
-            "timezone": "{{timezoneName}}",
+        "countryCodes": {{> countryCodesPartial countryCodes}},
+        "timezone": "{{timezoneName}}",
+        "geographicArea": "{{ geographicArea }}",
+        "geographicAreaDisplayName": "{{ geographicAreaDisplayName }}",
+        "location": "{{ location }}",
+        "locationDisplayName": "{{ locationDisplayName }}",
             "coordinates": {
                 "latitude": {{coordinates.latitude.decimal}},
                 "longitude": {{coordinates.longitude.decimal}}
