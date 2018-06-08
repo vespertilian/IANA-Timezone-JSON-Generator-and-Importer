@@ -12,7 +12,7 @@ interface LocationListValue {
     displayName: string
 }
 
-interface GeographicAreaListValue {
+export interface GeographicAreaListValue {
     geographicAreaName: string,
     displayName: string
 }
@@ -80,7 +80,7 @@ export function createFiles(extractedTimezoneData: IExtractedTimezoneData): File
     return files;
 }
 
-function alphabeticGeographicAreaNameSort(a: GeographicAreaListValue, b: GeographicAreaListValue) {
+export function alphabeticGeographicAreaNameSort(a: GeographicAreaListValue, b: GeographicAreaListValue) {
     const nameA = a.displayName.toUpperCase();
     const nameB = b.displayName.toUpperCase();
 
@@ -91,7 +91,6 @@ function alphabeticGeographicAreaNameSort(a: GeographicAreaListValue, b: Geograp
     if(nameA > nameB) {
         return 1;
     }
-
     return 0;
 }
 

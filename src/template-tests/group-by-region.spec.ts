@@ -1,4 +1,8 @@
-import {createFiles as groupByRegionCreateFiles, formatLocation} from '../../templates/group-by-region/group-by-region'
+import {
+    alphabeticGeographicAreaNameSort,
+    createFiles as groupByRegionCreateFiles,
+    formatLocation
+} from '../../templates/group-by-region/group-by-region'
 
 describe('formatLocation', () => {
     it('should turn a location string into a location object', () => {
@@ -45,6 +49,26 @@ describe('group-by-region template', () => {
 
         const geographicValues = JSON.parse(geographicList.json);
         expect(geographicValues).toEqual(expectedGeographicList);
+    })
+});
+
+describe('alphabeticGeographicAreaNameSort', () => {
+    it('should return -1 when name a is before name b', () => {
+        const a = {displayName: 'a'} as any;
+        const b = {displayName: 'b'} as any;
+        expect(alphabeticGeographicAreaNameSort(a, b)).toEqual(-1)
+    });
+
+    it('should return 1 when name b is before name a', () => {
+        const a = {displayName: 'd'} as any;
+        const b = {displayName: 'c'} as any;
+        expect(alphabeticGeographicAreaNameSort(a, b)).toEqual(1)
+    });
+
+    it('should return 0 when the names are equal', () => {
+        const a = {displayName: 'e'} as any;
+        const b = {displayName: 'e'} as any;
+        expect(alphabeticGeographicAreaNameSort(a, b)).toEqual(0)
     })
 });
 

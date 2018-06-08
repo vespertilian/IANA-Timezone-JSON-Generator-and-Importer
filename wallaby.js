@@ -10,6 +10,7 @@ module.exports = function () {
             'src/extract-tz-data/zone1970-test-file.tab',
             'src/create-json-from-templates-and-zone-data/test-zone1970.tab',
             'src/create-json-from-ts-function/test.ts',
+            'src/create-json-from-ts-function/test-dir/testb.ts',
             'src/create-json-from-handlebars-templates/test-template.hbs',
             'src/create-json-from-handlebars-templates/invalid-test-template.hbs',
             { pattern: 'timezones/**/*', load: false},

@@ -1,9 +1,7 @@
 import {ICreateJSONFromTemplatesParams} from '../create-json-from-templates-and-zone-data/create-json-from-templates-and-zone-data';
-import {ensureExistsAsync, readFileAsync, writeFileAsync} from '../util/util';
+import {ensureExistsAsync, writeFileAsync} from '../util/util';
 import * as path from 'path';
 import {CreationFile} from '../types-for-ts-templates';
-
-
 
 export async function createJsonFromTsFunctions(
     params: ICreateJSONFromTemplatesParams,
