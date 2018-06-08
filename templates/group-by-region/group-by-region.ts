@@ -1,38 +1,19 @@
 import {FileToBeCreated, IExtractedTimezoneData} from '../../src/types-for-ts-templates';
-
-interface GeographicAreaMap {
-    [geographicAreaName: string]: {
-        geographicAreaDisplayName: string,
-        geographicAreaName: string;
-        locationList: LocationListValue[]
-    }
-}
-
-interface LocationListValue {
-    location: string,
-    displayName: string
-}
-
-export interface GeographicAreaListValue {
-    geographicAreaName: string,
-    geographicAreaDisplayName: string
-}
+import {GeographicAreaListValue, GeographicAreaMap} from './group-by-region.type';
 
 export function createFiles(extractedTimezoneData: IExtractedTimezoneData): FileToBeCreated[] {
     const geographicAreas = extractedTimezoneData.zones.reduce((acc, zone) => {
-        const {geographicArea, location, geographicAreaDisplayName} = zone;
-
-        const _location = formatLocation(location);
+        const {geographicArea, location, locationDisplayName, geographicAreaDisplayName} = zone;
 
         if(!acc[geographicArea]) {
             acc[geographicArea] = {
-                geographicAreaName: geographicArea,
+                geographicArea,
                 geographicAreaDisplayName,
-                locationList: [_location],
+                locationList: [{location, locationDisplayName}],
             }
         } else {
             const geoArea = acc[geographicArea];
-            geoArea.locationList.push(_location);
+            geoArea.locationList.push({location, locationDisplayName});
         }
 
         return acc;
@@ -40,9 +21,9 @@ export function createFiles(extractedTimezoneData: IExtractedTimezoneData): File
 
     const areaList: GeographicAreaListValue[] = Object.keys(geographicAreas)
         .map(areaKey => {
-            const {geographicAreaDisplayName, geographicAreaName} = geographicAreas[areaKey];
+            const {geographicAreaDisplayName, geographicArea} = geographicAreas[areaKey];
             const result = {
-                geographicAreaName,
+                geographicArea,
                 geographicAreaDisplayName
             };
             return result
@@ -50,10 +31,10 @@ export function createFiles(extractedTimezoneData: IExtractedTimezoneData): File
         .sort(alphabeticGeographicAreaNameSort);
 
     const files = areaList
-        .map(({geographicAreaName}) => {
+        .map(({geographicArea}) => {
         return {
-            fileName: geographicAreaName,
-            json: JSON.stringify(geographicAreas[geographicAreaName])
+            fileName: geographicArea,
+            json: JSON.stringify(geographicAreas[geographicArea])
         }
     });
 
@@ -79,9 +60,4 @@ export function alphabeticGeographicAreaNameSort(a: GeographicAreaListValue, b: 
     return 0;
 }
 
-export function formatLocation(location: string) {
-    const displayName = location
-        .replace('/', ' - ')
-        .replace('_', ' ');
-    return {location, displayName}
-}
+

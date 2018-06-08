@@ -6,7 +6,8 @@ import {removeLineBreaks} from '../util/util';
 import * as math from 'mathjs'
 import {isValidZoneTabRow} from './is-valid-zone-tab-row';
 import {extractGeographicAreaAndLocation} from './extract-geographic-area-and-location';
-import {ICoordinates, IExtractedTimezoneData} from '../types-for-ts-templates';
+import {ICoordinates, IExtractedTimezone, IExtractedTimezoneData} from '../types-for-ts-templates';
+import {formatLocation} from './format-location';
 
 export function extractTzData(zoneData: any, zoneFileName: string): IExtractedTimezoneData {
     const separator = '\t';
@@ -14,21 +15,23 @@ export function extractTzData(zoneData: any, zoneFileName: string): IExtractedTi
 
     const filteredZoneData = parsedCSV.filter(isValidZoneTabRow);
 
-    const zones = filteredZoneData
+    const zones: IExtractedTimezone[] = filteredZoneData
         .map(zoneData => {
             const [countryCodes , coordinates, timezoneName, comments] = zoneData;
             const allCodes = countryCodes.split(',');
             const {geographicArea, location} = extractGeographicAreaAndLocation(timezoneName);
 
-            return {
+            const extractedTimezone: IExtractedTimezone = {
                 countryCodes: allCodes,
                 coordinates: parseCoordinates(coordinates),
                 timezoneName: removeLineBreaks(timezoneName),
                 geographicArea: geographicArea,
                 geographicAreaDisplayName: geographicAreaDisplayName(geographicArea),
-                location: location,
+                location,
+                locationDisplayName: formatLocation(location),
                 comments: comments || null
-            }
+            };
+            return extractedTimezone
         });
 
     return {

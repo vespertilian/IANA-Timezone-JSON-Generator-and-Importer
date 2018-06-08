@@ -1,21 +1,7 @@
 import {
     alphabeticGeographicAreaNameSort,
     createFiles as groupByRegionCreateFiles,
-    formatLocation
 } from '../../templates/group-by-region/group-by-region'
-
-describe('formatLocation', () => {
-    it('should turn a location string into a location object', () => {
-        expect(formatLocation('Sydney'))
-            .toEqual({location: 'Sydney', displayName: 'Sydney'});
-
-        expect(formatLocation('Argentina/Tucuman'))
-            .toEqual({location: 'Argentina/Tucuman', displayName: 'Argentina - Tucuman'});
-
-        expect(formatLocation('Cape_Verde'))
-            .toEqual({location: 'Cape_Verde', displayName: 'Cape Verde'});
-    })
-});
 
 describe('group-by-region template', () => {
     it('should convert the data into the correct files', () => {
@@ -25,26 +11,27 @@ describe('group-by-region template', () => {
         const americaValues = JSON.parse(america.json);
         const atlanticValues = JSON.parse(atlantic.json);
 
+        americaValues.locationList //?
         expect(americaValues.locationList).toEqual([
-            {"location": 'Argentina/Tucuman', "displayName": "Argentina - Tucuman"}
+            {"location": 'Argentina/Tucuman', "locationDisplayName": "Argentina - Tucuman"}
         ]);
 
         expect(atlanticValues.locationList).toEqual([
-            {"location": 'Cape_Verde', "displayName": "Cape Verde"}
+            {"location": 'Cape_Verde', "locationDisplayName": "Cape Verde"}
         ]);
 
         expect(australiaValues.locationList).toEqual([
-            {"location": 'Sydney', "displayName": "Sydney"},
-            {"location": 'Melbourne', "displayName": "Melbourne"}
+            {"location": 'Sydney', "locationDisplayName": "Sydney"},
+            {"location": 'Melbourne', "locationDisplayName": "Melbourne"}
         ]);
 
         const expectedGeographicList = [
-            {"geographicAreaName":"America","geographicAreaDisplayName":"America"},
-            {"geographicAreaName":"Atlantic","geographicAreaDisplayName":"Atlantic Ocean"},
-            {"geographicAreaName":"Australia","geographicAreaDisplayName":"Australia"},
-            {"geographicAreaName":"Europe","geographicAreaDisplayName":"Europe"},
-            {"geographicAreaName":"Indian","geographicAreaDisplayName":"Indian Ocean"},
-            {"geographicAreaName":"Pacific","geographicAreaDisplayName":"Pacific Ocean"}
+            {"geographicArea":"America","geographicAreaDisplayName":"America"},
+            {"geographicArea":"Atlantic","geographicAreaDisplayName":"Atlantic Ocean"},
+            {"geographicArea":"Australia","geographicAreaDisplayName":"Australia"},
+            {"geographicArea":"Europe","geographicAreaDisplayName":"Europe"},
+            {"geographicArea":"Indian","geographicAreaDisplayName":"Indian Ocean"},
+            {"geographicArea":"Pacific","geographicAreaDisplayName":"Pacific Ocean"}
         ];
 
         const geographicValues = JSON.parse(geographicList.json);
@@ -82,6 +69,7 @@ const groupByRegionSampleExtractedData = {
             geographicArea: 'Australia',
             geographicAreaDisplayName: 'Australia',
             location: 'Sydney',
+            locationDisplayName: 'Sydney',
             comments: 'New South Wales (most areas)'
         },
         {
@@ -92,6 +80,7 @@ const groupByRegionSampleExtractedData = {
             timezoneName: 'Australia/Melbourne',
             geographicAreaDisplayName: 'Australia',
             location: 'Melbourne',
+            locationDisplayName: 'Melbourne',
             comments: 'Victoria'
         },
         {
@@ -102,6 +91,7 @@ const groupByRegionSampleExtractedData = {
             geographicArea: 'America',
             geographicAreaDisplayName: 'America',
             location: 'Argentina/Tucuman',
+            locationDisplayName: 'Argentina - Tucuman',
             comments: 'Tucumán (TM)'
         },
         {
@@ -115,6 +105,7 @@ const groupByRegionSampleExtractedData = {
             geographicArea: 'Europe',
             geographicAreaDisplayName: 'Europe',
             location: 'London',
+            locationDisplayName: 'London',
             comments: null
         },
         {
@@ -125,6 +116,7 @@ const groupByRegionSampleExtractedData = {
             geographicArea: "Indian",
             geographicAreaDisplayName: "Indian Ocean",
             location: "Cocos",
+            locationDisplayName: "Cocos",
             comments: null
         },
         {
@@ -135,6 +127,7 @@ const groupByRegionSampleExtractedData = {
             geographicArea: "Atlantic",
             geographicAreaDisplayName: "Atlantic Ocean",
             location: "Cape_Verde",
+            locationDisplayName: "Cape Verde",
             comments: null
         },
         {
@@ -145,6 +138,7 @@ const groupByRegionSampleExtractedData = {
             geographicArea: "Pacific",
             geographicAreaDisplayName: "Pacific Ocean",
             location: "Galapagos",
+            locationDisplayName: "Galapgaos",
             comments: "Galápagos Islands"
         },
     ],

@@ -20,12 +20,13 @@ export interface ICoordinates {
 }
 
 export interface IExtractedTimezone {
-    countryCodes: string[],
+    countryCodes: string[]
     coordinates: ICoordinates
     timezoneName: string
     geographicArea: string
-    geographicAreaDisplayName: string,
+    geographicAreaDisplayName: string
     location: string
+    locationDisplayName: string
     comments: string | null
 }
 

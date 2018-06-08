@@ -28,6 +28,7 @@ export const sampleExtractedData: IExtractedTimezoneData = {
             geographicArea: 'Australia',
             geographicAreaDisplayName: 'Australia',
             location: 'Sydney',
+            locationDisplayName: 'Sydney',
             comments: 'New South Wales (most areas)'
         }
     ],

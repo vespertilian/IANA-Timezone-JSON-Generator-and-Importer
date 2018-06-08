@@ -30,6 +30,7 @@ describe('extractTzData', () => {
             geographicAreaDisplayName: 'Indian Ocean',
             geographicArea: 'Indian',
             location: 'Test',
+            locationDisplayName: 'Test',
             comments: 'Foo'
         };
 
@@ -60,6 +61,7 @@ describe('extractTzData', () => {
             geographicArea: 'Cameron',
             geographicAreaDisplayName: 'Cameron',
             location: 'TestA',
+            locationDisplayName: 'TestA',
             comments: null
         };
 
