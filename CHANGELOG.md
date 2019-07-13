@@ -1,3 +1,13 @@
+<a name="0.3.0"></a>
+# [0.3.0](https://github.com/vespertilian/IANA-Timezone-JSON-Generator-and-Importer/compare/v0.2.0...v0.3.0) (2019-07-13)
+
+
+### Features
+
+* **src / templates:** added group-by-region-with-country-codes template ([5001994](https://github.com/vespertilian/IANA-Timezone-JSON-Generator-and-Importer/commit/5001994))
+
+
+
 <a name="0.2.0"></a>
 # [0.2.0](https://github.com/vespertilian/IANA-Timezone-JSON-Generator-and-Importer/compare/v0.1.5...v0.2.0) (2018-06-08)
 
