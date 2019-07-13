@@ -38,7 +38,9 @@ export async function createJSONFromTemplatesAndZoneData(
     const handlebarsTemplateFileNames = allFiles.filter(isHandleBarsFile);
     const typescriptFiles = allFiles.filter(isTypescriptFile);
 
-    zoneFileNames.forEach(async(zoneFileName) => {
+    // for loop works with await
+    for (let index = 0; index < zoneFileNames.length; index++) {
+        const zoneFileName = zoneFileNames[index];
         const extractedZoneData = await _extractTzData(zoneData, zoneFileName);
 
         await _createJSONFromHandlebarsTemplates({
@@ -55,8 +57,8 @@ export async function createJSONFromTemplatesAndZoneData(
             templatesPath,
             zoneFileName,
             saveDirectory
-        })
-    })
+        });
+    }
 }
 
 function isHandleBarsFile(filename: string) {

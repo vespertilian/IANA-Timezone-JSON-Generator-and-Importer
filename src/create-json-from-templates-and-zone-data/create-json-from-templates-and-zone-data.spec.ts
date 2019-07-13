@@ -40,9 +40,9 @@ describe('.createJSONFromTemplatesAndZoneData', () => {
 
     it('should call .createJSONFromHandlebarsTemplates with custom parameters and get files and zone data', async() => {
         const createJSONFromHandlebarsTemplatesSpy = jasmine
-            .createSpy('createJSONFromHandlebarsTemplates');
+            .createSpy('createJSONFromHandlebarsTemplatesSpy').and.returnValue(Promise.resolve('templateSpyResult'));
         const createJSONFromTsFunctionSpy = jasmine
-            .createSpy('createJSONFromHandlebarsTemplates');
+            .createSpy('createJSONFromTsFunctionSpy').and.returnValue(Promise.resolve('tsFunctionSpyResult'));
 
         const getIANATzDataStub = jasmine.createSpy('getIANATzDataSpy');
 
@@ -55,12 +55,14 @@ describe('.createJSONFromTemplatesAndZoneData', () => {
             .createSpy('walkAsyncSpy')
             .and.returnValue(new Promise((resolve, reject) => { resolve(['foo.hbs']) }));
 
+        const settings = {
+            templatesPath: 'fooTemplates',
+            saveDirectory: 'fooSaveDirectory',
+            zoneFileNames: ['foo.bar']
+        } as any; // settings
+
         await createJSONFromTemplatesAndZoneData(
-            {
-                templatesPath: 'fooTemplates',
-                saveDirectory: 'fooSaveDirectory',
-                zoneFileNames: ['foo.bar']
-            } as any, // settings
+            settings,
             getIANATzDataStub,
             createJSONFromHandlebarsTemplatesSpy,
             createJSONFromTsFunctionSpy,
