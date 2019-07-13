@@ -8,6 +8,7 @@ import {isValidZoneTabRow} from './is-valid-zone-tab-row';
 import {extractGeographicAreaAndLocation} from './extract-geographic-area-and-location';
 import {ICoordinates, IExtractedTimezone, IExtractedTimezoneData} from '../types-for-ts-templates';
 import {formatLocation} from './format-location';
+import { BigNumber, Fraction } from 'mathjs';
 
 export function extractTzData(zoneData: any, zoneFileName: string): IExtractedTimezoneData {
     const separator = '\t';
@@ -63,9 +64,9 @@ function parseCoordinates(coordinates: string): ICoordinates {
 function convertToDecimal(coordinate: {sign: string, degree: string, minute: string, second: string | null}) {
     // use the math library for more accurate calculations with floating point numbers
     const decimalDegrees = math.bignumber(coordinate.degree);
-    const decimalMinutes =  math.divide(math.bignumber(coordinate.minute), math.bignumber(60));
-    const decimalSeconds = coordinate.second ?
-        math.divide(math.bignumber(coordinate.second), math.bignumber(3600))
+    const decimalMinutes =  math.divide(math.bignumber(coordinate.minute), math.bignumber(60)) as Fraction;
+    const decimalSeconds: Fraction | BigNumber = coordinate.second
+        ? math.divide(math.bignumber(coordinate.second), math.bignumber(3600)) as Fraction
         : math.bignumber(0);
     const result: any = math.round(math.sum(decimalDegrees, decimalMinutes, decimalSeconds), 6)
     if(coordinate.sign === '+') {
