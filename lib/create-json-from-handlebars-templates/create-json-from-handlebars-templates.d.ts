@@ -5,6 +5,6 @@ export interface ICreateJSONSettings {
     zoneFileNames: string[];
 }
 export declare function createJSONFromHandlebarsTemplates(params: ICreateJSONFromTemplatesParams, _writeFileAsync?: any, _readFileAsync?: any, _ensureExistsAsync?: any, _log?: {
-    (message?: any, ...optionalParams: any[]): void;
+    (...data: any[]): void;
     (message?: any, ...optionalParams: any[]): void;
 }): Promise<void>;

@@ -1,3 +1,12 @@
+## [0.3.1](https://github.com/vespertilian/IANA-Timezone-JSON-Generator-and-Importer/compare/v0.2.0...v0.3.1) (2021-09-23)
+
+
+### Features
+
+* **timezones/*:** generate tz files for latest IANA data 2021a ([1e38b4a](https://github.com/vespertilian/IANA-Timezone-JSON-Generator-and-Importer/commit/1e38b4ad5cb02d1d452dcfd88d1ecd41f13bbf7d))
+
+
+
 <a name="0.3.0"></a>
 # [0.3.0](https://github.com/vespertilian/IANA-Timezone-JSON-Generator-and-Importer/compare/v0.2.0...v0.3.0) (2019-07-13)
 

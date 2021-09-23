@@ -1,6 +1,6 @@
 {
   "name": "iana-tz-json-generator-and-importer",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Quickly get timezone names and metadata from the IANA into your application in the format you want.",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -35,24 +35,24 @@
   "author": "Cameron Batt",
   "license": "MIT",
   "dependencies": {
-    "csv-string": "^3.1.6",
-    "decompress": "^4.2.0",
+    "conventional-changelog-cli": "^2.1.1",
+    "csv-string": "^3.2.0",
+    "decompress": "^4.2.1",
     "decompress-targz": "^4.1.1",
-    "handlebars": "^4.1.2",
-    "mathjs": "^6.0.3",
-    "node-fetch": "^2.6.0",
+    "handlebars": "^4.7.7",
+    "mathjs": "^6.6.5",
+    "node-fetch": "^2.6.5",
     "parse-tzdata-coordinate": "^1.0.0"
   },
   "devDependencies": {
-    "@types/decompress": "^4.2.3",
-    "@types/jasmine": "^3.3.13",
+    "@types/decompress": "^4.2.4",
+    "@types/jasmine": "^3.9.1",
     "@types/mathjs": "6.0.0",
-    "@types/node-fetch": "^2.3.7",
-    "conventional-changelog-cli": "^1.3.22",
-    "cz-conventional-changelog": "^2.1.0",
-    "jasmine": "^3.4.0",
-    "ts-node": "^8.3.0",
-    "typescript": "^3.5.3"
+    "@types/node-fetch": "^2.5.12",
+    "cz-conventional-changelog": "^3.3.0",
+    "jasmine": "^3.9.0",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.10"
   },
   "config": {
     "commitizen": {

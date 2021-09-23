@@ -1,7 +1,8 @@
+/// <reference types="node" />
 export interface getIANATzDataParams {
     url?: string;
     filesToExtract?: string[];
-    fileEncoding?: string;
+    fileEncoding?: BufferEncoding;
 }
 export interface IANATzDataFiles {
     version: string;

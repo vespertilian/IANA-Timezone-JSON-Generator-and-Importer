@@ -6,7 +6,7 @@ import {removeLineBreaks} from '../util/util';
 export interface getIANATzDataParams {
     url?: string
     filesToExtract?: string[]
-    fileEncoding?: string
+    fileEncoding?: BufferEncoding
 }
 
 interface IANAFileResult {

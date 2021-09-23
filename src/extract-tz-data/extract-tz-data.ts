@@ -12,7 +12,7 @@ import { BigNumber, Fraction } from 'mathjs';
 
 export function extractTzData(zoneData: any, zoneFileName: string): IExtractedTimezoneData {
     const separator = '\t';
-    const parsedCSV: string[][] = CSV.parse(zoneData[zoneFileName], separator);
+    const parsedCSV: string[][] = CSV.parse(zoneData[zoneFileName], separator) as any;
 
     const filteredZoneData = parsedCSV.filter(isValidZoneTabRow);
 
