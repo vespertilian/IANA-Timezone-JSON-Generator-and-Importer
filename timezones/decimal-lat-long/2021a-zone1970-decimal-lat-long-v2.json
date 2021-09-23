@@ -1,0 +1,4946 @@
+{
+    "IANAVersion": "2021a",
+    "originalFileName": "zone1970.tab",
+    "numberOfZones": 347,
+    "zones": [
+        {
+            "countryCodes": [
+                "AD"
+            ],
+            "timezone": "Europe/Andorra",
+            "geographicArea": "Europe",
+            "geographicAreaDisplayName": "Europe",
+            "location": "Andorra",
+            "locationDisplayName": "Andorra",
+            "coordinates": {
+                "latitude": 42.5,
+                "longitude": 1.516667
+            }
+        },
+        {
+            "countryCodes": [
+                "AE",
+                "OM"
+            ],
+            "timezone": "Asia/Dubai",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Dubai",
+            "locationDisplayName": "Dubai",
+            "coordinates": {
+                "latitude": 25.3,
+                "longitude": 55.3
+            }
+        },
+        {
+            "countryCodes": [
+                "AF"
+            ],
+            "timezone": "Asia/Kabul",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Kabul",
+            "locationDisplayName": "Kabul",
+            "coordinates": {
+                "latitude": 34.516667,
+                "longitude": 69.2
+            }
+        },
+        {
+            "countryCodes": [
+                "AL"
+            ],
+            "timezone": "Europe/Tirane",
+            "geographicArea": "Europe",
+            "geographicAreaDisplayName": "Europe",
+            "location": "Tirane",
+            "locationDisplayName": "Tirane",
+            "coordinates": {
+                "latitude": 41.333333,
+                "longitude": 19.833333
+            }
+        },
+        {
+            "countryCodes": [
+                "AM"
+            ],
+            "timezone": "Asia/Yerevan",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Yerevan",
+            "locationDisplayName": "Yerevan",
+            "coordinates": {
+                "latitude": 40.183333,
+                "longitude": 44.5
+            }
+        },
+        {
+            "countryCodes": [
+                "AQ"
+            ],
+            "timezone": "Antarctica/Casey",
+            "geographicArea": "Antarctica",
+            "geographicAreaDisplayName": "Antarctica",
+            "location": "Casey",
+            "locationDisplayName": "Casey",
+            "coordinates": {
+                "latitude": -66.283333,
+                "longitude": 110.516667
+            }
+        },
+        {
+            "countryCodes": [
+                "AQ"
+            ],
+            "timezone": "Antarctica/Davis",
+            "geographicArea": "Antarctica",
+            "geographicAreaDisplayName": "Antarctica",
+            "location": "Davis",
+            "locationDisplayName": "Davis",
+            "coordinates": {
+                "latitude": -68.583333,
+                "longitude": 77.966667
+            }
+        },
+        {
+            "countryCodes": [
+                "AQ"
+            ],
+            "timezone": "Antarctica/DumontDUrville",
+            "geographicArea": "Antarctica",
+            "geographicAreaDisplayName": "Antarctica",
+            "location": "DumontDUrville",
+            "locationDisplayName": "DumontDUrville",
+            "coordinates": {
+                "latitude": -66.666667,
+                "longitude": 140.016667
+            }
+        },
+        {
+            "countryCodes": [
+                "AQ"
+            ],
+            "timezone": "Antarctica/Mawson",
+            "geographicArea": "Antarctica",
+            "geographicAreaDisplayName": "Antarctica",
+            "location": "Mawson",
+            "locationDisplayName": "Mawson",
+            "coordinates": {
+                "latitude": -67.6,
+                "longitude": 62.883333
+            }
+        },
+        {
+            "countryCodes": [
+                "AQ"
+            ],
+            "timezone": "Antarctica/Palmer",
+            "geographicArea": "Antarctica",
+            "geographicAreaDisplayName": "Antarctica",
+            "location": "Palmer",
+            "locationDisplayName": "Palmer",
+            "coordinates": {
+                "latitude": -64.8,
+                "longitude": -64.1
+            }
+        },
+        {
+            "countryCodes": [
+                "AQ"
+            ],
+            "timezone": "Antarctica/Rothera",
+            "geographicArea": "Antarctica",
+            "geographicAreaDisplayName": "Antarctica",
+            "location": "Rothera",
+            "locationDisplayName": "Rothera",
+            "coordinates": {
+                "latitude": -67.566667,
+                "longitude": -68.133333
+            }
+        },
+        {
+            "countryCodes": [
+                "AQ"
+            ],
+            "timezone": "Antarctica/Syowa",
+            "geographicArea": "Antarctica",
+            "geographicAreaDisplayName": "Antarctica",
+            "location": "Syowa",
+            "locationDisplayName": "Syowa",
+            "coordinates": {
+                "latitude": -69.006111,
+                "longitude": 39.59
+            }
+        },
+        {
+            "countryCodes": [
+                "AQ"
+            ],
+            "timezone": "Antarctica/Troll",
+            "geographicArea": "Antarctica",
+            "geographicAreaDisplayName": "Antarctica",
+            "location": "Troll",
+            "locationDisplayName": "Troll",
+            "coordinates": {
+                "latitude": -72.011389,
+                "longitude": 2.535
+            }
+        },
+        {
+            "countryCodes": [
+                "AQ"
+            ],
+            "timezone": "Antarctica/Vostok",
+            "geographicArea": "Antarctica",
+            "geographicAreaDisplayName": "Antarctica",
+            "location": "Vostok",
+            "locationDisplayName": "Vostok",
+            "coordinates": {
+                "latitude": -78.4,
+                "longitude": 106.9
+            }
+        },
+        {
+            "countryCodes": [
+                "AR"
+            ],
+            "timezone": "America/Argentina/Buenos_Aires",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Argentina/Buenos_Aires",
+            "locationDisplayName": "Argentina - Buenos Aires",
+            "coordinates": {
+                "latitude": -34.6,
+                "longitude": -58.45
+            }
+        },
+        {
+            "countryCodes": [
+                "AR"
+            ],
+            "timezone": "America/Argentina/Cordoba",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Argentina/Cordoba",
+            "locationDisplayName": "Argentina - Cordoba",
+            "coordinates": {
+                "latitude": -31.4,
+                "longitude": -64.183333
+            }
+        },
+        {
+            "countryCodes": [
+                "AR"
+            ],
+            "timezone": "America/Argentina/Salta",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Argentina/Salta",
+            "locationDisplayName": "Argentina - Salta",
+            "coordinates": {
+                "latitude": -24.783333,
+                "longitude": -65.416667
+            }
+        },
+        {
+            "countryCodes": [
+                "AR"
+            ],
+            "timezone": "America/Argentina/Jujuy",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Argentina/Jujuy",
+            "locationDisplayName": "Argentina - Jujuy",
+            "coordinates": {
+                "latitude": -24.183333,
+                "longitude": -65.3
+            }
+        },
+        {
+            "countryCodes": [
+                "AR"
+            ],
+            "timezone": "America/Argentina/Tucuman",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Argentina/Tucuman",
+            "locationDisplayName": "Argentina - Tucuman",
+            "coordinates": {
+                "latitude": -26.816667,
+                "longitude": -65.216667
+            }
+        },
+        {
+            "countryCodes": [
+                "AR"
+            ],
+            "timezone": "America/Argentina/Catamarca",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Argentina/Catamarca",
+            "locationDisplayName": "Argentina - Catamarca",
+            "coordinates": {
+                "latitude": -28.466667,
+                "longitude": -65.783333
+            }
+        },
+        {
+            "countryCodes": [
+                "AR"
+            ],
+            "timezone": "America/Argentina/La_Rioja",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Argentina/La_Rioja",
+            "locationDisplayName": "Argentina - La Rioja",
+            "coordinates": {
+                "latitude": -29.433333,
+                "longitude": -66.85
+            }
+        },
+        {
+            "countryCodes": [
+                "AR"
+            ],
+            "timezone": "America/Argentina/San_Juan",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Argentina/San_Juan",
+            "locationDisplayName": "Argentina - San Juan",
+            "coordinates": {
+                "latitude": -31.533333,
+                "longitude": -68.516667
+            }
+        },
+        {
+            "countryCodes": [
+                "AR"
+            ],
+            "timezone": "America/Argentina/Mendoza",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Argentina/Mendoza",
+            "locationDisplayName": "Argentina - Mendoza",
+            "coordinates": {
+                "latitude": -32.883333,
+                "longitude": -68.816667
+            }
+        },
+        {
+            "countryCodes": [
+                "AR"
+            ],
+            "timezone": "America/Argentina/San_Luis",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Argentina/San_Luis",
+            "locationDisplayName": "Argentina - San Luis",
+            "coordinates": {
+                "latitude": -33.316667,
+                "longitude": -66.35
+            }
+        },
+        {
+            "countryCodes": [
+                "AR"
+            ],
+            "timezone": "America/Argentina/Rio_Gallegos",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Argentina/Rio_Gallegos",
+            "locationDisplayName": "Argentina - Rio Gallegos",
+            "coordinates": {
+                "latitude": -51.633333,
+                "longitude": -69.216667
+            }
+        },
+        {
+            "countryCodes": [
+                "AR"
+            ],
+            "timezone": "America/Argentina/Ushuaia",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Argentina/Ushuaia",
+            "locationDisplayName": "Argentina - Ushuaia",
+            "coordinates": {
+                "latitude": -54.8,
+                "longitude": -68.3
+            }
+        },
+        {
+            "countryCodes": [
+                "AS",
+                "UM"
+            ],
+            "timezone": "Pacific/Pago_Pago",
+            "geographicArea": "Pacific",
+            "geographicAreaDisplayName": "Pacific Ocean",
+            "location": "Pago_Pago",
+            "locationDisplayName": "Pago Pago",
+            "coordinates": {
+                "latitude": -14.266667,
+                "longitude": -170.7
+            }
+        },
+        {
+            "countryCodes": [
+                "AT"
+            ],
+            "timezone": "Europe/Vienna",
+            "geographicArea": "Europe",
+            "geographicAreaDisplayName": "Europe",
+            "location": "Vienna",
+            "locationDisplayName": "Vienna",
+            "coordinates": {
+                "latitude": 48.216667,
+                "longitude": 16.333333
+            }
+        },
+        {
+            "countryCodes": [
+                "AU"
+            ],
+            "timezone": "Australia/Lord_Howe",
+            "geographicArea": "Australia",
+            "geographicAreaDisplayName": "Australia",
+            "location": "Lord_Howe",
+            "locationDisplayName": "Lord Howe",
+            "coordinates": {
+                "latitude": -31.55,
+                "longitude": 159.083333
+            }
+        },
+        {
+            "countryCodes": [
+                "AU"
+            ],
+            "timezone": "Antarctica/Macquarie",
+            "geographicArea": "Antarctica",
+            "geographicAreaDisplayName": "Antarctica",
+            "location": "Macquarie",
+            "locationDisplayName": "Macquarie",
+            "coordinates": {
+                "latitude": -54.5,
+                "longitude": 158.95
+            }
+        },
+        {
+            "countryCodes": [
+                "AU"
+            ],
+            "timezone": "Australia/Hobart",
+            "geographicArea": "Australia",
+            "geographicAreaDisplayName": "Australia",
+            "location": "Hobart",
+            "locationDisplayName": "Hobart",
+            "coordinates": {
+                "latitude": -42.883333,
+                "longitude": 147.316667
+            }
+        },
+        {
+            "countryCodes": [
+                "AU"
+            ],
+            "timezone": "Australia/Melbourne",
+            "geographicArea": "Australia",
+            "geographicAreaDisplayName": "Australia",
+            "location": "Melbourne",
+            "locationDisplayName": "Melbourne",
+            "coordinates": {
+                "latitude": -37.816667,
+                "longitude": 144.966667
+            }
+        },
+        {
+            "countryCodes": [
+                "AU"
+            ],
+            "timezone": "Australia/Sydney",
+            "geographicArea": "Australia",
+            "geographicAreaDisplayName": "Australia",
+            "location": "Sydney",
+            "locationDisplayName": "Sydney",
+            "coordinates": {
+                "latitude": -33.866667,
+                "longitude": 151.216667
+            }
+        },
+        {
+            "countryCodes": [
+                "AU"
+            ],
+            "timezone": "Australia/Broken_Hill",
+            "geographicArea": "Australia",
+            "geographicAreaDisplayName": "Australia",
+            "location": "Broken_Hill",
+            "locationDisplayName": "Broken Hill",
+            "coordinates": {
+                "latitude": -31.95,
+                "longitude": 141.45
+            }
+        },
+        {
+            "countryCodes": [
+                "AU"
+            ],
+            "timezone": "Australia/Brisbane",
+            "geographicArea": "Australia",
+            "geographicAreaDisplayName": "Australia",
+            "location": "Brisbane",
+            "locationDisplayName": "Brisbane",
+            "coordinates": {
+                "latitude": -27.466667,
+                "longitude": 153.033333
+            }
+        },
+        {
+            "countryCodes": [
+                "AU"
+            ],
+            "timezone": "Australia/Lindeman",
+            "geographicArea": "Australia",
+            "geographicAreaDisplayName": "Australia",
+            "location": "Lindeman",
+            "locationDisplayName": "Lindeman",
+            "coordinates": {
+                "latitude": -20.266667,
+                "longitude": 149
+            }
+        },
+        {
+            "countryCodes": [
+                "AU"
+            ],
+            "timezone": "Australia/Adelaide",
+            "geographicArea": "Australia",
+            "geographicAreaDisplayName": "Australia",
+            "location": "Adelaide",
+            "locationDisplayName": "Adelaide",
+            "coordinates": {
+                "latitude": -34.916667,
+                "longitude": 138.583333
+            }
+        },
+        {
+            "countryCodes": [
+                "AU"
+            ],
+            "timezone": "Australia/Darwin",
+            "geographicArea": "Australia",
+            "geographicAreaDisplayName": "Australia",
+            "location": "Darwin",
+            "locationDisplayName": "Darwin",
+            "coordinates": {
+                "latitude": -12.466667,
+                "longitude": 130.833333
+            }
+        },
+        {
+            "countryCodes": [
+                "AU"
+            ],
+            "timezone": "Australia/Perth",
+            "geographicArea": "Australia",
+            "geographicAreaDisplayName": "Australia",
+            "location": "Perth",
+            "locationDisplayName": "Perth",
+            "coordinates": {
+                "latitude": -31.95,
+                "longitude": 115.85
+            }
+        },
+        {
+            "countryCodes": [
+                "AU"
+            ],
+            "timezone": "Australia/Eucla",
+            "geographicArea": "Australia",
+            "geographicAreaDisplayName": "Australia",
+            "location": "Eucla",
+            "locationDisplayName": "Eucla",
+            "coordinates": {
+                "latitude": -31.716667,
+                "longitude": 128.866667
+            }
+        },
+        {
+            "countryCodes": [
+                "AZ"
+            ],
+            "timezone": "Asia/Baku",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Baku",
+            "locationDisplayName": "Baku",
+            "coordinates": {
+                "latitude": 40.383333,
+                "longitude": 49.85
+            }
+        },
+        {
+            "countryCodes": [
+                "BB"
+            ],
+            "timezone": "America/Barbados",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Barbados",
+            "locationDisplayName": "Barbados",
+            "coordinates": {
+                "latitude": 13.1,
+                "longitude": -59.616667
+            }
+        },
+        {
+            "countryCodes": [
+                "BD"
+            ],
+            "timezone": "Asia/Dhaka",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Dhaka",
+            "locationDisplayName": "Dhaka",
+            "coordinates": {
+                "latitude": 23.716667,
+                "longitude": 90.416667
+            }
+        },
+        {
+            "countryCodes": [
+                "BE"
+            ],
+            "timezone": "Europe/Brussels",
+            "geographicArea": "Europe",
+            "geographicAreaDisplayName": "Europe",
+            "location": "Brussels",
+            "locationDisplayName": "Brussels",
+            "coordinates": {
+                "latitude": 50.833333,
+                "longitude": 4.333333
+            }
+        },
+        {
+            "countryCodes": [
+                "BG"
+            ],
+            "timezone": "Europe/Sofia",
+            "geographicArea": "Europe",
+            "geographicAreaDisplayName": "Europe",
+            "location": "Sofia",
+            "locationDisplayName": "Sofia",
+            "coordinates": {
+                "latitude": 42.683333,
+                "longitude": 23.316667
+            }
+        },
+        {
+            "countryCodes": [
+                "BM"
+            ],
+            "timezone": "Atlantic/Bermuda",
+            "geographicArea": "Atlantic",
+            "geographicAreaDisplayName": "Atlantic Ocean",
+            "location": "Bermuda",
+            "locationDisplayName": "Bermuda",
+            "coordinates": {
+                "latitude": 32.283333,
+                "longitude": -64.766667
+            }
+        },
+        {
+            "countryCodes": [
+                "BN"
+            ],
+            "timezone": "Asia/Brunei",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Brunei",
+            "locationDisplayName": "Brunei",
+            "coordinates": {
+                "latitude": 4.933333,
+                "longitude": 114.916667
+            }
+        },
+        {
+            "countryCodes": [
+                "BO"
+            ],
+            "timezone": "America/La_Paz",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "La_Paz",
+            "locationDisplayName": "La Paz",
+            "coordinates": {
+                "latitude": -16.5,
+                "longitude": -68.15
+            }
+        },
+        {
+            "countryCodes": [
+                "BR"
+            ],
+            "timezone": "America/Noronha",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Noronha",
+            "locationDisplayName": "Noronha",
+            "coordinates": {
+                "latitude": -3.85,
+                "longitude": -32.416667
+            }
+        },
+        {
+            "countryCodes": [
+                "BR"
+            ],
+            "timezone": "America/Belem",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Belem",
+            "locationDisplayName": "Belem",
+            "coordinates": {
+                "latitude": -1.45,
+                "longitude": -48.483333
+            }
+        },
+        {
+            "countryCodes": [
+                "BR"
+            ],
+            "timezone": "America/Fortaleza",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Fortaleza",
+            "locationDisplayName": "Fortaleza",
+            "coordinates": {
+                "latitude": -3.716667,
+                "longitude": -38.5
+            }
+        },
+        {
+            "countryCodes": [
+                "BR"
+            ],
+            "timezone": "America/Recife",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Recife",
+            "locationDisplayName": "Recife",
+            "coordinates": {
+                "latitude": -8.05,
+                "longitude": -34.9
+            }
+        },
+        {
+            "countryCodes": [
+                "BR"
+            ],
+            "timezone": "America/Araguaina",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Araguaina",
+            "locationDisplayName": "Araguaina",
+            "coordinates": {
+                "latitude": -7.2,
+                "longitude": -48.2
+            }
+        },
+        {
+            "countryCodes": [
+                "BR"
+            ],
+            "timezone": "America/Maceio",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Maceio",
+            "locationDisplayName": "Maceio",
+            "coordinates": {
+                "latitude": -9.666667,
+                "longitude": -35.716667
+            }
+        },
+        {
+            "countryCodes": [
+                "BR"
+            ],
+            "timezone": "America/Bahia",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Bahia",
+            "locationDisplayName": "Bahia",
+            "coordinates": {
+                "latitude": -12.983333,
+                "longitude": -38.516667
+            }
+        },
+        {
+            "countryCodes": [
+                "BR"
+            ],
+            "timezone": "America/Sao_Paulo",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Sao_Paulo",
+            "locationDisplayName": "Sao Paulo",
+            "coordinates": {
+                "latitude": -23.533333,
+                "longitude": -46.616667
+            }
+        },
+        {
+            "countryCodes": [
+                "BR"
+            ],
+            "timezone": "America/Campo_Grande",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Campo_Grande",
+            "locationDisplayName": "Campo Grande",
+            "coordinates": {
+                "latitude": -20.45,
+                "longitude": -54.616667
+            }
+        },
+        {
+            "countryCodes": [
+                "BR"
+            ],
+            "timezone": "America/Cuiaba",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Cuiaba",
+            "locationDisplayName": "Cuiaba",
+            "coordinates": {
+                "latitude": -15.583333,
+                "longitude": -56.083333
+            }
+        },
+        {
+            "countryCodes": [
+                "BR"
+            ],
+            "timezone": "America/Santarem",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Santarem",
+            "locationDisplayName": "Santarem",
+            "coordinates": {
+                "latitude": -2.433333,
+                "longitude": -54.866667
+            }
+        },
+        {
+            "countryCodes": [
+                "BR"
+            ],
+            "timezone": "America/Porto_Velho",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Porto_Velho",
+            "locationDisplayName": "Porto Velho",
+            "coordinates": {
+                "latitude": -8.766667,
+                "longitude": -63.9
+            }
+        },
+        {
+            "countryCodes": [
+                "BR"
+            ],
+            "timezone": "America/Boa_Vista",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Boa_Vista",
+            "locationDisplayName": "Boa Vista",
+            "coordinates": {
+                "latitude": 2.816667,
+                "longitude": -60.666667
+            }
+        },
+        {
+            "countryCodes": [
+                "BR"
+            ],
+            "timezone": "America/Manaus",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Manaus",
+            "locationDisplayName": "Manaus",
+            "coordinates": {
+                "latitude": -3.133333,
+                "longitude": -60.016667
+            }
+        },
+        {
+            "countryCodes": [
+                "BR"
+            ],
+            "timezone": "America/Eirunepe",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Eirunepe",
+            "locationDisplayName": "Eirunepe",
+            "coordinates": {
+                "latitude": -6.666667,
+                "longitude": -69.866667
+            }
+        },
+        {
+            "countryCodes": [
+                "BR"
+            ],
+            "timezone": "America/Rio_Branco",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Rio_Branco",
+            "locationDisplayName": "Rio Branco",
+            "coordinates": {
+                "latitude": -9.966667,
+                "longitude": -67.8
+            }
+        },
+        {
+            "countryCodes": [
+                "BS"
+            ],
+            "timezone": "America/Nassau",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Nassau",
+            "locationDisplayName": "Nassau",
+            "coordinates": {
+                "latitude": 25.083333,
+                "longitude": -77.35
+            }
+        },
+        {
+            "countryCodes": [
+                "BT"
+            ],
+            "timezone": "Asia/Thimphu",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Thimphu",
+            "locationDisplayName": "Thimphu",
+            "coordinates": {
+                "latitude": 27.466667,
+                "longitude": 89.65
+            }
+        },
+        {
+            "countryCodes": [
+                "BY"
+            ],
+            "timezone": "Europe/Minsk",
+            "geographicArea": "Europe",
+            "geographicAreaDisplayName": "Europe",
+            "location": "Minsk",
+            "locationDisplayName": "Minsk",
+            "coordinates": {
+                "latitude": 53.9,
+                "longitude": 27.566667
+            }
+        },
+        {
+            "countryCodes": [
+                "BZ"
+            ],
+            "timezone": "America/Belize",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Belize",
+            "locationDisplayName": "Belize",
+            "coordinates": {
+                "latitude": 17.5,
+                "longitude": -88.2
+            }
+        },
+        {
+            "countryCodes": [
+                "CA"
+            ],
+            "timezone": "America/St_Johns",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "St_Johns",
+            "locationDisplayName": "St Johns",
+            "coordinates": {
+                "latitude": 47.566667,
+                "longitude": -52.716667
+            }
+        },
+        {
+            "countryCodes": [
+                "CA"
+            ],
+            "timezone": "America/Halifax",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Halifax",
+            "locationDisplayName": "Halifax",
+            "coordinates": {
+                "latitude": 44.65,
+                "longitude": -63.6
+            }
+        },
+        {
+            "countryCodes": [
+                "CA"
+            ],
+            "timezone": "America/Glace_Bay",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Glace_Bay",
+            "locationDisplayName": "Glace Bay",
+            "coordinates": {
+                "latitude": 46.2,
+                "longitude": -59.95
+            }
+        },
+        {
+            "countryCodes": [
+                "CA"
+            ],
+            "timezone": "America/Moncton",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Moncton",
+            "locationDisplayName": "Moncton",
+            "coordinates": {
+                "latitude": 46.1,
+                "longitude": -64.783333
+            }
+        },
+        {
+            "countryCodes": [
+                "CA"
+            ],
+            "timezone": "America/Goose_Bay",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Goose_Bay",
+            "locationDisplayName": "Goose Bay",
+            "coordinates": {
+                "latitude": 53.333333,
+                "longitude": -60.416667
+            }
+        },
+        {
+            "countryCodes": [
+                "CA"
+            ],
+            "timezone": "America/Blanc-Sablon",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Blanc-Sablon",
+            "locationDisplayName": "Blanc-Sablon",
+            "coordinates": {
+                "latitude": 51.416667,
+                "longitude": -57.116667
+            }
+        },
+        {
+            "countryCodes": [
+                "CA"
+            ],
+            "timezone": "America/Toronto",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Toronto",
+            "locationDisplayName": "Toronto",
+            "coordinates": {
+                "latitude": 43.65,
+                "longitude": -79.383333
+            }
+        },
+        {
+            "countryCodes": [
+                "CA"
+            ],
+            "timezone": "America/Nipigon",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Nipigon",
+            "locationDisplayName": "Nipigon",
+            "coordinates": {
+                "latitude": 49.016667,
+                "longitude": -88.266667
+            }
+        },
+        {
+            "countryCodes": [
+                "CA"
+            ],
+            "timezone": "America/Thunder_Bay",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Thunder_Bay",
+            "locationDisplayName": "Thunder Bay",
+            "coordinates": {
+                "latitude": 48.383333,
+                "longitude": -89.25
+            }
+        },
+        {
+            "countryCodes": [
+                "CA"
+            ],
+            "timezone": "America/Iqaluit",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Iqaluit",
+            "locationDisplayName": "Iqaluit",
+            "coordinates": {
+                "latitude": 63.733333,
+                "longitude": -68.466667
+            }
+        },
+        {
+            "countryCodes": [
+                "CA"
+            ],
+            "timezone": "America/Pangnirtung",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Pangnirtung",
+            "locationDisplayName": "Pangnirtung",
+            "coordinates": {
+                "latitude": 66.133333,
+                "longitude": -65.733333
+            }
+        },
+        {
+            "countryCodes": [
+                "CA"
+            ],
+            "timezone": "America/Atikokan",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Atikokan",
+            "locationDisplayName": "Atikokan",
+            "coordinates": {
+                "latitude": 48.758611,
+                "longitude": -91.621667
+            }
+        },
+        {
+            "countryCodes": [
+                "CA"
+            ],
+            "timezone": "America/Winnipeg",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Winnipeg",
+            "locationDisplayName": "Winnipeg",
+            "coordinates": {
+                "latitude": 49.883333,
+                "longitude": -97.15
+            }
+        },
+        {
+            "countryCodes": [
+                "CA"
+            ],
+            "timezone": "America/Rainy_River",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Rainy_River",
+            "locationDisplayName": "Rainy River",
+            "coordinates": {
+                "latitude": 48.716667,
+                "longitude": -94.566667
+            }
+        },
+        {
+            "countryCodes": [
+                "CA"
+            ],
+            "timezone": "America/Resolute",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Resolute",
+            "locationDisplayName": "Resolute",
+            "coordinates": {
+                "latitude": 74.695556,
+                "longitude": -94.829167
+            }
+        },
+        {
+            "countryCodes": [
+                "CA"
+            ],
+            "timezone": "America/Rankin_Inlet",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Rankin_Inlet",
+            "locationDisplayName": "Rankin Inlet",
+            "coordinates": {
+                "latitude": 62.816667,
+                "longitude": -92.083056
+            }
+        },
+        {
+            "countryCodes": [
+                "CA"
+            ],
+            "timezone": "America/Regina",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Regina",
+            "locationDisplayName": "Regina",
+            "coordinates": {
+                "latitude": 50.4,
+                "longitude": -104.65
+            }
+        },
+        {
+            "countryCodes": [
+                "CA"
+            ],
+            "timezone": "America/Swift_Current",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Swift_Current",
+            "locationDisplayName": "Swift Current",
+            "coordinates": {
+                "latitude": 50.283333,
+                "longitude": -107.833333
+            }
+        },
+        {
+            "countryCodes": [
+                "CA"
+            ],
+            "timezone": "America/Edmonton",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Edmonton",
+            "locationDisplayName": "Edmonton",
+            "coordinates": {
+                "latitude": 53.55,
+                "longitude": -113.466667
+            }
+        },
+        {
+            "countryCodes": [
+                "CA"
+            ],
+            "timezone": "America/Cambridge_Bay",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Cambridge_Bay",
+            "locationDisplayName": "Cambridge Bay",
+            "coordinates": {
+                "latitude": 69.113889,
+                "longitude": -105.052778
+            }
+        },
+        {
+            "countryCodes": [
+                "CA"
+            ],
+            "timezone": "America/Yellowknife",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Yellowknife",
+            "locationDisplayName": "Yellowknife",
+            "coordinates": {
+                "latitude": 62.45,
+                "longitude": -114.35
+            }
+        },
+        {
+            "countryCodes": [
+                "CA"
+            ],
+            "timezone": "America/Inuvik",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Inuvik",
+            "locationDisplayName": "Inuvik",
+            "coordinates": {
+                "latitude": 68.349722,
+                "longitude": -133.716667
+            }
+        },
+        {
+            "countryCodes": [
+                "CA"
+            ],
+            "timezone": "America/Creston",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Creston",
+            "locationDisplayName": "Creston",
+            "coordinates": {
+                "latitude": 49.1,
+                "longitude": -116.516667
+            }
+        },
+        {
+            "countryCodes": [
+                "CA"
+            ],
+            "timezone": "America/Dawson_Creek",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Dawson_Creek",
+            "locationDisplayName": "Dawson Creek",
+            "coordinates": {
+                "latitude": 59.766667,
+                "longitude": -120.233333
+            }
+        },
+        {
+            "countryCodes": [
+                "CA"
+            ],
+            "timezone": "America/Fort_Nelson",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Fort_Nelson",
+            "locationDisplayName": "Fort Nelson",
+            "coordinates": {
+                "latitude": 58.8,
+                "longitude": -122.7
+            }
+        },
+        {
+            "countryCodes": [
+                "CA"
+            ],
+            "timezone": "America/Whitehorse",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Whitehorse",
+            "locationDisplayName": "Whitehorse",
+            "coordinates": {
+                "latitude": 60.716667,
+                "longitude": -135.05
+            }
+        },
+        {
+            "countryCodes": [
+                "CA"
+            ],
+            "timezone": "America/Dawson",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Dawson",
+            "locationDisplayName": "Dawson",
+            "coordinates": {
+                "latitude": 64.066667,
+                "longitude": -139.416667
+            }
+        },
+        {
+            "countryCodes": [
+                "CA"
+            ],
+            "timezone": "America/Vancouver",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Vancouver",
+            "locationDisplayName": "Vancouver",
+            "coordinates": {
+                "latitude": 49.266667,
+                "longitude": -123.116667
+            }
+        },
+        {
+            "countryCodes": [
+                "CC"
+            ],
+            "timezone": "Indian/Cocos",
+            "geographicArea": "Indian",
+            "geographicAreaDisplayName": "Indian Ocean",
+            "location": "Cocos",
+            "locationDisplayName": "Cocos",
+            "coordinates": {
+                "latitude": -12.166667,
+                "longitude": 96.916667
+            }
+        },
+        {
+            "countryCodes": [
+                "CH",
+                "DE",
+                "LI"
+            ],
+            "timezone": "Europe/Zurich",
+            "geographicArea": "Europe",
+            "geographicAreaDisplayName": "Europe",
+            "location": "Zurich",
+            "locationDisplayName": "Zurich",
+            "coordinates": {
+                "latitude": 47.383333,
+                "longitude": 8.533333
+            }
+        },
+        {
+            "countryCodes": [
+                "CI",
+                "BF",
+                "GM",
+                "GN",
+                "ML",
+                "MR",
+                "SH",
+                "SL",
+                "SN",
+                "TG"
+            ],
+            "timezone": "Africa/Abidjan",
+            "geographicArea": "Africa",
+            "geographicAreaDisplayName": "Africa",
+            "location": "Abidjan",
+            "locationDisplayName": "Abidjan",
+            "coordinates": {
+                "latitude": 5.316667,
+                "longitude": -4.033333
+            }
+        },
+        {
+            "countryCodes": [
+                "CK"
+            ],
+            "timezone": "Pacific/Rarotonga",
+            "geographicArea": "Pacific",
+            "geographicAreaDisplayName": "Pacific Ocean",
+            "location": "Rarotonga",
+            "locationDisplayName": "Rarotonga",
+            "coordinates": {
+                "latitude": -21.233333,
+                "longitude": -159.766667
+            }
+        },
+        {
+            "countryCodes": [
+                "CL"
+            ],
+            "timezone": "America/Santiago",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Santiago",
+            "locationDisplayName": "Santiago",
+            "coordinates": {
+                "latitude": -33.45,
+                "longitude": -70.666667
+            }
+        },
+        {
+            "countryCodes": [
+                "CL"
+            ],
+            "timezone": "America/Punta_Arenas",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Punta_Arenas",
+            "locationDisplayName": "Punta Arenas",
+            "coordinates": {
+                "latitude": -53.15,
+                "longitude": -70.916667
+            }
+        },
+        {
+            "countryCodes": [
+                "CL"
+            ],
+            "timezone": "Pacific/Easter",
+            "geographicArea": "Pacific",
+            "geographicAreaDisplayName": "Pacific Ocean",
+            "location": "Easter",
+            "locationDisplayName": "Easter",
+            "coordinates": {
+                "latitude": -27.15,
+                "longitude": -109.433333
+            }
+        },
+        {
+            "countryCodes": [
+                "CN"
+            ],
+            "timezone": "Asia/Shanghai",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Shanghai",
+            "locationDisplayName": "Shanghai",
+            "coordinates": {
+                "latitude": 31.233333,
+                "longitude": 121.466667
+            }
+        },
+        {
+            "countryCodes": [
+                "CN"
+            ],
+            "timezone": "Asia/Urumqi",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Urumqi",
+            "locationDisplayName": "Urumqi",
+            "coordinates": {
+                "latitude": 43.8,
+                "longitude": 87.583333
+            }
+        },
+        {
+            "countryCodes": [
+                "CO"
+            ],
+            "timezone": "America/Bogota",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Bogota",
+            "locationDisplayName": "Bogota",
+            "coordinates": {
+                "latitude": 4.6,
+                "longitude": -74.083333
+            }
+        },
+        {
+            "countryCodes": [
+                "CR"
+            ],
+            "timezone": "America/Costa_Rica",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Costa_Rica",
+            "locationDisplayName": "Costa Rica",
+            "coordinates": {
+                "latitude": 9.933333,
+                "longitude": -84.083333
+            }
+        },
+        {
+            "countryCodes": [
+                "CU"
+            ],
+            "timezone": "America/Havana",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Havana",
+            "locationDisplayName": "Havana",
+            "coordinates": {
+                "latitude": 23.133333,
+                "longitude": -82.366667
+            }
+        },
+        {
+            "countryCodes": [
+                "CV"
+            ],
+            "timezone": "Atlantic/Cape_Verde",
+            "geographicArea": "Atlantic",
+            "geographicAreaDisplayName": "Atlantic Ocean",
+            "location": "Cape_Verde",
+            "locationDisplayName": "Cape Verde",
+            "coordinates": {
+                "latitude": 14.916667,
+                "longitude": -23.516667
+            }
+        },
+        {
+            "countryCodes": [
+                "CW",
+                "AW",
+                "BQ",
+                "SX"
+            ],
+            "timezone": "America/Curacao",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Curacao",
+            "locationDisplayName": "Curacao",
+            "coordinates": {
+                "latitude": 12.183333,
+                "longitude": -69
+            }
+        },
+        {
+            "countryCodes": [
+                "CX"
+            ],
+            "timezone": "Indian/Christmas",
+            "geographicArea": "Indian",
+            "geographicAreaDisplayName": "Indian Ocean",
+            "location": "Christmas",
+            "locationDisplayName": "Christmas",
+            "coordinates": {
+                "latitude": -10.416667,
+                "longitude": 105.716667
+            }
+        },
+        {
+            "countryCodes": [
+                "CY"
+            ],
+            "timezone": "Asia/Nicosia",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Nicosia",
+            "locationDisplayName": "Nicosia",
+            "coordinates": {
+                "latitude": 35.166667,
+                "longitude": 33.366667
+            }
+        },
+        {
+            "countryCodes": [
+                "CY"
+            ],
+            "timezone": "Asia/Famagusta",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Famagusta",
+            "locationDisplayName": "Famagusta",
+            "coordinates": {
+                "latitude": 35.116667,
+                "longitude": 33.95
+            }
+        },
+        {
+            "countryCodes": [
+                "CZ",
+                "SK"
+            ],
+            "timezone": "Europe/Prague",
+            "geographicArea": "Europe",
+            "geographicAreaDisplayName": "Europe",
+            "location": "Prague",
+            "locationDisplayName": "Prague",
+            "coordinates": {
+                "latitude": 50.083333,
+                "longitude": 14.433333
+            }
+        },
+        {
+            "countryCodes": [
+                "DE"
+            ],
+            "timezone": "Europe/Berlin",
+            "geographicArea": "Europe",
+            "geographicAreaDisplayName": "Europe",
+            "location": "Berlin",
+            "locationDisplayName": "Berlin",
+            "coordinates": {
+                "latitude": 52.5,
+                "longitude": 13.366667
+            }
+        },
+        {
+            "countryCodes": [
+                "DK"
+            ],
+            "timezone": "Europe/Copenhagen",
+            "geographicArea": "Europe",
+            "geographicAreaDisplayName": "Europe",
+            "location": "Copenhagen",
+            "locationDisplayName": "Copenhagen",
+            "coordinates": {
+                "latitude": 55.666667,
+                "longitude": 12.583333
+            }
+        },
+        {
+            "countryCodes": [
+                "DO"
+            ],
+            "timezone": "America/Santo_Domingo",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Santo_Domingo",
+            "locationDisplayName": "Santo Domingo",
+            "coordinates": {
+                "latitude": 18.466667,
+                "longitude": -69.9
+            }
+        },
+        {
+            "countryCodes": [
+                "DZ"
+            ],
+            "timezone": "Africa/Algiers",
+            "geographicArea": "Africa",
+            "geographicAreaDisplayName": "Africa",
+            "location": "Algiers",
+            "locationDisplayName": "Algiers",
+            "coordinates": {
+                "latitude": 36.783333,
+                "longitude": 3.05
+            }
+        },
+        {
+            "countryCodes": [
+                "EC"
+            ],
+            "timezone": "America/Guayaquil",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Guayaquil",
+            "locationDisplayName": "Guayaquil",
+            "coordinates": {
+                "latitude": -2.166667,
+                "longitude": -79.833333
+            }
+        },
+        {
+            "countryCodes": [
+                "EC"
+            ],
+            "timezone": "Pacific/Galapagos",
+            "geographicArea": "Pacific",
+            "geographicAreaDisplayName": "Pacific Ocean",
+            "location": "Galapagos",
+            "locationDisplayName": "Galapagos",
+            "coordinates": {
+                "latitude": -0.9,
+                "longitude": -89.6
+            }
+        },
+        {
+            "countryCodes": [
+                "EE"
+            ],
+            "timezone": "Europe/Tallinn",
+            "geographicArea": "Europe",
+            "geographicAreaDisplayName": "Europe",
+            "location": "Tallinn",
+            "locationDisplayName": "Tallinn",
+            "coordinates": {
+                "latitude": 59.416667,
+                "longitude": 24.75
+            }
+        },
+        {
+            "countryCodes": [
+                "EG"
+            ],
+            "timezone": "Africa/Cairo",
+            "geographicArea": "Africa",
+            "geographicAreaDisplayName": "Africa",
+            "location": "Cairo",
+            "locationDisplayName": "Cairo",
+            "coordinates": {
+                "latitude": 30.05,
+                "longitude": 31.25
+            }
+        },
+        {
+            "countryCodes": [
+                "EH"
+            ],
+            "timezone": "Africa/El_Aaiun",
+            "geographicArea": "Africa",
+            "geographicAreaDisplayName": "Africa",
+            "location": "El_Aaiun",
+            "locationDisplayName": "El Aaiun",
+            "coordinates": {
+                "latitude": 27.15,
+                "longitude": -13.2
+            }
+        },
+        {
+            "countryCodes": [
+                "ES"
+            ],
+            "timezone": "Europe/Madrid",
+            "geographicArea": "Europe",
+            "geographicAreaDisplayName": "Europe",
+            "location": "Madrid",
+            "locationDisplayName": "Madrid",
+            "coordinates": {
+                "latitude": 40.4,
+                "longitude": -3.683333
+            }
+        },
+        {
+            "countryCodes": [
+                "ES"
+            ],
+            "timezone": "Africa/Ceuta",
+            "geographicArea": "Africa",
+            "geographicAreaDisplayName": "Africa",
+            "location": "Ceuta",
+            "locationDisplayName": "Ceuta",
+            "coordinates": {
+                "latitude": 35.883333,
+                "longitude": -5.316667
+            }
+        },
+        {
+            "countryCodes": [
+                "ES"
+            ],
+            "timezone": "Atlantic/Canary",
+            "geographicArea": "Atlantic",
+            "geographicAreaDisplayName": "Atlantic Ocean",
+            "location": "Canary",
+            "locationDisplayName": "Canary",
+            "coordinates": {
+                "latitude": 28.1,
+                "longitude": -15.4
+            }
+        },
+        {
+            "countryCodes": [
+                "FI",
+                "AX"
+            ],
+            "timezone": "Europe/Helsinki",
+            "geographicArea": "Europe",
+            "geographicAreaDisplayName": "Europe",
+            "location": "Helsinki",
+            "locationDisplayName": "Helsinki",
+            "coordinates": {
+                "latitude": 60.166667,
+                "longitude": 24.966667
+            }
+        },
+        {
+            "countryCodes": [
+                "FJ"
+            ],
+            "timezone": "Pacific/Fiji",
+            "geographicArea": "Pacific",
+            "geographicAreaDisplayName": "Pacific Ocean",
+            "location": "Fiji",
+            "locationDisplayName": "Fiji",
+            "coordinates": {
+                "latitude": -18.133333,
+                "longitude": 178.416667
+            }
+        },
+        {
+            "countryCodes": [
+                "FK"
+            ],
+            "timezone": "Atlantic/Stanley",
+            "geographicArea": "Atlantic",
+            "geographicAreaDisplayName": "Atlantic Ocean",
+            "location": "Stanley",
+            "locationDisplayName": "Stanley",
+            "coordinates": {
+                "latitude": -51.7,
+                "longitude": -57.85
+            }
+        },
+        {
+            "countryCodes": [
+                "FM"
+            ],
+            "timezone": "Pacific/Chuuk",
+            "geographicArea": "Pacific",
+            "geographicAreaDisplayName": "Pacific Ocean",
+            "location": "Chuuk",
+            "locationDisplayName": "Chuuk",
+            "coordinates": {
+                "latitude": 7.416667,
+                "longitude": 151.783333
+            }
+        },
+        {
+            "countryCodes": [
+                "FM"
+            ],
+            "timezone": "Pacific/Pohnpei",
+            "geographicArea": "Pacific",
+            "geographicAreaDisplayName": "Pacific Ocean",
+            "location": "Pohnpei",
+            "locationDisplayName": "Pohnpei",
+            "coordinates": {
+                "latitude": 6.966667,
+                "longitude": 158.216667
+            }
+        },
+        {
+            "countryCodes": [
+                "FM"
+            ],
+            "timezone": "Pacific/Kosrae",
+            "geographicArea": "Pacific",
+            "geographicAreaDisplayName": "Pacific Ocean",
+            "location": "Kosrae",
+            "locationDisplayName": "Kosrae",
+            "coordinates": {
+                "latitude": 5.316667,
+                "longitude": 162.983333
+            }
+        },
+        {
+            "countryCodes": [
+                "FO"
+            ],
+            "timezone": "Atlantic/Faroe",
+            "geographicArea": "Atlantic",
+            "geographicAreaDisplayName": "Atlantic Ocean",
+            "location": "Faroe",
+            "locationDisplayName": "Faroe",
+            "coordinates": {
+                "latitude": 62.016667,
+                "longitude": -6.766667
+            }
+        },
+        {
+            "countryCodes": [
+                "FR"
+            ],
+            "timezone": "Europe/Paris",
+            "geographicArea": "Europe",
+            "geographicAreaDisplayName": "Europe",
+            "location": "Paris",
+            "locationDisplayName": "Paris",
+            "coordinates": {
+                "latitude": 48.866667,
+                "longitude": 2.333333
+            }
+        },
+        {
+            "countryCodes": [
+                "GB",
+                "GG",
+                "IM",
+                "JE"
+            ],
+            "timezone": "Europe/London",
+            "geographicArea": "Europe",
+            "geographicAreaDisplayName": "Europe",
+            "location": "London",
+            "locationDisplayName": "London",
+            "coordinates": {
+                "latitude": 51.508333,
+                "longitude": -0.125278
+            }
+        },
+        {
+            "countryCodes": [
+                "GE"
+            ],
+            "timezone": "Asia/Tbilisi",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Tbilisi",
+            "locationDisplayName": "Tbilisi",
+            "coordinates": {
+                "latitude": 41.716667,
+                "longitude": 44.816667
+            }
+        },
+        {
+            "countryCodes": [
+                "GF"
+            ],
+            "timezone": "America/Cayenne",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Cayenne",
+            "locationDisplayName": "Cayenne",
+            "coordinates": {
+                "latitude": 4.933333,
+                "longitude": -52.333333
+            }
+        },
+        {
+            "countryCodes": [
+                "GH"
+            ],
+            "timezone": "Africa/Accra",
+            "geographicArea": "Africa",
+            "geographicAreaDisplayName": "Africa",
+            "location": "Accra",
+            "locationDisplayName": "Accra",
+            "coordinates": {
+                "latitude": 5.55,
+                "longitude": -0.216667
+            }
+        },
+        {
+            "countryCodes": [
+                "GI"
+            ],
+            "timezone": "Europe/Gibraltar",
+            "geographicArea": "Europe",
+            "geographicAreaDisplayName": "Europe",
+            "location": "Gibraltar",
+            "locationDisplayName": "Gibraltar",
+            "coordinates": {
+                "latitude": 36.133333,
+                "longitude": -5.35
+            }
+        },
+        {
+            "countryCodes": [
+                "GL"
+            ],
+            "timezone": "America/Nuuk",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Nuuk",
+            "locationDisplayName": "Nuuk",
+            "coordinates": {
+                "latitude": 64.183333,
+                "longitude": -51.733333
+            }
+        },
+        {
+            "countryCodes": [
+                "GL"
+            ],
+            "timezone": "America/Danmarkshavn",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Danmarkshavn",
+            "locationDisplayName": "Danmarkshavn",
+            "coordinates": {
+                "latitude": 76.766667,
+                "longitude": -18.666667
+            }
+        },
+        {
+            "countryCodes": [
+                "GL"
+            ],
+            "timezone": "America/Scoresbysund",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Scoresbysund",
+            "locationDisplayName": "Scoresbysund",
+            "coordinates": {
+                "latitude": 70.483333,
+                "longitude": -21.966667
+            }
+        },
+        {
+            "countryCodes": [
+                "GL"
+            ],
+            "timezone": "America/Thule",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Thule",
+            "locationDisplayName": "Thule",
+            "coordinates": {
+                "latitude": 76.566667,
+                "longitude": -68.783333
+            }
+        },
+        {
+            "countryCodes": [
+                "GR"
+            ],
+            "timezone": "Europe/Athens",
+            "geographicArea": "Europe",
+            "geographicAreaDisplayName": "Europe",
+            "location": "Athens",
+            "locationDisplayName": "Athens",
+            "coordinates": {
+                "latitude": 37.966667,
+                "longitude": 23.716667
+            }
+        },
+        {
+            "countryCodes": [
+                "GS"
+            ],
+            "timezone": "Atlantic/South_Georgia",
+            "geographicArea": "Atlantic",
+            "geographicAreaDisplayName": "Atlantic Ocean",
+            "location": "South_Georgia",
+            "locationDisplayName": "South Georgia",
+            "coordinates": {
+                "latitude": -54.266667,
+                "longitude": -36.533333
+            }
+        },
+        {
+            "countryCodes": [
+                "GT"
+            ],
+            "timezone": "America/Guatemala",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Guatemala",
+            "locationDisplayName": "Guatemala",
+            "coordinates": {
+                "latitude": 14.633333,
+                "longitude": -90.516667
+            }
+        },
+        {
+            "countryCodes": [
+                "GU",
+                "MP"
+            ],
+            "timezone": "Pacific/Guam",
+            "geographicArea": "Pacific",
+            "geographicAreaDisplayName": "Pacific Ocean",
+            "location": "Guam",
+            "locationDisplayName": "Guam",
+            "coordinates": {
+                "latitude": 13.466667,
+                "longitude": 144.75
+            }
+        },
+        {
+            "countryCodes": [
+                "GW"
+            ],
+            "timezone": "Africa/Bissau",
+            "geographicArea": "Africa",
+            "geographicAreaDisplayName": "Africa",
+            "location": "Bissau",
+            "locationDisplayName": "Bissau",
+            "coordinates": {
+                "latitude": 11.85,
+                "longitude": -15.583333
+            }
+        },
+        {
+            "countryCodes": [
+                "GY"
+            ],
+            "timezone": "America/Guyana",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Guyana",
+            "locationDisplayName": "Guyana",
+            "coordinates": {
+                "latitude": 6.8,
+                "longitude": -58.166667
+            }
+        },
+        {
+            "countryCodes": [
+                "HK"
+            ],
+            "timezone": "Asia/Hong_Kong",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Hong_Kong",
+            "locationDisplayName": "Hong Kong",
+            "coordinates": {
+                "latitude": 22.283333,
+                "longitude": 114.15
+            }
+        },
+        {
+            "countryCodes": [
+                "HN"
+            ],
+            "timezone": "America/Tegucigalpa",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Tegucigalpa",
+            "locationDisplayName": "Tegucigalpa",
+            "coordinates": {
+                "latitude": 14.1,
+                "longitude": -87.216667
+            }
+        },
+        {
+            "countryCodes": [
+                "HT"
+            ],
+            "timezone": "America/Port-au-Prince",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Port-au-Prince",
+            "locationDisplayName": "Port-au-Prince",
+            "coordinates": {
+                "latitude": 18.533333,
+                "longitude": -72.333333
+            }
+        },
+        {
+            "countryCodes": [
+                "HU"
+            ],
+            "timezone": "Europe/Budapest",
+            "geographicArea": "Europe",
+            "geographicAreaDisplayName": "Europe",
+            "location": "Budapest",
+            "locationDisplayName": "Budapest",
+            "coordinates": {
+                "latitude": 47.5,
+                "longitude": 19.083333
+            }
+        },
+        {
+            "countryCodes": [
+                "ID"
+            ],
+            "timezone": "Asia/Jakarta",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Jakarta",
+            "locationDisplayName": "Jakarta",
+            "coordinates": {
+                "latitude": -6.166667,
+                "longitude": 106.8
+            }
+        },
+        {
+            "countryCodes": [
+                "ID"
+            ],
+            "timezone": "Asia/Pontianak",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Pontianak",
+            "locationDisplayName": "Pontianak",
+            "coordinates": {
+                "latitude": -0.033333,
+                "longitude": 109.333333
+            }
+        },
+        {
+            "countryCodes": [
+                "ID"
+            ],
+            "timezone": "Asia/Makassar",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Makassar",
+            "locationDisplayName": "Makassar",
+            "coordinates": {
+                "latitude": -5.116667,
+                "longitude": 119.4
+            }
+        },
+        {
+            "countryCodes": [
+                "ID"
+            ],
+            "timezone": "Asia/Jayapura",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Jayapura",
+            "locationDisplayName": "Jayapura",
+            "coordinates": {
+                "latitude": -2.533333,
+                "longitude": 140.7
+            }
+        },
+        {
+            "countryCodes": [
+                "IE"
+            ],
+            "timezone": "Europe/Dublin",
+            "geographicArea": "Europe",
+            "geographicAreaDisplayName": "Europe",
+            "location": "Dublin",
+            "locationDisplayName": "Dublin",
+            "coordinates": {
+                "latitude": 53.333333,
+                "longitude": -6.25
+            }
+        },
+        {
+            "countryCodes": [
+                "IL"
+            ],
+            "timezone": "Asia/Jerusalem",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Jerusalem",
+            "locationDisplayName": "Jerusalem",
+            "coordinates": {
+                "latitude": 31.780556,
+                "longitude": 35.223889
+            }
+        },
+        {
+            "countryCodes": [
+                "IN"
+            ],
+            "timezone": "Asia/Kolkata",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Kolkata",
+            "locationDisplayName": "Kolkata",
+            "coordinates": {
+                "latitude": 22.533333,
+                "longitude": 88.366667
+            }
+        },
+        {
+            "countryCodes": [
+                "IO"
+            ],
+            "timezone": "Indian/Chagos",
+            "geographicArea": "Indian",
+            "geographicAreaDisplayName": "Indian Ocean",
+            "location": "Chagos",
+            "locationDisplayName": "Chagos",
+            "coordinates": {
+                "latitude": -7.333333,
+                "longitude": 72.416667
+            }
+        },
+        {
+            "countryCodes": [
+                "IQ"
+            ],
+            "timezone": "Asia/Baghdad",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Baghdad",
+            "locationDisplayName": "Baghdad",
+            "coordinates": {
+                "latitude": 33.35,
+                "longitude": 44.416667
+            }
+        },
+        {
+            "countryCodes": [
+                "IR"
+            ],
+            "timezone": "Asia/Tehran",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Tehran",
+            "locationDisplayName": "Tehran",
+            "coordinates": {
+                "latitude": 35.666667,
+                "longitude": 51.433333
+            }
+        },
+        {
+            "countryCodes": [
+                "IS"
+            ],
+            "timezone": "Atlantic/Reykjavik",
+            "geographicArea": "Atlantic",
+            "geographicAreaDisplayName": "Atlantic Ocean",
+            "location": "Reykjavik",
+            "locationDisplayName": "Reykjavik",
+            "coordinates": {
+                "latitude": 64.15,
+                "longitude": -21.85
+            }
+        },
+        {
+            "countryCodes": [
+                "IT",
+                "SM",
+                "VA"
+            ],
+            "timezone": "Europe/Rome",
+            "geographicArea": "Europe",
+            "geographicAreaDisplayName": "Europe",
+            "location": "Rome",
+            "locationDisplayName": "Rome",
+            "coordinates": {
+                "latitude": 41.9,
+                "longitude": 12.483333
+            }
+        },
+        {
+            "countryCodes": [
+                "JM"
+            ],
+            "timezone": "America/Jamaica",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Jamaica",
+            "locationDisplayName": "Jamaica",
+            "coordinates": {
+                "latitude": 17.968056,
+                "longitude": -76.793333
+            }
+        },
+        {
+            "countryCodes": [
+                "JO"
+            ],
+            "timezone": "Asia/Amman",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Amman",
+            "locationDisplayName": "Amman",
+            "coordinates": {
+                "latitude": 31.95,
+                "longitude": 35.933333
+            }
+        },
+        {
+            "countryCodes": [
+                "JP"
+            ],
+            "timezone": "Asia/Tokyo",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Tokyo",
+            "locationDisplayName": "Tokyo",
+            "coordinates": {
+                "latitude": 35.654444,
+                "longitude": 139.744722
+            }
+        },
+        {
+            "countryCodes": [
+                "KE",
+                "DJ",
+                "ER",
+                "ET",
+                "KM",
+                "MG",
+                "SO",
+                "TZ",
+                "UG",
+                "YT"
+            ],
+            "timezone": "Africa/Nairobi",
+            "geographicArea": "Africa",
+            "geographicAreaDisplayName": "Africa",
+            "location": "Nairobi",
+            "locationDisplayName": "Nairobi",
+            "coordinates": {
+                "latitude": -1.283333,
+                "longitude": 36.816667
+            }
+        },
+        {
+            "countryCodes": [
+                "KG"
+            ],
+            "timezone": "Asia/Bishkek",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Bishkek",
+            "locationDisplayName": "Bishkek",
+            "coordinates": {
+                "latitude": 42.9,
+                "longitude": 74.6
+            }
+        },
+        {
+            "countryCodes": [
+                "KI"
+            ],
+            "timezone": "Pacific/Tarawa",
+            "geographicArea": "Pacific",
+            "geographicAreaDisplayName": "Pacific Ocean",
+            "location": "Tarawa",
+            "locationDisplayName": "Tarawa",
+            "coordinates": {
+                "latitude": 1.416667,
+                "longitude": 173
+            }
+        },
+        {
+            "countryCodes": [
+                "KI"
+            ],
+            "timezone": "Pacific/Enderbury",
+            "geographicArea": "Pacific",
+            "geographicAreaDisplayName": "Pacific Ocean",
+            "location": "Enderbury",
+            "locationDisplayName": "Enderbury",
+            "coordinates": {
+                "latitude": -3.133333,
+                "longitude": -171.083333
+            }
+        },
+        {
+            "countryCodes": [
+                "KI"
+            ],
+            "timezone": "Pacific/Kiritimati",
+            "geographicArea": "Pacific",
+            "geographicAreaDisplayName": "Pacific Ocean",
+            "location": "Kiritimati",
+            "locationDisplayName": "Kiritimati",
+            "coordinates": {
+                "latitude": 1.866667,
+                "longitude": -157.333333
+            }
+        },
+        {
+            "countryCodes": [
+                "KP"
+            ],
+            "timezone": "Asia/Pyongyang",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Pyongyang",
+            "locationDisplayName": "Pyongyang",
+            "coordinates": {
+                "latitude": 39.016667,
+                "longitude": 125.75
+            }
+        },
+        {
+            "countryCodes": [
+                "KR"
+            ],
+            "timezone": "Asia/Seoul",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Seoul",
+            "locationDisplayName": "Seoul",
+            "coordinates": {
+                "latitude": 37.55,
+                "longitude": 126.966667
+            }
+        },
+        {
+            "countryCodes": [
+                "KZ"
+            ],
+            "timezone": "Asia/Almaty",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Almaty",
+            "locationDisplayName": "Almaty",
+            "coordinates": {
+                "latitude": 43.25,
+                "longitude": 76.95
+            }
+        },
+        {
+            "countryCodes": [
+                "KZ"
+            ],
+            "timezone": "Asia/Qyzylorda",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Qyzylorda",
+            "locationDisplayName": "Qyzylorda",
+            "coordinates": {
+                "latitude": 44.8,
+                "longitude": 65.466667
+            }
+        },
+        {
+            "countryCodes": [
+                "KZ"
+            ],
+            "timezone": "Asia/Qostanay",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Qostanay",
+            "locationDisplayName": "Qostanay",
+            "coordinates": {
+                "latitude": 53.2,
+                "longitude": 63.616667
+            }
+        },
+        {
+            "countryCodes": [
+                "KZ"
+            ],
+            "timezone": "Asia/Aqtobe",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Aqtobe",
+            "locationDisplayName": "Aqtobe",
+            "coordinates": {
+                "latitude": 50.283333,
+                "longitude": 57.166667
+            }
+        },
+        {
+            "countryCodes": [
+                "KZ"
+            ],
+            "timezone": "Asia/Aqtau",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Aqtau",
+            "locationDisplayName": "Aqtau",
+            "coordinates": {
+                "latitude": 44.516667,
+                "longitude": 50.266667
+            }
+        },
+        {
+            "countryCodes": [
+                "KZ"
+            ],
+            "timezone": "Asia/Atyrau",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Atyrau",
+            "locationDisplayName": "Atyrau",
+            "coordinates": {
+                "latitude": 47.116667,
+                "longitude": 51.933333
+            }
+        },
+        {
+            "countryCodes": [
+                "KZ"
+            ],
+            "timezone": "Asia/Oral",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Oral",
+            "locationDisplayName": "Oral",
+            "coordinates": {
+                "latitude": 51.216667,
+                "longitude": 51.35
+            }
+        },
+        {
+            "countryCodes": [
+                "LB"
+            ],
+            "timezone": "Asia/Beirut",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Beirut",
+            "locationDisplayName": "Beirut",
+            "coordinates": {
+                "latitude": 33.883333,
+                "longitude": 35.5
+            }
+        },
+        {
+            "countryCodes": [
+                "LK"
+            ],
+            "timezone": "Asia/Colombo",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Colombo",
+            "locationDisplayName": "Colombo",
+            "coordinates": {
+                "latitude": 6.933333,
+                "longitude": 79.85
+            }
+        },
+        {
+            "countryCodes": [
+                "LR"
+            ],
+            "timezone": "Africa/Monrovia",
+            "geographicArea": "Africa",
+            "geographicAreaDisplayName": "Africa",
+            "location": "Monrovia",
+            "locationDisplayName": "Monrovia",
+            "coordinates": {
+                "latitude": 6.3,
+                "longitude": -10.783333
+            }
+        },
+        {
+            "countryCodes": [
+                "LT"
+            ],
+            "timezone": "Europe/Vilnius",
+            "geographicArea": "Europe",
+            "geographicAreaDisplayName": "Europe",
+            "location": "Vilnius",
+            "locationDisplayName": "Vilnius",
+            "coordinates": {
+                "latitude": 54.683333,
+                "longitude": 25.316667
+            }
+        },
+        {
+            "countryCodes": [
+                "LU"
+            ],
+            "timezone": "Europe/Luxembourg",
+            "geographicArea": "Europe",
+            "geographicAreaDisplayName": "Europe",
+            "location": "Luxembourg",
+            "locationDisplayName": "Luxembourg",
+            "coordinates": {
+                "latitude": 49.6,
+                "longitude": 6.15
+            }
+        },
+        {
+            "countryCodes": [
+                "LV"
+            ],
+            "timezone": "Europe/Riga",
+            "geographicArea": "Europe",
+            "geographicAreaDisplayName": "Europe",
+            "location": "Riga",
+            "locationDisplayName": "Riga",
+            "coordinates": {
+                "latitude": 56.95,
+                "longitude": 24.1
+            }
+        },
+        {
+            "countryCodes": [
+                "LY"
+            ],
+            "timezone": "Africa/Tripoli",
+            "geographicArea": "Africa",
+            "geographicAreaDisplayName": "Africa",
+            "location": "Tripoli",
+            "locationDisplayName": "Tripoli",
+            "coordinates": {
+                "latitude": 32.9,
+                "longitude": 13.183333
+            }
+        },
+        {
+            "countryCodes": [
+                "MA"
+            ],
+            "timezone": "Africa/Casablanca",
+            "geographicArea": "Africa",
+            "geographicAreaDisplayName": "Africa",
+            "location": "Casablanca",
+            "locationDisplayName": "Casablanca",
+            "coordinates": {
+                "latitude": 33.65,
+                "longitude": -7.583333
+            }
+        },
+        {
+            "countryCodes": [
+                "MC"
+            ],
+            "timezone": "Europe/Monaco",
+            "geographicArea": "Europe",
+            "geographicAreaDisplayName": "Europe",
+            "location": "Monaco",
+            "locationDisplayName": "Monaco",
+            "coordinates": {
+                "latitude": 43.7,
+                "longitude": 7.383333
+            }
+        },
+        {
+            "countryCodes": [
+                "MD"
+            ],
+            "timezone": "Europe/Chisinau",
+            "geographicArea": "Europe",
+            "geographicAreaDisplayName": "Europe",
+            "location": "Chisinau",
+            "locationDisplayName": "Chisinau",
+            "coordinates": {
+                "latitude": 47,
+                "longitude": 28.833333
+            }
+        },
+        {
+            "countryCodes": [
+                "MH"
+            ],
+            "timezone": "Pacific/Majuro",
+            "geographicArea": "Pacific",
+            "geographicAreaDisplayName": "Pacific Ocean",
+            "location": "Majuro",
+            "locationDisplayName": "Majuro",
+            "coordinates": {
+                "latitude": 7.15,
+                "longitude": 171.2
+            }
+        },
+        {
+            "countryCodes": [
+                "MH"
+            ],
+            "timezone": "Pacific/Kwajalein",
+            "geographicArea": "Pacific",
+            "geographicAreaDisplayName": "Pacific Ocean",
+            "location": "Kwajalein",
+            "locationDisplayName": "Kwajalein",
+            "coordinates": {
+                "latitude": 9.083333,
+                "longitude": 167.333333
+            }
+        },
+        {
+            "countryCodes": [
+                "MM"
+            ],
+            "timezone": "Asia/Yangon",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Yangon",
+            "locationDisplayName": "Yangon",
+            "coordinates": {
+                "latitude": 16.783333,
+                "longitude": 96.166667
+            }
+        },
+        {
+            "countryCodes": [
+                "MN"
+            ],
+            "timezone": "Asia/Ulaanbaatar",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Ulaanbaatar",
+            "locationDisplayName": "Ulaanbaatar",
+            "coordinates": {
+                "latitude": 47.916667,
+                "longitude": 106.883333
+            }
+        },
+        {
+            "countryCodes": [
+                "MN"
+            ],
+            "timezone": "Asia/Hovd",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Hovd",
+            "locationDisplayName": "Hovd",
+            "coordinates": {
+                "latitude": 48.016667,
+                "longitude": 91.65
+            }
+        },
+        {
+            "countryCodes": [
+                "MN"
+            ],
+            "timezone": "Asia/Choibalsan",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Choibalsan",
+            "locationDisplayName": "Choibalsan",
+            "coordinates": {
+                "latitude": 48.066667,
+                "longitude": 114.5
+            }
+        },
+        {
+            "countryCodes": [
+                "MO"
+            ],
+            "timezone": "Asia/Macau",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Macau",
+            "locationDisplayName": "Macau",
+            "coordinates": {
+                "latitude": 22.197222,
+                "longitude": 113.541667
+            }
+        },
+        {
+            "countryCodes": [
+                "MQ"
+            ],
+            "timezone": "America/Martinique",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Martinique",
+            "locationDisplayName": "Martinique",
+            "coordinates": {
+                "latitude": 14.6,
+                "longitude": -61.083333
+            }
+        },
+        {
+            "countryCodes": [
+                "MT"
+            ],
+            "timezone": "Europe/Malta",
+            "geographicArea": "Europe",
+            "geographicAreaDisplayName": "Europe",
+            "location": "Malta",
+            "locationDisplayName": "Malta",
+            "coordinates": {
+                "latitude": 35.9,
+                "longitude": 14.516667
+            }
+        },
+        {
+            "countryCodes": [
+                "MU"
+            ],
+            "timezone": "Indian/Mauritius",
+            "geographicArea": "Indian",
+            "geographicAreaDisplayName": "Indian Ocean",
+            "location": "Mauritius",
+            "locationDisplayName": "Mauritius",
+            "coordinates": {
+                "latitude": -20.166667,
+                "longitude": 57.5
+            }
+        },
+        {
+            "countryCodes": [
+                "MV"
+            ],
+            "timezone": "Indian/Maldives",
+            "geographicArea": "Indian",
+            "geographicAreaDisplayName": "Indian Ocean",
+            "location": "Maldives",
+            "locationDisplayName": "Maldives",
+            "coordinates": {
+                "latitude": 4.166667,
+                "longitude": 73.5
+            }
+        },
+        {
+            "countryCodes": [
+                "MX"
+            ],
+            "timezone": "America/Mexico_City",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Mexico_City",
+            "locationDisplayName": "Mexico City",
+            "coordinates": {
+                "latitude": 19.4,
+                "longitude": -99.15
+            }
+        },
+        {
+            "countryCodes": [
+                "MX"
+            ],
+            "timezone": "America/Cancun",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Cancun",
+            "locationDisplayName": "Cancun",
+            "coordinates": {
+                "latitude": 21.083333,
+                "longitude": -86.766667
+            }
+        },
+        {
+            "countryCodes": [
+                "MX"
+            ],
+            "timezone": "America/Merida",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Merida",
+            "locationDisplayName": "Merida",
+            "coordinates": {
+                "latitude": 20.966667,
+                "longitude": -89.616667
+            }
+        },
+        {
+            "countryCodes": [
+                "MX"
+            ],
+            "timezone": "America/Monterrey",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Monterrey",
+            "locationDisplayName": "Monterrey",
+            "coordinates": {
+                "latitude": 25.666667,
+                "longitude": -100.316667
+            }
+        },
+        {
+            "countryCodes": [
+                "MX"
+            ],
+            "timezone": "America/Matamoros",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Matamoros",
+            "locationDisplayName": "Matamoros",
+            "coordinates": {
+                "latitude": 25.833333,
+                "longitude": -97.5
+            }
+        },
+        {
+            "countryCodes": [
+                "MX"
+            ],
+            "timezone": "America/Mazatlan",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Mazatlan",
+            "locationDisplayName": "Mazatlan",
+            "coordinates": {
+                "latitude": 23.216667,
+                "longitude": -106.416667
+            }
+        },
+        {
+            "countryCodes": [
+                "MX"
+            ],
+            "timezone": "America/Chihuahua",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Chihuahua",
+            "locationDisplayName": "Chihuahua",
+            "coordinates": {
+                "latitude": 28.633333,
+                "longitude": -106.083333
+            }
+        },
+        {
+            "countryCodes": [
+                "MX"
+            ],
+            "timezone": "America/Ojinaga",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Ojinaga",
+            "locationDisplayName": "Ojinaga",
+            "coordinates": {
+                "latitude": 29.566667,
+                "longitude": -104.416667
+            }
+        },
+        {
+            "countryCodes": [
+                "MX"
+            ],
+            "timezone": "America/Hermosillo",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Hermosillo",
+            "locationDisplayName": "Hermosillo",
+            "coordinates": {
+                "latitude": 29.066667,
+                "longitude": -110.966667
+            }
+        },
+        {
+            "countryCodes": [
+                "MX"
+            ],
+            "timezone": "America/Tijuana",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Tijuana",
+            "locationDisplayName": "Tijuana",
+            "coordinates": {
+                "latitude": 32.533333,
+                "longitude": -117.016667
+            }
+        },
+        {
+            "countryCodes": [
+                "MX"
+            ],
+            "timezone": "America/Bahia_Banderas",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Bahia_Banderas",
+            "locationDisplayName": "Bahia Banderas",
+            "coordinates": {
+                "latitude": 20.8,
+                "longitude": -105.25
+            }
+        },
+        {
+            "countryCodes": [
+                "MY"
+            ],
+            "timezone": "Asia/Kuala_Lumpur",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Kuala_Lumpur",
+            "locationDisplayName": "Kuala Lumpur",
+            "coordinates": {
+                "latitude": 3.166667,
+                "longitude": 101.7
+            }
+        },
+        {
+            "countryCodes": [
+                "MY"
+            ],
+            "timezone": "Asia/Kuching",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Kuching",
+            "locationDisplayName": "Kuching",
+            "coordinates": {
+                "latitude": 1.55,
+                "longitude": 110.333333
+            }
+        },
+        {
+            "countryCodes": [
+                "MZ",
+                "BI",
+                "BW",
+                "CD",
+                "MW",
+                "RW",
+                "ZM",
+                "ZW"
+            ],
+            "timezone": "Africa/Maputo",
+            "geographicArea": "Africa",
+            "geographicAreaDisplayName": "Africa",
+            "location": "Maputo",
+            "locationDisplayName": "Maputo",
+            "coordinates": {
+                "latitude": -25.966667,
+                "longitude": 32.583333
+            }
+        },
+        {
+            "countryCodes": [
+                "NA"
+            ],
+            "timezone": "Africa/Windhoek",
+            "geographicArea": "Africa",
+            "geographicAreaDisplayName": "Africa",
+            "location": "Windhoek",
+            "locationDisplayName": "Windhoek",
+            "coordinates": {
+                "latitude": -22.566667,
+                "longitude": 17.1
+            }
+        },
+        {
+            "countryCodes": [
+                "NC"
+            ],
+            "timezone": "Pacific/Noumea",
+            "geographicArea": "Pacific",
+            "geographicAreaDisplayName": "Pacific Ocean",
+            "location": "Noumea",
+            "locationDisplayName": "Noumea",
+            "coordinates": {
+                "latitude": -22.266667,
+                "longitude": 166.45
+            }
+        },
+        {
+            "countryCodes": [
+                "NF"
+            ],
+            "timezone": "Pacific/Norfolk",
+            "geographicArea": "Pacific",
+            "geographicAreaDisplayName": "Pacific Ocean",
+            "location": "Norfolk",
+            "locationDisplayName": "Norfolk",
+            "coordinates": {
+                "latitude": -29.05,
+                "longitude": 167.966667
+            }
+        },
+        {
+            "countryCodes": [
+                "NG",
+                "AO",
+                "BJ",
+                "CD",
+                "CF",
+                "CG",
+                "CM",
+                "GA",
+                "GQ",
+                "NE"
+            ],
+            "timezone": "Africa/Lagos",
+            "geographicArea": "Africa",
+            "geographicAreaDisplayName": "Africa",
+            "location": "Lagos",
+            "locationDisplayName": "Lagos",
+            "coordinates": {
+                "latitude": 6.45,
+                "longitude": 3.4
+            }
+        },
+        {
+            "countryCodes": [
+                "NI"
+            ],
+            "timezone": "America/Managua",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Managua",
+            "locationDisplayName": "Managua",
+            "coordinates": {
+                "latitude": 12.15,
+                "longitude": -86.283333
+            }
+        },
+        {
+            "countryCodes": [
+                "NL"
+            ],
+            "timezone": "Europe/Amsterdam",
+            "geographicArea": "Europe",
+            "geographicAreaDisplayName": "Europe",
+            "location": "Amsterdam",
+            "locationDisplayName": "Amsterdam",
+            "coordinates": {
+                "latitude": 52.366667,
+                "longitude": 4.9
+            }
+        },
+        {
+            "countryCodes": [
+                "NO",
+                "SJ"
+            ],
+            "timezone": "Europe/Oslo",
+            "geographicArea": "Europe",
+            "geographicAreaDisplayName": "Europe",
+            "location": "Oslo",
+            "locationDisplayName": "Oslo",
+            "coordinates": {
+                "latitude": 59.916667,
+                "longitude": 10.75
+            }
+        },
+        {
+            "countryCodes": [
+                "NP"
+            ],
+            "timezone": "Asia/Kathmandu",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Kathmandu",
+            "locationDisplayName": "Kathmandu",
+            "coordinates": {
+                "latitude": 27.716667,
+                "longitude": 85.316667
+            }
+        },
+        {
+            "countryCodes": [
+                "NR"
+            ],
+            "timezone": "Pacific/Nauru",
+            "geographicArea": "Pacific",
+            "geographicAreaDisplayName": "Pacific Ocean",
+            "location": "Nauru",
+            "locationDisplayName": "Nauru",
+            "coordinates": {
+                "latitude": -0.516667,
+                "longitude": 166.916667
+            }
+        },
+        {
+            "countryCodes": [
+                "NU"
+            ],
+            "timezone": "Pacific/Niue",
+            "geographicArea": "Pacific",
+            "geographicAreaDisplayName": "Pacific Ocean",
+            "location": "Niue",
+            "locationDisplayName": "Niue",
+            "coordinates": {
+                "latitude": -19.016667,
+                "longitude": -169.916667
+            }
+        },
+        {
+            "countryCodes": [
+                "NZ",
+                "AQ"
+            ],
+            "timezone": "Pacific/Auckland",
+            "geographicArea": "Pacific",
+            "geographicAreaDisplayName": "Pacific Ocean",
+            "location": "Auckland",
+            "locationDisplayName": "Auckland",
+            "coordinates": {
+                "latitude": -36.866667,
+                "longitude": 174.766667
+            }
+        },
+        {
+            "countryCodes": [
+                "NZ"
+            ],
+            "timezone": "Pacific/Chatham",
+            "geographicArea": "Pacific",
+            "geographicAreaDisplayName": "Pacific Ocean",
+            "location": "Chatham",
+            "locationDisplayName": "Chatham",
+            "coordinates": {
+                "latitude": -43.95,
+                "longitude": -176.55
+            }
+        },
+        {
+            "countryCodes": [
+                "PA",
+                "KY"
+            ],
+            "timezone": "America/Panama",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Panama",
+            "locationDisplayName": "Panama",
+            "coordinates": {
+                "latitude": 8.966667,
+                "longitude": -79.533333
+            }
+        },
+        {
+            "countryCodes": [
+                "PE"
+            ],
+            "timezone": "America/Lima",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Lima",
+            "locationDisplayName": "Lima",
+            "coordinates": {
+                "latitude": -12.05,
+                "longitude": -77.05
+            }
+        },
+        {
+            "countryCodes": [
+                "PF"
+            ],
+            "timezone": "Pacific/Tahiti",
+            "geographicArea": "Pacific",
+            "geographicAreaDisplayName": "Pacific Ocean",
+            "location": "Tahiti",
+            "locationDisplayName": "Tahiti",
+            "coordinates": {
+                "latitude": -17.533333,
+                "longitude": -149.566667
+            }
+        },
+        {
+            "countryCodes": [
+                "PF"
+            ],
+            "timezone": "Pacific/Marquesas",
+            "geographicArea": "Pacific",
+            "geographicAreaDisplayName": "Pacific Ocean",
+            "location": "Marquesas",
+            "locationDisplayName": "Marquesas",
+            "coordinates": {
+                "latitude": -9,
+                "longitude": -139.5
+            }
+        },
+        {
+            "countryCodes": [
+                "PF"
+            ],
+            "timezone": "Pacific/Gambier",
+            "geographicArea": "Pacific",
+            "geographicAreaDisplayName": "Pacific Ocean",
+            "location": "Gambier",
+            "locationDisplayName": "Gambier",
+            "coordinates": {
+                "latitude": -23.133333,
+                "longitude": -134.95
+            }
+        },
+        {
+            "countryCodes": [
+                "PG"
+            ],
+            "timezone": "Pacific/Port_Moresby",
+            "geographicArea": "Pacific",
+            "geographicAreaDisplayName": "Pacific Ocean",
+            "location": "Port_Moresby",
+            "locationDisplayName": "Port Moresby",
+            "coordinates": {
+                "latitude": -9.5,
+                "longitude": 147.166667
+            }
+        },
+        {
+            "countryCodes": [
+                "PG"
+            ],
+            "timezone": "Pacific/Bougainville",
+            "geographicArea": "Pacific",
+            "geographicAreaDisplayName": "Pacific Ocean",
+            "location": "Bougainville",
+            "locationDisplayName": "Bougainville",
+            "coordinates": {
+                "latitude": -6.216667,
+                "longitude": 155.566667
+            }
+        },
+        {
+            "countryCodes": [
+                "PH"
+            ],
+            "timezone": "Asia/Manila",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Manila",
+            "locationDisplayName": "Manila",
+            "coordinates": {
+                "latitude": 14.583333,
+                "longitude": 121
+            }
+        },
+        {
+            "countryCodes": [
+                "PK"
+            ],
+            "timezone": "Asia/Karachi",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Karachi",
+            "locationDisplayName": "Karachi",
+            "coordinates": {
+                "latitude": 24.866667,
+                "longitude": 67.05
+            }
+        },
+        {
+            "countryCodes": [
+                "PL"
+            ],
+            "timezone": "Europe/Warsaw",
+            "geographicArea": "Europe",
+            "geographicAreaDisplayName": "Europe",
+            "location": "Warsaw",
+            "locationDisplayName": "Warsaw",
+            "coordinates": {
+                "latitude": 52.25,
+                "longitude": 21
+            }
+        },
+        {
+            "countryCodes": [
+                "PM"
+            ],
+            "timezone": "America/Miquelon",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Miquelon",
+            "locationDisplayName": "Miquelon",
+            "coordinates": {
+                "latitude": 47.05,
+                "longitude": -56.333333
+            }
+        },
+        {
+            "countryCodes": [
+                "PN"
+            ],
+            "timezone": "Pacific/Pitcairn",
+            "geographicArea": "Pacific",
+            "geographicAreaDisplayName": "Pacific Ocean",
+            "location": "Pitcairn",
+            "locationDisplayName": "Pitcairn",
+            "coordinates": {
+                "latitude": -25.066667,
+                "longitude": -130.083333
+            }
+        },
+        {
+            "countryCodes": [
+                "PR"
+            ],
+            "timezone": "America/Puerto_Rico",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Puerto_Rico",
+            "locationDisplayName": "Puerto Rico",
+            "coordinates": {
+                "latitude": 18.468333,
+                "longitude": -66.106111
+            }
+        },
+        {
+            "countryCodes": [
+                "PS"
+            ],
+            "timezone": "Asia/Gaza",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Gaza",
+            "locationDisplayName": "Gaza",
+            "coordinates": {
+                "latitude": 31.5,
+                "longitude": 34.466667
+            }
+        },
+        {
+            "countryCodes": [
+                "PS"
+            ],
+            "timezone": "Asia/Hebron",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Hebron",
+            "locationDisplayName": "Hebron",
+            "coordinates": {
+                "latitude": 31.533333,
+                "longitude": 35.095
+            }
+        },
+        {
+            "countryCodes": [
+                "PT"
+            ],
+            "timezone": "Europe/Lisbon",
+            "geographicArea": "Europe",
+            "geographicAreaDisplayName": "Europe",
+            "location": "Lisbon",
+            "locationDisplayName": "Lisbon",
+            "coordinates": {
+                "latitude": 38.716667,
+                "longitude": -9.133333
+            }
+        },
+        {
+            "countryCodes": [
+                "PT"
+            ],
+            "timezone": "Atlantic/Madeira",
+            "geographicArea": "Atlantic",
+            "geographicAreaDisplayName": "Atlantic Ocean",
+            "location": "Madeira",
+            "locationDisplayName": "Madeira",
+            "coordinates": {
+                "latitude": 32.633333,
+                "longitude": -16.9
+            }
+        },
+        {
+            "countryCodes": [
+                "PT"
+            ],
+            "timezone": "Atlantic/Azores",
+            "geographicArea": "Atlantic",
+            "geographicAreaDisplayName": "Atlantic Ocean",
+            "location": "Azores",
+            "locationDisplayName": "Azores",
+            "coordinates": {
+                "latitude": 37.733333,
+                "longitude": -25.666667
+            }
+        },
+        {
+            "countryCodes": [
+                "PW"
+            ],
+            "timezone": "Pacific/Palau",
+            "geographicArea": "Pacific",
+            "geographicAreaDisplayName": "Pacific Ocean",
+            "location": "Palau",
+            "locationDisplayName": "Palau",
+            "coordinates": {
+                "latitude": 7.333333,
+                "longitude": 134.483333
+            }
+        },
+        {
+            "countryCodes": [
+                "PY"
+            ],
+            "timezone": "America/Asuncion",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Asuncion",
+            "locationDisplayName": "Asuncion",
+            "coordinates": {
+                "latitude": -25.266667,
+                "longitude": -57.666667
+            }
+        },
+        {
+            "countryCodes": [
+                "QA",
+                "BH"
+            ],
+            "timezone": "Asia/Qatar",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Qatar",
+            "locationDisplayName": "Qatar",
+            "coordinates": {
+                "latitude": 25.283333,
+                "longitude": 51.533333
+            }
+        },
+        {
+            "countryCodes": [
+                "RE",
+                "TF"
+            ],
+            "timezone": "Indian/Reunion",
+            "geographicArea": "Indian",
+            "geographicAreaDisplayName": "Indian Ocean",
+            "location": "Reunion",
+            "locationDisplayName": "Reunion",
+            "coordinates": {
+                "latitude": -20.866667,
+                "longitude": 55.466667
+            }
+        },
+        {
+            "countryCodes": [
+                "RO"
+            ],
+            "timezone": "Europe/Bucharest",
+            "geographicArea": "Europe",
+            "geographicAreaDisplayName": "Europe",
+            "location": "Bucharest",
+            "locationDisplayName": "Bucharest",
+            "coordinates": {
+                "latitude": 44.433333,
+                "longitude": 26.1
+            }
+        },
+        {
+            "countryCodes": [
+                "RS",
+                "BA",
+                "HR",
+                "ME",
+                "MK",
+                "SI"
+            ],
+            "timezone": "Europe/Belgrade",
+            "geographicArea": "Europe",
+            "geographicAreaDisplayName": "Europe",
+            "location": "Belgrade",
+            "locationDisplayName": "Belgrade",
+            "coordinates": {
+                "latitude": 44.833333,
+                "longitude": 20.5
+            }
+        },
+        {
+            "countryCodes": [
+                "RU"
+            ],
+            "timezone": "Europe/Kaliningrad",
+            "geographicArea": "Europe",
+            "geographicAreaDisplayName": "Europe",
+            "location": "Kaliningrad",
+            "locationDisplayName": "Kaliningrad",
+            "coordinates": {
+                "latitude": 54.716667,
+                "longitude": 20.5
+            }
+        },
+        {
+            "countryCodes": [
+                "RU"
+            ],
+            "timezone": "Europe/Moscow",
+            "geographicArea": "Europe",
+            "geographicAreaDisplayName": "Europe",
+            "location": "Moscow",
+            "locationDisplayName": "Moscow",
+            "coordinates": {
+                "latitude": 55.755833,
+                "longitude": 37.617778
+            }
+        },
+        {
+            "countryCodes": [
+                "RU",
+                "UA"
+            ],
+            "timezone": "Europe/Simferopol",
+            "geographicArea": "Europe",
+            "geographicAreaDisplayName": "Europe",
+            "location": "Simferopol",
+            "locationDisplayName": "Simferopol",
+            "coordinates": {
+                "latitude": 44.95,
+                "longitude": 34.1
+            }
+        },
+        {
+            "countryCodes": [
+                "RU"
+            ],
+            "timezone": "Europe/Kirov",
+            "geographicArea": "Europe",
+            "geographicAreaDisplayName": "Europe",
+            "location": "Kirov",
+            "locationDisplayName": "Kirov",
+            "coordinates": {
+                "latitude": 58.6,
+                "longitude": 49.65
+            }
+        },
+        {
+            "countryCodes": [
+                "RU"
+            ],
+            "timezone": "Europe/Volgograd",
+            "geographicArea": "Europe",
+            "geographicAreaDisplayName": "Europe",
+            "location": "Volgograd",
+            "locationDisplayName": "Volgograd",
+            "coordinates": {
+                "latitude": 48.733333,
+                "longitude": 44.416667
+            }
+        },
+        {
+            "countryCodes": [
+                "RU"
+            ],
+            "timezone": "Europe/Astrakhan",
+            "geographicArea": "Europe",
+            "geographicAreaDisplayName": "Europe",
+            "location": "Astrakhan",
+            "locationDisplayName": "Astrakhan",
+            "coordinates": {
+                "latitude": 46.35,
+                "longitude": 48.05
+            }
+        },
+        {
+            "countryCodes": [
+                "RU"
+            ],
+            "timezone": "Europe/Saratov",
+            "geographicArea": "Europe",
+            "geographicAreaDisplayName": "Europe",
+            "location": "Saratov",
+            "locationDisplayName": "Saratov",
+            "coordinates": {
+                "latitude": 51.566667,
+                "longitude": 46.033333
+            }
+        },
+        {
+            "countryCodes": [
+                "RU"
+            ],
+            "timezone": "Europe/Ulyanovsk",
+            "geographicArea": "Europe",
+            "geographicAreaDisplayName": "Europe",
+            "location": "Ulyanovsk",
+            "locationDisplayName": "Ulyanovsk",
+            "coordinates": {
+                "latitude": 54.333333,
+                "longitude": 48.4
+            }
+        },
+        {
+            "countryCodes": [
+                "RU"
+            ],
+            "timezone": "Europe/Samara",
+            "geographicArea": "Europe",
+            "geographicAreaDisplayName": "Europe",
+            "location": "Samara",
+            "locationDisplayName": "Samara",
+            "coordinates": {
+                "latitude": 53.2,
+                "longitude": 50.15
+            }
+        },
+        {
+            "countryCodes": [
+                "RU"
+            ],
+            "timezone": "Asia/Yekaterinburg",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Yekaterinburg",
+            "locationDisplayName": "Yekaterinburg",
+            "coordinates": {
+                "latitude": 56.85,
+                "longitude": 60.6
+            }
+        },
+        {
+            "countryCodes": [
+                "RU"
+            ],
+            "timezone": "Asia/Omsk",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Omsk",
+            "locationDisplayName": "Omsk",
+            "coordinates": {
+                "latitude": 55,
+                "longitude": 73.4
+            }
+        },
+        {
+            "countryCodes": [
+                "RU"
+            ],
+            "timezone": "Asia/Novosibirsk",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Novosibirsk",
+            "locationDisplayName": "Novosibirsk",
+            "coordinates": {
+                "latitude": 55.033333,
+                "longitude": 82.916667
+            }
+        },
+        {
+            "countryCodes": [
+                "RU"
+            ],
+            "timezone": "Asia/Barnaul",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Barnaul",
+            "locationDisplayName": "Barnaul",
+            "coordinates": {
+                "latitude": 53.366667,
+                "longitude": 83.75
+            }
+        },
+        {
+            "countryCodes": [
+                "RU"
+            ],
+            "timezone": "Asia/Tomsk",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Tomsk",
+            "locationDisplayName": "Tomsk",
+            "coordinates": {
+                "latitude": 56.5,
+                "longitude": 84.966667
+            }
+        },
+        {
+            "countryCodes": [
+                "RU"
+            ],
+            "timezone": "Asia/Novokuznetsk",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Novokuznetsk",
+            "locationDisplayName": "Novokuznetsk",
+            "coordinates": {
+                "latitude": 53.75,
+                "longitude": 87.116667
+            }
+        },
+        {
+            "countryCodes": [
+                "RU"
+            ],
+            "timezone": "Asia/Krasnoyarsk",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Krasnoyarsk",
+            "locationDisplayName": "Krasnoyarsk",
+            "coordinates": {
+                "latitude": 56.016667,
+                "longitude": 92.833333
+            }
+        },
+        {
+            "countryCodes": [
+                "RU"
+            ],
+            "timezone": "Asia/Irkutsk",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Irkutsk",
+            "locationDisplayName": "Irkutsk",
+            "coordinates": {
+                "latitude": 52.266667,
+                "longitude": 104.333333
+            }
+        },
+        {
+            "countryCodes": [
+                "RU"
+            ],
+            "timezone": "Asia/Chita",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Chita",
+            "locationDisplayName": "Chita",
+            "coordinates": {
+                "latitude": 52.05,
+                "longitude": 113.466667
+            }
+        },
+        {
+            "countryCodes": [
+                "RU"
+            ],
+            "timezone": "Asia/Yakutsk",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Yakutsk",
+            "locationDisplayName": "Yakutsk",
+            "coordinates": {
+                "latitude": 62,
+                "longitude": 129.666667
+            }
+        },
+        {
+            "countryCodes": [
+                "RU"
+            ],
+            "timezone": "Asia/Khandyga",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Khandyga",
+            "locationDisplayName": "Khandyga",
+            "coordinates": {
+                "latitude": 62.656389,
+                "longitude": 135.553889
+            }
+        },
+        {
+            "countryCodes": [
+                "RU"
+            ],
+            "timezone": "Asia/Vladivostok",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Vladivostok",
+            "locationDisplayName": "Vladivostok",
+            "coordinates": {
+                "latitude": 43.166667,
+                "longitude": 131.933333
+            }
+        },
+        {
+            "countryCodes": [
+                "RU"
+            ],
+            "timezone": "Asia/Ust-Nera",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Ust-Nera",
+            "locationDisplayName": "Ust-Nera",
+            "coordinates": {
+                "latitude": 64.560278,
+                "longitude": 143.226667
+            }
+        },
+        {
+            "countryCodes": [
+                "RU"
+            ],
+            "timezone": "Asia/Magadan",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Magadan",
+            "locationDisplayName": "Magadan",
+            "coordinates": {
+                "latitude": 59.566667,
+                "longitude": 150.8
+            }
+        },
+        {
+            "countryCodes": [
+                "RU"
+            ],
+            "timezone": "Asia/Sakhalin",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Sakhalin",
+            "locationDisplayName": "Sakhalin",
+            "coordinates": {
+                "latitude": 46.966667,
+                "longitude": 142.7
+            }
+        },
+        {
+            "countryCodes": [
+                "RU"
+            ],
+            "timezone": "Asia/Srednekolymsk",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Srednekolymsk",
+            "locationDisplayName": "Srednekolymsk",
+            "coordinates": {
+                "latitude": 67.466667,
+                "longitude": 153.716667
+            }
+        },
+        {
+            "countryCodes": [
+                "RU"
+            ],
+            "timezone": "Asia/Kamchatka",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Kamchatka",
+            "locationDisplayName": "Kamchatka",
+            "coordinates": {
+                "latitude": 53.016667,
+                "longitude": 158.65
+            }
+        },
+        {
+            "countryCodes": [
+                "RU"
+            ],
+            "timezone": "Asia/Anadyr",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Anadyr",
+            "locationDisplayName": "Anadyr",
+            "coordinates": {
+                "latitude": 64.75,
+                "longitude": 177.483333
+            }
+        },
+        {
+            "countryCodes": [
+                "SA",
+                "KW",
+                "YE"
+            ],
+            "timezone": "Asia/Riyadh",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Riyadh",
+            "locationDisplayName": "Riyadh",
+            "coordinates": {
+                "latitude": 24.633333,
+                "longitude": 46.716667
+            }
+        },
+        {
+            "countryCodes": [
+                "SB"
+            ],
+            "timezone": "Pacific/Guadalcanal",
+            "geographicArea": "Pacific",
+            "geographicAreaDisplayName": "Pacific Ocean",
+            "location": "Guadalcanal",
+            "locationDisplayName": "Guadalcanal",
+            "coordinates": {
+                "latitude": -9.533333,
+                "longitude": 160.2
+            }
+        },
+        {
+            "countryCodes": [
+                "SC"
+            ],
+            "timezone": "Indian/Mahe",
+            "geographicArea": "Indian",
+            "geographicAreaDisplayName": "Indian Ocean",
+            "location": "Mahe",
+            "locationDisplayName": "Mahe",
+            "coordinates": {
+                "latitude": -4.666667,
+                "longitude": 55.466667
+            }
+        },
+        {
+            "countryCodes": [
+                "SD"
+            ],
+            "timezone": "Africa/Khartoum",
+            "geographicArea": "Africa",
+            "geographicAreaDisplayName": "Africa",
+            "location": "Khartoum",
+            "locationDisplayName": "Khartoum",
+            "coordinates": {
+                "latitude": 15.6,
+                "longitude": 32.533333
+            }
+        },
+        {
+            "countryCodes": [
+                "SE"
+            ],
+            "timezone": "Europe/Stockholm",
+            "geographicArea": "Europe",
+            "geographicAreaDisplayName": "Europe",
+            "location": "Stockholm",
+            "locationDisplayName": "Stockholm",
+            "coordinates": {
+                "latitude": 59.333333,
+                "longitude": 18.05
+            }
+        },
+        {
+            "countryCodes": [
+                "SG"
+            ],
+            "timezone": "Asia/Singapore",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Singapore",
+            "locationDisplayName": "Singapore",
+            "coordinates": {
+                "latitude": 1.283333,
+                "longitude": 103.85
+            }
+        },
+        {
+            "countryCodes": [
+                "SR"
+            ],
+            "timezone": "America/Paramaribo",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Paramaribo",
+            "locationDisplayName": "Paramaribo",
+            "coordinates": {
+                "latitude": 5.833333,
+                "longitude": -55.166667
+            }
+        },
+        {
+            "countryCodes": [
+                "SS"
+            ],
+            "timezone": "Africa/Juba",
+            "geographicArea": "Africa",
+            "geographicAreaDisplayName": "Africa",
+            "location": "Juba",
+            "locationDisplayName": "Juba",
+            "coordinates": {
+                "latitude": 4.85,
+                "longitude": 31.616667
+            }
+        },
+        {
+            "countryCodes": [
+                "ST"
+            ],
+            "timezone": "Africa/Sao_Tome",
+            "geographicArea": "Africa",
+            "geographicAreaDisplayName": "Africa",
+            "location": "Sao_Tome",
+            "locationDisplayName": "Sao Tome",
+            "coordinates": {
+                "latitude": 0.333333,
+                "longitude": 6.733333
+            }
+        },
+        {
+            "countryCodes": [
+                "SV"
+            ],
+            "timezone": "America/El_Salvador",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "El_Salvador",
+            "locationDisplayName": "El Salvador",
+            "coordinates": {
+                "latitude": 13.7,
+                "longitude": -89.2
+            }
+        },
+        {
+            "countryCodes": [
+                "SY"
+            ],
+            "timezone": "Asia/Damascus",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Damascus",
+            "locationDisplayName": "Damascus",
+            "coordinates": {
+                "latitude": 33.5,
+                "longitude": 36.3
+            }
+        },
+        {
+            "countryCodes": [
+                "TC"
+            ],
+            "timezone": "America/Grand_Turk",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Grand_Turk",
+            "locationDisplayName": "Grand Turk",
+            "coordinates": {
+                "latitude": 21.466667,
+                "longitude": -71.133333
+            }
+        },
+        {
+            "countryCodes": [
+                "TD"
+            ],
+            "timezone": "Africa/Ndjamena",
+            "geographicArea": "Africa",
+            "geographicAreaDisplayName": "Africa",
+            "location": "Ndjamena",
+            "locationDisplayName": "Ndjamena",
+            "coordinates": {
+                "latitude": 12.116667,
+                "longitude": 15.05
+            }
+        },
+        {
+            "countryCodes": [
+                "TF"
+            ],
+            "timezone": "Indian/Kerguelen",
+            "geographicArea": "Indian",
+            "geographicAreaDisplayName": "Indian Ocean",
+            "location": "Kerguelen",
+            "locationDisplayName": "Kerguelen",
+            "coordinates": {
+                "latitude": -49.352778,
+                "longitude": 70.2175
+            }
+        },
+        {
+            "countryCodes": [
+                "TH",
+                "KH",
+                "LA",
+                "VN"
+            ],
+            "timezone": "Asia/Bangkok",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Bangkok",
+            "locationDisplayName": "Bangkok",
+            "coordinates": {
+                "latitude": 13.75,
+                "longitude": 100.516667
+            }
+        },
+        {
+            "countryCodes": [
+                "TJ"
+            ],
+            "timezone": "Asia/Dushanbe",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Dushanbe",
+            "locationDisplayName": "Dushanbe",
+            "coordinates": {
+                "latitude": 38.583333,
+                "longitude": 68.8
+            }
+        },
+        {
+            "countryCodes": [
+                "TK"
+            ],
+            "timezone": "Pacific/Fakaofo",
+            "geographicArea": "Pacific",
+            "geographicAreaDisplayName": "Pacific Ocean",
+            "location": "Fakaofo",
+            "locationDisplayName": "Fakaofo",
+            "coordinates": {
+                "latitude": -9.366667,
+                "longitude": -171.233333
+            }
+        },
+        {
+            "countryCodes": [
+                "TL"
+            ],
+            "timezone": "Asia/Dili",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Dili",
+            "locationDisplayName": "Dili",
+            "coordinates": {
+                "latitude": -8.55,
+                "longitude": 125.583333
+            }
+        },
+        {
+            "countryCodes": [
+                "TM"
+            ],
+            "timezone": "Asia/Ashgabat",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Ashgabat",
+            "locationDisplayName": "Ashgabat",
+            "coordinates": {
+                "latitude": 37.95,
+                "longitude": 58.383333
+            }
+        },
+        {
+            "countryCodes": [
+                "TN"
+            ],
+            "timezone": "Africa/Tunis",
+            "geographicArea": "Africa",
+            "geographicAreaDisplayName": "Africa",
+            "location": "Tunis",
+            "locationDisplayName": "Tunis",
+            "coordinates": {
+                "latitude": 36.8,
+                "longitude": 10.183333
+            }
+        },
+        {
+            "countryCodes": [
+                "TO"
+            ],
+            "timezone": "Pacific/Tongatapu",
+            "geographicArea": "Pacific",
+            "geographicAreaDisplayName": "Pacific Ocean",
+            "location": "Tongatapu",
+            "locationDisplayName": "Tongatapu",
+            "coordinates": {
+                "latitude": -21.166667,
+                "longitude": -175.166667
+            }
+        },
+        {
+            "countryCodes": [
+                "TR"
+            ],
+            "timezone": "Europe/Istanbul",
+            "geographicArea": "Europe",
+            "geographicAreaDisplayName": "Europe",
+            "location": "Istanbul",
+            "locationDisplayName": "Istanbul",
+            "coordinates": {
+                "latitude": 41.016667,
+                "longitude": 28.966667
+            }
+        },
+        {
+            "countryCodes": [
+                "TT",
+                "AG",
+                "AI",
+                "BL",
+                "DM",
+                "GD",
+                "GP",
+                "KN",
+                "LC",
+                "MF",
+                "MS",
+                "VC",
+                "VG",
+                "VI"
+            ],
+            "timezone": "America/Port_of_Spain",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Port_of_Spain",
+            "locationDisplayName": "Port of_Spain",
+            "coordinates": {
+                "latitude": 10.65,
+                "longitude": -61.516667
+            }
+        },
+        {
+            "countryCodes": [
+                "TV"
+            ],
+            "timezone": "Pacific/Funafuti",
+            "geographicArea": "Pacific",
+            "geographicAreaDisplayName": "Pacific Ocean",
+            "location": "Funafuti",
+            "locationDisplayName": "Funafuti",
+            "coordinates": {
+                "latitude": -8.516667,
+                "longitude": 179.216667
+            }
+        },
+        {
+            "countryCodes": [
+                "TW"
+            ],
+            "timezone": "Asia/Taipei",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Taipei",
+            "locationDisplayName": "Taipei",
+            "coordinates": {
+                "latitude": 25.05,
+                "longitude": 121.5
+            }
+        },
+        {
+            "countryCodes": [
+                "UA"
+            ],
+            "timezone": "Europe/Kiev",
+            "geographicArea": "Europe",
+            "geographicAreaDisplayName": "Europe",
+            "location": "Kiev",
+            "locationDisplayName": "Kiev",
+            "coordinates": {
+                "latitude": 50.433333,
+                "longitude": 30.516667
+            }
+        },
+        {
+            "countryCodes": [
+                "UA"
+            ],
+            "timezone": "Europe/Uzhgorod",
+            "geographicArea": "Europe",
+            "geographicAreaDisplayName": "Europe",
+            "location": "Uzhgorod",
+            "locationDisplayName": "Uzhgorod",
+            "coordinates": {
+                "latitude": 48.616667,
+                "longitude": 22.3
+            }
+        },
+        {
+            "countryCodes": [
+                "UA"
+            ],
+            "timezone": "Europe/Zaporozhye",
+            "geographicArea": "Europe",
+            "geographicAreaDisplayName": "Europe",
+            "location": "Zaporozhye",
+            "locationDisplayName": "Zaporozhye",
+            "coordinates": {
+                "latitude": 47.833333,
+                "longitude": 35.166667
+            }
+        },
+        {
+            "countryCodes": [
+                "UM"
+            ],
+            "timezone": "Pacific/Wake",
+            "geographicArea": "Pacific",
+            "geographicAreaDisplayName": "Pacific Ocean",
+            "location": "Wake",
+            "locationDisplayName": "Wake",
+            "coordinates": {
+                "latitude": 19.283333,
+                "longitude": 166.616667
+            }
+        },
+        {
+            "countryCodes": [
+                "US"
+            ],
+            "timezone": "America/New_York",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "New_York",
+            "locationDisplayName": "New York",
+            "coordinates": {
+                "latitude": 40.714167,
+                "longitude": -74.006389
+            }
+        },
+        {
+            "countryCodes": [
+                "US"
+            ],
+            "timezone": "America/Detroit",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Detroit",
+            "locationDisplayName": "Detroit",
+            "coordinates": {
+                "latitude": 42.331389,
+                "longitude": -83.045833
+            }
+        },
+        {
+            "countryCodes": [
+                "US"
+            ],
+            "timezone": "America/Kentucky/Louisville",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Kentucky/Louisville",
+            "locationDisplayName": "Kentucky - Louisville",
+            "coordinates": {
+                "latitude": 38.254167,
+                "longitude": -85.759444
+            }
+        },
+        {
+            "countryCodes": [
+                "US"
+            ],
+            "timezone": "America/Kentucky/Monticello",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Kentucky/Monticello",
+            "locationDisplayName": "Kentucky - Monticello",
+            "coordinates": {
+                "latitude": 36.829722,
+                "longitude": -84.849167
+            }
+        },
+        {
+            "countryCodes": [
+                "US"
+            ],
+            "timezone": "America/Indiana/Indianapolis",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Indiana/Indianapolis",
+            "locationDisplayName": "Indiana - Indianapolis",
+            "coordinates": {
+                "latitude": 39.768333,
+                "longitude": -86.158056
+            }
+        },
+        {
+            "countryCodes": [
+                "US"
+            ],
+            "timezone": "America/Indiana/Vincennes",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Indiana/Vincennes",
+            "locationDisplayName": "Indiana - Vincennes",
+            "coordinates": {
+                "latitude": 38.677222,
+                "longitude": -87.528611
+            }
+        },
+        {
+            "countryCodes": [
+                "US"
+            ],
+            "timezone": "America/Indiana/Winamac",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Indiana/Winamac",
+            "locationDisplayName": "Indiana - Winamac",
+            "coordinates": {
+                "latitude": 41.051389,
+                "longitude": -86.603056
+            }
+        },
+        {
+            "countryCodes": [
+                "US"
+            ],
+            "timezone": "America/Indiana/Marengo",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Indiana/Marengo",
+            "locationDisplayName": "Indiana - Marengo",
+            "coordinates": {
+                "latitude": 38.375556,
+                "longitude": -86.344722
+            }
+        },
+        {
+            "countryCodes": [
+                "US"
+            ],
+            "timezone": "America/Indiana/Petersburg",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Indiana/Petersburg",
+            "locationDisplayName": "Indiana - Petersburg",
+            "coordinates": {
+                "latitude": 38.491944,
+                "longitude": -87.278611
+            }
+        },
+        {
+            "countryCodes": [
+                "US"
+            ],
+            "timezone": "America/Indiana/Vevay",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Indiana/Vevay",
+            "locationDisplayName": "Indiana - Vevay",
+            "coordinates": {
+                "latitude": 38.747778,
+                "longitude": -85.067222
+            }
+        },
+        {
+            "countryCodes": [
+                "US"
+            ],
+            "timezone": "America/Chicago",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Chicago",
+            "locationDisplayName": "Chicago",
+            "coordinates": {
+                "latitude": 41.85,
+                "longitude": -87.65
+            }
+        },
+        {
+            "countryCodes": [
+                "US"
+            ],
+            "timezone": "America/Indiana/Tell_City",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Indiana/Tell_City",
+            "locationDisplayName": "Indiana - Tell City",
+            "coordinates": {
+                "latitude": 37.953056,
+                "longitude": -86.761389
+            }
+        },
+        {
+            "countryCodes": [
+                "US"
+            ],
+            "timezone": "America/Indiana/Knox",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Indiana/Knox",
+            "locationDisplayName": "Indiana - Knox",
+            "coordinates": {
+                "latitude": 41.295833,
+                "longitude": -86.625
+            }
+        },
+        {
+            "countryCodes": [
+                "US"
+            ],
+            "timezone": "America/Menominee",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Menominee",
+            "locationDisplayName": "Menominee",
+            "coordinates": {
+                "latitude": 45.107778,
+                "longitude": -87.614167
+            }
+        },
+        {
+            "countryCodes": [
+                "US"
+            ],
+            "timezone": "America/North_Dakota/Center",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "North_Dakota/Center",
+            "locationDisplayName": "North Dakota - Center",
+            "coordinates": {
+                "latitude": 47.116389,
+                "longitude": -101.299167
+            }
+        },
+        {
+            "countryCodes": [
+                "US"
+            ],
+            "timezone": "America/North_Dakota/New_Salem",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "North_Dakota/New_Salem",
+            "locationDisplayName": "North Dakota - New_Salem",
+            "coordinates": {
+                "latitude": 46.845,
+                "longitude": -101.410833
+            }
+        },
+        {
+            "countryCodes": [
+                "US"
+            ],
+            "timezone": "America/North_Dakota/Beulah",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "North_Dakota/Beulah",
+            "locationDisplayName": "North Dakota - Beulah",
+            "coordinates": {
+                "latitude": 47.264167,
+                "longitude": -101.777778
+            }
+        },
+        {
+            "countryCodes": [
+                "US"
+            ],
+            "timezone": "America/Denver",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Denver",
+            "locationDisplayName": "Denver",
+            "coordinates": {
+                "latitude": 39.739167,
+                "longitude": -104.984167
+            }
+        },
+        {
+            "countryCodes": [
+                "US"
+            ],
+            "timezone": "America/Boise",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Boise",
+            "locationDisplayName": "Boise",
+            "coordinates": {
+                "latitude": 43.613611,
+                "longitude": -116.2025
+            }
+        },
+        {
+            "countryCodes": [
+                "US"
+            ],
+            "timezone": "America/Phoenix",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Phoenix",
+            "locationDisplayName": "Phoenix",
+            "coordinates": {
+                "latitude": 33.448333,
+                "longitude": -112.073333
+            }
+        },
+        {
+            "countryCodes": [
+                "US"
+            ],
+            "timezone": "America/Los_Angeles",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Los_Angeles",
+            "locationDisplayName": "Los Angeles",
+            "coordinates": {
+                "latitude": 34.052222,
+                "longitude": -118.242778
+            }
+        },
+        {
+            "countryCodes": [
+                "US"
+            ],
+            "timezone": "America/Anchorage",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Anchorage",
+            "locationDisplayName": "Anchorage",
+            "coordinates": {
+                "latitude": 61.218056,
+                "longitude": -149.900278
+            }
+        },
+        {
+            "countryCodes": [
+                "US"
+            ],
+            "timezone": "America/Juneau",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Juneau",
+            "locationDisplayName": "Juneau",
+            "coordinates": {
+                "latitude": 58.301944,
+                "longitude": -134.419722
+            }
+        },
+        {
+            "countryCodes": [
+                "US"
+            ],
+            "timezone": "America/Sitka",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Sitka",
+            "locationDisplayName": "Sitka",
+            "coordinates": {
+                "latitude": 57.176389,
+                "longitude": -135.301944
+            }
+        },
+        {
+            "countryCodes": [
+                "US"
+            ],
+            "timezone": "America/Metlakatla",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Metlakatla",
+            "locationDisplayName": "Metlakatla",
+            "coordinates": {
+                "latitude": 55.126944,
+                "longitude": -131.576389
+            }
+        },
+        {
+            "countryCodes": [
+                "US"
+            ],
+            "timezone": "America/Yakutat",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Yakutat",
+            "locationDisplayName": "Yakutat",
+            "coordinates": {
+                "latitude": 59.546944,
+                "longitude": -139.727222
+            }
+        },
+        {
+            "countryCodes": [
+                "US"
+            ],
+            "timezone": "America/Nome",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Nome",
+            "locationDisplayName": "Nome",
+            "coordinates": {
+                "latitude": 64.501111,
+                "longitude": -165.406389
+            }
+        },
+        {
+            "countryCodes": [
+                "US"
+            ],
+            "timezone": "America/Adak",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Adak",
+            "locationDisplayName": "Adak",
+            "coordinates": {
+                "latitude": 51.88,
+                "longitude": -176.658056
+            }
+        },
+        {
+            "countryCodes": [
+                "US",
+                "UM"
+            ],
+            "timezone": "Pacific/Honolulu",
+            "geographicArea": "Pacific",
+            "geographicAreaDisplayName": "Pacific Ocean",
+            "location": "Honolulu",
+            "locationDisplayName": "Honolulu",
+            "coordinates": {
+                "latitude": 21.306944,
+                "longitude": -157.858333
+            }
+        },
+        {
+            "countryCodes": [
+                "UY"
+            ],
+            "timezone": "America/Montevideo",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Montevideo",
+            "locationDisplayName": "Montevideo",
+            "coordinates": {
+                "latitude": -34.909167,
+                "longitude": -56.2125
+            }
+        },
+        {
+            "countryCodes": [
+                "UZ"
+            ],
+            "timezone": "Asia/Samarkand",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Samarkand",
+            "locationDisplayName": "Samarkand",
+            "coordinates": {
+                "latitude": 39.666667,
+                "longitude": 66.8
+            }
+        },
+        {
+            "countryCodes": [
+                "UZ"
+            ],
+            "timezone": "Asia/Tashkent",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Tashkent",
+            "locationDisplayName": "Tashkent",
+            "coordinates": {
+                "latitude": 41.333333,
+                "longitude": 69.3
+            }
+        },
+        {
+            "countryCodes": [
+                "VE"
+            ],
+            "timezone": "America/Caracas",
+            "geographicArea": "America",
+            "geographicAreaDisplayName": "America",
+            "location": "Caracas",
+            "locationDisplayName": "Caracas",
+            "coordinates": {
+                "latitude": 10.5,
+                "longitude": -66.933333
+            }
+        },
+        {
+            "countryCodes": [
+                "VN"
+            ],
+            "timezone": "Asia/Ho_Chi_Minh",
+            "geographicArea": "Asia",
+            "geographicAreaDisplayName": "Asia",
+            "location": "Ho_Chi_Minh",
+            "locationDisplayName": "Ho Chi_Minh",
+            "coordinates": {
+                "latitude": 10.75,
+                "longitude": 106.666667
+            }
+        },
+        {
+            "countryCodes": [
+                "VU"
+            ],
+            "timezone": "Pacific/Efate",
+            "geographicArea": "Pacific",
+            "geographicAreaDisplayName": "Pacific Ocean",
+            "location": "Efate",
+            "locationDisplayName": "Efate",
+            "coordinates": {
+                "latitude": -17.666667,
+                "longitude": 168.416667
+            }
+        },
+        {
+            "countryCodes": [
+                "WF"
+            ],
+            "timezone": "Pacific/Wallis",
+            "geographicArea": "Pacific",
+            "geographicAreaDisplayName": "Pacific Ocean",
+            "location": "Wallis",
+            "locationDisplayName": "Wallis",
+            "coordinates": {
+                "latitude": -13.3,
+                "longitude": -176.166667
+            }
+        },
+        {
+            "countryCodes": [
+                "WS"
+            ],
+            "timezone": "Pacific/Apia",
+            "geographicArea": "Pacific",
+            "geographicAreaDisplayName": "Pacific Ocean",
+            "location": "Apia",
+            "locationDisplayName": "Apia",
+            "coordinates": {
+                "latitude": -13.833333,
+                "longitude": -171.733333
+            }
+        },
+        {
+            "countryCodes": [
+                "ZA",
+                "LS",
+                "SZ"
+            ],
+            "timezone": "Africa/Johannesburg",
+            "geographicArea": "Africa",
+            "geographicAreaDisplayName": "Africa",
+            "location": "Johannesburg",
+            "locationDisplayName": "Johannesburg",
+            "coordinates": {
+                "latitude": -26.25,
+                "longitude": 28
+            }
+        }
+    ]
+}
